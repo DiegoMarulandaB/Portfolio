@@ -49,8 +49,8 @@ const HomePage = () => {
           <Image
             src="/diegoM.jpg"
             alt="profile image"
-            width={240}
-            height={240}
+            width={300}
+            height={300}
             className="h-auto max-w-full rounded-full shadow-2xl mb-10 sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
           />
         </div>
