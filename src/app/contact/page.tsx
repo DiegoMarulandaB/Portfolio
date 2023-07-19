@@ -7,20 +7,20 @@ const Contact: React.FC = () => {
     <div className="bg-white dark:bg-slate-800  py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col text-center items-center justify-center mt-32">
-          <h2 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  font-bold mb-4 mt-2">
+          <h2 className=" text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  font-bold mb-4 mt-2">
             <AnimatedText
             text='Contact'
              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 font-bold "
             />
           </h2>
-          <p className=" bg-white dark:bg-slate-800 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4 mt-10 ">
+          <p className="  bg-white dark:bg-slate-800 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4 mt-10 ">
            Get in touch with me through these links!
           </p>
         </div>
-        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+        <div className="flex flex-col text-center items-center justify-center   mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           <a
-            href="mailto:correo@ejemplo.com"
-            className="flex flex-col items-center text-center px-4 py-6 border   hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg  transition duration-300"
+            href=""
+            className="flex flex-col text-center items-center justify-center  px-4 py-6 border   hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg  transition duration-300"
           >
             <svg
                 className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            <span className="text-base font-medium text-white-900">
+            <span className="flex flex-col text-center items-center justify-center  text-base font-medium text-white-900">
              Email
             </span>
             <span className="text-sm text-white-500">diegomarulanda87@gmail.com</span>
@@ -59,10 +59,10 @@ const Contact: React.FC = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            <span className="text-base font-medium text-white-500">
+            <span className="flex flex-col text-center items-center justify-center  text-base font-medium text-white-500">
               Twitter
             </span>
-            <span className="text-sm text-white-500">@DAMB1987</span>
+            <span className=" text-sm text-white-500">@DAMB1987</span>
           </a>
           <a
             href="https://www.linkedin.com/in/diegomarulandabarrientos/"
@@ -83,10 +83,10 @@ const Contact: React.FC = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            <span className="text-base font-medium text-white-900">
+            <span className="flex flex-col text-center items-center justify-center   text-base font-medium text-white-900">
               LinkedIn
             </span>
-            <span className="text-sm text-white-500">diegomarulandabarrientos</span>
+            <span className=" text-sm text-white-500">diegomarulandabarrientos</span>
           </a>
           <a
             href="https://github.com/DiegoMarulandaB"
@@ -107,10 +107,10 @@ const Contact: React.FC = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            <span className="text-base font-medium text-white-900">
+            <span className="flex flex-col items-center text-center text-base font-medium text-white-900">
               GitHub
             </span>
-            <span className="text-sm text-white-500">DiegoMarulandaB</span>
+            <span className="flex flex-col items-center text-center text-sm text-white-500">DiegoMarulandaB</span>
           </a>
         </div>
       </div>
