@@ -103,7 +103,7 @@ const HomePage = () => {
             alt="projects image"
             width={300}
             height={300}
-            className="animate-pulse sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
