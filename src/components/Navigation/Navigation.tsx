@@ -13,6 +13,7 @@ const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/' },
   { label: 'About', route: '/about' },
   { label: 'Projects', route: '/projects' },
+    { label: 'Contact', route: '/contact' },
 ]
 
 export default function Navigation() {
@@ -23,7 +24,7 @@ export default function Navigation() {
   // w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow
   return (
     <header className="w-full mx-auto px-4 sm:px-30 fixed top-0 z-50 shadow bg-white dark:bg-slate-800 dark:border-b dark:border-sky-500 ">
-      <div className="justify-evenly  md:items-center md:flex  ">
+      <div className="justify-between  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block  ">
             <Link href="/">
