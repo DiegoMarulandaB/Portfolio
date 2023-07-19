@@ -19,6 +19,12 @@ interface ButtonProject {
 
 const Button_Projects: ButtonProject[] = [{ label: 'Projects', route: '/projects' }]
 
+interface ButtonContact {
+  label: string
+  route: string
+}
+
+const Button_Contact: ButtonContact[] = [{ label: 'Contact', route: '/contact' }]
 // interface Button {
 //   label: string
 //   route: string
@@ -100,7 +106,7 @@ const HomePage = () => {
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/Keyboard.png"
-            alt="projects image"
+            alt="keywoard image"
             width={300}
             height={300}
             className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
@@ -150,6 +156,62 @@ const HomePage = () => {
           </Link>
         ))}
       </div>
+    {/* contact */}
+       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
+        <div className="md:mt-2 md:w-1/2">
+          <Image
+            src="/email.png"
+            alt="email image"
+            width={300}
+            height={300}
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
+          />
+        </div>
+        <div className="md:mt-4 md:w-3/5">
+        
+           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+            <AnimatedText
+              text="Contact"
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 smibold "
+            />
+          </h1>
+          
+          <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2  font-light">
+          Get in touch with me!
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4 ">
+        {Button_Contact.map((project, index) => (
+          <Link key={index} href={project.route}>
+            <button
+              type="button"
+              className="
+            hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
+            //forma boton
+            text-center inline-flex items-center
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-2 py-2  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4"
+            >
+              <svg
+                className="w-4 h-4 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M11.844 7.5c-2.481 0-4.438 2.019-4.438 4.5s2.05 4.5 4.531 4.5c.908 0 1.799-.27 2.547-.778.228-.155.295-.466.139-.694-.155-.229-.462-.287-.691-.132-.58.396-1.258.604-1.965.604-1.93 0-3.499-1.57-3.499-3.5s1.446-3.5 3.376-3.5 3.375 1.57 3.375 3.5v.25c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-1.75c0-.276-.099-.5-.375-.5-.205 0-.318.124-.396.301-.303-.188-.628-.301-1.01-.301-1.104 0-1.984.896-1.984 2s.904 2 2.008 2c.562 0 1.073-.235 1.438-.609.319.369.664.609 1.192.609.965 0 1.627-.785 1.627-1.75v-.25c0-2.481-1.894-4.5-4.375-4.5zm.125 5.5c-.551 0-1-.449-1-1s.449-1 1-1 1 .449 1 1-.449 1-1 1zM12 21c-4.963 0-9-4.037-9-9s4.037-9 9-9 9 4.037 9 9-4.037 9-9 9zm0-16c-3.859 0-7 3.141-7 7s3.141 7 7 7 7-3.141 7-7-3.141-7-7-7z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              Contact
+            </button>
+          </Link>
+        ))}
+      </div>
+    
     </section>
   )
 }
