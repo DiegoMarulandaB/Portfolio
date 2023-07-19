@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" />
-        <title>Diego Marulanda website</title>
+        <title>DiegoMarulanda</title>
       </head>
       <body className={`${popps.className} bg-white dark:bg-slate-800`}>
         <ThemeProvider enableSystem={true} attribute="class">
