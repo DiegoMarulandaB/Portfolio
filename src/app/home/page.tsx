@@ -109,7 +109,7 @@ const HomePage = () => {
             alt="keywoard image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl mx-2 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
@@ -157,33 +157,33 @@ const HomePage = () => {
         ))}
       </div>
     {/* contact */}
-       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
+        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/email.png"
             alt="email image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl mx-2 mt-6 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
         
            <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
-              text="Contact"
+              text="Contact me"
               className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 smibold "
             />
           </h1>
           
           <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2  font-light">
-          Get in touch with me!
+           Get in touch with me!
           </p>
         </div>
       </div>
 
       <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4 ">
-        {Button_Contact.map((project, index) => (
+        {Button_Projects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
               type="button"
@@ -206,7 +206,7 @@ const HomePage = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              Contact
+              Contact me
             </button>
           </Link>
         ))}

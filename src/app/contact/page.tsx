@@ -9,8 +9,8 @@ const Contact: React.FC = () => {
         <div className="flex flex-col text-center items-center justify-center mt-32">
           <h2 className=" text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  font-bold mb-4 mt-2">
             <AnimatedText
-            text='Contact'
-             className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 font-bold "
+            text='Contact me'
+             className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2  font-bold "
             />
           </h2>
           <p className="  bg-white dark:bg-slate-800 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4 mt-10 ">
