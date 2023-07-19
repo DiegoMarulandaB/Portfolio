@@ -50,7 +50,7 @@ const About = () => {
         </div>
 
         <div className="text-center md:w-4/4 md:text-left">
-          <h1 className="sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl font-bold">My Skills</h1>
+          <h1 className="sm:text-2xl md:text-4xl lg:text-4xl xl:text-6xl font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
             <div className="text-center md:w-2/2 md:text-left">
               <h2 className="mb-1 py-2 sm:text-1xl md:text1xl lg:text-1xl xl:text-4xl font-light">Languages</h2>

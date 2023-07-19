@@ -17,17 +17,17 @@ const Contact: React.FC = () => {
            Get in touch with me through these links!
           </p>
         </div>
-        <div className="flex flex-col text-center items-center justify-center   mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+        <div className="flex flex-col text-center items-center justify-center   mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 ">
           <a
             href=""
             className="flex flex-col text-center items-center justify-center  px-4 py-6 border   hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg  transition duration-300"
           >
             <svg
-                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
+                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl mx-3"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                viewBox="0 0 20 20"
+                viewBox="0 0 30 30"
               >
                 <path
                   fillRule="evenodd"
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            <span className="flex flex-col text-center items-center justify-center  text-base font-medium text-white-900">
+            <span className="flex flex-col text-center items-center justify-center  text-base font-medium text-white-900 ">
              Email
             </span>
             <span className="text-sm text-white-500">diegomarulanda87@gmail.com</span>
@@ -47,11 +47,11 @@ const Contact: React.FC = () => {
             className="flex flex-col items-center text-center px-4 py-6 border   hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg  transition duration-300"
           >
             <svg
-                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
+                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl mx-5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                viewBox="0 0 26 26"
+                viewBox="0 0 30 30"
               >
                 <path
                   fillRule="evenodd"
@@ -71,11 +71,12 @@ const Contact: React.FC = () => {
             className="flex flex-col items-center text-center px-4 py-6 border   hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg  transition duration-300"
           >
            <svg
-                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
+                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl mx-5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                viewBox="0 0 24 24"
+                viewBox="0 0 30 30"
+                
               >
                 <path
                   fillRule="evenodd"
@@ -95,7 +96,7 @@ const Contact: React.FC = () => {
             className="flex flex-col items-center text-center px-4 py-6 border   hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg  transition duration-300"
           >
         <svg
-                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
+                className="w-8 h-8 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl mx-2"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
