@@ -103,7 +103,7 @@ const HomePage = () => {
             alt="projects image"
             width={300}
             height={300}
-            className="sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
+            className="animate-pulse sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
