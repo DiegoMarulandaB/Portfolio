@@ -57,7 +57,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-2 py-2  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-8"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-8"
             >
               <svg
                 className="w-4 h-4 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
@@ -65,6 +65,8 @@ const HomePage = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 20 20"
+                width="30"
+                height="30"
               >
                 <path
                   fillRule="evenodd"
@@ -112,7 +114,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-2 py-2  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4"
             >
               <svg
                 className="w-4 h-4 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
@@ -120,6 +122,8 @@ const HomePage = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 20 20"
+                width="30"
+                height="30"
               >
                 <path
                   fillRule="evenodd"
@@ -147,17 +151,17 @@ const HomePage = () => {
           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-12 mb-2  semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-12  mb-2  semibold "
             />
           </h1>
 
-          <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2 mb-2 font-light">
+          <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2  font-light">
             Get in touch with me!
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4 ">
+      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4">
         {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -166,14 +170,16 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-2 py-2  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-4 mx-2 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl "
             >
               <svg
-                className="w-4 h-4 mr-2 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
+                className="w-4 h-4 mr-1 sm:text-1xl md:text-1xl lg:text-2xl xl:text-4xl"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 20 20"
+                width="30"
+                height="30"
               >
                 <path
                   fillRule="evenodd"
