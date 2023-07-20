@@ -117,7 +117,7 @@ const HomePage = () => {
            <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Projects"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 smibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
             />
           </h1>
           
@@ -172,7 +172,7 @@ const HomePage = () => {
            <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 smibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
             />
           </h1>
           
