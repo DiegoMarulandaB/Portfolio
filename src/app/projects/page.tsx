@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
       <h1 className="text-center text-2xl">
         <AnimatedText
           text="Projects"
-          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mr-2 mb-2 font-bold "
+          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mr-2 mb-2 mt-4 font-bold "
         />
       </h1>
       <div className="flex flex-col space-y-28 mx-2 mt-8 ">
