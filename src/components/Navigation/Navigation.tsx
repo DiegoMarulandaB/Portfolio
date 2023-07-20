@@ -37,7 +37,7 @@ export default function Navigation() {
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                className="p-2 text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 text-1xl sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl font-bold"
+                className="p-2 text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 text-3xl sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl font-bold"
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
