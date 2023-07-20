@@ -117,7 +117,7 @@ const HomePage = () => {
             alt="email image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl mx-2 mt-6 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl mx-2 mt-8 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
@@ -143,7 +143,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-4 mx-2 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl "
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-4 mx-2 mt-2 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl "
             >
               <AiOutlineMail className="icon text-white mb-1 mr-1" size={30} />
               Contact me
