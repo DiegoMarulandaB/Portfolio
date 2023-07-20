@@ -11,10 +11,10 @@ const Contact: React.FC = () => {
           <h2 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl font-bold mb-4 ">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2  mt-2 font-bold"
+              className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mr-2 mb-2  mt-2 font-bold"
             />
           </h2>
-          <p className="bg-white dark:bg-slate-800 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mb-4 mt-10">
+          <p className="bg-white dark:bg-slate-800 sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mb-4 mt-10">
             Get in touch with me through these links!
           </p>
         </div>
