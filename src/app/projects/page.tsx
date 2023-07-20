@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener">
                       <button
                         type="button"
-                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl"
+                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mt-2 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl"
                       >
                         <AiOutlineGithub className="icon text-white mr-1 " size={30} />
                         Github
