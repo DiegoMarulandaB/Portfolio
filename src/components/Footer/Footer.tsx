@@ -7,26 +7,26 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-12 bg-gradient-to-r from-sky-500 border-0  " />
       <div className="mx-auto p-4 flex flex-col items-center justify-center text-center text-neutral-800 md:flex-row md:justify-evenly">
         <div className="flex flex-row items-center justify-center space-x-1 mb-2 mt-2 text-neutral-800 dark:text-neutral-100 ">
-          &copy; {new Date().getFullYear()} Diego Marulanda | All Rights Reserved.
+          &copy; {new Date().getFullYear()} Diego Marulanda <br /> All Rights Reserved.
           <a href="/" className="hover:underline" />
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2">
           <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener">
             <AiOutlineTwitter
               className="icon  text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:-translate-y-1 rounded-r-lg"
-              size={32}
+              size={34}
             />
           </a>
           <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener">
             <AiOutlineLinkedin
               className="icon text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:-translate-y-1 rounded-r-lg"
-              size={32}
+              size={34}
             />
           </a>
           <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener">
             <AiOutlineGithub
               className="icon text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:-translate-y-1 rounded-r-lg"
-              size={32}
+              size={34}
             />
           </a>
         </div>
