@@ -20,7 +20,7 @@ const HomePage = () => {
         <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  font-bold">
           <AnimatedText
             text="Welcome"
-            className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 font-bold "
+            className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 mt-2 font-bold "
           />
         </h1>
       </div>
@@ -31,14 +31,14 @@ const HomePage = () => {
             alt="profile image"
             width={300}
             height={300}
-            className="h-auto max-w-full rounded-full shadow-2xl mb-10 sm:text-1xl md:text-4xl lg:text-7xl  mx-2 "
+            className="h-auto max-w-full rounded-full shadow-2xl mb-10 sm:text-1xl md:text-4xl lg:text-7xl mx-2 mt-6 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Hi, I'm Diego!"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 mt-2 semibold "
             />
           </h1>
 
@@ -49,7 +49,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4">
+      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6">
         {ButtonAbout.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -75,14 +75,14 @@ const HomePage = () => {
             alt="keywoard image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl mx-2 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-4xl lg:text-7xl mx-2 mt-6 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Projects"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 mt-2 semibold "
             />
           </h1>
 
@@ -92,7 +92,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4 ">
+      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6 ">
         {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -124,7 +124,7 @@ const HomePage = () => {
           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-12  mb-2  semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-12  mb-2 mt-2  semibold "
             />
           </h1>
 
@@ -134,7 +134,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4">
+      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6">
         {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button

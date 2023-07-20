@@ -3,8 +3,8 @@ import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icon
 
 const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl px-4 md:max-w-8xl sm:text-base md:text-base lg:text-base xl:text-xl ">
-      <hr className="w-full h-0.5 mx-auto mt-8 bg-gradient-to-r from-sky-500 border-0 mb-2 " />
+    <footer className="mx-auto max-w-3xl px-4 md:max-w-8xl sm:text-base md:text-base lg:text-base xl:text-xl">
+      <hr className="w-full h-0.5 mx-auto mt-12 bg-gradient-to-r from-sky-500 border-0  " />
       <div className="mx-auto p-4 flex flex-col items-center justify-center text-center text-neutral-800 md:flex-row md:justify-evenly">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-800 dark:text-neutral-100 mb-2">
           &copy; {new Date().getFullYear()} Diego Marulanda | All Rights Reserved.
