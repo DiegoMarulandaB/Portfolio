@@ -144,10 +144,10 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl semibold">
+          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-26 mb-2 semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-28 mb-2 semibold "
             />
           </h1>
 
