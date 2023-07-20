@@ -1,5 +1,4 @@
 //!2023
-
 'use client'
 import React from 'react'
 import Image from 'next/image'
@@ -9,12 +8,15 @@ const About = () => {
   return (
     <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
       <h1 className="text-2xl text-center sm:text-4xl md:text-4xl lg:text-4xl xl:text-8xl">
-        <AnimatedText text="About" className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl font-bold" />
+        <AnimatedText
+          text="About"
+          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mb-2 font-bold"
+        />
       </h1>
 
       <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left mt-2">
         <div className="md:w-3/6">
-          <h1 className="text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mb-6 mx-2">
+          <h1 className="text-2xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mb-6 mx-2">
             About Diego 😎|📘|🎸|🏋️‍♀️|🎮
           </h1>
           <p className="mx-2 text-lg xl:text-4xl">
@@ -44,13 +46,14 @@ const About = () => {
             </span>{' '}
             since it is a sector with different branches of learning and my favorite genre is currently fantasy, my
             favorite writer is Brandon Sanderson.
+            <br />
             <br /> On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
             much as I enjoy creating it!.
           </p>
         </div>
 
         <div className="text-center md:w-4/4 md:text-left">
-          <h1 className="sm:text-2xl md:text-4xl lg:text-4xl xl:text-6xl font-bold">My Skills</h1>
+          <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-6xl font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
             <div className="text-center md:w-2/2 md:text-left">
               <h2 className="mb-1 py-2 sm:text-1xl md:text1xl lg:text-1xl xl:text-4xl font-light">Languages</h2>

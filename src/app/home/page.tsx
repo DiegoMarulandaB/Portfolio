@@ -1,48 +1,28 @@
-
-
 'use client' // this is a client component
 import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import Link from 'next/link'
 
-interface ButtonAbout {
+
+interface Button {
   label: string
   route: string
 }
 
-const Button_About: ButtonAbout[] = [{ label: 'About', route: '/about' }]
-
-interface ButtonProject {
-  label: string
-  route: string
-}
-
-const Button_Projects: ButtonProject[] = [{ label: 'Projects', route: '/projects' }]
-
-interface ButtonContact {
-  label: string
-  route: string
-}
-
-const Button_Contact: ButtonContact[] = [{ label: 'Contact', route: '/contact' }]
-// interface Button {
-//   label: string
-//   route: string
-// }
-
-// const ButtonAbout: Button[] = [{ label: 'About', route: '/about' }]
-// const ButtonProjects: Button[] = [{ label: 'Projects', route: '/projects' }]
+const ButtonAbout: Button[] = [{ label: 'About', route: '/about' }]
+const ButtonProjects: Button[] = [{ label: 'Projects', route: '/projects' }]
+const ButtonContact: Button[] = [{ label: 'Contact', route: '/contact' }]
 
 const HomePage = () => {
   return (
     <section id="home">
-           <div className="flex flex-col text-center items-center justify-center mt-32">
+      <div className="flex flex-col text-center items-center justify-center mt-32">
         <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  font-bold">
-            <AnimatedText
-              text="Welcome"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 font-bold "
-            />
-          </h1>
+          <AnimatedText
+            text="Welcome"
+            className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 font-bold "
+          />
+        </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
         <div className="md:mt-2 md:w-1/2">
@@ -55,22 +35,22 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-        
-           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Hi, I'm Diego!"
               className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
             />
           </h1>
-          
+
           <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2  font-light">
-            <span className="font-bold">Freelance frontend developer, </span>passionate about technology, geopolitics, general culture and science.
+            <span className="font-bold">Freelance frontend developer, </span>passionate about technology, geopolitics,
+            general culture and science.
           </p>
         </div>
       </div>
 
       <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4">
-        {Button_About.map((project, index) => (
+        {ButtonAbout.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
               type="button"
@@ -93,15 +73,13 @@ const HomePage = () => {
                   clipRule="evenodd"
                 />
               </svg>
-             
-              
               About
             </button>
           </Link>
         ))}
       </div>
       {/* projects */}
-      
+
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
@@ -113,14 +91,13 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-        
-           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
             <AnimatedText
               text="Projects"
               className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
             />
           </h1>
-          
+
           <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2  font-light">
             You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!
           </p>
@@ -128,7 +105,7 @@ const HomePage = () => {
       </div>
 
       <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4 ">
-        {Button_Projects.map((project, index) => (
+        {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
               type="button"
@@ -156,8 +133,8 @@ const HomePage = () => {
           </Link>
         ))}
       </div>
-    {/* contact */}
-        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
+      {/* contact */}
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/email.png"
@@ -168,22 +145,21 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-        
-           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-2 mb-2 semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-14 mb-2 semibold "
             />
           </h1>
-          
+
           <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-2xl xl:text-8xl mt-2  font-light">
-           Get in touch with me!
+            Get in touch with me!
           </p>
         </div>
       </div>
 
       <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-4 ">
-        {Button_Contact.map((project, index) => (
+        {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
               type="button"
@@ -211,7 +187,6 @@ const HomePage = () => {
           </Link>
         ))}
       </div>
-    
     </section>
   )
 }
