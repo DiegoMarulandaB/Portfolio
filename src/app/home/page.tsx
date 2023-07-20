@@ -3,7 +3,6 @@ import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import Link from 'next/link'
 
-
 interface Button {
   label: string
   route: string
@@ -148,7 +147,7 @@ const HomePage = () => {
           <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-14 mb-2 semibold "
+              className="text-1xl text-left sm:text-1xl md:text-4xl lg:text-7xl xl:text-8xl mr-20 mb-2 semibold "
             />
           </h1>
 
@@ -192,4 +191,3 @@ const HomePage = () => {
 }
 
 export default HomePage
-
