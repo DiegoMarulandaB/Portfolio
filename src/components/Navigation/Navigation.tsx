@@ -29,7 +29,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block  ">
             <Link href="/">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold transition-transform cursor-pointer sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl ">
+                <h2 className="text-1xl font-bold transition-transform cursor-pointer sm:text-1xl md:text-2xl lg:text-2xl xl:text-4xl">
                   Diego Marulanda
                 </h2>
               </div>
@@ -37,7 +37,7 @@ export default function Navigation() {
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                className="p-2 text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 text-3xl sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl font-bold"
+                className="p-2 text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-bold"
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -48,7 +48,8 @@ export default function Navigation() {
 
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-sky-600 transition-transform cursor-pointer sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  ${
+          // menu
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-sky-600 transition-transform cursor-pointer sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl ${
               navigation ? 'block' : 'hidden'
             }`}
           >

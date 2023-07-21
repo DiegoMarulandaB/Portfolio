@@ -55,10 +55,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
       <h1 className="text-center text-2xl">
-        <AnimatedText
-          text="Projects"
-          className="text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mr-2 mb-2 mt-6 font-bold "
-        />
+        <AnimatedText text="My portfolio" className="text-center   mr-2 mb-2 mt-6 font-bold " />
       </h1>
       <div className="flex flex-col space-y-28 mx-2 mt-8 ">
         {projects.map((project, idx) => (
@@ -88,7 +85,7 @@ const Projects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener">
                       <button
                         type="button"
-                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mt-2 sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl"
+                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mt-2 "
                       >
                         <AiOutlineGithub className="icon text-white mr-1 " size={30} />
                         Github

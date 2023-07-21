@@ -17,10 +17,10 @@ const HomePage = () => {
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center mt-32">
-        <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  font-bold">
+        <h1 className="text-1xl text-center font-bold">
           <AnimatedText
             text="Welcome"
-            className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mr-2 mb-2 mt-2 font-bold "
+            className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold "
           />
         </h1>
       </div>
@@ -31,18 +31,18 @@ const HomePage = () => {
             alt="profile image"
             width={300}
             height={300}
-            className="h-auto max-w-full rounded-full shadow-2xl mb-10 sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mx-2 mt-6 "
+            className="h-auto max-w-full rounded-full shadow-2xl mb-10  mx-2 mt-6 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+          <h1 className="text-1xl text-center  semibold">
             <AnimatedText
               text="Hello, I'm Diego!"
-              className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mr-2 mb-2 mt-2 semibold "
+              className="text-1xl text-left mr-2 mb-2 mt-2 semibold "
             />
           </h1>
 
-          <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mt-2  font-light">
+          <p className="text-1xl text-left  mt-2  font-light">
             <span className="font-bold">Indie frontend developer based in Colombia! </span>passionate about technology,
             geopolitics, general culture and science.
           </p>
@@ -58,7 +58,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mb-8"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3   mb-8"
             >
               <AiOutlineUser className="icon text-white mb-1 mr-1" size={30} />
               About me
@@ -75,18 +75,18 @@ const HomePage = () => {
             alt="keywoard image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mx-2 mt-6 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear  mx-2 mt-6 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-          <h1 className="text-2xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+          <h1 className="text-2xl text-center   semibold">
             <AnimatedText
               text="My portfolio"
-              className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mr-2 mb-2 mt-2 semibold "
+              className="text-1xl text-left mr-2 mb-2 mt-2 semibold "
             />
           </h1>
 
-          <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xlmt-2  font-light">
+          <p className="text-1xl text-left mt-2  font-light">
             You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!
           </p>
         </div>
@@ -101,7 +101,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mb-4"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  mb-4"
             >
               <AiOutlineCode className="icon text-white mb-1 mr-1" size={30} />
               My portfolio
@@ -117,18 +117,18 @@ const HomePage = () => {
             alt="email image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mx-2 mt-8 "
+            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear  mx-2 mt-8 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-          <h1 className="text-1xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  semibold">
+          <h1 className="text-1xl text-center  semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mr-12  mb-2 mt-2  semibold "
+              className="text-1xl text-left  mr-12  mb-2 mt-2  semibold "
             />
           </h1>
 
-          <p className="text-1xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl mt-2  font-light">
+          <p className="text-1xl text-left  mt-2  font-light">
             Get in touch with me!
           </p>
         </div>
@@ -143,7 +143,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-4 mx-2 mt-2  sm:text-1xl md:text-2xl lg:text-4xl xl:text-8xl  "
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-4 mx-2 mt-2  "
             >
               <AiOutlineMail className="icon text-white mb-1 mr-1" size={30} />
               Contact me

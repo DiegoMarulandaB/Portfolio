@@ -10,7 +10,7 @@ const About = () => {
       <h1 className="text-2xl text-center sm:text-4xl md:text-4xl lg:text-4xl xl:text-8xl">
         <AnimatedText
           text="About"
-          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mb-2 mt-6 font-bold"
+          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mb-2 mt- font-bold"
         />
       </h1>
 
