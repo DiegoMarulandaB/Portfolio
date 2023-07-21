@@ -10,12 +10,12 @@ const About = () => {
       <h1 className="text-2xl text-center sm:text-4xl md:text-4xl lg:text-4xl xl:text-8xl">
         <AnimatedText
           text="About"
-          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mb-2 mt- font-bold"
+          className="text-center sm:text-1xl md:text-6xl lg:text-7xl xl:text-6xl mb-2 mt-4 font-bold"
         />
       </h1>
 
       <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left mt-2">
-        <div className="md:w-3/6">
+        <div className="md:w-3/5">
           <h1 className="text-2xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mb-6 mx-2">
             About Diego 😎|📘|🎸|🏋️‍♀️|🎮
           </h1>
@@ -58,14 +58,14 @@ const About = () => {
             <div className="text-center md:w-2/2 md:text-left">
               <h2 className="mb-1 py-2 sm:text-1xl md:text1xl lg:text-1xl xl:text-4xl font-light">Languages</h2>
               <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-4 md:grid-cols-4 gap-3">
                   <div>
                     <Image
                       src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
                       alt="Css Icon"
                       width={50}
                       height={50}
-                      className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                      className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                     />
                   </div>
                   <div>
@@ -74,7 +74,7 @@ const About = () => {
                       alt="Html5 Icon"
                       width={50}
                       height={50}
-                      className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                      className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                     />
                   </div>
                   <div>
@@ -83,7 +83,7 @@ const About = () => {
                       alt="JavaScript Icon"
                       width={50}
                       height={50}
-                      className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                      className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300  rounded-md text-lg xl:text-4xl"
                     />
                   </div>
                   <div>
@@ -92,7 +92,7 @@ const About = () => {
                       alt="React Icon"
                       width={50}
                       height={50}
-                      className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                      className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300  rounded-md text-lg xl:text-4xl"
                     />
                   </div>
                 </div>
@@ -103,14 +103,14 @@ const About = () => {
           <div className="text-center md:w-3/2 md:text-left">
             <h2 className="mb-1 py-2 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light">Tools</h2>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="grid grid-cols-4 md:grid-cols-3 gap-4">
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
                     alt="Git Bash Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -119,7 +119,7 @@ const About = () => {
                     alt="Git Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300  rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -128,7 +128,7 @@ const About = () => {
                     alt="GitHub Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300  rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -137,7 +137,7 @@ const About = () => {
                     alt="Linux Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -146,7 +146,7 @@ const About = () => {
                     alt="Neovim Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -155,7 +155,7 @@ const About = () => {
                     alt="Postman Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -164,7 +164,7 @@ const About = () => {
                     alt="Visual Studio Code Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -181,7 +181,7 @@ const About = () => {
                     alt="Tailwind Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 <div>
@@ -190,7 +190,7 @@ const About = () => {
                     alt="Git Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-neutral-200 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
                   />
                 </div>
               </div>

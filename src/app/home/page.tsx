@@ -22,7 +22,7 @@ const HomePage = () => {
         </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-2 md:w-3/6">
           <Image
             src="/diegoM.jpg"
             alt="profile image"
@@ -31,19 +31,19 @@ const HomePage = () => {
             className="h-auto max-w-full rounded-full shadow-2xl mb-10  mx-2 mt-6 "
           />
         </div>
-        <div className="md:mt-4 md:w-3/5">
+        <div className="md:mt-4 md:w-3/6">
           <h1 className="text-1xl text-center  semibold">
             <AnimatedText text="Hello, I'm Diego!" className="text-1xl text-center mr-2 mb-2 mt-2 semibold " />
           </h1>
 
-          <p className="text-1xl text-center  mt-2  font-light">
+          <p className="text-1xl text-left  mt-2  font-light">
             <span className="font-bold">Indie frontend developer based in Colombia! </span>passionate about technology,
             geopolitics, general culture and science.
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6">
+      <div className="flex flex-col text-center items-end justify-center  space-x-4 mt-6 mr-40">
         {ButtonAbout.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -51,7 +51,7 @@ const HomePage = () => {
               className="
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
-            text-center inline-flex items-center
+            text-center inline-flex items-center 
             hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3   mb-8"
             >
               <AiOutlineUser className="icon text-white mb-1 mr-1" size={30} />
@@ -77,13 +77,13 @@ const HomePage = () => {
             <AnimatedText text="My portfolio" className="text-1xl text-center  mr-2 mb-2 mt-2 semibold " />
           </h1>
 
-          <p className="text-1xl text-center mt-2  font-light">
+          <p className="text-1xl text-left mt-2  font-light">
             You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6 ">
+      <div className="flex flex-col text-center items-end justify-center  align-bottom space-x-4 mt-6  mr-40">
         {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -116,11 +116,11 @@ const HomePage = () => {
             <AnimatedText text="Contact me" className="text-1xl text-left   mb-2 mt-2  semibold " />
           </h1>
 
-          <p className="text-1xl text-center  mt-2  font-light">Get in touch with me!</p>
+          <p className="text-1xl text-left  mt-2  font-light">Get in touch with me!</p>
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6 ">
+      <div className="flex flex-col text-center items-end justify-center  align-bottom space-x-4 mt-6 mr-40 ">
         {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
