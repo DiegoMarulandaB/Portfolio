@@ -32,11 +32,8 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/6">
-          <h1 className="text-1xl text-center  semibold">
-            <AnimatedText
-              text="Hello, I'm Diego!"
-              className="text-1xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mr-2 mb-2 mt-2 semibold "
-            />
+          <h1 className="text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-6xl text-center semibold">
+            <AnimatedText text="Hello, I'm Diego!" className=" mr-2 mb-2 mt-2  " />
           </h1>
 
           <p className="text-1xl text-left  mt-2  font-light">
@@ -46,7 +43,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-6  ">
+      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-30 mx-28">
         {ButtonAbout.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -76,11 +73,8 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-          <h1 className="text-2xl text-center   semibold">
-            <AnimatedText
-              text="My portfolio"
-              className="text-1xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mr-2 mb-2 mt-2 semibold "
-            />
+          <h1 className="text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-6xl text-center semibold">
+            <AnimatedText text="My portfolio" className=" mr-2 mb-2 mt-2" />
           </h1>
 
           <p className="text-1xl text-left mt-2  font-light">
@@ -89,7 +83,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-6 ">
+      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-30 mx-28 ">
         {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -118,18 +112,18 @@ const HomePage = () => {
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
-          <h1 className="text-1xl text-center  semibold">
+          <h1 className="text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-6xl text-center semibold">
             <AnimatedText
               text="Contact me"
-              className="text-1xl text-center  sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mb-2 mt-2  semibold "
+              className=" mb-2 mt-2"
             />
           </h1>
 
-          <p className="text-1xl text-left  mt-2  font-light">Get in touch with me!</p>
+          <p className="text-1xl text-left mt-2 font-light">Get in touch with me!</p>
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-6  ">
+      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-30 mx-28 ">
         {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
