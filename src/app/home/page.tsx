@@ -33,10 +33,10 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-1xl text-center  semibold">
-            <AnimatedText text="Hello, I'm Diego!" className="text-1xl text-left mr-2 mb-2 mt-2 semibold " />
+            <AnimatedText text="Hello, I'm Diego!" className="text-1xl text-center mr-2 mb-2 mt-2 semibold " />
           </h1>
 
-          <p className="text-1xl text-left  mt-2  font-light">
+          <p className="text-1xl text-center  mt-2  font-light">
             <span className="font-bold">Indie frontend developer based in Colombia! </span>passionate about technology,
             geopolitics, general culture and science.
           </p>
@@ -74,10 +74,10 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-2xl text-center   semibold">
-            <AnimatedText text="My portfolio" className="text-1xl text-left mr-2 mb-2 mt-2 semibold " />
+            <AnimatedText text="My portfolio" className="text-1xl text-center  mr-2 mb-2 mt-2 semibold " />
           </h1>
 
-          <p className="text-1xl text-left mt-2  font-light">
+          <p className="text-1xl text-center mt-2  font-light">
             You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!
           </p>
         </div>
