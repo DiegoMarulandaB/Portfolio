@@ -36,7 +36,7 @@ const HomePage = () => {
             <AnimatedText text="Hello, I'm Diego!" className=" mr-2 mb-2 mt-2  " />
           </h1>
 
-          <p className="text-1xl text-left  mt-2  font-light">
+          <p className="text-1xl text-center  mt-2  font-light">
             <span className="font-bold">Indie frontend developer based in Colombia! </span>passionate about technology,
             geopolitics, general culture and science.
           </p>
@@ -65,11 +65,11 @@ const HomePage = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/Keyboard.png"
-            alt="keywoard image"
+            src="/projects.svg"
+            alt="projects image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear  mx-2 mt-6 "
+            className="mx-2 mt-4 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
@@ -77,7 +77,7 @@ const HomePage = () => {
             <AnimatedText text="My portfolio" className=" mr-2 mb-2 mt-2" />
           </h1>
 
-          <p className="text-1xl text-left mt-2  font-light">
+          <p className="text-1xl text-center mt-2  font-light">
             You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!
           </p>
         </div>
@@ -104,11 +104,11 @@ const HomePage = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/email.png"
+            src="/email.svg"
             alt="email image"
             width={300}
             height={300}
-            className="animate-bounce animate-infinite animate-duration-[1000ms] animate-delay-0 animate-ease-linear  mx-2 mt-8 "
+            className="mx-2 mt-4 "
           />
         </div>
         <div className="md:mt-4 md:w-3/5">
@@ -119,7 +119,7 @@ const HomePage = () => {
             />
           </h1>
 
-          <p className="text-1xl text-left mt-2 font-light">Get in touch with me!</p>
+          <p className="text-1xl text-center mt-2 font-light">Get in touch with me!</p>
         </div>
       </div>
 
