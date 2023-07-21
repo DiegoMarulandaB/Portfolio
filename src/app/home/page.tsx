@@ -52,7 +52,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center 
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-8 w-40"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full px-3 py-3 mb-8 w-40"
             >
               <AiOutlineUser className="icon text-white text-center items-center justify-center  mb-1 mr-" size={30} />
               About me
@@ -92,7 +92,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  mb-4 w-40"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full px-3 py-3  mb-4 w-40"
             >
               <AiOutlineCode className="icon text-white text-center items-center justify-center  mb-1 mr-1" size={30} />
               My portfolio
@@ -132,7 +132,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center 
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-8 w-40 "
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full  px-3 py-3 mb-8  w-40 "
             >
               <AiOutlineMail className="icon text-white text-center items-center justify-center  mb-1 mr-1" size={30} />
               Contact me

@@ -37,7 +37,7 @@ export default function Navigation() {
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                className="p-2 text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-bold"
+                className="p-2 text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-full cursor-pointer px-2 py-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-bold"
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -68,14 +68,14 @@ export default function Navigation() {
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 font-bold hover:-translate-y-1 transition-transform   "
+                  className="text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-full cursor-pointer px-2 py-2 font-bold hover:-translate-y-1 transition-transform   "
                 >
                   <RiSunLine size={25} color="white" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
-                  className="text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-r-lg cursor-pointer px-2 py-2 font-bold hover:-translate-y-1 transition-transform"
+                  className="text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 hover:bg-gradient-to-br rounded-full cursor-pointer px-2 py-2 font-bold hover:-translate-y-1 transition-transform"
                 >
                   <RiMoonFill size={24} />
                 </button>
