@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           </h2>
           <p className="bg-white dark:bg-slate-800  mb-4 mt-10">Get in touch with me through these links!</p>
         </div>
-        <div className=" flex-col text-center items-center justify-center mt-12 grid grid-cols-2 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+        <div className=" flex-col text-center items-center justify-center mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           <a
             href="mailto:diegomarulanda87@gmail.com"
             className="flex flex-col text-center items-center justify-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full"
