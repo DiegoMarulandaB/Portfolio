@@ -18,10 +18,7 @@ const HomePage = () => {
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center mt-32">
         <h1 className="text-1xl text-center font-bold">
-          <AnimatedText
-            text="Welcome"
-            className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold "
-          />
+          <AnimatedText text="Welcome" className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold " />
         </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
@@ -36,10 +33,7 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-1xl text-center  semibold">
-            <AnimatedText
-              text="Hello, I'm Diego!"
-              className="text-1xl text-left mr-2 mb-2 mt-2 semibold "
-            />
+            <AnimatedText text="Hello, I'm Diego!" className="text-1xl text-left mr-2 mb-2 mt-2 semibold " />
           </h1>
 
           <p className="text-1xl text-left  mt-2  font-light">
@@ -80,10 +74,7 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-2xl text-center   semibold">
-            <AnimatedText
-              text="My portfolio"
-              className="text-1xl text-left mr-2 mb-2 mt-2 semibold "
-            />
+            <AnimatedText text="My portfolio" className="text-1xl text-left mr-2 mb-2 mt-2 semibold " />
           </h1>
 
           <p className="text-1xl text-left mt-2  font-light">
@@ -122,15 +113,10 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-1xl text-center  semibold">
-            <AnimatedText
-              text="Contact me"
-              className="text-1xl text-left  mr-12  mb-2 mt-2  semibold "
-            />
+            <AnimatedText text="Contact me" className="text-1xl text-left   mb-2 mt-2  semibold " />
           </h1>
 
-          <p className="text-1xl text-left  mt-2  font-light">
-            Get in touch with me!
-          </p>
+          <p className="text-1xl text-center  mt-2  font-light">Get in touch with me!</p>
         </div>
       </div>
 

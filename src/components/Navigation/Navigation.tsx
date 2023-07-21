@@ -29,7 +29,7 @@ export default function Navigation() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block  ">
             <Link href="/">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform cursor-pointer sm:text-1xl md:text-2xl lg:text-2xl xl:text-4xl">
+                <h2 className="text-1xl font-bold transition-transform cursor-pointer  sm:text-2xl md:text-2xl lg:text-2xl xl:text-4xl">
                   Diego Marulanda
                 </h2>
               </div>
@@ -48,7 +48,7 @@ export default function Navigation() {
 
         <div>
           <div
-          // menu
+            // menu
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-sky-600 transition-transform cursor-pointer sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl ${
               navigation ? 'block' : 'hidden'
             }`}
