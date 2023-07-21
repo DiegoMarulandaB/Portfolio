@@ -67,8 +67,8 @@ const Projects: React.FC = () => {
                     <Image
                       src={project.image}
                       alt="img projects"
-                      width={300}
-                      height={300}
+                      width={390}
+                      height={390}
                       className=" rounded-r-lg border-2 bg-gray-100 px-18 py-4 ml-auto md:mt-1 mx-2 "
                     />
                   </Link>
