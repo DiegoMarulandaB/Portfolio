@@ -67,14 +67,14 @@ const Projects: React.FC = () => {
                     <Image
                       src={project.image}
                       alt="img projects"
-                      width={400}
-                      height={400}
+                      width={300}
+                      height={300}
                       className=" rounded-r-lg border-2 bg-gray-100 px-18 py-4 ml-auto md:mt-1 mx-2 "
                     />
                   </Link>
                 </div>
                 <div className="mt-6 md:w-2/6 mx-2">
-                  <h1 className="text-left sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl">
+                  <h1 className="text-center sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl">
                     {project.name}
                   </h1>
                   <p className="text-left sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mr-2 mb-4 ">

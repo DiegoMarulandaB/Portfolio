@@ -15,31 +15,31 @@ const About = () => {
       </h1>
 
       <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left mt-2">
-        <div className="md:w-3/5">
+        <div className="md:w-3/6">
           <h1 className="text-2xl text-left sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mb-6 mx-2">
             About Diego 😎|📘|🎸|🏋️‍♀️|🎮
           </h1>
-          <p className="mx-2 text-lg xl:text-4xl">
+          <p className="mx-2">
             Hello! Welcome. Allow me to introduce myself: I am Diego, passionate about technology, geopolitics, general
             culture and science. My goal is to enhance my knowledge every day and thus have topics of conversation with
             other people.
           </p>
           <br />
-          <p className="mx-2 text-lg xl:text-4xl">
+          <p className="mx-2">
             From a very young age, I was captivated by the world of technology. I love exploring the latest trends and
             finding out how they can impact our lives and society in general. I am always willing to learn about new
             technologies and I enjoy programming and software development as a way of bringing my ideas to life. For
             more information on my studies regarding programming I invite you to visit my Linkedin profile.
           </p>
           <br />
-          <p className="mx-2 text-lg xl:text-4xl">
+          <p className="mx-2 ">
             As for my hobbies, music, video games and sports occupy a special place in my life. Music is a constant
             source of inspiration especially rock and its subgenres. I also enjoy video games, not only for their
             entertainment, but also for their ability to tell stories and stimulate my creativity. Regarding sports, you
             must be in good physical condition to spend several hours in front of a computer.
           </p>
           <br />
-          <p className="mx-2 text-lg xl:text-4xl">
+          <p className="mx-2 ">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology it is essential to expand knowledge through books
@@ -53,7 +53,7 @@ const About = () => {
         </div>
 
         <div className="text-center md:w-4/4 md:text-left">
-          <h1 className="text-3xl sm:text-2xl md:text-4xl lg:text-4xl xl:text-6xl font-bold">My Skills</h1>
+          <h1 className="text-3xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-6xl font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
             <div className="text-center md:w-2/2 md:text-left">
               <h2 className="mb-1 py-2 sm:text-1xl md:text1xl lg:text-1xl xl:text-4xl font-light">Languages</h2>

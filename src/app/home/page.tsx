@@ -33,7 +33,10 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/6">
           <h1 className="text-1xl text-center  semibold">
-            <AnimatedText text="Hello, I'm Diego!" className="text-1xl text-center mr-2 mb-2 mt-2 semibold " />
+            <AnimatedText
+              text="Hello, I'm Diego!"
+              className="text-1xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mr-2 mb-2 mt-2 semibold "
+            />
           </h1>
 
           <p className="text-1xl text-left  mt-2  font-light">
@@ -43,7 +46,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  space-x-4 mt-6 mx-40">
+      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-6  ">
         {ButtonAbout.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -52,7 +55,7 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center 
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3   mb-8 w-40"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-8 w-40"
             >
               <AiOutlineUser className="icon text-white text-center items-center justify-center  mb-1 mr-1" size={30} />
               About me
@@ -74,7 +77,10 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-2xl text-center   semibold">
-            <AnimatedText text="My portfolio" className="text-1xl text-center  mr-2 mb-2 mt-2 semibold " />
+            <AnimatedText
+              text="My portfolio"
+              className="text-1xl text-center sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mr-2 mb-2 mt-2 semibold "
+            />
           </h1>
 
           <p className="text-1xl text-left mt-2  font-light">
@@ -83,7 +89,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6  mx-40">
+      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-6 ">
         {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -113,14 +119,17 @@ const HomePage = () => {
         </div>
         <div className="md:mt-4 md:w-3/5">
           <h1 className="text-1xl text-center  semibold">
-            <AnimatedText text="Contact me" className="text-1xl text-left   mb-2 mt-2  semibold " />
+            <AnimatedText
+              text="Contact me"
+              className="text-1xl text-center  sm:text-1xl md:text-2xl lg:text-4xl xl:text-6xl mb-2 mt-2  semibold "
+            />
           </h1>
 
           <p className="text-1xl text-left  mt-2  font-light">Get in touch with me!</p>
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  align-bottom space-x-4 mt-6  mx-40 ">
+      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-6  ">
         {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
