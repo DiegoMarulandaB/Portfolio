@@ -52,9 +52,9 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center 
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-8 w-44"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-8 w-40"
             >
-              <AiOutlineUser className="icon text-white text-center items-center justify-center  mb-1 mr-2" size={30} />
+              <AiOutlineUser className="icon text-white text-center items-center justify-center  mb-1 mr-" size={30} />
               About me
             </button>
           </Link>
@@ -92,9 +92,9 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  mb-4 w-44"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  mb-4 w-40"
             >
-              <AiOutlineCode className="icon text-white text-center items-center justify-center  mb-1 mr-2" size={30} />
+              <AiOutlineCode className="icon text-white text-center items-center justify-center  mb-1 mr-1" size={30} />
               My portfolio
             </button>
           </Link>
@@ -122,8 +122,8 @@ const HomePage = () => {
           <p className="text-1xl text-center mt-2 font-light">Get in touch with me!</p>
         </div>
       </div>
-
-          <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-44 mx-64 ">
+{/* 
+        <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-24 mx-30">
         {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -132,10 +132,27 @@ const HomePage = () => {
             hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
             //forma boton
             text-center inline-flex items-center
-            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  mb-4 w-44"
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3  mb-4 w-40"
             >
-             <AiOutlineMail className="icon text-white text-center items-center justify-center  mb-1 mr-2" size={30} />
-              My portfolio
+             <AiOutlineMail className="icon text-white text-center items-center justify-center  mb-1 mr-1" size={30} />
+              Contact me
+            </button>
+          </Link>
+        ))}
+      </div> */}
+          <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-44 mx-64 ">
+        {ButtonAbout.map((project, index) => (
+          <Link key={index} href={project.route}>
+            <button
+              type="button"
+              className="
+            hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
+            //forma boton
+            text-center inline-flex items-center 
+            hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-r-lg px-3 py-3 mb-8 w-40"
+            >
+              <AiOutlineMail className="icon text-white text-center items-center justify-center  mb-1 mr-1" size={30} />
+              Contact me
             </button>
           </Link>
         ))}
