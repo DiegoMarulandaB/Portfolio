@@ -43,7 +43,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-30 mx-28">
+      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-44 mx-64 ">
         {ButtonAbout.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -83,7 +83,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-30 mx-28 ">
+      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-44 mx-64 ">
         {ButtonProjects.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
@@ -123,7 +123,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-30 mx-28 ">
+      <div className="flex flex-col text-center items-end justify-center space-x-4 mt-6 mr-44 mx-64">
         {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
