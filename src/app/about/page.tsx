@@ -164,7 +164,7 @@ const About = () => {
                     alt="Visual Studio Code Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300 rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-300  rounded-md text-lg xl:text-4xl"
                   />
                 </div>
               </div>
