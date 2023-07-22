@@ -124,7 +124,7 @@ const HomePage = () => {
       </div>
 
           <div className="flex flex-col text-center items-end justify-center align-bottom space-x-4 mt-6 mr-40 mx-64">
-        {ButtonAbout.map((project, index) => (
+        {ButtonContact.map((project, index) => (
           <Link key={index} href={project.route}>
             <button
               type="button"
