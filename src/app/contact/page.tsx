@@ -5,7 +5,7 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText'
 
 const Contact: React.FC = () => {
   return (
-    <div className="bg-white dark:bg-slate-800 py-8 px-4 sm:px-6 lg:px-8">
+    <div className="bg-slate-50 dark:bg-slate-800 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col text-center items-center justify-center mt-32">
           <h2 className="text-2xl text-center font-bold mb-4 ">
