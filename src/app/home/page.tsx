@@ -28,7 +28,7 @@ const HomePage = () => {
       <div className="flex flex-col md:flex-row md:space-x-3 md:text-left mt-4">
         <div className="md:w-1/2">
           <Image
-            src="/diegoM.jpg"
+            src="/diego.jpg"
             alt="profile image"
             width={300}
             height={300}
