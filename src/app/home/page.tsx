@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
         <div className="md:w-1/2">
           <h1 className="text-2xl lg:text-6xl text-center font-semibold">
-            <AnimatedText text="Hello, I'm Hola!" className="mr-2 mb-2 mt-2" />
+            <AnimatedText text="Hello, I'm Diego!" className="mr-2 mb-2 mt-2" />
           </h1>
           <p className="text-xl text-center mt-2 font-light">
             <span className="font-bold">Indie frontend developer based in Colombia!</span> Passionate about technology,
