@@ -20,7 +20,7 @@ const About = () => {
             About Diego 😎|📘|🎸|🏋️‍♀️|🎮
           </h1>
           <p className="mx-2">
-            Hello! Welcome. Allow me to introduce myself: I am Diego, indie frontend developer based in Colombia!Passionate about technology, geopolitics, general culture and science. My goal is to enhance my knowledge every day and thus have topics of conversation with
+            Hello! Welcome. Allow me to introduce myself: I am Diego, indie frontend developer based in Colombia! Passionate about technology, geopolitics, general culture and science. My goal is to enhance my knowledge every day and thus have topics of conversation with
             other people.
           </p>
           <br />
