@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
         <div className=" flex-col text-center items-center justify-center mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           <a
             href="mailto:diegomarulanda87@gmail.com"
-            className="flex flex-col text-center items-center justify-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full"
+            className="flex flex-col text-center items-center justify-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md "
           >
             <AiOutlineMail className="icon text-white" size={40} />
             <span className="text-1xl font-medium text-white">Email</span>
@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
             href="https://twitter.com/DAMB1987"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full"
+            className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md "
           >
             <AiOutlineTwitter className="icon text-white" size={40} />
             <span className="text-1xl font-medium text-white">Twitter</span>
@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
             href="https://www.linkedin.com/in/diegomarulandabarrientos/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full"
+            className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md "
           >
             <AiOutlineLinkedin className="icon text-white" size={40} />
             <span className="text-1xl font-medium text-white">LinkedIn</span>
@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
             href="https://github.com/DiegoMarulandaB"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-full"
+            className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md "
           >
             <AiOutlineGithub className="icon text-white" size={40} />
             <span className="text-1xl font-medium text-white">GitHub</span>
