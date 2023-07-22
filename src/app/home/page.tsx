@@ -18,11 +18,11 @@ const HomePage = () => {
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center mt-32">
         <h1 className="text-1xl text-center font-bold">
-          <AnimatedText text="Welcome" className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold " />
+          <AnimatedText text=" 👋🏽 welcome" className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold " />
         </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
-        <div className="md:mt-2 md:w-3/6">
+        <div className="md:mt-2 md:w-3/5">
           <Image
             src="/diegoM.jpg"
             alt="profile image"
@@ -31,9 +31,9 @@ const HomePage = () => {
             className="h-auto max-w-full rounded-full shadow-2xl mb-10  mx-2 mt-6 "
           />
         </div>
-        <div className="md:mt-4 md:w-3/6">
+        <div className="md:mt-4 md:w-3/5">
           <h1 className="text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-6xl text-center semibold">
-            <AnimatedText text="Hello, I'm Diego!" className=" mr-2 mb-2 mt-2  " />
+            <AnimatedText text="hello, I'm Diego!" className=" mr-2 mb-2 mt-2  " />
           </h1>
 
           <p className="text-1xl text-center  mt-2  font-light">
@@ -63,7 +63,7 @@ const HomePage = () => {
       {/* projects */}
 
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-2 md:w-3/5">
           <Image
             src="/projects.svg"
             alt="projects image"
@@ -102,7 +102,7 @@ const HomePage = () => {
       </div>
       {/* contact */}
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+        <div className="md:mt-2 md:w-3/5">
           <Image
             src="/email.svg"
             alt="email image"
