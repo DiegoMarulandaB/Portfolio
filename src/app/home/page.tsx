@@ -18,7 +18,7 @@ const HomePage = () => {
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center mt-32">
         <h1 className="text-1xl text-center font-bold">
-          <AnimatedText text=" 👋🏽 welcome" className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold " />
+          <AnimatedText text=" 👋🏽welcome" className="text-1xl text-left  mr-2 mb-2 mt-2 font-bold " />
         </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-1 py-1 sm:py-1 md:py-1 md:flex-row md:space-x-3 md:text-left">
