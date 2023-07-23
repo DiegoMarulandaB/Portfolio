@@ -25,57 +25,24 @@ const HomePage = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col text-center items-center justify-center  md:space-x-3 md:text-left mt-4">
-        <div className="md:w-3/6">
-          {/* <Image
+      <div className="flex flex-col md:flex-row md:space-x-3 md:text-left mt-4">
+        <div className="md:w-3/3">
+          <Image
             src="/diego.jpg"
             alt="profile image"
             width={290}
             height={290}
-            className="h-auto max-w-full rounded-full shadow-2xl mb-10 mx-auto md:mx-2 mt-6 md:mt-0"
-          /> */}
-
-
-          {/* inicio */}
-             <div className="">
-      <div className=" max-w-lg mx-auto my-10 bg-white rounded-md shadow-md p-5 w-full ">
-        <img
-          className="w-32 h-32 rounded-full mx-auto"
-          src="/diego.jpg"
-          alt="Profile picture"
-        />
-        <h2 className="text-black text-center text-2xl font-semibold mt-3">Diego Marulanda</h2>
-        <p className="text-sky-500 text-center text-gray-600 mt-1">Frontend Developer</p>
-        {/* <div className="flex justify-center mt-5">
-          <a href="#" className="text-blue-500 hover:text-blue-700 mx-3">
-            Twitter
-          </a>
-          <a href="#" className="text-blue-500 hover:text-blue-700 mx-3">
-            LinkedIn
-          </a>
-          <a href="#" className="text-blue-500 hover:text-blue-700 mx-3">
-            GitHub
-          </a>
-        </div> */}
-        <div className="mt-5">
-          <h3 className="text-black text-xl font-semibold">Bio</h3>
-          <p className="text-gray-600 mt-2">
-           <strong> Indie frontend developer based in Colombia!</strong> Passionate about technology, geopolitics, general culture, and science.
-            
-          </p>
+            className="h-auto max-w-full rounded-full shadow-2xl mb-10 mx-auto md:mx-2 mt-6 md:mt-0 "
+          />
         </div>
-      </div>
-    </div>
-          {/* fin */}
-        </div>
-        <div className="md:w-3/3">
-          {/* <h1 className="text-2xl lg:text-6xl text-center font-semibold">
+        <div className="md:w-3/6">
+          <h1 className="text-2xl lg:text-6xl text-center font-semibold">
             <AnimatedText text="Hello, I'm Diego!" className="mr-2 mb-2 mt-2" />
-          </h1> */}
-          {/* <p className="text-xl text-center mt-2 font-light">
+          </h1>
+          <p className="text-xl text-center mt-2 font-light">
             <span className="font-bold">Indie frontend developer based in Colombia!</span> Passionate about technology,
             geopolitics, general culture, and science.
-          </p> */}
+          </p>
         </div>
       </div>
 
