@@ -131,7 +131,7 @@ const HomePage = () => {
             
           </p>
               <div className="flex flex-col md:flex-row md:space-x-4 items-center justify-center mt-6">
-        {ButtonProjects.map((button, index) => (
+        {ButtonContact.map((button, index) => (
           <Link key={index} href={button.route}>
             <button
               type="button"
