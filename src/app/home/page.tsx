@@ -31,8 +31,8 @@ const HomePage = () => {
             <h2 className="font-semibold text-2xl mt-3">Hello, I'm Diego!</h2>
             <p className="text-sky-500">Frontend Developer</p>
             <div className="mt-5">
-              <h3 className="font-semibold text-2xl">Bio</h3>
-              <p>
+              <h3 className="font-semibold text-center text-2xl">Bio</h3>
+              <p className= 'text-center'>
                 <strong>Indie frontend developer based in Colombia!</strong> Passionate about technology, geopolitics, general culture, and science.
               </p>
             </div>
@@ -58,7 +58,7 @@ const HomePage = () => {
             <Image src="/projects.svg" alt="Projects image" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Projects</h2>
             <div className="mt-5">
-              <p>You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!</p>
+              <p className= 'text-center'>You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!</p>
             </div>
             <div className="mt-6">
               {ButtonProjects.map((button, index) => (
@@ -82,7 +82,7 @@ const HomePage = () => {
             <Image src="/email.svg" alt="Email image" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Contact me</h2>
             <div className="mt-5">
-              <p>Feel free to contact me to share the details of your project and explore how we can work together to achieve great results!</p>
+              <p className= 'text-center'>Feel free to contact me to share the details of your project and explore how we can work together to achieve great results!</p>
             </div>
             <div className="mt-6">
               {ButtonContact.map((button, index) => (
