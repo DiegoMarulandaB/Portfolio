@@ -26,10 +26,10 @@ export default function Navigation() {
     <header className="w-full mx-auto px-4 sm:px-30 fixed top-0 z-50 shadow bg-slate-50 dark:bg-slate-800 dark:border-b dark:border-sky-500 ">
       <div className="justify-between  md:items-center md:flex  ">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block  ">
+          <div className="flex items-center justify-between py-3 md:py-5 md:block ">
             <Link href="/">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform cursor-pointer  sm:text-2xl md:text-2xl lg:text-2xl xl:text-4xl">
+                <h2 className="text-1xl font-bold transition-transform cursor-pointer  sm:text-2xl md:text-2xl lg:text-2xl xl:text-4xl ">
                   Diego Marulanda
                 </h2>
               </div>
@@ -49,7 +49,7 @@ export default function Navigation() {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-sky-600 transition-transform cursor-pointer sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-sky-600 transition-transform cursor-pointer sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl no-underline hover:underline text-black  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
@@ -57,7 +57,7 @@ export default function Navigation() {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} href={item.route}>
                   <div
-                    className="block lg:inline-block text-neutral-800 hover:text-sky-500 dark:text-neutral-300 dark:hover:text-sky-400 hover:-translate-y-1 transition-transform    "
+                    className="block lg:inline-block text-neutral-800 hover:text-sky-500 dark:text-neutral-300 dark:hover:text-sky-400 hover:-translate-y-1 transition-transform  no-underline hover:underline text-black  "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}

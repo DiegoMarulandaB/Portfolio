@@ -26,7 +26,7 @@ const HomePage = () => {
       </div>
 
       <div className="flex flex-col md:flex-row md:space-x-3 md:text-left mt-4">
-        <div className="md:w-3/1">
+        <div className="md:w-3/6">
           <Image
             src="/diego.jpg"
             alt="profile image"
@@ -35,7 +35,7 @@ const HomePage = () => {
             className="h-auto max-w-full rounded-full shadow-2xl mb-10 mx-auto md:mx-2 mt-6 md:mt-0"
           />
         </div>
-        <div className="md:w-3/5">
+        <div className="md:w-3/3">
           <h1 className="text-2xl lg:text-6xl text-center font-semibold">
             <AnimatedText text="Hello, I'm Diego!" className="mr-2 mb-2 mt-2" />
           </h1>
