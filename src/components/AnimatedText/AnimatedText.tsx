@@ -49,6 +49,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text, className = '' }) => 
         ))}
       </motion.h1>
     </div>
+    
   )
 }
 
