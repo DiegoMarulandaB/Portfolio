@@ -25,7 +25,7 @@ const HomePage = () => {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8">
         {/* About */}
-        <div className="bg-neutral-100 dark:bg-slate-700 rounded-md border-2 border-slate-50 shadow-md p-5">
+        <div className="bg-neutral-100 dark:bg-slate-700 rounded-md  shadow-md p-5">
           <div className="flex flex-col items-center justify-center">
             <Image src="/diego.jpg" alt="Profile picture" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Hello, I'm Diego!</h2>
@@ -53,7 +53,7 @@ const HomePage = () => {
         </div>
 
         {/* Projects */}
-        <div className="bg-neutral-100 dark:bg-slate-700 rounded-md border-2 border-slate-50 shadow-md p-5">
+        <div className="bg-neutral-100 dark:bg-slate-700 rounded-md  shadow-md p-5">
           <div className="flex flex-col items-center justify-center">
             <Image src="/projects.svg" alt="Projects image" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Projects</h2>
@@ -77,7 +77,7 @@ const HomePage = () => {
         </div>
 
         {/* Contact */}
-        <div className="bg-neutral-100 dark:bg-slate-700 rounded-md border-2 border-slate-50 shadow-md p-5">
+        <div className="bg-neutral-100 dark:bg-slate-700 rounded-md  shadow-md p-5">
           <div className="flex flex-col items-center justify-center">
             <Image src="/email.svg" alt="Email image" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Contact me</h2>
