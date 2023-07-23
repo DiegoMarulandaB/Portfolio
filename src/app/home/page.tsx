@@ -29,7 +29,7 @@ const HomePage = () => {
           <div className="flex flex-col items-center justify-center">
             <Image src="/diego.jpg" alt="Profile picture" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Hello, I'm Diego!</h2>
-            <p className="text-cyan-400">Frontend Developer</p>
+            <p className="text-cyan-500">Frontend Developer</p>
             <div className="mt-5">
               <h3 className="font-semibold text-center text-2xl">Bio</h3>
               <p className= 'text-center'>
