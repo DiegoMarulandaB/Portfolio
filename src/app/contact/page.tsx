@@ -36,7 +36,7 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username })
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md"
+      className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform hover:-translate-y-1 cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
     >
       {icon}
       <span className="text-1xl font-medium text-white">{text}</span>

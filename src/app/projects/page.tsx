@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
                       alt="img projects"
                       width={390}
                       height={390}
-                      className=" rounded-md bg-neutral-200 dark:bg-slate-600 rounded-md  px-18 py-4 ml-auto md:mt-1 mx-2 "
+                      className=" rounded-md bg-neutral-200 dark:bg-slate-700 rounded-md  px-18 py-4 ml-auto md:mt-1 mx-2 "
                     />
                   </Link>
                 </div>
@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener">
                       <button
                         type="button"
-                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md  px-3 py-3 mt-2 w-26 "
+                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 "
                       >
                         <AiOutlineGithub className="icon text-white mr-2 " size={32} />
                         Github
