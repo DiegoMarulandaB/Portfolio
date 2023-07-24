@@ -5,13 +5,13 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText';
 
 const Contact: React.FC = () => {
   return (
-    <div className="bg-slate-50 dark:bg-slate-800 py-8 px-4 sm:px-6 lg:px-8">
+    <div className="bg-slate-200 dark:bg-slate-800 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col text-center items-center justify-center mt-32">
           <h2 className="text-2xl text-center font-bold mb-4">
             <AnimatedText text="Contact me" className="text-1xl text-left  mr-2 mb-2  mt-2  font-bold" />
           </h2>
-          <p className="bg-slate-50 dark:bg-slate-800 mb-4 mt-4">Get in touch with me through these links!</p>
+          <p className="bg-slate-200 dark:bg-slate-800 mb-4 mt-4">Get in touch with me through these links!</p>
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-4">
           {contactLinks.map((link) => (
