@@ -17,7 +17,7 @@ const ButtonContact: Button[] = [{ label: 'Read more', route: '/contact' }];
 const HomePage = () => {
   return (
     <section id="home" className="mt-8 md:mt-16">
-      <div className="flex flex-col text-center items-center justify-center">
+      <div className="flex flex-col text-center items-center justify-center ">
         <h1 className="text-3xl md:text-4xl font-bold">
           <AnimatedText text="👋🏽Welcome" className="text-left mr-2 mb-2 mt-16 font-bold" />
         </h1>
@@ -32,7 +32,7 @@ const HomePage = () => {
             <p className="text-cyan-600">Frontend Developer</p>
             <div className="mt-5">
               <h3 className="font-semibold text-center text-2xl">Bio</h3>
-              <p className= 'text-center'>
+              <p className= 'text-center mt-2'>
                 <strong>Indie frontend developer based in Colombia!</strong> Passionate about technology, geopolitics, general culture, and science.
               </p>
             </div>
@@ -58,7 +58,7 @@ const HomePage = () => {
             <Image src="/projects.svg" alt="Projects image" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Projects</h2>
             <div className="mt-5">
-              <p className= 'text-center'>You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!</p>
+              <p className= 'text-center mt-2'>You can find samples of my projects. I hope you enjoy exploring my work as much as I enjoy creating it!</p>
             </div>
             <div className="mt-6">
               {ButtonProjects.map((button, index) => (
@@ -82,7 +82,7 @@ const HomePage = () => {
             <Image src="/email.svg" alt="Email image" width={128} height={128} className="w-32 h-32 rounded-full mx-auto" />
             <h2 className="font-semibold text-2xl mt-3">Contact me</h2>
             <div className="mt-5">
-              <p className= 'text-center'>Feel free to contact me to share the details of your project and explore how we can work together to achieve great results!</p>
+              <p className= 'text-center mt-2'>Feel free to contact me to share the details of your project and explore how we can work together to achieve great results!</p>
             </div>
             <div className="mt-6">
               {ButtonContact.map((button, index) => (

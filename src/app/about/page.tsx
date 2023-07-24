@@ -14,29 +14,33 @@ const About = () => {
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
           <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left mb-6 mx-2 mt-2">
-            About Diego 😎|📘|🎸|🏋️‍♀️|🎮
+            About Diego 
           </h1>
-          <p className="mx-2">
+          <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
+          <p className="mx-2 mt-2">
             Hello! Welcome. Allow me to introduce myself: I am Diego, an indie frontend developer based in Colombia!
             Passionate about technology, geopolitics, general culture, and science. My goal is to enhance my knowledge
             every day and have topics of conversation with other people.
           </p>
           <br />
-          <p className="mx-2">
+           <Image src="/laptop.svg" alt="laptop image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <p className="mx-2 mt-2">
             From a very young age, I was captivated by the world of technology. I love exploring the latest trends and
             finding out how they can impact our lives and society in general. I am always willing to learn about new
             technologies, and I enjoy programming and software development as a way of bringing my ideas to life. For
             more information on my studies regarding programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-          <p className="mx-2">
+           <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <p className="mx-2 mt-2">
             As for my hobbies, music, video games, and sports occupy a special place in my life. Music is a constant
             source of inspiration, especially rock and its subgenres. I also enjoy video games, not only for their
             entertainment but also for their ability to tell stories and stimulate my creativity. Regarding sports, you
             must be in good physical condition to spend several hours in front of a computer.
           </p>
           <br />
-          <p className="mx-2">
+           <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <p className="mx-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology, it is essential to expand knowledge through books
@@ -44,6 +48,7 @@ const About = () => {
             , since it is a sector with different branches of learning, and my favorite genre is currently fantasy. My
             favorite writer is Brandon Sanderson.
             <br />
+             <Image src="/personal_site.svg" alt="personal_site image" width={148} height={148} className="w-40 h-40 mx-auto" />
             <br /> On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
             much as I enjoy creating it!
           </p>
