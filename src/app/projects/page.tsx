@@ -19,7 +19,7 @@ const projects: Project[] = [
   {
     name: 'Github repository',
     description:
-      'You can enter my public profile of my repositories on Github',
+      'You can enter my public profile of my repositories on Github.',
     image: '/ProfileGithub2.jpg',
     // alt:"final project image",
     github: 'https://github.com/DiegoMarulandaB',
