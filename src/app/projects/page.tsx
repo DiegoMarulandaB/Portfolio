@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
                       alt="img projects"
                       width={390}
                       height={390}
-                      className=" rounded-md bg-neutral-200 dark:bg-slate-800 rounded-md  px-18 py-4 ml-auto md:mt-1 mx-2 "
+                      className=" rounded-md bg-slate-100 dark:bg-slate-600 rounded-md  px-18 py-4 ml-auto md:mt-1 mx-2 "
                     />
                   </Link>
                 </div>
