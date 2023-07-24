@@ -47,9 +47,11 @@ const About = () => {
             </span>
             , since it is a sector with different branches of learning, and my favorite genre is currently fantasy. My
             favorite writer is Brandon Sanderson.
+            </p>
             <br />
              <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
-            <br /> On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
+             <p className="mx-2 mt-4">
+             On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
             much as I enjoy creating it!
           </p>
         </div>
