@@ -17,14 +17,14 @@ const About = () => {
             About Diego 
           </h1>
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
-          <p className="mx-2 mt-2">
+          <p className="mx-2 mt-4">
             Hello! Welcome. Allow me to introduce myself: I am Diego, an indie frontend developer based in Colombia!
             Passionate about technology, geopolitics, general culture, and science. My goal is to enhance my knowledge
             every day and have topics of conversation with other people.
           </p>
           <br />
            <Image src="/personal_site.svg" alt="personal_site image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="mx-2 mt-2">
+          <p className="mx-2 mt-4">
             From a very young age, I was captivated by the world of technology. I love exploring the latest trends and
             finding out how they can impact our lives and society in general. I am always willing to learn about new
             technologies, and I enjoy programming and software development as a way of bringing my ideas to life. For
@@ -32,7 +32,7 @@ const About = () => {
           </p>
           <br />
            <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="mx-2 mt-4">
+          <p className="mx-2 mt-6">
             As for my hobbies, music, video games, and sports occupy a special place in my life. Music is a constant
             source of inspiration, especially rock and its subgenres. I also enjoy video games, not only for their
             entertainment but also for their ability to tell stories and stimulate my creativity. Regarding sports, you
@@ -50,7 +50,7 @@ const About = () => {
             </p>
             <br />
              <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
-             <p className="mx-2 mt-4">
+             <p className="mx-2 mt-6">
              On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
             much as I enjoy creating it!
           </p>
