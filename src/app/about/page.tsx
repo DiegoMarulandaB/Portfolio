@@ -32,7 +32,7 @@ const About = () => {
           </p>
           <br />
            <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="mx-2 mt-2">
+          <p className="mx-2 mt-4">
             As for my hobbies, music, video games, and sports occupy a special place in my life. Music is a constant
             source of inspiration, especially rock and its subgenres. I also enjoy video games, not only for their
             entertainment but also for their ability to tell stories and stimulate my creativity. Regarding sports, you
