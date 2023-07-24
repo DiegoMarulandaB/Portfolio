@@ -23,7 +23,7 @@ const About = () => {
             every day and have topics of conversation with other people.
           </p>
           <br />
-           <Image src="/laptop.svg" alt="laptop image" width={148} height={148} className="w-40 h-40 mx-auto" />
+           <Image src="/personal_site.svg" alt="personal_site image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="mx-2 mt-2">
             From a very young age, I was captivated by the world of technology. I love exploring the latest trends and
             finding out how they can impact our lives and society in general. I am always willing to learn about new
@@ -48,7 +48,7 @@ const About = () => {
             , since it is a sector with different branches of learning, and my favorite genre is currently fantasy. My
             favorite writer is Brandon Sanderson.
             <br />
-             <Image src="/personal_site.svg" alt="personal_site image" width={148} height={148} className="w-40 h-40 mx-auto" />
+             <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
             <br /> On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
             much as I enjoy creating it!
           </p>
