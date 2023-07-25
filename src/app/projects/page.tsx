@@ -3,14 +3,14 @@
 import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import Link from 'next/link'
-import { AiOutlineGithub, AiOutlineCode} from 'react-icons/ai'
+import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
 
 interface Button {
   label: string
   route: string
 }
 
-const ButtonGithub:Button[] = [{ label: 'Repository', route: 'https://github.com/DiegoMarulandaB?tab=repositories' }]
+const ButtonGithub: Button[] = [{ label: 'Repository', route: 'https://github.com/DiegoMarulandaB?tab=repositories' }]
 const ButtonAcademicProjects: Button[] = [{ label: 'Read more', route: '/academicprojects' }]
 const ButtonPersonalProjects: Button[] = [{ label: 'Read more', route: '/personalprojects' }]
 
@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/ProfileGithub.jpg"
-              alt="Profile picture"
+              alt="ProfileGithub picture"
               width={128}
               height={128}
               className="w-64 h-48 rounded-md mx-auto"
