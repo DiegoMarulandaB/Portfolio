@@ -69,7 +69,7 @@ const About = () => {
                     alt="Css Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md  rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more language icons here */}
@@ -79,7 +79,7 @@ const About = () => {
                     alt="Html Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  rounded-md  rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md   text-lg xl:text-4xl"
                   />
                 </div>
                 {/* javascript */}
@@ -89,7 +89,7 @@ const About = () => {
                     alt="JavaScript Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md  rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* react */}
@@ -99,7 +99,7 @@ const About = () => {
                     alt="React Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  rounded-md  rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md   text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -115,7 +115,7 @@ const About = () => {
                     alt="Git Bash Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more tools icons here */}
@@ -126,7 +126,7 @@ const About = () => {
                     alt="Git Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* github */}
@@ -136,7 +136,7 @@ const About = () => {
                     alt="Github Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* linux */}
@@ -146,7 +146,7 @@ const About = () => {
                     alt="Linux Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* neovim */}
@@ -156,7 +156,7 @@ const About = () => {
                     alt="Neovim Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* postman */}
@@ -166,7 +166,7 @@ const About = () => {
                     alt="Postman Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md text-lg xl:text-4xl"
                   />
                 </div>
                 {/* vscode */}
@@ -176,7 +176,7 @@ const About = () => {
                     alt="Vscode Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -192,7 +192,7 @@ const About = () => {
                     alt="Tailwind Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more learning icons here */}
@@ -203,7 +203,7 @@ const About = () => {
                     alt="Typescript Icon"
                     width={50}
                     height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md rounded-md text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
                   />
                 </div>
               </div>
