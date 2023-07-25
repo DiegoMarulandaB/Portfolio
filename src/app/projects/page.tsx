@@ -32,7 +32,7 @@ const Projects = () => {
               alt="Profile picture"
               width={128}
               height={128}
-              className="w-96 h-40 rounded-md mx-auto"
+              className="w-80 h-40 rounded-md mx-auto"
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
 
@@ -68,7 +68,7 @@ const Projects = () => {
               alt="digitalBooking image"
               width={128}
               height={128}
-              className="w-96 h-40 rounded-md mx-auto"
+              className="w-80 h-40 rounded-md mx-auto"
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Academic projects</h2>
             <div className="mt-5">
@@ -103,7 +103,7 @@ const Projects = () => {
               alt="Email image"
               width={128}
               height={128}
-              className="w-96 h-40 rounded-md mx-auto"
+              className="w-80 h-40 rounded-md mx-auto"
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Personal projects</h2>
             <div className="mt-5">
@@ -135,3 +135,78 @@ const Projects = () => {
 }
 
 export default Projects
+
+
+// import Image from 'next/image';
+// import AnimatedText from '@/components/AnimatedText/AnimatedText';
+// import Link from 'next/link';
+// import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai';
+
+// interface Button {
+//   label: string;
+//   route: string;
+// }
+
+// const buttons: Button[] = [
+//   { label: 'Repository', route: 'https://github.com/DiegoMarulandaB?tab=repositories' },
+//   { label: 'Read more', route: '/academicprojects' },
+//   { label: 'Read more', route: '/personalprojects' },
+// ];
+
+// const Projects = () => {
+//   return (
+//     <section id="projects" className="mt-8 md:mt-16">
+//       <div className="flex flex-col text-center items-center justify-center">
+//         <h1 className="text-3xl md:text-4xl font-bold">
+//           <AnimatedText text="Projects" className="text-left mr-2 mb-2 mt-16 font-bold" />
+//         </h1>
+//       </div>
+
+//       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8">
+//         {buttons.map((button, index) => (
+//           <div key={index} className="bg-slate-200 dark:bg-slate-600 rounded-md shadow-md p-5 mx-4">
+//             <div className="flex flex-col items-center justify-center">
+//               <Image
+//                 src={`/${index === 0 ? 'ProfileGithub.jpg' : `digitalBooking.jpg` }`}
+//                 alt={index === 0 ? 'Profile picture' : 'Project image'}
+//                 width={128}
+//                 height={128}
+//                 className="w-96 h-40 rounded-md mx-auto"
+//               />
+//               <h2 className="text-center font-semibold text-2xl mt-4">
+//                 {index === 0 ? 'Github repository' : index === 1 ? 'Academic projects' : 'Personal projects'}
+//               </h2>
+//               <div className="mt-5">
+//                 <p className="text-center mt-4">
+//                   {index === 0
+//                     ? 'You can enter my public profile of my repositories on Github.'
+//                     : index === 1
+//                     ? 'Here you can find the projects I have done in the academic part!'
+//                     : 'In this section, I will host the projects created personally!'}
+//                 </p>
+//               </div>
+//               <div className="mt-8">
+//                 <Link href={button.route} target={index === 0 ? '_blank' : ''} rel={index === 0 ? 'noopener' : ''}>
+//                   <button
+//                     type="button"
+//                     className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
+//                   >
+//                     {index === 0 && (
+//                       <AiOutlineGithub
+//                         className="icon text-white text-center items-center justify-center mb-1 mr-2"
+//                         size={32}
+//                       />
+//                     )}
+//                     {button.label}
+//                   </button>
+//                 </Link>
+//               </div>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Projects;
