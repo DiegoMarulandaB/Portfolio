@@ -65,7 +65,7 @@ const Projects: React.FC = () => {
       <h1 className="text-center text-2xl">
         <AnimatedText text="Academic Projects" className="text-center   mr-2 mb-2 mt-6 font-bold " />
       </h1>
-      <div className="flex flex-col space-y-28 mx-2 mt-8 ">
+      <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8 ">
         {projects.map((project, idx) => (
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
