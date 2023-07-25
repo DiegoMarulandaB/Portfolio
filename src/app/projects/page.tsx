@@ -1,111 +1,134 @@
-'use client'
-
+'use client' // this is a client component
+// No need for 'use client' in modern React apps
 import Image from 'next/image'
-import Link from 'next/link'
-import Slide from '@/components/Slide/Slide'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-import React, { useEffect, useRef, ReactNode } from 'react'
-import { AiOutlineGithub } from 'react-icons/ai'
+import Link from 'next/link'
+import { AiOutlineGithub, AiOutlineCode} from 'react-icons/ai'
 
-interface Project {
-  name: string
-  description: string
-  image: string
-  github: string
-  link: string
+interface Button {
+  label: string
+  route: string
 }
 
-const projects: Project[] = [
-  {
-    name: 'Github repository',
-    description: 'You can enter my public profile of my repositories on Github.',
-    image: '/ProfileGithub.jpg',
-    // alt:"final project image",
-    github: 'https://github.com/DiegoMarulandaB',
-    link: 'https://github.com/DiegoMarulandaB',
-  },
-  {
-    name: 'Digital booking',
-    description:
-      'This is the final project of the Certified Tech Developer career that was carried out together with other colleagues, to obtain the Professional Developer diploma at Digital House. Presentation of the demo to a Globant representative. 04/06/2023.',
-    image: '/digitalBooking.jpg',
-    // alt:"final project image",
-    github: 'https://github.com/DiegoMarulandaB/Digital-booking',
-    link: 'https://github.com/DiegoMarulandaB/Digital-booking',
-  },
-  {
-    name: 'Health application',
-    description:
-      'Final project of the third level Frontend subject of the Certified Tech Developer career in Digital House.',
-    image: '/frontEnd3.jpg',
-    github: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
-    link: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
-  },
-  // {
-  //   name: "",
-  //   description:
-  //     ".",
-  //   image: "",
-  //   github: "",
-  //   link: "",
-  // },
-  // {
-  //   name: "",
-  //   description:
-  //     ".",
-  //   image: "",
-  //   github: "",
-  //   link: "",
-  // },
-]
+const ButtonGithub:Button[] = [{ label: 'Repository', route: 'https://github.com/DiegoMarulandaB?tab=repositories' }]
+const ButtonAcademicProjects: Button[] = [{ label: 'Read more', route: '/academicprojects' }]
+const ButtonPersonalProjects: Button[] = [{ label: 'Read more', route: '/personalprojects' }]
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
-    <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
-      <h1 className="text-center text-2xl">
-        <AnimatedText text="My portfolio" className="text-center   mr-2 mb-2 mt-6 font-bold " />
-      </h1>
-      <div className="flex flex-col space-y-28 mx-2 mt-8 ">
-        {projects.map((project, idx) => (
-          <div key={idx}>
-            <Slide offset="-200px 0px -200px 0px">
-              <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
-                <div className="md:w-3/6">
-                  <Link href={project.link}>
-                    <Image
-                      src={project.image}
-                      alt="img projects"
-                      width={390}
-                      height={390}
-                      className=" rounded-md bg-slate-200 dark:bg-slate-600  px-18 py-4 ml-auto md:mt-1 mx-2 "
-                    />
-                  </Link>
-                </div>
-                <div className="mt-6 md:w-2/6 mx-2">
-                  <h1 className="text-center sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl">
-                    {project.name}
-                  </h1>
-                  <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mr-2 mb-4 ">
-                    {project.description}
-                  </p>
-                  {/* iconos de github */}
-                  <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
-                    <Link href={project.github} target="_blank" rel="noopener">
-                      <button
-                        type="button"
-                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 "
-                      >
-                        <AiOutlineGithub className="icon text-white mr-2 " size={32} />
-                        Github
-                      </button>
-                    </Link>
-                    <Link href={project.link} target="_blank" rel="noopener" />
-                  </div>
-                </div>
-              </div>
-            </Slide>
+    <section id="projects" className="mt-8 md:mt-16">
+      <div className="flex flex-col text-center items-center justify-center ">
+        <h1 className="text-3xl md:text-4xl font-bold">
+          <AnimatedText text="Projects" className="text-left mr-2 mb-2 mt-16 font-bold" />
+        </h1>
+      </div>
+
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8  ">
+        {/* About */}
+        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4">
+          <div className="flex flex-col items-center justify-center">
+            <Image
+              src="/ProfileGithub.jpg"
+              alt="Profile picture"
+              width={128}
+              height={128}
+              className="w-64 h-48 rounded-md mx-auto"
+            />
+            <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
+
+            <div className="mt-5">
+              <p className="text-center mt-4">You can enter my public profile of my repositories on Github.</p>
+            </div>
+            <div className="mt-8">
+              {ButtonGithub.map((button, index) => (
+                <Link key={index} href={button.route} target="_blank" rel="noopener">
+                  <button
+                    type="button"
+                    className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
+                  >
+                    {index === 0 && (
+                      <AiOutlineGithub
+                        className="icon text-white text-center items-center justify-center mb-1 mr-2"
+                        size={32}
+                      />
+                    )}
+                    {button.label}
+                  </button>
+                </Link>
+              ))}
+            </div>
           </div>
-        ))}
+        </div>
+
+        {/* Projects */}
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
+          <div className="flex flex-col items-center justify-center">
+            <Image
+              src="/digitalBooking.jpg"
+              alt="digitalBooking image"
+              width={128}
+              height={128}
+              className="w-64 h-48 rounded-md mx-auto"
+            />
+            <h2 className="text-center font-semibold text-2xl mt-4">Academic projects</h2>
+            <div className="mt-5">
+              <p className="text-center mt-4">Here you can find the projects I have done in the academic part!</p>
+            </div>
+            <div className="mt-8">
+              {ButtonAcademicProjects.map((button, index) => (
+                <Link key={index} href={button.route}>
+                  <button
+                    type="button"
+                    className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
+                  >
+                    {index === 0 && (
+                      <AiOutlineCode
+                        className="icon text-white text-center items-center justify-center mb-1 mr-2"
+                        size={32}
+                      />
+                    )}
+                    {button.label}
+                  </button>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Contact */}
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
+          <div className="flex flex-col items-center justify-center">
+            <Image
+              src="/counterClick.jpg"
+              alt="Email image"
+              width={128}
+              height={128}
+              className="w-64 h-48 rounded-md mx-auto"
+            />
+            <h2 className="text-center font-semibold text-2xl mt-4">Personal projects</h2>
+            <div className="mt-5">
+              <p className="text-center mt-4">In this section, I will host the projects created personally!</p>
+            </div>
+            <div className="mt-8">
+              {ButtonPersonalProjects.map((button, index) => (
+                <Link key={index} href={button.route}>
+                  <button
+                    type="button"
+                    className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
+                  >
+                    {index === 0 && (
+                      <AiOutlineCode
+                        className="icon text-white text-center items-center justify-center mb-1 mr-2 "
+                        size={32}
+                      />
+                    )}
+                    {button.label}
+                  </button>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )
