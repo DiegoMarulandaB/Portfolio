@@ -16,14 +16,14 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    name: 'Github repository',
-    description: 'You can enter my public profile of my repositories on Github.',
-    image: '/ProfileGithub.jpg',
-    // alt:"final project image",
-    github: 'https://github.com/DiegoMarulandaB?tab=repositories',
-    link: 'https://github.com/DiegoMarulandaB?tab=repositories',
-  },
+  // {
+  //   name: 'Github repository',
+  //   description: 'You can enter my public profile of my repositories on Github.',
+  //   image: '/ProfileGithub.jpg',
+  //   // alt:"final project image",
+  //   github: 'https://github.com/DiegoMarulandaB?tab=repositories',
+  //   link: 'https://github.com/DiegoMarulandaB?tab=repositories',
+  // },
   {
     name: 'Basic Calculator',
     description: 'Basic calculator made in vite + react based on FreeCodeCamp course on react',
@@ -80,10 +80,10 @@ const Projects: React.FC = () => {
                   </Link>
                 </div>
                 <div className="mt-6 md:w-2/6 mx-2">
-                  <h1 className="text-center sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl">
+                  <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl">
                     {project.name}
                   </h1>
-                  <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mr-2 mb-4 ">
+                  <p className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* iconos de github */}
