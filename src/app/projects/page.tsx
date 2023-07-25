@@ -3,14 +3,14 @@
 import Image from 'next/image'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import Link from 'next/link'
-import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
+import { AiOutlineGithub, AiOutlineCode} from 'react-icons/ai'
 
 interface Button {
   label: string
   route: string
 }
 
-const ButtonGithub: Button[] = [{ label: 'Repository', route: 'https://github.com/DiegoMarulandaB?tab=repositories' }]
+const ButtonGithub:Button[] = [{ label: 'Repository', route: 'https://github.com/DiegoMarulandaB?tab=repositories' }]
 const ButtonAcademicProjects: Button[] = [{ label: 'Read more', route: '/academicprojects' }]
 const ButtonPersonalProjects: Button[] = [{ label: 'Read more', route: '/personalprojects' }]
 
@@ -22,17 +22,17 @@ const Projects = () => {
           <AnimatedText text="Projects" className="text-left mr-2 mb-2 mt-16 font-bold" />
         </h1>
       </div>
-
+      <div className="flex flex-col text-center items-center justify-center ">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8  ">
         {/* About */}
-        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4">
+        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4 w-80">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/ProfileGithub.jpg"
-              alt="ProfileGithub picture"
+              alt="Profile picture"
               width={128}
               height={128}
-              className="w-64 h-48 rounded-md mx-auto"
+              className="w-96 h-40 rounded-md mx-auto"
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
 
@@ -61,14 +61,14 @@ const Projects = () => {
         </div>
 
         {/* Projects */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/digitalBooking.jpg"
               alt="digitalBooking image"
               width={128}
               height={128}
-              className="w-64 h-48 rounded-md mx-auto"
+              className="w-96 h-40 rounded-md mx-auto"
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Academic projects</h2>
             <div className="mt-5">
@@ -96,14 +96,14 @@ const Projects = () => {
         </div>
 
         {/* Contact */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/counterClick.jpg"
               alt="Email image"
               width={128}
               height={128}
-              className="w-64 h-48 rounded-md mx-auto"
+              className="w-96 h-40 rounded-md mx-auto"
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Personal projects</h2>
             <div className="mt-5">
@@ -130,6 +130,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+  </div>
     </section>
   )
 }
