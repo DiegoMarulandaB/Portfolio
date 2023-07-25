@@ -25,7 +25,7 @@ const Projects = () => {
      <div className="flex flex-col text-center items-center justify-center ">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8  ">
         {/* About */}
-        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4">
+        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4 w-80">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/ProfileGithub.jpg"
@@ -61,7 +61,7 @@ const Projects = () => {
         </div>
 
         {/* Projects */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/digitalBooking.jpg"
@@ -96,7 +96,7 @@ const Projects = () => {
         </div>
 
         {/* Contact */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/counterClick.jpg"
