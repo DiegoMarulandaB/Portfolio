@@ -18,8 +18,7 @@ interface Project {
 const projects: Project[] = [
   {
     name: 'Github repository',
-    description:
-      'You can enter my public profile of my repositories on Github.',
+    description: 'You can enter my public profile of my repositories on Github.',
     image: '/ProfileGithub.jpg',
     // alt:"final project image",
     github: 'https://github.com/DiegoMarulandaB',
@@ -28,7 +27,7 @@ const projects: Project[] = [
   {
     name: 'Digital booking',
     description:
-      'This is the final project of the Certified Tech Developer career that was carried out together with other colleagues, to obtain the Professional Developer diploma at Digital House. Presentation of the demo before a Globant representative. 04/06/2023.',
+      'This is the final project of the Certified Tech Developer career that was carried out together with other colleagues, to obtain the Professional Developer diploma at Digital House. Presentation of the demo to a Globant representative. 04/06/2023.',
     image: '/digitalBooking.jpg',
     // alt:"final project image",
     github: 'https://github.com/DiegoMarulandaB/Digital-booking',
@@ -113,6 +112,3 @@ const Projects: React.FC = () => {
 }
 
 export default Projects
-
-
-
