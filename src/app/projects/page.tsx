@@ -23,7 +23,7 @@ const Projects = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8  ">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8  mx-2 mr-2">
         {/* About */}
         <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4">
           <div className="flex flex-col items-center justify-center">
