@@ -22,10 +22,10 @@ const Projects = () => {
           <AnimatedText text="Projects" className="text-left mr-2 mb-2 mt-16 font-bold" />
         </h1>
       </div>
-      <div className="flex flex-col text-center items-center justify-center ">
+     <div className="flex flex-col text-center items-center justify-center ">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8  ">
         {/* About */}
-        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4 w-80">
+        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/ProfileGithub.jpg"
@@ -61,7 +61,7 @@ const Projects = () => {
         </div>
 
         {/* Projects */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/digitalBooking.jpg"
@@ -96,7 +96,7 @@ const Projects = () => {
         </div>
 
         {/* Contact */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/counterClick.jpg"
@@ -130,7 +130,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-  </div>
+    </div>  
     </section>
   )
 }
