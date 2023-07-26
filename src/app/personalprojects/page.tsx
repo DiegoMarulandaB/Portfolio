@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
                         type="button"
                         className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 "
                       >
-                        <AiOutlineGithub className="icon text-white mx-2 mr-2 " size={32} />
+                        <AiOutlineGithub className="icon text-white mx-4 mr-4 " size={32} />
                         Github
                       </button>
                     </Link>
