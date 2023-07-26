@@ -8,7 +8,10 @@ const About = () => {
   return (
     <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
       <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-        <AnimatedText text="About me" className="text-center sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 " />
+        <AnimatedText
+          text="About me"
+          className="text-center sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 "
+        />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
