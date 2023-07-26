@@ -23,10 +23,10 @@ const Projects = () => {
         </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center  ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8 mx-2 mr-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8">
           {/* Github */}
           {/* <div className="flex flex-col text-center items-center justify-center "> */}
-          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-4 w-80 ">
+          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5  mx-4 mr-4">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/ProfileGithub.jpg"
@@ -65,7 +65,7 @@ const Projects = () => {
 
           {/* Academic projects */}
           <div className="flex flex-col text-center items-center justify-center ">
-            <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 w-80">
+            <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 mr-4 ">
               <div className="flex flex-col items-center justify-center">
                 <Image
                   src="/digitalBooking.jpg"
@@ -104,11 +104,11 @@ const Projects = () => {
 
           {/*Personal projects */}
           <div className="flex flex-col text-center items-center justify-center ">
-            <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-2 w-80">
+            <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-4 mr-4 ">
               <div className="flex flex-col items-center justify-center">
                 <Image
                   src="/counterClick.jpg"
-                  alt="Email image"
+                  alt="counterClick image"
                   width={128}
                   height={128}
                   className="w-80 h-40 rounded-md mx-auto"
