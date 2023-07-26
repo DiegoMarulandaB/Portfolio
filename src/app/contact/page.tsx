@@ -13,7 +13,7 @@ const Contact: React.FC = () => {
           </h2>
           <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-4">Get in touch with me through these links!</p>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-4">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-4 mx-2 mr-2">
           {contactLinks.map((link) => (
             <ContactLink key={link.text} {...link} />
           ))}
