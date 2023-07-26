@@ -19,7 +19,7 @@ const Projects = () => {
     <section id="projects" className="mt-8 md:mt-16">
       <div className="flex flex-col text-center items-center justify-center ">
         <h1 className="text-3xl md:text-4xl font-bold">
-          <AnimatedText text="Projects" className="text-left mr-2 mb-2 mt-16 font-bold" />
+          <AnimatedText text="My portfolio" className="text-center mr-2 mb-2 mt-16 font-bold" />
         </h1>
       </div>
 
@@ -48,7 +48,7 @@ const Projects = () => {
                   >
                     {index === 0 && (
                       <AiOutlineGithub
-                        className="icon text-white text-center items-center justify-center mb-1 mr-2"
+                        className="icon text-white text-center items-center justify-center mb-1 mx-2 mr-2"
                         size={32}
                       />
                     )}

@@ -8,23 +8,23 @@ const About = () => {
   return (
     <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
       <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-        <AnimatedText text="About" className="sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2" />
+        <AnimatedText text="About" className="text-center sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 " />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
-          <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left mb-6 mx-2 mt-2">
+          <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left mb-6 mx-2 mr-2 mt-2">
             About Diego 
           </h1>
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
-          <p className="mx-2 mt-4">
+          <p className="text-center mx-2 mr-2 mt-4">
             Hello! Welcome. Allow me to introduce myself: I am Diego, an indie frontend developer based in Colombia!
             Passionate about technology, geopolitics, general culture, and science. My goal is to enhance my knowledge
             every day and have topics of conversation with other people.
           </p>
           <br />
            <Image src="/personal_site.svg" alt="personal_site image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="mx-2 mt-4">
+          <p className="text-center mx-2 mr-2 mt-4">
             From a very young age, I was captivated by the world of technology. I love exploring the latest trends and
             finding out how they can impact our lives and society in general. I am always willing to learn about new
             technologies, and I enjoy programming and software development as a way of bringing my ideas to life. For
@@ -32,7 +32,7 @@ const About = () => {
           </p>
           <br />
            <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="mx-2 mt-6">
+          <p className="text-center mx-2 mr-2 mt-6">
             As for my hobbies, music, video games, and sports occupy a special place in my life. Music is a constant
             source of inspiration, especially rock and its subgenres. I also enjoy video games, not only for their
             entertainment but also for their ability to tell stories and stimulate my creativity. Regarding sports, you
@@ -40,7 +40,7 @@ const About = () => {
           </p>
           <br />
            <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="mx-2 mt-2">
+          <p className="text-center mx-2 mr-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology, it is essential to expand knowledge through books
@@ -50,7 +50,7 @@ const About = () => {
             </p>
             <br />
              <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
-             <p className="mx-2 mt-6">
+             <p className="text-center mx-2 mr-2 mt-6">
              On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
             much as I enjoy creating it!
           </p>

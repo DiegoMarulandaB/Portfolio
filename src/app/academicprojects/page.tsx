@@ -81,11 +81,11 @@ const Projects: React.FC = () => {
                     />
                   </Link>
                 </div>
-                <div className="mt-6 md:w-2/6 mx-2">
-                  <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2">
+                <div className="mt-6 md:w-2/6 mx-2 mr-2">
+                  <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mr-2 mb-4 ">
+                  <p className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* iconos de github */}
@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
                         type="button"
                         className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 "
                       >
-                        <AiOutlineGithub className="icon text-white mr-2 " size={32} />
+                        <AiOutlineGithub className="icon text-white mx-2 mr-2 " size={32} />
                         Github
                       </button>
                     </Link>
