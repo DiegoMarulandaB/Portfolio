@@ -37,7 +37,7 @@ const Projects = () => {
             <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
 
             <div className="mt-5">
-              <p className="text-center mt-4">You can enter my public profile of my repositories on Github.</p>
+              <p className="text-center mt-4 mx-2 mr-2">You can enter my public profile of my repositories on Github.</p>
             </div>
             <div className="mt-8">
               {ButtonGithub.map((button, index) => (
@@ -72,7 +72,7 @@ const Projects = () => {
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Academic projects</h2>
             <div className="mt-5">
-              <p className="text-center mt-4">Here you can find the projects I have done in the academic part!</p>
+              <p className="text-center mt-4 mx-2 mr-2">Here you can find the projects I have done in the academic part!</p>
             </div>
             <div className="mt-8">
               {ButtonAcademicProjects.map((button, index) => (
@@ -107,7 +107,7 @@ const Projects = () => {
             />
             <h2 className="text-center font-semibold text-2xl mt-4">Personal projects</h2>
             <div className="mt-5">
-              <p className="text-center mt-4">In this section, I will host the projects created personally!</p>
+              <p className="text-center mt-4 mx-2 mr-2">In this section, I will host the projects created personally!</p>
             </div>
             <div className="mt-8">
               {ButtonPersonalProjects.map((button, index) => (
