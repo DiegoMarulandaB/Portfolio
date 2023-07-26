@@ -1,21 +1,21 @@
 //!2023
 'use client'
-import React from 'react';
-import Image from 'next/image';
-import AnimatedText from '@/components/AnimatedText/AnimatedText';
+import React from 'react'
+import Image from 'next/image'
+import AnimatedText from '@/components/AnimatedText/AnimatedText'
 
 const About = () => {
   return (
     <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
       <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-        <AnimatedText text="About" className="text-center sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 " />
+        <AnimatedText text="About me" className="text-center sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 " />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
-          <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left mb-6 mx-2 mr-2 mt-2">
+          {/* <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left mb-6 mx-2 mr-2 mt-2">
             About Diego 
-          </h1>
+          </h1> */}
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
           <p className="text-center mx-2 mr-2 mt-4">
             Hello! Welcome. Allow me to introduce myself: I am Diego, an indie frontend developer based in Colombia!
@@ -23,7 +23,13 @@ const About = () => {
             every day and have topics of conversation with other people.
           </p>
           <br />
-           <Image src="/personal_site.svg" alt="personal_site image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <Image
+            src="/personal_site.svg"
+            alt="personal_site image"
+            width={148}
+            height={148}
+            className="w-40 h-40 mx-auto"
+          />
           <p className="text-center mx-2 mr-2 mt-4">
             From a very young age, I was captivated by the world of technology. I love exploring the latest trends and
             finding out how they can impact our lives and society in general. I am always willing to learn about new
@@ -31,7 +37,7 @@ const About = () => {
             more information on my studies regarding programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-           <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-6">
             As for my hobbies, music, video games, and sports occupy a special place in my life. Music is a constant
             source of inspiration, especially rock and its subgenres. I also enjoy video games, not only for their
@@ -39,7 +45,7 @@ const About = () => {
             must be in good physical condition to spend several hours in front of a computer.
           </p>
           <br />
-           <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">
@@ -47,21 +53,23 @@ const About = () => {
             </span>
             , since it is a sector with different branches of learning, and my favorite genre is currently fantasy. My
             favorite writer is Brandon Sanderson.
-            </p>
-            <br />
-             <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
-             <p className="text-center mx-2 mr-2 mt-6">
-             On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as
-            much as I enjoy creating it!
+          </p>
+          <br />
+          <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <p className="text-center mx-2 mr-2 mt-6">
+            On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as much
+            as I enjoy creating it!
           </p>
         </div>
 
         <div className="md:w-1/4 md:text-center">
-          <h1 className="text-center text-2xl lg:text-4xl xl:text-6xl mt-4 font-bold">My Skills</h1>
+          <h1 className="text-center text-2xl lg:text-4xl xl:text-6xl mt-4 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-start">
             <div className="md:w-3/3">
-              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 font-light mb-1 py-2">Languages</h2>
-              <div className="grid grid-cols-4 md:grid-cols-4 gap-4">
+              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2">
+                Languages
+              </h2>
+              <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-2 mr-2">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
@@ -73,7 +81,7 @@ const About = () => {
                   />
                 </div>
                 {/* Add more language icons here */}
-                  <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
                     alt="Html Icon"
@@ -83,7 +91,7 @@ const About = () => {
                   />
                 </div>
                 {/* javascript */}
-                   <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
                     alt="JavaScript Icon"
@@ -93,7 +101,7 @@ const About = () => {
                   />
                 </div>
                 {/* react */}
-                     <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
                     alt="React Icon"
@@ -106,8 +114,10 @@ const About = () => {
             </div>
 
             <div className="md:w-3/3 md:mt-8">
-              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2  font-light mb-1 py-2">Tools</h2>
-              <div className="grid grid-cols-5 md:grid-cols-4 gap-4">
+              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
+                Tools
+              </h2>
+              <div className="grid grid-cols-5 md:grid-cols-4 gap-4 mx-2 mr-2">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
@@ -120,7 +130,7 @@ const About = () => {
                 </div>
                 {/* Add more tools icons here */}
                 {/* git */}
-                 <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
                     alt="Git Icon"
@@ -130,7 +140,7 @@ const About = () => {
                   />
                 </div>
                 {/* github */}
-                 <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
                     alt="Github Icon"
@@ -140,7 +150,7 @@ const About = () => {
                   />
                 </div>
                 {/* linux */}
-                  <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
                     alt="Linux Icon"
@@ -150,7 +160,7 @@ const About = () => {
                   />
                 </div>
                 {/* neovim */}
-                  <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/neovimio/neovimio-icon.svg"
                     alt="Neovim Icon"
@@ -160,7 +170,7 @@ const About = () => {
                   />
                 </div>
                 {/* postman */}
-                      <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
                     alt="Postman Icon"
@@ -170,7 +180,7 @@ const About = () => {
                   />
                 </div>
                 {/* vscode */}
-                       <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
                     alt="Vscode Icon"
@@ -183,8 +193,10 @@ const About = () => {
             </div>
 
             <div className="md:w-3/2 md:mt-8">
-              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 font-light mb-1 py-2">Learning</h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
+                Learning
+              </h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-2 mr-2">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
@@ -197,7 +209,7 @@ const About = () => {
                 </div>
                 {/* Add more learning icons here */}
                 {/* typescript */}
-                   <div>
+                <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
                     alt="Typescript Icon"
@@ -212,7 +224,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About

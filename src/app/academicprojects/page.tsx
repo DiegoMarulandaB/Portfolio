@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
       <h1 className="text-center text-2xl">
-        <AnimatedText text="Academic projects" className="text-center   mr-2 mb-2 mt-6 font-bold " />
+        <AnimatedText text="Academic projects" className="text-center mx-2  mr-2 mb-2 mt-6 font-bold " />
       </h1>
       <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8">
         {projects.map((project, idx) => (
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
                       alt="img projects"
                       width={390}
                       height={390}
-                      className=" rounded-md bg-slate-200 dark:bg-slate-600  px-18 py-4 ml-auto md:mt-1 mx-8 mx-2 mr-2"
+                      className=" rounded-md bg-slate-200 dark:bg-slate-600  px-18 py-4 ml-auto md:mt-1  mx-2 mr-2"
                     />
                   </Link>
                 </div>
