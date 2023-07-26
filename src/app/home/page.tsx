@@ -74,7 +74,7 @@ const HomePage = () => {
               height={128}
               className="w-32 h-32 rounded-full mx-auto"
             />
-            <h2 className="font-semibold text-2xl mt-4">Projects</h2>
+            <h2 className="font-semibold text-2xl mt-4">My portfolio</h2>
             <div className="mt-5">
               <p className="text-center mt-2 mx-2 mr-2">
                 You can find samples of my projects. <br /> I hope you enjoy exploring my work as much as I enjoy
