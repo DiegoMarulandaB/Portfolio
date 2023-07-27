@@ -19,7 +19,7 @@ const HomePage = () => {
     <section id="home" className="mt-8 md:mt-16">
       <div className="flex flex-col text-center items-center justify-center ">
         <h1 className="text-3xl md:text-4xl font-bold">
-          <AnimatedText text="Welcome!" className="text-left mr-2 mb-2 mt-16 font-bold" />
+          <AnimatedText text="Welcome!" className="text-center mr-2 mb-2 mt-16 font-bold" />
         </h1>
       </div>
 
