@@ -19,13 +19,13 @@ const HomePage = () => {
     <section id="home" className="mt-8 md:mt-16">
       <div className="flex flex-col text-center items-center justify-center ">
         <h1 className="text-3xl md:text-4xl font-bold">
-          <AnimatedText text="Welcome!" className="text-center mr-2 mb-2 mt-16 font-bold" />
+          <AnimatedText text="Welcome!" className="text-center mx-2 mr-2 mb-2 mt-16 font-bold" />
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8 mx-2 mr-2">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-1 mt-8 mx-2 mr-2">
         {/* About */}
-        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5">
+        <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 ">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/diego.jpg"
@@ -65,7 +65,7 @@ const HomePage = () => {
         </div>
 
         {/* Projects */}
-        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5">
+        <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 ">
           <div className="flex flex-col items-center justify-center">
             <Image
               src="/projects.svg"

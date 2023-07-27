@@ -19,21 +19,20 @@ const Projects = () => {
     <section id="projects" className="mt-8 md:mt-16">
       <div className="flex flex-col text-center items-center justify-center ">
         <h1 className="text-3xl md:text-4xl font-bold">
-          <AnimatedText text="My portfolio" className="text-center mr-2 mb-2 mt-16 font-bold" />
+          <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-16 font-bold" />
         </h1>
       </div>
-
       <div className="flex flex-col text-center items-center justify-center ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8 ">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-1 mt-8 mx-2 mr-2">
           {/* About */}
-          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 w-80 items-center justify-center">
+          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 ">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/ProfileGithub.jpg"
-                alt="ProfileGithub picture"
+                alt="ProfileGithub image"
                 width={128}
                 height={128}
-                className="w-80 h-40 rounded-md mx-auto"
+                className="w-48 h-32 rounded-md mx-auto"
               />
               <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
               {/* <p className="text-cyan-600">Frontend Developer</p> */}
@@ -45,7 +44,7 @@ const Projects = () => {
               </div>
               <div className="mt-8">
                 {ButtonGithub.map((button, index) => (
-                  <Link key={index} href={button.route} target="_blank" rel="noopener">
+                  <Link key={index} href={button.route}>
                     <button
                       type="button"
                       className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
@@ -65,14 +64,14 @@ const Projects = () => {
           </div>
 
           {/* Projects */}
-          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 w-80 items-center justify-center">
+          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 ">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/digitalBooking.jpg"
                 alt="digitalBooking image"
                 width={128}
                 height={128}
-                className="w-80 h-40 rounded-md mx-auto"
+                className="w-48 h-32 rounded-md mx-auto"
               />
               <h2 className="font-semibold text-2xl mt-4">Academic projects</h2>
               <div className="mt-5">
@@ -102,14 +101,14 @@ const Projects = () => {
           </div>
 
           {/* Contact */}
-          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 w-80 items-center justify-center">
+          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/counterClick.jpg"
                 alt="counterClick image"
                 width={128}
                 height={128}
-                className="w-80 h-40 rounded-md mx-auto"
+                className="w-48 h-32 rounded-md mx-auto"
               />
               <h2 className="font-semibold text-2xl mt-4">Personal projects</h2>
               <div className="mt-5">
