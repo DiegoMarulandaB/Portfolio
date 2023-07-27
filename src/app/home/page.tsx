@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="flex flex-col text-center items-center justify-center ">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-1 mt-8 ">
           {/* About */}
-          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 ">
+          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 mx-2 mr-2">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/diego.jpg"
