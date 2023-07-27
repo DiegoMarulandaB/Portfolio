@@ -23,16 +23,16 @@ const Projects = () => {
         </h1>
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-1 mt-8 mx-2 mr-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-1 mt-8 mx-4 mr-4">
           {/* About */}
-          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 ">
+          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5  mx-2 mr-2">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/ProfileGithub.jpg"
                 alt="ProfileGithub image"
                 width={128}
                 height={128}
-                className="w-48 h-32 rounded-md mx-auto"
+                className="w-80 h-40 rounded-md mx-auto"
               />
               <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
               {/* <p className="text-cyan-600">Frontend Developer</p> */}
@@ -64,14 +64,14 @@ const Projects = () => {
           </div>
 
           {/* Projects */}
-          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 ">
+          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-2 mr-2 ">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/digitalBooking.jpg"
                 alt="digitalBooking image"
                 width={128}
                 height={128}
-                className="w-48 h-32 rounded-md mx-auto"
+                className="w-80 h-40 rounded-md mx-auto"
               />
               <h2 className="font-semibold text-2xl mt-4">Academic projects</h2>
               <div className="mt-5">
@@ -101,14 +101,14 @@ const Projects = () => {
           </div>
 
           {/* Contact */}
-          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5">
+          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-2 mr-2">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/counterClick.jpg"
                 alt="counterClick image"
                 width={128}
                 height={128}
-                className="w-48 h-32 rounded-md mx-auto"
+                className="w-80 h-40 rounded-md mx-auto"
               />
               <h2 className="font-semibold text-2xl mt-4">Personal projects</h2>
               <div className="mt-5">
