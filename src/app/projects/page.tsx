@@ -24,7 +24,7 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col text-center items-center justify-center ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8 mx-2 mr-2">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-8 ">
           {/* About */}
           <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5 w-80 items-center justify-center">
             <div className="flex flex-col items-center justify-center">
