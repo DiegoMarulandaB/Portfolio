@@ -44,7 +44,7 @@ const Projects = () => {
               </div>
               <div className="mt-8">
                 {ButtonGithub.map((button, index) => (
-                  <Link key={index} href={button.route}>
+                  <Link key={index} href={button.route} target="_blank" rel="noopener">
                     <button
                       type="button"
                       className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
