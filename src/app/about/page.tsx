@@ -26,7 +26,9 @@ const About = () => {
           <br />
           <br />
           {/* experiencia */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8 text-pink-600">Experience</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light ">
+            Experience
+          </span>
           <br />
           <Image
             src="/personal_site.svg"
@@ -45,7 +47,9 @@ const About = () => {
           <br />
 
           {/* Studying */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600">Studies</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light ">
+            Studies
+          </span>
           <br />
           <Image src="/Studying.svg" alt="Studying image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-4">
@@ -61,7 +65,9 @@ const About = () => {
             For more information about my studies in programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600">Hobbies</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light ">
+            Hobbies
+          </span>
           <br />
           <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-6">
