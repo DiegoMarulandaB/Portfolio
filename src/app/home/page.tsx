@@ -2,7 +2,7 @@
 // No need for 'use client' in modern React apps
 import React from 'react'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-import { AiOutlineUser, AiOutlineCode, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
 
 const CircleIcon = () => (
   <svg
@@ -25,6 +25,29 @@ const HomePage = () => {
           <h1 className="text-3xl md:text-4xl font-bold">
             <AnimatedText text="Welcome!" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
           </h1>
+        </div>
+        <div className="mx-auto p-4 flex flex-col items-center justify-center text-center text-neutral-800 md:flex-row md:justify-evenly mt-2">
+          <div className="flex flex-row items-center justify-center space-x-1 mb-2 mt-2 text-neutral-800 dark:text-neutral-100"></div>
+          <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2">
+            <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener">
+              <AiOutlineTwitter
+                className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  hover:-translate-y-1 rounded-md "
+                size={34}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener">
+              <AiOutlineLinkedin
+                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  hover:-translate-y-1 rounded-md "
+                size={34}
+              />
+            </a>
+            <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener">
+              <AiOutlineGithub
+                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  hover:-translate-y-1 rounded-md "
+                size={34}
+              />
+            </a>
+          </div>
         </div>
         <div className="flex flex-wrap items-center justify-between -mx-4">
           <div className="w-full px-4 lg:w-6/12">
