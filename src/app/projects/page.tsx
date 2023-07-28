@@ -2,7 +2,7 @@
 // No need for 'use client' in modern React apps
 
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
+// import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
 import React, { useState } from 'react'
 
 interface PortfolioCardProps {
@@ -13,6 +13,7 @@ interface PortfolioCardProps {
   button: string
   buttonHref: string
 }
+
 
 const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => {
   return (
@@ -79,10 +80,10 @@ const Projects: React.FC = () => {
         <div className="w-full flex flex-wrap justify-center -mx-4">
           <div className="w-full px-4">
             <ul className="flex flex-wrap justify-center mb-12 space-x-1">
-              <li className="mb-1 ">
+              <li className="mb-1">
                 <button
                   onClick={() => handleProject('all')}
-                  className={`inline-block rounded-md py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                  className={`inline-block rounded-md py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8  ${
                     showCard === 'all'
                       ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
@@ -151,3 +152,5 @@ const Projects: React.FC = () => {
 }
 
 export default Projects
+
+
