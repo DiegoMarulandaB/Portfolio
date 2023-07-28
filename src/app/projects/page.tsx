@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
               {/* <span className="block mb-2 text-lg font-semibold text-primary">Our Portfolio</span> */}
               {/* <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">My portfolio</h2> */}
               <h1 className="text-3xl md:text-4xl font-bold">
-                <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-16 font-bold" />
+                <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
               </h1>
               <p className="text-base text-body-color">
                 In this section you will find my Github repository as well as the different projects that I have carried
@@ -155,14 +155,14 @@ const Projects: React.FC = () => {
             buttonHref="/academicprojects"
             showCard={showCard}
           />
-          <PortfolioCard
+          {/* <PortfolioCard
             ImageHref="frontEnd3.jpg"
             category="Academic projects"
             title=""
             button="Read more"
             buttonHref="academicprojects"
             showCard={showCard}
-          />
+          /> */}
           <PortfolioCard
             ImageHref="counterClick.jpg"
             category="Personal projects"
@@ -171,14 +171,14 @@ const Projects: React.FC = () => {
             buttonHref="/personalprojects"
             showCard={showCard}
           />
-          <PortfolioCard
+          {/* <PortfolioCard
             ImageHref="calculator.jpg"
             category="Personal projects"
             title=""
             button="Read more"
             buttonHref="/personalprojects"
             showCard={showCard}
-          />
+          /> */}
           {/* <PortfolioCard
             ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
             category="Design"
