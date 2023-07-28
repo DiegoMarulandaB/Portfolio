@@ -1,7 +1,7 @@
 'use client'
-import React from 'react';
-import { AiOutlineMail, AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai';
-import AnimatedText from '@/components/AnimatedText/AnimatedText';
+import React from 'react'
+import { AiOutlineMail, AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
+import AnimatedText from '@/components/AnimatedText/AnimatedText'
 
 const Contact: React.FC = () => {
   return (
@@ -11,7 +11,9 @@ const Contact: React.FC = () => {
           <h2 className="text-2xl text-center font-bold mb-4">
             <AnimatedText text="Contact me" className="text-1xl text-center  mr-2 mb-2  mt-2  font-bold" />
           </h2>
-          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2">Get in touch with me through these links!</p>
+          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2  text-pink-600">
+            Get in touch with me through these links!
+          </p>
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-4 mx-2 mr-2">
           {contactLinks.map((link) => (
@@ -20,14 +22,14 @@ const Contact: React.FC = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 interface ContactLinkProps {
-  href: string;
-  text: string;
-  icon: React.ReactElement;
-  username?: string;
+  href: string
+  text: string
+  icon: React.ReactElement
+  username?: string
 }
 
 const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username }) => {
@@ -42,16 +44,15 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username })
       <span className="text-1xl font-medium text-white">{text}</span>
       {username && <span className="text-sm text-white">{username}</span>}
     </a>
-  );
-};
+  )
+}
 
 const contactLinks: ContactLinkProps[] = [
   {
     href: 'mailto:diegomarulanda87@gmail.com',
     text: 'Email',
     icon: <AiOutlineMail className="icon text-white" size={40} />,
-     username:'diegomarulanda87@gmail.com',
-    
+    username: 'diegomarulanda87@gmail.com',
   },
   {
     href: 'https://twitter.com/DAMB1987',
@@ -71,6 +72,6 @@ const contactLinks: ContactLinkProps[] = [
     icon: <AiOutlineGithub className="icon text-white" size={40} />,
     username: 'DiegoMarulandaB',
   },
-];
+]
 
-export default Contact;
+export default Contact
