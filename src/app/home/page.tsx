@@ -31,19 +31,19 @@ const HomePage = () => {
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className=" flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2">
-                  <img src="/diego.jpg" alt="profile image" className="w-full rounded-full mx-2 mr-2" />
+                  <img src="/diego.jpg" alt="profile image" className="w-64 h-64 rounded-full mx-2 mr-2" />
                 </div>
               </div>
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">
+              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-6 mx-2 mr-2">
                 Hello, I'm Diego Marulanda!
               </h2>
               <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
-                <strong>Indie frontend developer based in Colombia!</strong> Passionate about technology, geopolitics,
-                general culture, and science.
+                <strong className="text-indigo-400">Indie frontend developer based in Colombia!</strong> Passionate
+                about technology, geopolitics, general culture, and science.
               </p>
               <div className="flex flex-col text-center items-center justify-center ">
                 <a
@@ -64,14 +64,14 @@ const HomePage = () => {
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className=" flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2">
-                  <img src="/projects.svg" alt="email image" className="w-full rounded-full mx-2 mr-2" />
+                  <img src="/projects.svg" alt="email image" className="w-64 h-64 rounded-full mx-2 mr-2 mt-4" />
                 </div>
               </div>
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">My portfolio</h2>
+              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-6 mx-2 mr-2">My portfolio</h2>
               <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
                 {/* Feel free to contact me to share the details of your project and explore how we can work together to In */}
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
@@ -96,14 +96,14 @@ const HomePage = () => {
             <div className="flex items-center -mx-3 sm:-mx-4">
               <div className="w-full px-3 sm:px-4 xl:w-1/2">
                 <div className=" flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2">
-                  <img src="/email.svg" alt="email image" className="w-full rounded-full mx-2 mr-2" />
+                  <img src="/email.svg" alt="email image" className="w-64 h-64 rounded-full mx-2 mr-2" />
                 </div>
               </div>
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">Contact me</h2>
+              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-6 mx-2 mr-2">Contact me</h2>
               <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
                 Feel free to contact me to share the details of your project and explore how we can work together to
                 achieve great results!

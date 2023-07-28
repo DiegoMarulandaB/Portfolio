@@ -18,13 +18,15 @@ const About = () => {
         <div className="md:w-3/6">
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
           <p className="text-center mx-2 mr-2 mt-4">
-            Hello! Welcome. Allow me to introduce myself: I am Diego Marulanda, an indie frontend developer based in
-            Colombia!
+            Hello! Welcome. Allow me to introduce myself:{' '}
+            <strong className="text-indigo-400">
+              I am Diego Marulanda, an indie frontend developer based in Colombia!
+            </strong>
           </p>
           <br />
           <br />
           {/* experiencia */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8">Experience</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8 text-pink-600">Experience</span>
           <br />
           <Image
             src="/personal_site.svg"
@@ -43,7 +45,7 @@ const About = () => {
           <br />
 
           {/* Studying */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8">Studies</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600">Studies</span>
           <br />
           <Image src="/Studying.svg" alt="Studying image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-4">
@@ -59,7 +61,7 @@ const About = () => {
             For more information about my studies in programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8">Hobbies</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600">Hobbies</span>
           <br />
           <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-6">
@@ -91,7 +93,7 @@ const About = () => {
           <h1 className="text-center text-2xl lg:text-4xl xl:text-6xl mt-4 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-start">
             <div className="md:w-3/3">
-              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2">
+              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
                 Languages
               </h2>
               <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-4 mr-4">
@@ -139,7 +141,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/3 md:mt-8">
-              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
+              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
                 Tools
               </h2>
               <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-4 mr-4">
@@ -218,7 +220,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/2 md:mt-8">
-              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
+              <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
                 Learning
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-4 mr-4">
