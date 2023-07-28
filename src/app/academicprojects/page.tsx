@@ -46,6 +46,7 @@ const AcademicProjects: React.FC = () => {
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
               <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
+                <div className="flex flex-col text-center items-center justify-center"></div>
                 <div className="md:w-3/6 ">
                   <Link href={project.link}>
                     <Image
@@ -53,15 +54,15 @@ const AcademicProjects: React.FC = () => {
                       alt="img projects"
                       width={390}
                       height={390}
-                      className=" rounded-md bg-slate-200 dark:bg-slate-600  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4"
+                      className=" rounded-md bg-slate-200 dark:bg-slate-600  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-4 mr-4"
                     />
                   </Link>
                 </div>
-                <div className="mt-6 md:w-2/6 mx-2 mr-2">
-                  <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2  text-pink-600">
+                <div className="mt-6 md:w-2/5 mx-2 mr-2">
+                  <h1 className="text-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
+                  <p className="text-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* iconos de github */}
@@ -76,6 +77,8 @@ const AcademicProjects: React.FC = () => {
                     </Link>
                     <Link href={project.link} target="_blank" rel="noopener" />
                   </div>
+
+                  {/* aca */}
                 </div>
               </div>
             </Slide>
