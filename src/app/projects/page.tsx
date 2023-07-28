@@ -100,7 +100,9 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('all')}
                   className={`inline-block rounded-md py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                    showCard === 'all' ? 'activeClasses bg-primary text-cyan-400' : 'inactiveClasses'
+                    showCard === 'all'
+                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline'
+                      : 'inactiveClasses'
                   }`}
                 >
                   All Projects
@@ -111,7 +113,9 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('academic projects')}
                   className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                    showCard === 'academic projects' ? 'activeClasses bg-primary text-cyan-400' : 'inactiveClasses'
+                    showCard === 'academic projects'
+                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline'
+                      : 'inactiveClasses'
                   }`}
                 >
                   Academic projects
@@ -121,7 +125,9 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('personal projects')}
                   className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
-                    showCard === 'personal projects' ? 'activeClasses bg-primary text-cyan-400' : 'inactiveClasses'
+                    showCard === 'personal projects'
+                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline'
+                      : 'inactiveClasses'
                   }`}
                 >
                   Personal projects
