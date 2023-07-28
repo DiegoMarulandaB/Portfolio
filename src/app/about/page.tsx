@@ -43,7 +43,7 @@ const About = () => {
             Mercado Libre and Globant.
             <br />
             <br />
-            I started specializing in the same academy.
+            I started specializing in FrontEnd in the same academy.
             <br />
             <br />
             For more information about my studies in programming, I invite you to visit my LinkedIn profile. <br />
