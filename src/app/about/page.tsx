@@ -21,10 +21,14 @@ const About = () => {
           </h1> */}
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
           <p className="text-center mx-2 mr-2 mt-4">
-            Hello! Welcome. Allow me to introduce myself: I am Diego, an indie frontend developer based in Colombia!{' '}
+            Hello! Welcome. Allow me to introduce myself: I am Diego Marulanda, an indie frontend developer based in
+            Colombia! <br />
             <br />
-            Passionate about technology, geopolitics, general culture, and science. <br /> My goal is to improve my
-            knowledge every day, in addition to having conversation topics to talk with other people.
+            Passionate about technology, geopolitics, general culture, and science.
+            <br />
+            <br />
+            My goal is to improve my knowledge every day, in addition to having conversation topics to talk with other
+            people.
           </p>
           <br />
           <Image
@@ -36,14 +40,18 @@ const About = () => {
           />
           <p className="text-center mx-2 mr-2 mt-4">
             I finished my developer degree at Digital House and now I'm specializing in the same academy.
+            <br />
             <br /> For more information about my studies in programming, I invite you to visit my LinkedIn profile.{' '}
+            <br />
             <br /> I love exploring the latest trends and discover how they can impact my life and society.
+            <br />
             <br />I am always willing to learn new things.
           </p>
           <br />
           <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-6">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
+            <br />
             <br />
             Because you must be in good physical condition to spend several hours in front of a computer.
           </p>
@@ -55,13 +63,14 @@ const About = () => {
               I believe that in the world of technology, it is essential to expand knowledge through books
             </span>
             , since it is a sector with different branches of learning, and my favorite genre is currently fantasy.
+            <br />
             <br /> My favorite writer is Brandon Sanderson.
           </p>
           <br />
           <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-6">
             On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as much
-            as I enjoy creating it!
+            as I enjoy creating it.
           </p>
         </div>
 
