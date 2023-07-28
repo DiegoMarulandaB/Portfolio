@@ -145,7 +145,7 @@ const About = () => {
               <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
                 Tools
               </h2>
-              <div className="grid grid-cols-5 md:grid-cols-4 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
