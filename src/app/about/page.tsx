@@ -58,7 +58,7 @@ const About = () => {
             with Mercado Libre and Globant.
             <br />
             <br />
-            07 - 2023 <br />
+            07 - 24 - 2023 <br />
             I started specializing in frontend in the same academy.
             <br />
             <br />
