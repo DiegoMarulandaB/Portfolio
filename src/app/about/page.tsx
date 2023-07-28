@@ -16,9 +16,6 @@ const About = () => {
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
-          {/* <h1 className="text-4xl lg:text-6xl xl:text-6xl text-left mb-6 mx-2 mr-2 mt-2">
-            About Diego 
-          </h1> */}
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
           <p className="text-center mx-2 mr-2 mt-4">
             Hello! Welcome. Allow me to introduce myself: I am Diego Marulanda, an indie frontend developer based in
@@ -50,12 +47,12 @@ const About = () => {
           <br />
           <Image src="/Studying.svg" alt="Studying image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-4">
-            06/2024
+            2021 - 2023
             <br /> I received a scholarship in the Certified Tech Developer program at Digital House, in partnership
             with Mercado Libre and Globant.
             <br />
             <br />
-            07/2024 <br />
+            07 - 2023 <br />
             I started specializing in frontend in the same academy.
             <br />
             <br />
