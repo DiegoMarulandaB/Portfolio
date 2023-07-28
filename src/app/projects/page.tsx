@@ -1,141 +1,200 @@
 'use client' // this is a client component
 // No need for 'use client' in modern React apps
-import Image from 'next/image'
-import AnimatedText from '@/components/AnimatedText/AnimatedText'
-import Link from 'next/link'
-import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
 
-interface Button {
-  label: string
-  route: string
+import AnimatedText from '@/components/AnimatedText/AnimatedText'
+
+import React, { useState } from 'react'
+
+interface PortfolioCardProps {
+  showCard: string
+  category: string
+  ImageHref: string
+  title: string
+  button: string
+  buttonHref: string
 }
 
-const ButtonGithub: Button[] = [{ label: 'Read more', route: 'https://github.com/DiegoMarulandaB?tab=repositories' }]
-const ButtonAcademicProjects: Button[] = [{ label: 'Read more', route: '/academicprojects' }]
-const ButtonPersonalProjects: Button[] = [{ label: 'Read more', route: '/personalprojects' }]
-
-const Projects = () => {
+const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => {
   return (
-    <section id="projects" className="mt-8 md:mt-16">
-      <div className="flex flex-col text-center items-center justify-center ">
-        <h1 className="text-3xl md:text-4xl font-bold">
-          <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-16 font-bold" />
-        </h1>
+    <div
+      id="projects"
+      className={`w-full px-4 md:w-1/2 xl:w-1/3  ${
+        showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
+      }`}
+    >
+      <div className="relative mb-12">
+        <div className="overflow-hidden rounded-md">
+          <img src={ImageHref} alt="portfolio" className="w-full" />
+        </div>
+        <div className="flex flex-col text-center items-center justify-center ">
+          <div
+            className="relative z-10 px-3 -mt-2 text-center items-center justify-center bg-white rounded-md shadow-md mx-2 mr-2 py-2
+          hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
+         text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700
+        "
+          >
+            <span className="block mb-2 text-sm font-semibold text-primary">{category}</span>
+            <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
+            <a
+              href={buttonHref}
+              className=" inline-block py-3 text-sm font-semibold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
+              
+                hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
+         text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 mx-2 mr-2
+              "
+            >
+              {button}
+            </a>
+          </div>
+        </div>
+        {/* <div
+          className="relative z-10 px-3 -mt-2 text-center items-center justify-center bg-white rounded-md shadow-md mx-2 mr-2 py-2
+          hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
+         text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700
+        "
+        >
+          <span className="block mb-2 text-sm font-semibold text-primary">{category}</span>
+          <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
+          <a
+            href={buttonHref}
+            className="inline-block py-3 text-sm font-semibold transition border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-black  mx-2 mr-2"
+          >
+            {button}
+          </a>
+        </div> */}
       </div>
-      <div className="flex flex-col text-center items-center justify-center ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-1 mt-8 mx-4 mr-4">
-          {/* About */}
-          <div className="bg-slate-200 dark:bg-slate-600  rounded-md  shadow-md p-5  mx-2 mr-2">
-            <div className="flex flex-col items-center justify-center">
-              <Image
-                src="/ProfileGithub.jpg"
-                alt="ProfileGithub image"
-                width={128}
-                height={128}
-                className="w-80 h-40 rounded-md mx-auto"
-              />
-              <h2 className="text-center font-semibold text-2xl mt-4">Github repository</h2>
-              {/* <p className="text-cyan-600">Frontend Developer</p> */}
-              <div className="mt-5">
-                {/* <h3 className="font-semibold text-center text-2xl">Bio</h3> */}
-                <p className="text-center mt-2 mx-2 mr-2">
-                  You can enter my public profile of my repositories on Github.
-                </p>
-              </div>
-              <div className="mt-8">
-                {ButtonGithub.map((button, index) => (
-                  <Link key={index} href={button.route} target="_blank" rel="noopener">
-                    <button
-                      type="button"
-                      className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
-                    >
-                      {index === 0 && (
-                        <AiOutlineGithub
-                          className="icon text-white text-center items-center justify-center mb-1 mr-2"
-                          size={32}
-                        />
-                      )}
-                      {button.label}
-                    </button>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
+    </div>
+  )
+}
 
-          {/* Projects */}
-          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-2 mr-2 ">
-            <div className="flex flex-col items-center justify-center">
-              <Image
-                src="/digitalBooking.jpg"
-                alt="digitalBooking image"
-                width={128}
-                height={128}
-                className="w-80 h-40 rounded-md mx-auto"
-              />
-              <h2 className="font-semibold text-2xl mt-4">Academic projects</h2>
-              <div className="mt-5">
-                <p className="text-center mt-2 mx-2 mr-2">
-                  Here you can find the projects I have done in the academic part
-                </p>
-              </div>
-              <div className="mt-8">
-                {ButtonAcademicProjects.map((button, index) => (
-                  <Link key={index} href={button.route}>
-                    <button
-                      type="button"
-                      className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
-                    >
-                      {index === 0 && (
-                        <AiOutlineCode
-                          className="icon text-white text-center items-center justify-center mb-1 mr-2"
-                          size={32}
-                        />
-                      )}
-                      {button.label}
-                    </button>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
+const Projects: React.FC = () => {
+  const [showCard, setShowCard] = useState<string>('all')
 
-          {/* Contact */}
-          <div className="bg-slate-200 dark:bg-slate-600 rounded-md  shadow-md p-5 mx-2 mr-2">
-            <div className="flex flex-col items-center justify-center">
-              <Image
-                src="/counterClick.jpg"
-                alt="counterClick image"
-                width={128}
-                height={128}
-                className="w-80 h-40 rounded-md mx-auto"
-              />
-              <h2 className="font-semibold text-2xl mt-4">Personal projects</h2>
-              <div className="mt-5">
-                <p className="text-center mt-2 mx-2 mr-2">
-                  In this section, I will host the projects created personally
-                </p>
-              </div>
-              <div className="mt-8">
-                {ButtonPersonalProjects.map((button, index) => (
-                  <Link key={index} href={button.route}>
-                    <button
-                      type="button"
-                      className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40"
-                    >
-                      {index === 0 && (
-                        <AiOutlineCode
-                          className="icon text-white text-center items-center justify-center mb-1 mr-2 "
-                          size={32}
-                        />
-                      )}
-                      {button.label}
-                    </button>
-                  </Link>
-                ))}
-              </div>
+  const handleProject = (category: string) => {
+    setShowCard(category)
+  }
+
+  return (
+    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+      <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full px-4">
+            <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+              {/* <span className="block mb-2 text-lg font-semibold text-primary">Our Portfolio</span> */}
+              {/* <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">My portfolio</h2> */}
+              <h1 className="text-3xl md:text-4xl font-bold">
+                <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-16 font-bold" />
+              </h1>
+              <p className="text-base text-body-color">
+                In this section you will find my Github repository as well as the different projects that I have carried
+                out
+              </p>
             </div>
           </div>
+        </div>
+
+        <div className="w-full flex flex-wrap justify-center -mx-4">
+          <div className="w-full px-4">
+            <ul className="flex flex-wrap justify-center mb-12 space-x-1">
+              <li className="mb-1 ">
+                <button
+                  onClick={() => handleProject('all')}
+                  className={`inline-block rounded-md py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    showCard === 'all' ? 'activeClasses bg-primary text-cyan-400' : 'inactiveClasses'
+                  }`}
+                >
+                  All Projects
+                </button>
+              </li>
+
+              <li className="mb-1">
+                <button
+                  onClick={() => handleProject('academic projects')}
+                  className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    showCard === 'academic projects' ? 'activeClasses bg-primary text-cyan-400' : 'inactiveClasses'
+                  }`}
+                >
+                  Academic projects
+                </button>
+              </li>
+              <li className="mb-1">
+                <button
+                  onClick={() => handleProject('personal projects')}
+                  className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                    showCard === 'personal projects' ? 'activeClasses bg-primary text-cyan-400' : 'inactiveClasses'
+                  }`}
+                >
+                  Personal projects
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-wrap -mx-4">
+          <PortfolioCard
+            ImageHref="ProfileGithub.jpg"
+            category="Github repository"
+            title=" "
+            button="Read more"
+            buttonHref={'https://github.com/DiegoMarulandaB?tab=repositories'}
+            showCard={showCard}
+          />
+          {/* <PortfolioCard
+            ImageHref="calculator.jpg"
+            category="Development"
+            title="Personal projects"
+            button="View Details"
+            buttonHref="/personalprojects"
+            showCard={showCard}
+          /> */}
+          <PortfolioCard
+            ImageHref="digitalBooking.jpg"
+            category="Academic projects"
+            title=""
+            button="Read more"
+            buttonHref="/academicprojects"
+            showCard={showCard}
+          />
+          <PortfolioCard
+            ImageHref="frontEnd3.jpg"
+            category="Academic projects"
+            title=""
+            button="Read more"
+            buttonHref="academicprojects"
+            showCard={showCard}
+          />
+          <PortfolioCard
+            ImageHref="counterClick.jpg"
+            category="Personal projects"
+            title=""
+            button="Read more"
+            buttonHref="/personalprojects"
+            showCard={showCard}
+          />
+          <PortfolioCard
+            ImageHref="calculator.jpg"
+            category="Personal projects"
+            title=""
+            button="Read more"
+            buttonHref="/personalprojects"
+            showCard={showCard}
+          />
+          {/* <PortfolioCard
+            ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
+            category="Design"
+            title="Creative Agency"
+            button="View Details"
+            buttonHref="#"
+            showCard={showCard}
+          /> */}
+          {/* <PortfolioCard
+            ImageHref="frontEnd3.jpg"
+            category="Marketing"
+            title="Academic projects"
+            button="View Details"
+            buttonHref="academicprojects"
+            showCard={showCard}
+          /> */}
         </div>
       </div>
     </section>

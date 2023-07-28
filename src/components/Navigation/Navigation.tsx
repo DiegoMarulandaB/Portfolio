@@ -57,7 +57,7 @@ export default function Navigation() {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} href={item.route}>
                   <div
-                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 hover:-translate-y-1 transition-transform  no-underline hover:underline text-black  "
+                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 hover:-translate-y-1 transition-transform  no-underline hover:underline  "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}

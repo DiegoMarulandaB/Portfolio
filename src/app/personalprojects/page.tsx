@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Slide from '@/components/Slide/Slide'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import React, { useEffect, useRef, ReactNode } from 'react'
-import { AiOutlineGithub } from 'react-icons/ai'
+// import { AiOutlineGithub } from 'react-icons/ai'
 
 interface Project {
   name: string
@@ -91,10 +91,10 @@ const Projects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener">
                       <button
                         type="button"
-                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 "
+                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 mx-2 mr-2 "
                       >
-                        <AiOutlineGithub className="icon text-white mx-4 mr-4 " size={32} />
-                        Github
+                        {/* <AiOutlineGithub className="icon text-white mx-4 mr-4 " size={32} /> */}
+                        Read more
                       </button>
                     </Link>
                     <Link href={project.link} target="_blank" rel="noopener" />
