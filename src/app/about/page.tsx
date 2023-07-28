@@ -39,11 +39,16 @@ const About = () => {
             className="w-40 h-40 mx-auto"
           />
           <p className="text-center mx-2 mr-2 mt-4">
-            I finished my developer degree at Digital House and now I'm specializing in the same academy.
+            I received a scholarship in the Certified Tech Developer program at Digital House, in partnership with
+            Mercado Libre and Globant.
             <br />
-            <br /> For more information about my studies in programming, I invite you to visit my LinkedIn profile.{' '}
             <br />
-            <br /> I love exploring the latest trends and discover how they can impact my life and society.
+            I started specializing in the same academy.
+            <br />
+            <br />
+            For more information about my studies in programming, I invite you to visit my LinkedIn profile. <br />
+            <br />
+            I love exploring the latest trends and discover how they can impact my life and society.
             <br />
             <br />I am always willing to learn new things.
           </p>
