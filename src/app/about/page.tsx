@@ -1,4 +1,4 @@
-//!2023
+//!2024
 'use client'
 import React from 'react'
 import Image from 'next/image'
@@ -22,36 +22,47 @@ const About = () => {
           <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
           <p className="text-center mx-2 mr-2 mt-4">
             Hello! Welcome. Allow me to introduce myself: I am Diego Marulanda, an indie frontend developer based in
-            Colombia! <br />
-            <br />
-            Passionate about technology, geopolitics, general culture, and science.
-            <br />
-            <br />
-            My goal is to improve my knowledge every day, in addition to having conversation topics to talk with other
-            people.
+            Colombia!
           </p>
+          <br />
+          <br />
+          {/* experiencia */}
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8">Experience</span>
           <br />
           <Image
             src="/personal_site.svg"
-            alt="personal_site image"
+            alt=" personal_site image"
             width={148}
             height={148}
-            className="w-40 h-40 mx-auto"
+            className="w-40 h-40 mx-auto "
           />
           <p className="text-center mx-2 mr-2 mt-4">
-            I received a scholarship in the Certified Tech Developer program at Digital House, in partnership with
-            Mercado Libre and Globant.
+            Of course I have experience in some areas.
             <br />
             <br />
-            I started specializing in FrontEnd in the same academy.
-            <br />
-            <br />
-            For more information about my studies in programming, I invite you to visit my LinkedIn profile. <br />
-            <br />
-            I love exploring the latest trends and discover how they can impact my life and society.
-            <br />
-            <br />I am always willing to learn new things.
+            But at the moment I have not had the opportunity to enter the technology sector. Therefore, I will get my
+            experience through the different projects that I carry out.
           </p>
+          <br />
+
+          {/* Studying */}
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8">Studies</span>
+          <br />
+          <Image src="/Studying.svg" alt="Studying image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <p className="text-center mx-2 mr-2 mt-4">
+            06/2024
+            <br /> I received a scholarship in the Certified Tech Developer program at Digital House, in partnership
+            with Mercado Libre and Globant.
+            <br />
+            <br />
+            07/2024 <br />
+            I started specializing in frontend in the same academy.
+            <br />
+            <br />
+            For more information about my studies in programming, I invite you to visit my LinkedIn profile.
+          </p>
+          <br />
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8">Hobbies</span>
           <br />
           <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
           <p className="text-center mx-2 mr-2 mt-6">
@@ -86,45 +97,45 @@ const About = () => {
               <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2">
                 Languages
               </h2>
-              <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-2 mr-2">
+              <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
                     alt="Css Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-5xl"
                   />
                 </div>
                 {/* Add more language icons here */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
                     alt="Html Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md   text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                 </div>
                 {/* javascript */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
                     alt="JavaScript Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* react */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
                     alt="React Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md   text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -134,76 +145,76 @@ const About = () => {
               <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
                 Tools
               </h2>
-              <div className="grid grid-cols-5 md:grid-cols-4 gap-4 mx-2 mr-2">
+              <div className="grid grid-cols-5 md:grid-cols-4 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg"
                     alt="Git Bash Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more tools icons here */}
                 {/* git */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
                     alt="Git Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* github */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
                     alt="Github Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* linux */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"
                     alt="Linux Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* neovim */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/neovimio/neovimio-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/neovimio/neovimio-ar21.svg"
                     alt="Neovim Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                 </div>
                 {/* postman */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
                     alt="Postman Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                 </div>
                 {/* vscode */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
                     alt="Vscode Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -213,26 +224,26 @@ const About = () => {
               <h2 className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2">
                 Learning
               </h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-2 mr-2">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg"
                     alt="Tailwind Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more learning icons here */}
                 {/* typescript */}
                 <div>
                   <Image
-                    src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+                    src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"
                     alt="Typescript Icon"
-                    width={50}
-                    height={50}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-md  text-lg xl:text-4xl"
+                    width={80}
+                    height={80}
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
               </div>

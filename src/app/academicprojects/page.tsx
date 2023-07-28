@@ -16,14 +16,6 @@ interface Project {
 }
 
 const projects: Project[] = [
-  // {
-  //   name: 'Github repository',
-  //   description: 'You can enter my public profile of my repositories on Github.',
-  //   image: '/ProfileGithub.jpg',
-  //   // alt:"final project image",
-  //   github: 'https://github.com/DiegoMarulandaB?tab=repositories',
-  //   link: 'https://github.com/DiegoMarulandaB?tab=repositories',
-  // },
   {
     name: 'Digital booking',
     description:
@@ -41,25 +33,9 @@ const projects: Project[] = [
     github: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
     link: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
   },
-  // {
-  //   name: "",
-  //   description:
-  //     ".",
-  //   image: "",
-  //   github: "",
-  //   link: "",
-  // },
-  // {
-  //   name: "",
-  //   description:
-  //     ".",
-  //   image: "",
-  //   github: "",
-  //   link: "",
-  // },
 ]
 
-const Projects: React.FC = () => {
+const AcademicProjects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
       <h1 className="text-center text-2xl">
@@ -93,9 +69,8 @@ const Projects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener">
                       <button
                         type="button"
-                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-3 py-3 mt-2 w-26 mx-2 mr-2 "
+                        className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-4 py-4 mt-2 w-26 mx-2 mr-2 "
                       >
-                        {/* <AiOutlineGithub className="icon text-white mx-2 mr-2 " size={32} /> */}
                         Read more
                       </button>
                     </Link>
@@ -111,4 +86,4 @@ const Projects: React.FC = () => {
   )
 }
 
-export default Projects
+export default AcademicProjects

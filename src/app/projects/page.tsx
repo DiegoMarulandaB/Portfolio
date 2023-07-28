@@ -2,7 +2,7 @@
 // No need for 'use client' in modern React apps
 
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-
+import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
 import React, { useState } from 'react'
 
 interface PortfolioCardProps {
@@ -47,21 +47,6 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
             </a>
           </div>
         </div>
-        {/* <div
-          className="relative z-10 px-3 -mt-2 text-center items-center justify-center bg-white rounded-md shadow-md mx-2 mr-2 py-2
-          hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
-         text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700
-        "
-        >
-          <span className="block mb-2 text-sm font-semibold text-primary">{category}</span>
-          <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
-          <a
-            href={buttonHref}
-            className="inline-block py-3 text-sm font-semibold transition border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-black  mx-2 mr-2"
-          >
-            {button}
-          </a>
-        </div> */}
       </div>
     </div>
   )
@@ -80,8 +65,6 @@ const Projects: React.FC = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-              {/* <span className="block mb-2 text-lg font-semibold text-primary">Our Portfolio</span> */}
-              {/* <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">My portfolio</h2> */}
               <h1 className="text-3xl md:text-4xl font-bold">
                 <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
               </h1>
@@ -124,7 +107,7 @@ const Projects: React.FC = () => {
               <li className="mb-1">
                 <button
                   onClick={() => handleProject('personal projects')}
-                  className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                  className={`inline-block rounded-lg py-4 px-4 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
                       ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
@@ -142,17 +125,9 @@ const Projects: React.FC = () => {
             category="Github repository"
             title=" "
             button="Read more"
-            buttonHref={'https://github.com/DiegoMarulandaB?tab=repositories'}
+            buttonHref="https://github.com/DiegoMarulandaB?tab=repositories"
             showCard={showCard}
           />
-          {/* <PortfolioCard
-            ImageHref="calculator.jpg"
-            category="Development"
-            title="Personal projects"
-            button="View Details"
-            buttonHref="/personalprojects"
-            showCard={showCard}
-          /> */}
           <PortfolioCard
             ImageHref="digitalBooking.jpg"
             category="Academic projects"
@@ -161,14 +136,6 @@ const Projects: React.FC = () => {
             buttonHref="/academicprojects"
             showCard={showCard}
           />
-          {/* <PortfolioCard
-            ImageHref="frontEnd3.jpg"
-            category="Academic projects"
-            title=""
-            button="Read more"
-            buttonHref="academicprojects"
-            showCard={showCard}
-          /> */}
           <PortfolioCard
             ImageHref="counterClick.jpg"
             category="Personal projects"
@@ -177,30 +144,6 @@ const Projects: React.FC = () => {
             buttonHref="/personalprojects"
             showCard={showCard}
           />
-          {/* <PortfolioCard
-            ImageHref="calculator.jpg"
-            category="Personal projects"
-            title=""
-            button="Read more"
-            buttonHref="/personalprojects"
-            showCard={showCard}
-          /> */}
-          {/* <PortfolioCard
-            ImageHref="https://i.ibb.co/m6dq2fX/image-04.jpg"
-            category="Design"
-            title="Creative Agency"
-            button="View Details"
-            buttonHref="#"
-            showCard={showCard}
-          /> */}
-          {/* <PortfolioCard
-            ImageHref="frontEnd3.jpg"
-            category="Marketing"
-            title="Academic projects"
-            button="View Details"
-            buttonHref="academicprojects"
-            showCard={showCard}
-          /> */}
         </div>
       </div>
     </section>
