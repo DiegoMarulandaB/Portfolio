@@ -17,6 +17,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: 'Github repository',
+    description:
+      'Welcome to! I invite you to explore my repository on GitHub, where you will find my projects based on courses or on the Certified Tech Developer career. Dont miss the opportunity to immerse yourself in a universe of knowledge and creativity!',
+    image: '/ProfileGithub.jpg',
+    // alt:"final project image",
+    github: 'https://github.com/DiegoMarulandaB?tab=repositories',
+    link: 'https://github.com/DiegoMarulandaB?tab=repositories',
+  },
+  {
     name: 'Digital booking',
     description:
       'This is the final project of the Certified Tech Developer career that was carried out together with other colleagues, to obtain the Professional Developer diploma at Digital House. Presentation of the demo to a Globant representative. 04/06/2023.',
@@ -58,7 +67,7 @@ const AcademicProjects: React.FC = () => {
                     />
                   </Link>
                 </div>
-                <div className="mt-6 md:w-2/5 mx-2 mr-2">
+                <div className="mt-6 md:w-2/6 mx-2 mr-2">
                   <h1 className="text-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2  text-pink-600">
                     {project.name}
                   </h1>

@@ -14,7 +14,6 @@ interface PortfolioCardProps {
   buttonHref: string
 }
 
-
 const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => {
   return (
     <div
@@ -121,14 +120,15 @@ const Projects: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-wrap -mx-4">
-          <PortfolioCard
+          {/* <PortfolioCard
             ImageHref="ProfileGithub.jpg"
             category="Github repository"
             title=" "
             button="Read more"
             buttonHref="https://github.com/DiegoMarulandaB?tab=repositories"
             showCard={showCard}
-          />
+          /> */}
+
           <PortfolioCard
             ImageHref="digitalBooking.jpg"
             category="Academic projects"
@@ -152,5 +152,3 @@ const Projects: React.FC = () => {
 }
 
 export default Projects
-
-

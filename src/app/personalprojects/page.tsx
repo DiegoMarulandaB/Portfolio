@@ -17,8 +17,18 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: 'Github repository',
+    description:
+      'Welcome to! I invite you to explore my repository on GitHub, where you will find my projects based on courses or on the Certified Tech Developer career. Dont miss the opportunity to immerse yourself in a universe of knowledge and creativity!',
+    image: '/ProfileGithub.jpg',
+    // alt:"final project image",
+    github: 'https://github.com/DiegoMarulandaB?tab=repositories',
+    link: 'https://github.com/DiegoMarulandaB?tab=repositories',
+  },
+  {
     name: 'Basic Calculator',
-    description: 'Basic calculator made in vite + react based on FreeCodeCamp course on react',
+    description:
+      'Here a basic calculator built using Vite and React, inspired by FreeCodeCamp amazing course on React. This calculator combines the best of both technologies to provide an interactive and functional experience for users.',
     image: '/calculator.jpg',
     // alt:"final project image",
     github: 'https://github.com/DiegoMarulandaB/interactive-calculator-react',
@@ -26,7 +36,8 @@ const projects: Project[] = [
   },
   {
     name: 'Counter Click',
-    description: 'Click counter whith reset made in vite + react based on FreeCodeCamp course on react.',
+    description:
+      'This counter Click project is a basic code created in Vite and React, based on the FreeCodeCamp course on React.It helped me to understand the basics of React much better.',
     image: '/counterClick.jpg',
     github: 'https://github.com/DiegoMarulandaB/click-counter-freecodecamp',
     link: 'https://github.com/DiegoMarulandaB/click-counter-freecodecamp',
@@ -55,7 +66,7 @@ const PersonalProjects: React.FC = () => {
                     />
                   </Link>
                 </div>
-                <div className="mt-6 md:w-3/6 mx-2 mr-2">
+                <div className="mt-6 md:w-2/6 mx-2 mr-2">
                   <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4 mx-2 mr-2 text-2xl  text-pink-600">
                     {project.name}
                   </h1>
