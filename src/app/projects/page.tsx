@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
               <h1 className="text-3xl md:text-4xl font-bold">
                 <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
               </h1>
-              <p className="text-base text-body-color">
+              <p className="text-base text-body-color text-center mx-2 mr-2">
                 In this section you will find my Github repository as well as the different projects that I have carried
                 out
               </p>
@@ -101,7 +101,7 @@ const Projects: React.FC = () => {
                   onClick={() => handleProject('all')}
                   className={`inline-block rounded-md py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'all'
-                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline'
+                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -114,7 +114,7 @@ const Projects: React.FC = () => {
                   onClick={() => handleProject('academic projects')}
                   className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'academic projects'
-                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline'
+                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -126,7 +126,7 @@ const Projects: React.FC = () => {
                   onClick={() => handleProject('personal projects')}
                   className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
-                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline'
+                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >

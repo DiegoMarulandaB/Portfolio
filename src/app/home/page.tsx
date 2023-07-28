@@ -45,10 +45,10 @@ const HomePage = () => {
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
               {/* <span className="block mb-2 text-lg font-semibold text-primary">Why Choose Us</span> */}
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4">
+              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">
                 Hello, I'm Diego Marulanda!
               </h2>
-              <p className="mb-8 text-base text-body-color text-center">
+              <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
                 <strong>Indie frontend developer based in Colombia!</strong> Passionate about technology, geopolitics,
                 general culture, and science.
               </p>
@@ -86,8 +86,8 @@ const HomePage = () => {
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
               {/* <span className="block mb-2 text-lg font-semibold text-primary">Why Choose Us</span> */}
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4">My portfolio</h2>
-              <p className="mb-8 text-base text-body-color text-center">
+              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">My portfolio</h2>
+              <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
                 {/* Feel free to contact me to share the details of your project and explore how we can work together to In */}
                 In this section my public Github repository, also the different projects that I have carried out. <br />
                 I hope you enjoy exploring my work as much as I do.
@@ -126,8 +126,8 @@ const HomePage = () => {
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="mt-10 lg:mt-0">
               {/* <span className="block mb-2 text-lg font-semibold text-primary">Why Choose Us</span> */}
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4">Contact me</h2>
-              <p className="mb-8 text-base text-body-color text-center">
+              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">Contact me</h2>
+              <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
                 Feel free to contact me to share the details of your project and explore how we can work together to
                 achieve great results!
               </p>
