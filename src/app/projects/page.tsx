@@ -69,8 +69,8 @@ const Projects: React.FC = () => {
                 <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
               </h1>
               <p className="text-base text-body-color text-center mx-2 mr-2">
-                In this section you will find my Github repository as well as the different projects that I have carried
-                out
+                In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
+                enjoy creating it.
               </p>
             </div>
           </div>

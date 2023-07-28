@@ -80,11 +80,11 @@ const About = () => {
             <br /> My favorite writer is Brandon Sanderson.
           </p>
           <br />
-          <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" />
-          <p className="text-center mx-2 mr-2 mt-6">
+          {/* <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" /> */}
+          {/* <p className="text-center mx-2 mr-2 mt-6">
             On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as much
             as I enjoy creating it.
-          </p>
+          </p> */}
         </div>
 
         <div className="md:w-1/4 md:text-center">

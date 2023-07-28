@@ -74,8 +74,8 @@ const HomePage = () => {
               <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-4 mx-2 mr-2">My portfolio</h2>
               <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
                 {/* Feel free to contact me to share the details of your project and explore how we can work together to In */}
-                In this section my public Github repository, also the different projects that I have carried out. <br />
-                I hope you enjoy exploring my work as much as I do.
+                In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
+                enjoy creating it. it.
               </p>
               <div className="flex flex-col text-center items-center justify-center ">
                 <a
