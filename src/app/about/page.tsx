@@ -17,7 +17,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
           <Image
-            src="/diego.jpg"
+            src="/diegoM.png"
             alt="profile image"
             width={148}
             height={148}
