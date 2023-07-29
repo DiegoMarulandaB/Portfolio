@@ -27,23 +27,22 @@ const HomePage = () => {
           </h1>
         </div>
         <div className="mx-auto p-4 flex flex-col items-center justify-center text-center text-neutral-800 md:flex-row md:justify-evenly mt-2">
-          <div className="flex flex-row items-center justify-center space-x-1 mb-2 mt-2 text-neutral-800 dark:text-neutral-100"></div>
           <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2">
             <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener">
               <AiOutlineTwitter
-                className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700   rounded-md "
+                className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
                 size={34}
               />
             </a>
             <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener">
               <AiOutlineLinkedin
-                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700   rounded-md "
+                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700    rounded-md "
                 size={34}
               />
             </a>
             <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener">
               <AiOutlineGithub
-                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700   rounded-md "
+                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
                 size={34}
               />
             </a>
@@ -71,7 +70,7 @@ const HomePage = () => {
               <div className="flex flex-col text-center items-center justify-center ">
                 <a
                   href="/about"
-                  className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                  className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
                 >
                   Read more
                 </a>
@@ -103,7 +102,7 @@ const HomePage = () => {
               <div className="flex flex-col text-center items-center justify-center ">
                 <a
                   href="/projects"
-                  className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                  className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
                 >
                   Read more
                 </a>
@@ -134,7 +133,7 @@ const HomePage = () => {
               <div className="flex flex-col text-center items-center justify-center ">
                 <a
                   href="/contact"
-                  className="hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300 text-center inline-flex items-center hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md  px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                  className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
                 >
                   Read more
                 </a>

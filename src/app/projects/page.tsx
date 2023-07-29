@@ -28,9 +28,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
         </div>
         <div className="flex flex-col text-center items-center justify-center ">
           <div
-            className="relative z-10 px-3 -mt-2 text-center items-center justify-center bg-white rounded-md shadow-md mx-2 mr-2 py-2
-          hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
-         text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700
+            className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  mx-2 mr-2 w-26
         "
           >
             <span className="block mb-2 text-sm font-semibold text-primary">{category}</span>
@@ -39,8 +37,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
               href={buttonHref}
               className=" inline-block py-3 text-sm font-semibold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
               
-                hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-sky-300
-         text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 mx-2 mr-2
+            
               "
             >
               {button}

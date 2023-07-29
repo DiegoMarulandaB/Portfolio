@@ -57,7 +57,7 @@ export default function Navigation() {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} href={item.route}>
                   <div
-                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 hover:-translate-y-1 transition-transform  no-underline hover:underline  "
+                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 transition-transform  no-underline hover:underline  "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}
@@ -68,14 +68,14 @@ export default function Navigation() {
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  cursor-pointer px-2 py-2 font-bold hover:-translate-y-1 transition-transform   "
+                  className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  cursor-pointer px-2 py-2 font-bold  transition-transform   "
                 >
                   <RiSunLine size={25} color="white" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
-                  className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md cursor-pointer px-2 py-2 font-bold hover:-translate-y-1 transition-transform"
+                  className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md cursor-pointer px-2 py-2 font-bold  transition-transform"
                 >
                   <RiMoonFill size={24} />
                 </button>
