@@ -67,7 +67,7 @@ const contactLinks: ContactLinkProps[] = [
     username: 'diegomarulandabarrientos',
   },
   {
-    href: 'https://github.com/DiegoMarulandaB',
+    href: 'https://github.com/DiegoMarulandaB?tab=repositories',
     text: 'GitHub',
     icon: <AiOutlineGithub className="icon text-white" size={40} />,
     username: 'DiegoMarulandaB',
