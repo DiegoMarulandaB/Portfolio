@@ -23,7 +23,7 @@ const HomePage = () => {
       <div className="flex flex-col text-center items-center justify-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2  font-bold">
           <AnimatedText
-            text="Welcome!"
+            text="Dive into the world of code and creativity!"
             className="text-center mb-2 mt-26 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2"
           />
         </h1>
@@ -31,7 +31,7 @@ const HomePage = () => {
         <div className="flex flex-col items-center justify-center -mx-4">
           <div className="w-full px-4 lg:w-6/12"></div>
           <div className="flex flex-col text-center items-center justify-center">
-            <div className="mt-10 lg:mt-0">
+            <div className="mt-18 lg:mt-0">
               <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 font-bold">
                 <AnimatedText
                   text="Hello, I'm"

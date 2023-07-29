@@ -24,7 +24,7 @@ const About = () => {
             className="w-40 h-40 rounded-full mx-auto mt-6 "
           />
           <p className="text-center mx-2 mr-2 mt-4">
-            Hello! Welcome. Allow me to introduce myself:{' '}
+            Hello! Allow me to introduce myself:{' '}
             <strong className="text-indigo-400">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
             </strong>{' '}
