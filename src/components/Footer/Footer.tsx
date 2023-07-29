@@ -3,9 +3,9 @@ import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icon
 
 const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl px-4 md:max-w-8xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl">
+    <footer className="mx-auto max-w-6xl px-4 md:max-w-8xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl">
       <hr className="w-full   mx-auto mt-12 bg-gradient-to-r from-cyan-600 border-b border-cyan-500 " />
-      <div className="mx-auto p-4 flex flex-col items-center justify-center text-center text-neutral-800 md:flex-row md:justify-evenly mt-2">
+      <div className="mx-auto p-4 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly mt-2">
         <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2 text-neutral-800 dark:text-neutral-100 ">
           &copy; {new Date().getFullYear()} Diego Marulanda. <br /> All Rights Reserved.
           <a href="/" className="hover:underline" />
