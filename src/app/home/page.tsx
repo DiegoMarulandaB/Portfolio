@@ -24,7 +24,7 @@ const HomePage = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2  font-bold">
           <AnimatedText
             text="Dive into the world of code and creativity!"
-            className="text-center mb-2 mt-26 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2"
+            className="text-center mb-2 mt-26 sm:text-3xl md:text-7xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2"
           />
         </h1>
 
