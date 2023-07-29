@@ -75,7 +75,7 @@ const PersonalProjects: React.FC = () => {
                   </p>
                   {/* icons of github */}
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
-                    <Link href={project.github} target="_blank" rel="noopener">
+                    <Link href={project.github} target="_blank" rel="noopener dns-prefetch">
                       <button
                         type="button"
                         className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 "
