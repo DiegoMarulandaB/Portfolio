@@ -37,8 +37,6 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
               href={buttonHref}
               rel="dns-prefetch"
               className=" inline-block py-3 text-sm font-semibold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
-              
-            
               "
             >
               {button}

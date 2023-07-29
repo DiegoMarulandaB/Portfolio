@@ -58,6 +58,7 @@ const PersonalProjects: React.FC = () => {
                 <div className="md:w-3/6">
                   <Link href={project.link} rel="dns-prefetch">
                     <Image
+                      loading="lazy"
                       src={project.image}
                       alt="img projects"
                       width={390}
