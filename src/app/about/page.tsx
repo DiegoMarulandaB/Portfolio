@@ -20,7 +20,7 @@ const About = () => {
             loading="lazy"
             src="/diego.jpg"
             alt="profile image"
-            rel="dns-prefetch"
+            rel="dns-prefetch preload"
             width={148}
             height={148}
             className="w-40 h-40 rounded-full mx-auto mt-6 "
@@ -45,7 +45,7 @@ const About = () => {
             loading="lazy"
             src="/personal_site.svg"
             alt=" personal_site image"
-            rel="dns-prefetch"
+            rel="dns-prefetch preload"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full "
@@ -68,7 +68,7 @@ const About = () => {
             loading="lazy"
             src="/Studying.svg"
             alt="Studying image"
-            rel="dns-prefetch"
+            rel="dns-prefetch preload"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
@@ -94,7 +94,7 @@ const About = () => {
             loading="lazy"
             src="/gaming.svg"
             alt="gaming image"
-            rel="dns-prefetch"
+            rel="dns-prefetch preload"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
@@ -110,7 +110,7 @@ const About = () => {
             loading="lazy"
             src="/book.svg"
             alt="book image"
-            rel="dns-prefetch"
+            rel="dns-prefetch preload"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
@@ -221,8 +221,8 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
-                    rel="dns-prefetch"
-                    alt="Github Icon preload"
+                    rel="dns-prefetch preload"
+                    alt="Github Icon"
                     width={80}
                     height={80}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl"
