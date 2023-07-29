@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Slide from '@/components/Slide/Slide'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-import React, { useEffect, useRef, ReactNode } from 'react'
+// import React, { useEffect, useRef, ReactNode } from 'react'
 // import { AiOutlineGithub } from 'react-icons/ai'
 
 interface Project {
