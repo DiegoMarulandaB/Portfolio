@@ -4,34 +4,35 @@ import React from 'react'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
 
-const CircleIcon = () => (
-  <svg
-    className="absolute -right-7 -bottom-7 z-[-1]"
-    width={134}
-    height={106}
-    viewBox="0 0 134 106"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    {/* ... SVG circles ... */}
-  </svg>
-)
+// const CircleIcon = () => (
+//   <svg
+//     className="absolute -right-7 -bottom-7 z-[-1]"
+//     width={134}
+//     height={106}
+//     viewBox="0 0 134 106"
+//     fill="none"
+//     xmlns="http://www.w3.org/2000/svg"
+//   >
+//     {/* ... SVG circles ... */}
+//   </svg>
+// )
 
 const HomePage = () => {
   return (
     <section id="home" className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
-        <div className="flex flex-col text-center items-center justify-center ">
-          <h1 className="text-4xl md:text-4xl font-bold">
-            <AnimatedText text="Welcome!" className="text-center mx-2 mr-2 mb-2 mt-26 font-bold" />
-          </h1>
-        </div>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2  font-bold">
+          <AnimatedText
+            text="Welcome!"
+            className="text-center mb-2 mt-26 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2"
+          />
+        </h1>
 
-        <div className="flex flex-wrap items-center justify-between -mx-4">
+        <div className="flex flex-col items-center justify-center -mx-4">
           <div className="w-full px-4 lg:w-6/12"></div>
           <div className="flex flex-col text-center items-center justify-center">
             <div className="mt-10 lg:mt-0">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2  font-bold">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 font-bold">
                 <AnimatedText
                   text="Hello, I'm"
                   className="text-center text-pink-600 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 "
