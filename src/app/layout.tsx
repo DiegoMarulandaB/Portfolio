@@ -3,7 +3,7 @@
 import React from 'react'
 import '../styles/globals.css'
 import type { Metadata } from 'next'
-import { Poppins } from '@next/font/google'
+import { Poppins } from "next/font/google"
 import Navigation from '../components/Navigation/Navigation'
 import Footer from '../components/Footer/Footer'
 import { ThemeProvider } from 'next-themes'
