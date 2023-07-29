@@ -56,9 +56,10 @@ const PersonalProjects: React.FC = () => {
             <Slide offset="-200px 0px -200px 0px">
               <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
                 <div className="md:w-3/6">
-                  <Link href={project.link} rel="dns-prefetch">
+                  <Link href={project.link}>
                     <Image
                       loading="lazy"
+                      rel="dns-prefetch preload"
                       src={project.image}
                       alt="img projects"
                       width={390}
@@ -76,7 +77,7 @@ const PersonalProjects: React.FC = () => {
                   </p>
                   {/* icons of github */}
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
-                    <Link href={project.github} target="_blank" rel="noopener dns-prefetch">
+                    <Link href={project.github} target="_blank" rel="noopener dns-prefetch  preload">
                       <button
                         type="button"
                         className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 "
@@ -84,7 +85,7 @@ const PersonalProjects: React.FC = () => {
                         Read more
                       </button>
                     </Link>
-                    <Link href={project.link} target="_blank" rel="noopener dns-prefetch" />
+                    <Link href={project.link} target="_blank" rel="noopener dns-prefetch  preload" />
                   </div>
                 </div>
               </div>

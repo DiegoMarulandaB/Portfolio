@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
               <li className="mb-1">
                 <button
                   onClick={() => handleProject('academic projects')}
-                  rel="dns-prefetch"
+                  rel="dns-prefetch  preload"
                   className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'academic projects'
                       ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
@@ -105,7 +105,7 @@ const Projects: React.FC = () => {
               <li className="mb-1">
                 <button
                   onClick={() => handleProject('personal projects')}
-                  rel="dns-prefetch"
+                  rel="dns-prefetch preload"
                   className={`inline-block rounded-lg py-4 px-4 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
                       ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'

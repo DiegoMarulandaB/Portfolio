@@ -140,7 +140,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Css Icon"
                     width={80}
                     height={80}
@@ -152,7 +152,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Html Icon"
                     width={80}
                     height={80}
@@ -164,7 +164,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="JavaScript Icon"
                     width={80}
                     height={80}
@@ -176,7 +176,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="React Icon"
                     width={80}
                     height={80}
@@ -196,7 +196,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Git Bash Icon"
                     width={80}
                     height={80}
@@ -209,7 +209,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Git Icon"
                     width={80}
                     height={80}
@@ -222,7 +222,7 @@ const About = () => {
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
                     rel="dns-prefetch"
-                    alt="Github Icon"
+                    alt="Github Icon preload"
                     width={80}
                     height={80}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl"
@@ -233,7 +233,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Linux Icon"
                     width={80}
                     height={80}
@@ -245,7 +245,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/neovimio/neovimio-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Neovim Icon"
                     width={80}
                     height={80}
@@ -257,7 +257,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Postman Icon"
                     width={80}
                     height={80}
@@ -269,7 +269,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Vscode Icon"
                     width={80}
                     height={80}
@@ -289,7 +289,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Tailwind Icon"
                     width={80}
                     height={80}
@@ -302,7 +302,7 @@ const About = () => {
                   <Image
                     loading="lazy"
                     src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"
-                    rel="dns-prefetch"
+                    rel="dns-prefetch preload"
                     alt="Typescript Icon"
                     width={80}
                     height={80}
