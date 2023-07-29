@@ -24,7 +24,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
     >
       <div className="relative mb-12">
         <div className="overflow-hidden rounded-md">
-          <img src={ImageHref} alt="portfolio" className="w-full" />
+          <img src={ImageHref} alt="portfolio" rel="dns-prefetch" className="w-full" />
         </div>
         <div className="flex flex-col text-center items-center justify-center ">
           <div

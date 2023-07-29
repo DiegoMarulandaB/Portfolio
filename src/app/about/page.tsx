@@ -19,6 +19,7 @@ const About = () => {
           <Image
             src="/diegoM.png"
             alt="profile image"
+            rel="dns-prefetch"
             width={148}
             height={148}
             className="w-40 h-40 rounded-full mx-auto mt-6 "
@@ -42,6 +43,7 @@ const About = () => {
           <Image
             src="/personal_site.svg"
             alt=" personal_site image"
+            rel="dns-prefetch"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full "
@@ -63,6 +65,7 @@ const About = () => {
           <Image
             src="/Studying.svg"
             alt="Studying image"
+            rel="dns-prefetch"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
@@ -87,6 +90,7 @@ const About = () => {
           <Image
             src="/gaming.svg"
             alt="gaming image"
+            rel="dns-prefetch"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
@@ -98,7 +102,14 @@ const About = () => {
             Because you must be in good physical condition to spend several hours in front of a computer.
           </p>
           <br />
-          <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto rounded-full" />
+          <Image
+            src="/book.svg"
+            alt="book image"
+            rel="dns-prefetch"
+            width={148}
+            height={148}
+            className="w-40 h-40 mx-auto rounded-full"
+          />
           <p className="text-center mx-2 mr-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">

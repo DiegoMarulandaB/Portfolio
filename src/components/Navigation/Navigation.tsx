@@ -27,7 +27,7 @@ export default function Navigation() {
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
-            <Link href="/">
+            <Link href="/" rel="dns-prefetch">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-1xl font-bold transition-transform cursor-pointer  sm:text-2xl md:text-2xl lg:text-2xl xl:text-4xl ">
                   Diego Marulanda
@@ -55,7 +55,7 @@ export default function Navigation() {
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
               {LINKS_NAV.map((item, index) => (
-                <Link key={index} href={item.route}>
+                <Link key={index} href={item.route} rel="dns-prefetch">
                   <div
                     className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 transition-transform  no-underline hover:underline  "
                     onClick={() => setNavigation(!navigation)}
