@@ -125,11 +125,6 @@ const About = () => {
             <br /> My favorite writer is Brandon Sanderson.
           </p>
           <br />
-          {/* <Image src="/web.svg" alt="web image" width={148} height={148} className="w-40 h-40 mx-auto" /> */}
-          {/* <p className="text-center mx-2 mr-2 mt-6">
-            On this portfolio website, you can find samples of my projects. I hope you enjoy exploring my work as much
-            as I enjoy creating it.
-          </p> */}
         </div>
 
         <div className="md:w-1/4 md:text-left">
@@ -149,7 +144,7 @@ const About = () => {
                     alt="Css Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-5xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-5xl"
                   />
                 </div>
                 {/* Add more language icons here */}
@@ -161,7 +156,7 @@ const About = () => {
                     alt="Html Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg   text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                 </div>
                 {/* javascript */}
@@ -173,7 +168,7 @@ const About = () => {
                     alt="JavaScript Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* react */}
@@ -185,7 +180,7 @@ const About = () => {
                     alt="React Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg   text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -205,7 +200,7 @@ const About = () => {
                     alt="Git Bash Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more tools icons here */}
@@ -218,7 +213,7 @@ const About = () => {
                     alt="Git Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* github */}
@@ -230,7 +225,7 @@ const About = () => {
                     alt="Github Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* linux */}
@@ -242,7 +237,7 @@ const About = () => {
                     alt="Linux Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* neovim */}
@@ -254,7 +249,7 @@ const About = () => {
                     alt="Neovim Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                 </div>
                 {/* postman */}
@@ -266,7 +261,7 @@ const About = () => {
                     alt="Postman Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                 </div>
                 {/* vscode */}
@@ -278,7 +273,7 @@ const About = () => {
                     alt="Vscode Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
               </div>
@@ -298,7 +293,7 @@ const About = () => {
                     alt="Tailwind Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
                 {/* Add more learning icons here */}
@@ -311,7 +306,7 @@ const About = () => {
                     alt="Typescript Icon"
                     width={80}
                     height={80}
-                    className="h-auto max-w-full px-1 py-2 mb-1 bg-slate-200 dark:bg-white rounded-lg  text-lg xl:text-4xl"
+                    className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
               </div>
