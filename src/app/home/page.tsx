@@ -31,19 +31,19 @@ const HomePage = () => {
           <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2">
             <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener">
               <AiOutlineTwitter
-                className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  hover:-translate-y-1 rounded-md "
+                className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700   rounded-md "
                 size={34}
               />
             </a>
             <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener">
               <AiOutlineLinkedin
-                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  hover:-translate-y-1 rounded-md "
+                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700   rounded-md "
                 size={34}
               />
             </a>
             <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener">
               <AiOutlineGithub
-                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  hover:-translate-y-1 rounded-md "
+                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700   rounded-md "
                 size={34}
               />
             </a>
