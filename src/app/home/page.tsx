@@ -76,6 +76,7 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/about"
+                    rel="dns-prefetch"
                     className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
                   >
                     About me
@@ -85,6 +86,7 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/projects"
+                    rel="dns-prefetch"
                     className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
                   >
                     My portfolio
@@ -96,6 +98,7 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/contact"
+                    rel="dns-prefetch"
                     className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
                   >
                     Contact me

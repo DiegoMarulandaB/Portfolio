@@ -128,6 +128,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Css Icon"
                     width={80}
                     height={80}
@@ -138,6 +139,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Html Icon"
                     width={80}
                     height={80}
@@ -148,6 +150,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
+                    rel="dns-prefetch"
                     alt="JavaScript Icon"
                     width={80}
                     height={80}
@@ -158,6 +161,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+                    rel="dns-prefetch"
                     alt="React Icon"
                     width={80}
                     height={80}
@@ -176,6 +180,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Git Bash Icon"
                     width={80}
                     height={80}
@@ -187,6 +192,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Git Icon"
                     width={80}
                     height={80}
@@ -197,6 +203,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Github Icon"
                     width={80}
                     height={80}
@@ -207,6 +214,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Linux Icon"
                     width={80}
                     height={80}
@@ -217,6 +225,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/neovimio/neovimio-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Neovim Icon"
                     width={80}
                     height={80}
@@ -227,6 +236,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Postman Icon"
                     width={80}
                     height={80}
@@ -237,6 +247,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Vscode Icon"
                     width={80}
                     height={80}
@@ -255,6 +266,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Tailwind Icon"
                     width={80}
                     height={80}
@@ -266,6 +278,7 @@ const About = () => {
                 <div>
                   <Image
                     src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"
+                    rel="dns-prefetch"
                     alt="Typescript Icon"
                     width={80}
                     height={80}

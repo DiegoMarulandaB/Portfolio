@@ -83,7 +83,7 @@ const PersonalProjects: React.FC = () => {
                         Read more
                       </button>
                     </Link>
-                    <Link href={project.link} target="_blank" rel="noopener" />
+                    <Link href={project.link} target="_blank" rel="noopener dns-prefetch" />
                   </div>
                 </div>
               </div>
