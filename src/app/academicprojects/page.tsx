@@ -57,7 +57,7 @@ const AcademicProjects: React.FC = () => {
               <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
                 <div className="flex flex-col text-center items-center justify-center"></div>
                 <div className="md:w-3/6 ">
-                  <Link href={project.link}>
+                  <Link href={project.link} rel="dns-prefetch">
                     <Image
                       src={project.image}
                       alt="img projects"
