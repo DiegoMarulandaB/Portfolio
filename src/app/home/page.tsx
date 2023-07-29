@@ -27,7 +27,7 @@ const HomePage = () => {
           </h1>
         </div>
         <div className="mx-auto p-4 flex flex-col items-center justify-center text-center text-neutral-800 md:flex-row md:justify-evenly mt-2">
-          <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2">
+          <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2 mx-2 mr-2">
             <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener">
               <AiOutlineTwitter
                 className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
