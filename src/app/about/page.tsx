@@ -16,12 +16,21 @@ const About = () => {
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
-          <Image src="/Hello.svg" alt=" Welcome image" width={148} height={148} className="w-40 h-40 mx-auto " />
+          <Image
+            src="/diego.jpg"
+            alt="profile image"
+            width={148}
+            height={148}
+            className="w-40 h-40 rounded-full mx-auto mt-6 "
+          />
           <p className="text-center mx-2 mr-2 mt-4">
             Hello! Welcome. Allow me to introduce myself:{' '}
             <strong className="text-indigo-400">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
-            </strong>
+            </strong>{' '}
+            <br />
+            <br />
+            Passionate about technology, geopolitics, general culture, and science.
           </p>
           <br />
           <br />
@@ -35,7 +44,7 @@ const About = () => {
             alt=" personal_site image"
             width={148}
             height={148}
-            className="w-40 h-40 mx-auto "
+            className="w-40 h-40 mx-auto rounded-full "
           />
           <p className="text-center mx-2 mr-2 mt-4">
             Of course I have experience in some areas.
@@ -51,7 +60,13 @@ const About = () => {
             Studies
           </span>
           <br />
-          <Image src="/Studying.svg" alt="Studying image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <Image
+            src="/Studying.svg"
+            alt="Studying image"
+            width={148}
+            height={148}
+            className="w-40 h-40 mx-auto rounded-full"
+          />
           <p className="text-center mx-2 mr-2 mt-4">
             2021 - 2023
             <br /> I received a scholarship in the Certified Tech Developer program at Digital House, in partnership
@@ -69,7 +84,13 @@ const About = () => {
             Hobbies
           </span>
           <br />
-          <Image src="/gaming.svg" alt="gaming image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <Image
+            src="/gaming.svg"
+            alt="gaming image"
+            width={148}
+            height={148}
+            className="w-40 h-40 mx-auto rounded-full"
+          />
           <p className="text-center mx-2 mr-2 mt-6">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
             <br />
@@ -77,7 +98,7 @@ const About = () => {
             Because you must be in good physical condition to spend several hours in front of a computer.
           </p>
           <br />
-          <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto" />
+          <Image src="/book.svg" alt="book image" width={148} height={148} className="w-40 h-40 mx-auto rounded-full" />
           <p className="text-center mx-2 mr-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">
@@ -95,14 +116,14 @@ const About = () => {
           </p> */}
         </div>
 
-        <div className="md:w-1/4 md:text-center">
-          <h1 className="text-center text-3xl lg:text-4xl xl:text-6xl mt-4 mx-2 mr-2 font-bold">My Skills</h1>
+        <div className="md:w-1/4 md:text-left">
+          <h1 className="text-center text-3xl lg:text-4xl xl:text-6xl mt-6 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-start">
             <div className="md:w-3/3">
               <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
                 Languages
               </h2>
-              <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
@@ -150,7 +171,7 @@ const About = () => {
               <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
                 Tools
               </h2>
-              <div className="grid grid-cols-4 md:grid-cols-4 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
@@ -229,7 +250,7 @@ const About = () => {
               <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
                 Learning
               </h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image

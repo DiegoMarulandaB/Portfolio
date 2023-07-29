@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   return (
     <div className="bg-slate-100 dark:bg-slate-700 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col text-center items-center justify-center mt-32">
+        <div className="flex flex-col text-center items-center justify-center mt-14">
           <h2 className="text-2xl text-center font-bold mb-4">
             <AnimatedText text="Contact me" className="text-1xl text-center  mr-2 mb-2  mt-2  font-bold" />
           </h2>

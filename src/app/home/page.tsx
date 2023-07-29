@@ -22,121 +22,90 @@ const HomePage = () => {
     <section id="home" className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
         <div className="flex flex-col text-center items-center justify-center ">
-          <h1 className="text-3xl md:text-4xl font-bold">
-            <AnimatedText text="Welcome!" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
+          <h1 className="text-4xl md:text-4xl font-bold">
+            <AnimatedText text="Welcome!" className="text-center mx-2 mr-2 mb-2 mt-26 font-bold" />
           </h1>
         </div>
-        <div className="mx-auto p-4 flex flex-col items-center justify-center text-center md:flex-center md:justify-evenly mt-2">
-          <div className="flex flex-center items-center justify-center space-x-2 mb-2 mt-2 mx-2 mr-2">
-            <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener">
-              <AiOutlineTwitter
-                className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
-                size={34}
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener">
-              <AiOutlineLinkedin
-                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700    rounded-md "
-                size={34}
-              />
-            </a>
-            <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener">
-              <AiOutlineGithub
-                className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
-                size={34}
-              />
-            </a>
-          </div>
-        </div>
-        <div className="flex flex-wrap items-center justify-between -mx-4">
-          <div className="w-full px-4 lg:w-6/12">
-            <div className="flex items-center -mx-3 sm:-mx-4">
-              <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className=" flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2">
-                  <img src="/diego.jpg" alt="profile image" className="w-64 h-64 rounded-full mx-2 mr-2" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-            <div className="mt-10 lg:mt-0">
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-6 mx-2 mr-2">
-                Hello, I'm Diego Marulanda!
-              </h2>
-              <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
-                <strong className="text-indigo-400">Indie frontend developer based in Colombia!</strong> Passionate
-                about technology, geopolitics, general culture, and science.
-              </p>
-              <div className="flex flex-col text-center items-center justify-center ">
-                <a
-                  href="/about"
-                  className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
-                >
-                  Read more
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* MY PORTFOLIO */}
 
         <div className="flex flex-wrap items-center justify-between -mx-4">
-          <div className="w-full px-4 lg:w-6/12">
-            <div className="flex items-center -mx-3 sm:-mx-4">
-              <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className=" flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2">
-                  <img src="/projects.svg" alt="email image" className="w-64 h-64 rounded-full mx-2 mr-2 mt-4" />
+          <div className="w-full px-4 lg:w-6/12"></div>
+          <div className="flex flex-col text-center items-center justify-center">
+            <div className="mt-10 lg:mt-0">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2  font-bold">
+                <AnimatedText
+                  text="Hello, I'm"
+                  className="text-center text-pink-600 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 "
+                />
+              </h1>
+              <div className="flex flex-col text-center items-center justify-center">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
+                  <AnimatedText
+                    text="D"
+                    className="text-center text-indigo-400  sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                  />
+                </h1>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
+                  <AnimatedText
+                    text="i"
+                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce "
+                  />
+                </h1>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
+                  <AnimatedText
+                    text="e"
+                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                  />
+                </h1>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
+                  <AnimatedText
+                    text="g"
+                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                  />
+                </h1>
+                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
+                  <AnimatedText
+                    text="o"
+                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                  />
+                </h1>
+              </div>
+
+              {/* botones */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 mr-2 mt-6">
+                <div className="flex flex-col text-center items-center justify-center ">
+                  <a
+                    href="/about"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                  >
+                    About me
+                  </a>
+                </div>
+                {/* my portfolio */}
+                <div className="flex flex-col text-center items-center justify-center ">
+                  <a
+                    href="/projects"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                  >
+                    My portfolio
+                  </a>
+                </div>
+
+                {/* contact me */}
+
+                <div className="flex flex-col text-center items-center justify-center ">
+                  <a
+                    href="/contact"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                  >
+                    Contact me
+                  </a>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-            <div className="mt-10 lg:mt-0">
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-6 mx-2 mr-2">My portfolio</h2>
-              <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
-                {/* Feel free to contact me to share the details of your project and explore how we can work together to In */}
-                In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
-                enjoy creating it.
-              </p>
-              <div className="flex flex-col text-center items-center justify-center ">
-                <a
-                  href="/projects"
-                  className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
-                >
-                  Read more
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        {/* contact */}
+              {/* image */}
 
-        <div className="flex flex-wrap items-center justify-between -mx-4">
-          <div className="w-full px-4 lg:w-6/12">
-            <div className="flex items-center -mx-3 sm:-mx-4">
-              <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                <div className=" flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2">
-                  <img src="/email.svg" alt="email image" className="w-64 h-64 rounded-full mx-2 mr-2" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-            <div className="mt-10 lg:mt-0">
-              <h2 className="text-center mb-8 text-3xl font-bold text-dark sm:text-4xl mt-6 mx-2 mr-2">Contact me</h2>
-              <p className="mb-8 text-base text-body-color text-center mx-2 mr-2">
-                Feel free to contact me to share the details of your project and explore how we can work together to
-                achieve great results!
-              </p>
-              <div className="flex flex-col text-center items-center justify-center ">
-                <a
-                  href="/contact"
-                  className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
-                >
-                  Read more
-                </a>
+              <div className="flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-2 mx-2 mr-2 ">
+                <img src="/projects.svg" alt="email image" className="w-64 h-64 rounded-full mx-2 mr-2 mt-8" />
               </div>
             </div>
           </div>

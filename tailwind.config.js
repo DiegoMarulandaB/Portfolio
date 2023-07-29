@@ -15,14 +15,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        flipHorizontal: {
+          "50%": { transform: "rotateY(180deg" },
+        },
+      },
+      animation: {
+        hflip: "flipHorizontal 2s infinite",
+      },
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
       animation: {
         fadeIn: "fadeIn 1.5s",
         bounce:
           "bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite",
-        slideUp: "slideUp 0.5s",
-        slideUpEaseInOut: "slideUp 0.5s ease-in-out",
-        slideUpCubiBezier: "slideUp 1s cubic-bezier(0.165, 0.84, 0.44, 1)",
+        slide: "slideUp 0.5s",
+        slideEaseInOut: "slideUp 0.5s ease-in-out",
+        slideCubiBezier: "slideUp 1s cubic-bezier(0.165, 0.84, 0.44, 1)",
       },
       animationDelay: {
         0: "0s",
@@ -35,7 +43,7 @@ module.exports = {
           from: { opacity: 0 },
           to: { opacity: 1 },
         },
-        slideUp: {
+        slide: {
           from: { transform: "translateY(100%)" },
           to: { transform: "translateY(0)" },
         },
