@@ -117,7 +117,7 @@ const About = () => {
         </div>
 
         <div className="md:w-1/4 md:text-left">
-          <h1 className="text-center text-3xl lg:text-4xl xl:text-6xl mt-6 mx-2 mr-2 font-bold">My Skills</h1>
+          <h1 className="text-center text-3xl lg:text-4xl xl:text-6xl mt-4 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-start">
             <div className="md:w-3/3">
               <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
