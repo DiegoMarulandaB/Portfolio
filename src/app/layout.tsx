@@ -8,7 +8,7 @@ import Navigation from '../components/Navigation/Navigation'
 import Footer from '../components/Footer/Footer'
 import { ThemeProvider } from 'next-themes'
 
- const metadata: Metadata = {
+const metadata: Metadata = {
   title: 'Diego Marulanda',
   description: 'web site Diego Marulanda',
   keywords: 'next,react,typescript,tailwind',
