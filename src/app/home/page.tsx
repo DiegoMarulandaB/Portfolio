@@ -42,31 +42,31 @@ const HomePage = () => {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
                   <AnimatedText
                     text="D"
-                    className="text-center text-indigo-400  sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                    className="text-center text-indigo-500  sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
                   />
                 </h1>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
                   <AnimatedText
                     text="i"
-                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce "
+                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce "
                   />
                 </h1>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
                   <AnimatedText
                     text="e"
-                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
                   />
                 </h1>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
                   <AnimatedText
                     text="g"
-                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
                   />
                 </h1>
                 <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
                   <AnimatedText
                     text="o"
-                    className="text-center text-indigo-400 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
+                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
                   />
                 </h1>
               </div>
