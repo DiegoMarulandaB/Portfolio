@@ -77,7 +77,7 @@ const HomePage = () => {
                   <a
                     href="/about"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
                   >
                     About me
                   </a>
@@ -87,7 +87,7 @@ const HomePage = () => {
                   <a
                     href="/projects"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
                   >
                     My portfolio
                   </a>
@@ -99,7 +99,7 @@ const HomePage = () => {
                   <a
                     href="/contact"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
                   >
                     Contact me
                   </a>

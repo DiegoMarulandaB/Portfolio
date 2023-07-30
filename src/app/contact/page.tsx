@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
           <h2 className="text-2xl text-center font-bold mb-4">
             <AnimatedText text="Contact me" className="text-1xl text-center  mr-2 mb-2  mt-2  font-bold" />
           </h2>
-          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2  text-pink-600">
+          <p className="bg-slate-200 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-light  text-pink-600">
             Get in touch with me through these links!
           </p>
         </div>
