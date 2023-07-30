@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTheme } from 'next-themes'
-import { RiMoonFill, RiSunLine } from 'react-icons/ri'
+import { PiMoonStarsBold, PiSunHorizonBold } from 'react-icons/pi'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
 import Link from 'next/link'
 
@@ -68,14 +68,14 @@ export default function Navigation() {
                   onClick={() => setTheme('light')}
                   className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  cursor-pointer px-2 py-2 font-bold  transition-transform   "
                 >
-                  <RiSunLine size={25} color="white" />
+                  <PiSunHorizonBold size={25} color="white" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
                   className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md cursor-pointer px-2 py-2 font-bold  transition-transform"
                 >
-                  <RiMoonFill size={24} />
+                  <PiMoonStarsBold size={24} />
                 </button>
               )}
             </div>
