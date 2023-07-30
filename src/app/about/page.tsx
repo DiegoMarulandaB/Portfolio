@@ -7,10 +7,10 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText'
 const About = () => {
   return (
     <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
-      <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
+      <h1 className="text-center mb-2 mt-4 font-bold">
         <AnimatedText
           text="About me"
-          className="text-center sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 "
+          className="mt-2 mx-2 mr-2 "
         />
       </h1>
 
@@ -25,9 +25,9 @@ const About = () => {
             height={148}
             className="w-40 h-40 rounded-full mx-auto mt-6 "
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl mx-2 mr-2 mt-4">
+          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-4">
             Hello! Allow me to introduce myself:{' '}
-            <strong className="text-indigo-400 sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl">
+            <strong className="text-indigo-400 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
             </strong>{' '}
             <br />
@@ -50,7 +50,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full "
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl mx-2 mr-2 mt-4">
+          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-4">
             Of course I have experience in some areas.
             <br />
             <br />
@@ -73,7 +73,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl mx-2 mr-2 mt-4">
+          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-4">
             2021 - 2023
             <br /> I received a scholarship in the Certified Tech Developer program at Digital House, in partnership
             with Mercado Libre and Globant.
@@ -99,7 +99,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl mx-2 mr-2 mt-6">
+          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-6">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
             <br />
             <br />
@@ -115,7 +115,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl mx-2 mr-2 mt-2">
+          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl  mx-2 mr-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology, it is essential to expand knowledge through books

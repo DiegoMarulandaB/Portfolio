@@ -4,70 +4,27 @@ import React from 'react'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 // import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
 
-// const CircleIcon = () => (
-//   <svg
-//     className="absolute -right-7 -bottom-7 z-[-1]"
-//     width={134}
-//     height={106}
-//     viewBox="0 0 134 106"
-//     fill="none"
-//     xmlns="http://www.w3.org/2000/svg"
-//   >
-//     {/* ... SVG circles ... */}
-//   </svg>
-// )
-
 const HomePage = () => {
   return (
     <section id="home" className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2  font-bold">
-          <AnimatedText
-            text="Dive into the world of code and creativity!"
-            className="text-center mb-2 mt-26 sm:text-3xl md:text-7xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2"
-          />
+        <h1 className=" text-center mb-2  font-bold">
+          <AnimatedText text="Dive into the world of code and creativity!" className=" mb-2 mt-26  mt-2 mx-2 mr-2" />
         </h1>
 
         <div className="flex flex-col items-center justify-center -mx-4">
           <div className="w-full px-4 lg:w-6/12"></div>
           <div className="flex flex-col text-center items-center justify-center">
             <div className="mt-18 lg:mt-0">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 font-bold">
-                <AnimatedText
-                  text="Hello, I'm"
-                  className="text-center text-pink-600 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 "
-                />
+              <h1 className=" text-center mb-2 font-bold">
+                <AnimatedText text="Hello, I'm" className=" text-pink-600  mt-2 mx-2 mr-2 " />
               </h1>
               <div className="flex flex-col text-center items-center justify-center">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-                  <AnimatedText
-                    text="D"
-                    className="text-center text-indigo-500  sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
-                  />
+                <h1 className="text-center mb-2 mt-4 font-bold">
+                  <AnimatedText text="Diego Marulanda" className=" text-indigo-500 mt-2 mx-2 mr-2 " />
                 </h1>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-                  <AnimatedText
-                    text="i"
-                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce "
-                  />
-                </h1>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-                  <AnimatedText
-                    text="e"
-                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
-                  />
-                </h1>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-                  <AnimatedText
-                    text="g"
-                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
-                  />
-                </h1>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-2 mt-4 font-bold">
-                  <AnimatedText
-                    text="o"
-                    className="text-center text-indigo-500 sm:text-3xl md:text-6xl lg:text-7xl xl:text-6xl mt-2 mx-2 mr-2 animate-bounce"
-                  />
+                <h1 className="text-center mb-2 mt-4 font-bold">
+                  <AnimatedText text="frontend developer" className="mt-2 mx-2 mr-2 animate-bounce " />
                 </h1>
               </div>
 
@@ -77,7 +34,7 @@ const HomePage = () => {
                   <a
                     href="/about"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
                   >
                     About me
                   </a>
@@ -87,7 +44,7 @@ const HomePage = () => {
                   <a
                     href="/projects"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
                   >
                     My portfolio
                   </a>
@@ -99,7 +56,7 @@ const HomePage = () => {
                   <a
                     href="/contact"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
                   >
                     Contact me
                   </a>

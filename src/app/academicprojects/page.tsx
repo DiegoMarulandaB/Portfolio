@@ -47,10 +47,10 @@ const projects: Project[] = [
 const AcademicProjects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
-      <h1 className="text-center text-2xl">
+      <h1 className="text-center font-bold text-2xl">
         <AnimatedText
           text="Academic projects"
-          className="text-center mx-2  mr-2 mb-2 mt-6 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold "
+          className=" mx-2 mr-2 mb-2 mt-6"
         />
       </h1>
       <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8">
@@ -76,7 +76,7 @@ const AcademicProjects: React.FC = () => {
                   <h1 className="text-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="text-center text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-ligth mx-2 mr-2 mb-4 ">
+                  <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* iconos de github */}

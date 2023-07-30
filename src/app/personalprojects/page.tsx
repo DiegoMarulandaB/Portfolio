@@ -47,8 +47,8 @@ const projects: Project[] = [
 const PersonalProjects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
-      <h1 className="text-center text-2xl">
-        <AnimatedText text="Personal projects" className="text-center mx-2  mr-2 mb-2 mt-6 font-bold " />
+      <h1 className="text-center font-bold text-2xl">
+        <AnimatedText text="Personal projects" className="mx-2  mr-2 mb-2 mt-6 " />
       </h1>
       <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8  ">
         {projects.map((project, idx) => (
@@ -72,7 +72,7 @@ const PersonalProjects: React.FC = () => {
                   <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4 mx-2 mr-2 text-2xl  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center text-ligth  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
+                  <p className="flex flex-col text-center items-center justify-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* icons of github */}

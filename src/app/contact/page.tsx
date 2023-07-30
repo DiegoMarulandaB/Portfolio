@@ -9,9 +9,9 @@ const Contact: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col text-center items-center justify-center mt-14">
           <h2 className="text-2xl text-center font-bold mb-4">
-            <AnimatedText text="Contact me" className="text-1xl text-center  mr-2 mb-2  mt-2  font-bold" />
+            <AnimatedText text="Contact me" className="mr-2 mb-2  mt-2" />
           </h2>
-          <p className="bg-slate-200 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-light  text-pink-600">
+          <p className="bg-slate-200 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl text-pink-600">
             Get in touch with me through these links!
           </p>
         </div>
@@ -36,9 +36,9 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username })
   return (
     <a
       href={href}
-      target="_blank"
-      rel="noopener dns-prefetch"
-      className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
+      target='_blank'
+      rel='noopener dns-prefetch'
+      className='flex flex-col items-center text-center px-4 py-6 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md'
     >
       {icon}
       <span className="text-1xl font-medium text-white">{text}</span>
