@@ -47,7 +47,7 @@ export default function Navigation() {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-cyan-600 transition-transform cursor-pointer text-1xl  no-underline hover:underline text-black  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-cyan-600 transition-transform cursor-pointer text-1xl  text-black  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
@@ -55,7 +55,7 @@ export default function Navigation() {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} href={item.route} rel="dns-prefetch">
                   <div
-                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 transition-transform  no-underline hover:underline  "
+                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 transition-transform "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}
