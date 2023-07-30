@@ -84,7 +84,7 @@ const AcademicProjects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener dns-prefetch preload">
                       <button
                         type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl  mx-2 mr-2 mt-2 w-26 text-1xl sm:text-1xl md:text-1xl lg:text-1xl font-bold "
+                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold  mx-2 mr-2 mt-2 w-26 "
                       >
                         Read more
                       </button>
