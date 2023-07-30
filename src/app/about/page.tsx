@@ -124,11 +124,11 @@ const About = () => {
           <br />
         </div>
 
-        <div className="md:w-1/4 md:text-center">
-          <h1 className="text-center text-2xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
-          <div className="flex flex-wrap flex-row justify-center md:justify-start">
+        <div className="md:w-1/4">
+          <h1 className="text-center text-3xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
+          <div className="flex flex-wrap flex-row justify-center md:justify-center">
             <div className="md:w-3/3">
-              <h2 className="text-center text-1xl mt-4 mx-2 mr-2 mb-1 py-2 text-pink-600">Languages</h2>
+              <h2 className="text-center text-2xl mt-4 mx-2 mr-2 mb-1 py-2 text-pink-600">Languages</h2>
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
@@ -182,7 +182,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/3 md:mt-8">
-              <h2 className="text-center text-1xl mb-1 py-2 text-pink-600">Tools</h2>
+              <h2 className="text-center text-2xl mb-1 py-2 text-pink-600">Tools</h2>
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
@@ -273,7 +273,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/2 md:mt-8">
-              <h2 className="text-center text-1xl mt-2 mx-2 mr-2 mb-1 py-2 text-pink-600">Learning</h2>
+              <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2 text-pink-600">Learning</h2>
               <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
