@@ -16,12 +16,10 @@ const HomePage = () => {
           <div className="w-full px-4 lg:w-6/12"></div>
           <div className="flex flex-col text-center items-center justify-center">
             <div className="mt-18 lg:mt-0">
-              <h1 className=" text-center text-4xl font-extrabold  text-pink-600  mt-2  mb-2 mx-2 mr-2">Hello, I'm</h1>
+              <h1 className=" text-center text-4xl font-extrabold  text-pink-600  mt-2  mx-2 mr-2">Hello, I'm</h1>
               <div className="flex flex-col text-center items-center justify-center">
-                <h1 className="text-center text-4xl font-extrabold text-indigo-500 mx-2 mr-2 mb-2 mt-2">
-                  Diego Marulanda
-                </h1>
-                <h1 className="text-center text-4xl font-extrabold mb-2 mt-2 mx-2 mr-2">Frontend Developer</h1>
+                <h1 className="text-center text-4xl font-extrabold text-indigo-500 mx-2 mr-2 mt-2">Diego Marulanda</h1>
+                <h1 className="text-center text-4xl font-extrabold mt-2 mx-2 mr-2">Frontend Developer</h1>
               </div>
 
               {/* botones */}
