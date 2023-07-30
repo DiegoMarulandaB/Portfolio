@@ -72,7 +72,7 @@ const PersonalProjects: React.FC = () => {
                   <h1 className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4 mx-2 mr-2 text-2xl  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
+                  <p className="flex flex-col text-center items-center justify-center text-ligth  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* icons of github */}

@@ -76,7 +76,7 @@ const AcademicProjects: React.FC = () => {
                   <h1 className="text-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="text-center text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold mx-2 mr-2 mb-4 ">
+                  <p className="text-center text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-ligth mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* iconos de github */}
