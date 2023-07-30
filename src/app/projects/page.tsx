@@ -81,9 +81,7 @@ const Projects: React.FC = () => {
                   onClick={() => handleProject('all')}
                   rel="dns-prefetch"
                   className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
-                    showCard === 'all'
-                      ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
-                      : 'inactiveClasses'
+                    showCard === 'all' ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2' : 'inactiveClasses'
                   }`}
                 >
                   All Projects
@@ -96,7 +94,7 @@ const Projects: React.FC = () => {
                   rel="dns-prefetch  preload"
                   className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'academic projects'
-                      ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
+                      ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -109,7 +107,7 @@ const Projects: React.FC = () => {
                   rel="dns-prefetch preload"
                   className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
-                      ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
+                      ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -120,15 +118,6 @@ const Projects: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-wrap rounded-lg -mx-4">
-          {/* <PortfolioCard
-            ImageHref="ProfileGithub.jpg"
-            category="Github repository"
-            title=" "
-            button="Read more"
-            buttonHref="https://github.com/DiegoMarulandaB?tab=repositories"
-            showCard={showCard}
-          /> */}
-
           <ProjectCards
             ImageHref="digitalBooking.jpg"
             category="Academic projects"
