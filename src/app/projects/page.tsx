@@ -31,12 +31,14 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
             className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  mx-2 mr-2 w-26
         "
           >
-            <span className="block mb-2 text-sm font-semibold text-primary">{category}</span>
+            <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
+              {category}
+            </span>
             <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
             <a
               href={buttonHref}
               rel="dns-prefetch"
-              className=" inline-block py-3 text-sm font-semibold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
+              className=" inline-block py-3 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
               "
             >
               {button}
@@ -64,7 +66,7 @@ const Projects: React.FC = () => {
               <h1 className="text-3xl md:text-4xl font-bold">
                 <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
               </h1>
-              <p className="text-base text-body-color text-center mx-2 mr-2">
+              <p className="text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-body-color text-center mx-2 mr-2">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
                 enjoy creating it.
               </p>
@@ -79,9 +81,9 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('all')}
                   rel="dns-prefetch"
-                  className={`inline-block rounded-md py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8  ${
+                  className={`inline-block rounded-md py-2 px-5 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition md:py-3 lg:px-8  ${
                     showCard === 'all'
-                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
+                      ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -93,9 +95,9 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('academic projects')}
                   rel="dns-prefetch  preload"
-                  className={`inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                  className={`inline-block rounded-lg py-2 px-5 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition md:py-3 lg:px-8 ${
                     showCard === 'academic projects'
-                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
+                      ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -106,9 +108,9 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('personal projects')}
                   rel="dns-prefetch preload"
-                  className={`inline-block rounded-lg py-4 px-4 text-center text-base font-semibold transition md:py-3 lg:px-8 ${
+                  className={`inline-block rounded-lg py-4 px-4 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
-                      ? 'activeClasses bg-primary text-cyan-400 no-underline hover:underline mx-2 mr-2'
+                      ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
                   }`}
                 >

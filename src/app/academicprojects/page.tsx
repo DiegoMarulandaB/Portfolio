@@ -48,7 +48,10 @@ const AcademicProjects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
       <h1 className="text-center text-2xl">
-        <AnimatedText text="Academic projects" className="text-center mx-2  mr-2 mb-2 mt-6 font-bold " />
+        <AnimatedText
+          text="Academic projects"
+          className="text-center mx-2  mr-2 mb-2 mt-6 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold "
+        />
       </h1>
       <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8">
         {projects.map((project, idx) => (
@@ -73,7 +76,7 @@ const AcademicProjects: React.FC = () => {
                   <h1 className="text-center  sm:text-1xl md:text-4xl lg:text-4xl xl:text-8xl font-bold mb-4  text-2xl mx-2 mr-2  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="text-center  sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mb-4 ">
+                  <p className="text-center text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
                   {/* iconos de github */}
@@ -81,7 +84,7 @@ const AcademicProjects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener dns-prefetch preload">
                       <button
                         type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 "
+                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl  mx-2 mr-2 mt-2 w-26 "
                       >
                         Read more
                       </button>
