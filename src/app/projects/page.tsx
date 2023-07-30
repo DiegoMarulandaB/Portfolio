@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
               <h1 className="text-3xl md:text-4xl font-bold">
                 <AnimatedText text="My portfolio" className="text-center mx-2 mr-2 mb-2 mt-18 font-bold" />
               </h1>
-              <p className="text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-body-color text-center mx-2 mr-2">
+              <p className="text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-light text-body-color text-center mx-2 mr-2">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
                 enjoy creating it.
               </p>
