@@ -2,7 +2,7 @@
 // No need for 'use client' in modern React apps
 import React from 'react'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-// import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
+
 
 const HomePage = () => {
   return (

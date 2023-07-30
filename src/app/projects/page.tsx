@@ -2,7 +2,6 @@
 // No need for 'use client' in modern React apps
 
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-// import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
 import React, { useState } from 'react'
 
 interface ProjectCardsProps {

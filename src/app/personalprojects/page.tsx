@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Slide from '@/components/Slide/Slide'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import React from 'react'
-// import { AiOutlineGithub } from 'react-icons/ai'
+
 
 interface Project {
   name: string
@@ -64,7 +64,7 @@ const PersonalProjects: React.FC = () => {
                       alt="img projects"
                       width={390}
                       height={390}
-                      className=" rounded-md bg-slate-200 dark:bg-slate-600  px-18 py-4 ml-auto md:mt-1  mx-2 mr-2 "
+                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-2 mr-2 "
                     />
                   </Link>
                 </div>
