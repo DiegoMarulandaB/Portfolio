@@ -127,7 +127,7 @@ const Projects: React.FC = () => {
             showCard={showCard}
           />
           <ProjectCards
-            ImageHref="counterClick.jpg"
+            ImageHref="calculator.jpg"
             category="Personal projects"
             title=""
             button="Read more"
