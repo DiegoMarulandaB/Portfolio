@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <section id="home" className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
-        <h1 className=" text-center mb-2  font-bold">
+        <h1 className=" text-center mb-2 ">
           <AnimatedText text="Dive into the world of code and creativity!" className=" mb-2 mt-26  mt-2 mx-2 mr-2" />
         </h1>
 
@@ -16,14 +16,14 @@ const HomePage = () => {
           <div className="w-full px-4 lg:w-6/12"></div>
           <div className="flex flex-col text-center items-center justify-center">
             <div className="mt-18 lg:mt-0">
-              <h1 className=" text-center mb-2 font-bold">
+              <h1 className=" text-center mb-2">
                 <AnimatedText text="Hello, I'm" className=" text-pink-600  mt-2 mx-2 mr-2 " />
               </h1>
               <div className="flex flex-col text-center items-center justify-center">
-                <h1 className="text-center mb-2 mt-4 font-bold">
+                <h1 className="text-center mb-2 mt-4">
                   <AnimatedText text="Diego Marulanda" className=" text-indigo-500 mt-2 mx-2 mr-2 " />
                 </h1>
-                <h1 className="text-center mb-2 mt-4 font-bold">
+                <h1 className="text-center mb-2 mt-4">
                   <AnimatedText text="frontend developer" className="mt-2 mx-2 mr-2 animate-bounce " />
                 </h1>
               </div>
@@ -34,7 +34,7 @@ const HomePage = () => {
                   <a
                     href="/about"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
                   >
                     About me
                   </a>
@@ -44,7 +44,7 @@ const HomePage = () => {
                   <a
                     href="/projects"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
                   >
                     My portfolio
                   </a>
@@ -56,7 +56,7 @@ const HomePage = () => {
                   <a
                     href="/contact"
                     rel="dns-prefetch"
-                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold"
+                    className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
                   >
                     Contact me
                   </a>

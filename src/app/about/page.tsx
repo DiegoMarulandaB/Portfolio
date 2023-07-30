@@ -7,11 +7,8 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText'
 const About = () => {
   return (
     <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
-      <h1 className="text-center mb-2 mt-4 font-bold">
-        <AnimatedText
-          text="About me"
-          className="mt-2 mx-2 mr-2 "
-        />
+      <h1 className="text-center mb-2 mt-4">
+        <AnimatedText text="About me" className="mt-2 mx-2 mr-2 " />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
@@ -25,9 +22,9 @@ const About = () => {
             height={148}
             className="w-40 h-40 rounded-full mx-auto mt-6 "
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-4">
+          <p className="text-center text-1xl mx-2 mr-2 mt-4">
             Hello! Allow me to introduce myself:{' '}
-            <strong className="text-indigo-400 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl">
+            <strong className="text-indigo-400 text-1xl ">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
             </strong>{' '}
             <br />
@@ -37,7 +34,7 @@ const About = () => {
           <br />
           <br />
           {/* experiencia */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-2xl text-pink-600 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 text-2xl  ">
             Experience
           </span>
           <br />
@@ -50,7 +47,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full "
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-4">
+          <p className="text-center text-1xl mx-2 mr-2 mt-4">
             Of course I have experience in some areas.
             <br />
             <br />
@@ -60,7 +57,7 @@ const About = () => {
           <br />
 
           {/* Studying */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8 text-2xl  text-pink-600 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 text-2xl ">
             Studies
           </span>
           <br />
@@ -73,7 +70,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-4">
+          <p className="text-center text-1xl mx-2 mr-2 mt-4">
             2021 - 2023
             <br /> I received a scholarship in the Certified Tech Developer program at Digital House, in partnership
             with Mercado Libre and Globant.
@@ -86,7 +83,7 @@ const About = () => {
             For more information about my studies in programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8 text-2xl  text-pink-600 sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl font-light ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8 text-2xl  text-pink-600  ">
             Hobbies
           </span>
           <br />
@@ -99,7 +96,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mx-2 mr-2 mt-6">
+          <p className="text-center text-1xl mx-2 mr-2 mt-6">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
             <br />
             <br />
@@ -115,7 +112,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl  mx-2 mr-2 mt-2">
+          <p className="text-center text-1xl mx-2 mr-2 mt-2">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology, it is essential to expand knowledge through books
@@ -127,13 +124,11 @@ const About = () => {
           <br />
         </div>
 
-        <div className="md:w-1/4 md:text-left">
-          <h1 className="text-center text-3xl lg:text-4xl xl:text-6xl mt-4 mx-2 mr-2 font-bold">My Skills</h1>
+        <div className="md:w-1/4 md:text-center">
+          <h1 className="text-center text-2xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-start">
             <div className="md:w-3/3">
-              <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-4 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
-                Languages
-              </h2>
+              <h2 className="text-center text-1xl mt-4 mx-2 mr-2 mb-1 py-2 text-pink-600">Languages</h2>
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
@@ -187,9 +182,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/3 md:mt-8">
-              <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
-                Tools
-              </h2>
+              <h2 className="text-center text-1xl mb-1 py-2 text-pink-600">Tools</h2>
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>
@@ -280,9 +273,7 @@ const About = () => {
             </div>
 
             <div className="md:w-3/2 md:mt-8">
-              <h2 className="text-center text-2xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl mt-2 mx-2 mr-2 font-light mb-1 py-2 text-pink-600">
-                Learning
-              </h2>
+              <h2 className="text-center text-1xl mt-2 mx-2 mr-2 mb-1 py-2 text-pink-600">Learning</h2>
               <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4">
                 {/* Images and Alt texts are left as-is */}
                 <div>

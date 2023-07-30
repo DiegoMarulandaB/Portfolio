@@ -5,7 +5,7 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText'
 // import { AiOutlineGithub, AiOutlineCode } from 'react-icons/ai'
 import React, { useState } from 'react'
 
-interface PortfolioCardProps {
+interface ProjectCardsProps {
   showCard: string
   category: string
   ImageHref: string
@@ -14,7 +14,7 @@ interface PortfolioCardProps {
   buttonHref: string
 }
 
-const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => {
+const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => {
   return (
     <div
       id="projects"
@@ -38,7 +38,7 @@ const PortfolioCard: React.FC<PortfolioCardProps> = ({ showCard, category, Image
             <a
               href={buttonHref}
               rel="dns-prefetch"
-              className=" inline-block py-3 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
+              className=" inline-block py-3 text-1xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
               "
             >
               {button}
@@ -63,10 +63,10 @@ const Projects: React.FC = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-              <h1 className="text-2xl text-center font-bold">
+              <h1 className="text-2xl text-center">
                 <AnimatedText text="My portfolio" className="mx-2 mr-2 mb-2 mt-18 " />
               </h1>
-              <p className="sm:text-1xl md:text-1xl lg:text-1xl xl:text-4xl text-body-color text-center mx-2 mr-2">
+              <p className="text-1xl text-body-color text-center mx-2 mr-2">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
                 enjoy creating it.
               </p>
@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('all')}
                   rel="dns-prefetch"
-                  className={`inline-block rounded-md py-2 px-5 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition md:py-3 lg:px-8  ${
+                  className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
                     showCard === 'all'
                       ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
@@ -95,7 +95,7 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('academic projects')}
                   rel="dns-prefetch  preload"
-                  className={`inline-block rounded-lg py-2 px-5 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition md:py-3 lg:px-8 ${
+                  className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'academic projects'
                       ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
                 <button
                   onClick={() => handleProject('personal projects')}
                   rel="dns-prefetch preload"
-                  className={`inline-block rounded-lg py-4 px-4 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold transition md:py-3 lg:px-8 ${
+                  className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
                       ? 'activeClasses bg-primary text-cyan-500 no-underline hover:underline mx-2 mr-2'
                       : 'inactiveClasses'
@@ -120,7 +120,7 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap rounded-lg -mx-4">
           {/* <PortfolioCard
             ImageHref="ProfileGithub.jpg"
             category="Github repository"
@@ -130,7 +130,7 @@ const Projects: React.FC = () => {
             showCard={showCard}
           /> */}
 
-          <PortfolioCard
+          <ProjectCards
             ImageHref="digitalBooking.jpg"
             category="Academic projects"
             title=""
@@ -138,7 +138,7 @@ const Projects: React.FC = () => {
             buttonHref="/academicprojects"
             showCard={showCard}
           />
-          <PortfolioCard
+          <ProjectCards
             ImageHref="counterClick.jpg"
             category="Personal projects"
             title=""
