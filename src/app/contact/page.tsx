@@ -11,11 +11,11 @@ const Contact: React.FC = () => {
           <h2 className="text-center mb-4">
             <AnimatedText text="Contact me" className="mr-2 mb-2  mt-2" />
           </h2>
-          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-4 text-center mx-2 mr-2 text-1xl text-pink-600">
+          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-12 text-center mx-2 mr-2 text-1xl text-pink-600">
             Get in touch with me through these links!
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-4 mx-2 mr-2">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-12 mx-2 mr-2">
           {contactLinks.map((link) => (
             <ContactLink key={link.text} {...link} />
           ))}
