@@ -1,4 +1,3 @@
-//!2024
 'use client'
 import React from 'react'
 import Image from 'next/image'
@@ -10,10 +9,6 @@ const About = () => {
       <h1 className="text-center ">
         <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-2 " />
       </h1>
-      {/* <div className="md:w-3/6 flex flex-row items-center justify-center">
-        <h2 className="mt-10  text-center text-pink-600 text-2xl">About Diego</h2>
-      </div> */}
-
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
           <Image
@@ -36,8 +31,8 @@ const About = () => {
           </p>
           <br />
           <br />
-          {/* experiencia */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 text-2xl  ">
+
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-2  text-pink-600 text-2xl  ">
             Experience
           </span>
           <br />
@@ -58,8 +53,8 @@ const About = () => {
             experience through the different projects that I carry out.
           </p>
           <br />
-          {/* Studying */}
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 text-2xl ">
+
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-2  text-pink-600 text-2xl ">
             Studies
           </span>
           <br />
@@ -85,7 +80,7 @@ const About = () => {
             For more information about my studies in programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8 text-2xl  text-pink-600  ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-2 text-2xl  text-pink-600  ">
             Hobbies
           </span>
           <br />
@@ -98,7 +93,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center text-1xl mx-4 mr-4 mt-6">
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
             <br />
             <br />
@@ -114,7 +109,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center text-1xl mx-4 mr-4 mt-2">
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology, it is essential to expand knowledge through books
@@ -125,14 +120,12 @@ const About = () => {
           </p>
           <br />
         </div>
-
         <div className="md:w-1/4">
           <h1 className="text-center text-3xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-center">
             <div className="md:w-3/3">
               <h2 className="text-center text-2xl mt-4 mx-2 mr-2 mb-1 py-2 text-pink-600">Languages</h2>
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
-                {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
                     loading="lazy"
@@ -144,7 +137,6 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-5xl"
                   />
                 </div>
-                {/* Add more language icons here */}
                 <div>
                   <Image
                     loading="lazy"
@@ -156,7 +148,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                 </div>
-                {/* javascript */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -168,7 +160,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
-                {/* react */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -186,7 +178,6 @@ const About = () => {
             <div className="md:w-3/3 md:mt-8">
               <h2 className="text-center text-2xl mb-1 py-2 text-pink-600">Tools</h2>
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
-                {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
                     loading="lazy"
@@ -198,8 +189,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
-                {/* Add more tools icons here */}
-                {/* git */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -211,7 +201,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
-                {/* github */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -223,7 +213,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
-                {/* linux */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -235,7 +225,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
-                {/* neovim */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -247,7 +237,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                 </div>
-                {/* postman */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -259,7 +249,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                 </div>
-                {/* vscode */}
+
                 <div>
                   <Image
                     loading="lazy"
@@ -277,7 +267,6 @@ const About = () => {
             <div className="md:w-3/2 md:mt-8">
               <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2 text-pink-600">Learning</h2>
               <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4">
-                {/* Images and Alt texts are left as-is */}
                 <div>
                   <Image
                     loading="lazy"
@@ -289,8 +278,7 @@ const About = () => {
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                 </div>
-                {/* Add more learning icons here */}
-                {/* typescript */}
+
                 <div>
                   <Image
                     loading="lazy"

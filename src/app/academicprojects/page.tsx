@@ -20,7 +20,7 @@ const projects: Project[] = [
     description:
       'Welcome to! I invite you to explore my repository on GitHub, where you will find my projects based on courses or on the Certified Tech Developer career. Dont miss the opportunity to immerse yourself in a universe of knowledge and creativity!',
     image: '/ProfileGithub.jpg',
-    // alt:"final project image",
+
     github: 'https://github.com/DiegoMarulandaB?tab=repositories',
     link: 'https://github.com/DiegoMarulandaB?tab=repositories',
   },
@@ -29,7 +29,7 @@ const projects: Project[] = [
     description:
       'This is the final project of the Certified Tech Developer career that was carried out together with other colleagues, to obtain the Professional Developer diploma at Digital House. Presentation of the demo to a Globant representative. 04/06/2023.',
     image: '/digitalBooking.jpg',
-    // alt:"final project image",
+
     github: 'https://github.com/DiegoMarulandaB/Digital-booking',
     link: 'https://github.com/DiegoMarulandaB/Digital-booking',
   },
@@ -61,7 +61,7 @@ const AcademicProjects: React.FC = () => {
                       loading="lazy"
                       rel="dns-prefetch  preload"
                       src={project.image}
-                      alt="img projects"
+                      alt="projects image"
                       width={390}
                       height={390}
                       className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-4 mr-4"
@@ -71,7 +71,7 @@ const AcademicProjects: React.FC = () => {
                 <div className="mt-6 md:w-2/6 mx-2 mr-2">
                   <h1 className="text-center text-2xl font-bold mb-4  mx-2 mr-2  text-pink-600">{project.name}</h1>
                   <p className="text-center text-1xl  mx-2 mr-2 mb-4 ">{project.description}</p>
-                  {/* iconos de github */}
+
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
                     <Link href={project.github} target="_blank" rel="noopener dns-prefetch preload">
                       <button
@@ -83,8 +83,6 @@ const AcademicProjects: React.FC = () => {
                     </Link>
                     <Link href={project.link} target="_blank" rel="noopener dns-prefetch preload" />
                   </div>
-
-                  {/* aca */}
                 </div>
               </div>
             </Slide>

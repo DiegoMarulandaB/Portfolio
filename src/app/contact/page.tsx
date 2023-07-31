@@ -52,7 +52,7 @@ const contactLinks: ContactLinkProps[] = [
     href: 'mailto:diegomarulanda87@gmail.com',
     text: 'Email',
     icon: <AiOutlineMail className="icon text-white" size={40} />,
-    username: 'diegomarulanda87@gmail.com',
+    username: 'Send me an email!',
   },
   {
     href: 'https://twitter.com/DAMB1987',

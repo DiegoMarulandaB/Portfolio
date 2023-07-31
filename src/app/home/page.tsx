@@ -1,8 +1,7 @@
-'use client' // this is a client component
-// No need for 'use client' in modern React apps
+'use client'
+
 import React from 'react'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
-
 
 const HomePage = () => {
   return (
@@ -22,7 +21,6 @@ const HomePage = () => {
                 <h1 className="text-center text-4xl font-extrabold mt-2 mx-2 mr-2">Frontend Developer</h1>
               </div>
 
-              {/* botones */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 mr-2 mt-6">
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
@@ -33,7 +31,7 @@ const HomePage = () => {
                     About me
                   </a>
                 </div>
-                {/* my portfolio */}
+
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/projects"
@@ -43,8 +41,6 @@ const HomePage = () => {
                     My portfolio
                   </a>
                 </div>
-
-                {/* contact me */}
 
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a

@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function NotFound() {
   return (
     <div className="bg-slate-100 dark:bg-slate-700 py-4 px-4 sm:px-6 lg:px-8">

@@ -1,5 +1,4 @@
-'use client' // this is a client component
-// No need for 'use client' in modern React apps
+'use client'
 
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import React, { useState } from 'react'

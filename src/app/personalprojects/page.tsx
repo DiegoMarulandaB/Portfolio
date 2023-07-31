@@ -6,7 +6,6 @@ import Slide from '@/components/Slide/Slide'
 import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import React from 'react'
 
-
 interface Project {
   name: string
   description: string
@@ -21,7 +20,7 @@ const projects: Project[] = [
     description:
       'Welcome to! I invite you to explore my repository on GitHub, where you will find my projects based on courses or on the Certified Tech Developer career. Dont miss the opportunity to immerse yourself in a universe of knowledge and creativity!',
     image: '/ProfileGithub.jpg',
-    // alt:"final project image",
+
     github: 'https://github.com/DiegoMarulandaB?tab=repositories',
     link: 'https://github.com/DiegoMarulandaB?tab=repositories',
   },
@@ -30,7 +29,7 @@ const projects: Project[] = [
     description:
       'Here a basic calculator built using Vite and React, inspired by FreeCodeCamp amazing course on React. This calculator combines the best of both technologies to provide an interactive and functional experience for users.',
     image: '/calculator.jpg',
-    // alt:"final project image",
+
     github: 'https://github.com/DiegoMarulandaB/interactive-calculator-react',
     link: 'https://github.com/DiegoMarulandaB/interactive-calculator-react',
   },
@@ -61,7 +60,7 @@ const PersonalProjects: React.FC = () => {
                       loading="lazy"
                       rel="dns-prefetch preload"
                       src={project.image}
-                      alt="img projects"
+                      alt="projects image"
                       width={390}
                       height={390}
                       className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-2 mr-2 "
@@ -75,7 +74,7 @@ const PersonalProjects: React.FC = () => {
                   <p className="flex flex-col text-center items-center justify-center text-1xl  mx-2 mr-2 mb-4 ">
                     {project.description}
                   </p>
-                  {/* icons of github */}
+
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
                     <Link href={project.github} target="_blank" rel="noopener dns-prefetch  preload">
                       <button
