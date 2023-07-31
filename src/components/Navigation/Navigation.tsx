@@ -35,7 +35,7 @@ export default function Navigation() {
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                className="p-2 text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 cursor-pointer px-2 py-2 text-1xl  font-bold mx-2 mr-2"
+                className="p-2 text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 cursor-pointer px-2 py-2 text-1xl  font-bold mx-1 mr-1"
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
