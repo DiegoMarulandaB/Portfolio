@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-              <h1 className="text-2xl text-center">
+              <h1 className="text-center">
                 <AnimatedText text="My portfolio" className="mx-2 mr-2 mb-2 mt-18 " />
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2">

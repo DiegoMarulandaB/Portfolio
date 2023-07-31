@@ -6,9 +6,9 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText'
 
 const About = () => {
   return (
-    <section id="about" className="my-20 pb-12 md:pt-16 md:pb-48">
-      <h1 className="text-center mb-2 mt-4">
-        <AnimatedText text="About me" className="mt-2 mx-2 mr-2 " />
+    <section id="about" className="my-20">
+      <h1 className="text-center ">
+        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-2 " />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
@@ -55,7 +55,6 @@ const About = () => {
             experience through the different projects that I carry out.
           </p>
           <br />
-
           {/* Studying */}
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-8  text-pink-600 text-2xl ">
             Studies
@@ -121,7 +120,7 @@ const About = () => {
             <br />
             <br /> My favorite writer is Brandon Sanderson.
           </p>
-          <br />
+          <br />d
         </div>
 
         <div className="md:w-1/4">
