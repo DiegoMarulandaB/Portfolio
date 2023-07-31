@@ -24,18 +24,18 @@ export default function Navigation() {
   // w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow
   return (
     <header className="w-full mx-auto px-4 sm:px-30 fixed top-0 z-50 shadow bg-slate-200 dark:bg-slate-700 dark:border-b dark:border-cyan-500 ">
-      <div className="justify-evenly  md:items-center md:flex  ">
+      <div className="justify-between  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
             <Link href="/" rel="dns-prefetch">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform cursor-pointer ">Diego Marulanda</h2>
+                <h2 className="text-1xl font-bold transition-transform cursor-pointer mx-2 mr-2">Diego Marulanda</h2>
               </div>
             </Link>
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                className="p-2 text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 cursor-pointer px-2 py-2 text-1xl  font-bold"
+                className="p-2 text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 cursor-pointer px-2 py-2 text-1xl  font-bold mx-2 mr-2"
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -47,7 +47,7 @@ export default function Navigation() {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-cyan-600 transition-transform cursor-pointer text-1xl  text-black  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-cyan-600 transition-transform cursor-pointer text-1xl mx-2 mr-2  text-black  ${
               navigation ? 'block' : 'hidden'
             }`}
           >

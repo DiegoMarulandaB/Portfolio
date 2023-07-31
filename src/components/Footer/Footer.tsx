@@ -3,14 +3,14 @@ import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icon
 
 const Footer = () => {
   return (
-    <footer className="w-full mx-auto max-w-10xl px-4 text-1xl ">
-      <hr className="w-full mx-auto mt-8 bg-gradient-to-r from-cyan-600 border-b border-cyan-500 " />
-      <div className="mx-auto p-4 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly mt-2">
-        <div className="flex flex-row items-center justify-between space-x-2 mb-2 mt-2 mx-16 mr-16  text-neutral-800 dark:text-neutral-100 ">
-          &copy; {new Date().getFullYear()} Diego Marulanda. All Rights Reserved.
+    <footer className=" mx-auto max-w-10xl px-4 sm:px-6 md:max-w-10xl ">
+      <hr className="w-full mx-auto mt-4 bg-gradient-to-r from-cyan-600 border-b border-cyan-500 " />
+      <div className="mx-auto p-4 flex flex-col items-center justify-center text-center md:flex-row md:justify-between mt-1">
+        <div className="flex flex-row items-center justify-between space-x-2 mb-2  mt-1 text-neutral-800 dark:text-neutral-100 mx-2 mr-2 ">
+          &copy; {new Date().getFullYear()} Diego Marulanda. From Colombia | All Rights Reserved.
           <a href="/" className="hover:underline" />
         </div>
-        <div className="flex flex-row items-center justify-center space-x-2 mb-2 mt-2">
+        <div className="flex flex-row items-center justify-between space-x-2 mb-2  mt-1 ">
           <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener dns-prefetch">
             <AiOutlineTwitter
               className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
