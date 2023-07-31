@@ -22,7 +22,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 rounded-full mx-auto mt-6 "
           />
-          <p className="text-center text-1xl mx-2 mr-2 mt-4">
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             Hello! Allow me to introduce myself:{' '}
             <strong className="text-indigo-400 text-1xl ">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
@@ -47,7 +47,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full "
           />
-          <p className="text-center text-1xl mx-2 mr-2 mt-4">
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             Of course I have experience in some areas.
             <br />
             <br />
@@ -96,7 +96,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center text-1xl mx-2 mr-2 mt-6">
+          <p className="text-center text-1xl mx-4 mr-4 mt-6">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
             <br />
             <br />
@@ -112,7 +112,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full"
           />
-          <p className="text-center text-1xl mx-2 mr-2 mt-2">
+          <p className="text-center text-1xl mx-4 mr-4 mt-2">
             I like to read,{' '}
             <span className="font-bold">
               I believe that in the world of technology, it is essential to expand knowledge through books
