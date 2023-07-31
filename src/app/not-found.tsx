@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NotFound() {
   return (
-    <div className="bg-slate-200 dark:bg-slate-700 py-4 px-4 sm:px-6 lg:px-8">
+    <div className="bg-slate-100 dark:bg-slate-700 py-4 px-4 sm:px-6 lg:px-8">
       <div className="min-h-screen flex items-center justify-center">
         <div className="max-w-md mx-auto text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700    p-8 rounded-md shadow-lg border-2 border-gray-800">
           <h1 className="text-white-900 text-4xl font-bold mb-4">Error 404</h1>
