@@ -10,6 +10,9 @@ const About = () => {
       <h1 className="text-center ">
         <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-2 " />
       </h1>
+      {/* <div className="md:w-3/6 flex flex-row items-center justify-center">
+        <h2 className="mt-10  text-center text-pink-600 text-2xl">About Diego</h2>
+      </div> */}
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
@@ -120,7 +123,7 @@ const About = () => {
             <br />
             <br /> My favorite writer is Brandon Sanderson.
           </p>
-          <br />d
+          <br />
         </div>
 
         <div className="md:w-1/4">
