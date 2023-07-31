@@ -46,7 +46,7 @@ const projects: Project[] = [
 const PersonalProjects: React.FC = () => {
   return (
     <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
-      <h1 className="text-center text-2xl">
+      <h1 className="text-center ">
         <AnimatedText text="Personal projects" className="mx-2  mr-2 mb-2 mt-6 " />
       </h1>
       <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8  ">

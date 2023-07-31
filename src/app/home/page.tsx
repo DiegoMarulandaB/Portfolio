@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <section id="home" className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
-        <h1 className=" text-center mb-2 mt-4 ">
+        <h1 className=" text-center">
           <AnimatedText text="Dive into the world of code and creativity!" className=" mt-2 mx-2 mr-2" />
         </h1>
 
