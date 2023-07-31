@@ -3,15 +3,16 @@
 import React from 'react'
 import '../styles/globals.css'
 import type { Metadata } from 'next'
-import { Poppins } from "next/font/google"
+import { Poppins } from 'next/font/google'
 import Navigation from '../components/Navigation/Navigation'
 import Footer from '../components/Footer/Footer'
 import { ThemeProvider } from 'next-themes'
 
 const metadata: Metadata = {
   title: 'Diego Marulanda',
-  description: 'web site Diego Marulanda',
-  keywords: 'next,react,typescript,tailwind',
+  description: 'Diego Marulanda Portfolio',
+  keywords:
+    'Next.js 13,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Visual Studio Code, Bash',
 }
 
 export const popps = Poppins({
