@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className=" mx-auto max-w-10xl  px-4 sm:px-4 md:max-w-10xl bg-slate-100  dark:bg-slate-700  ">
       <hr className="bg-slate-200  bg-gradient-to-r from-cyan-600 border-b border-cyan-500 mt-4" />
-      <div className="mx-auto p-4 flex flex-col items-center justify-center text-center md:flex-row md:justify-between mt-1">
+      <div className="mx-auto p-4 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly mt-1">
         <div className="flex flex-row items-center justify-between space-x-2 mb-2  mt-1 text-neutral-800 dark:text-neutral-100 mx-2 mr-2 ">
           &copy; {new Date().getFullYear()} Diego Marulanda. | console.log("All Rights Reserved.")
           <a href="/" className="hover:underline" />
