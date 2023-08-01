@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
           <h2 className="text-center mb-4">
             <AnimatedText text="Contact me" className="mr-2 mb-2  mt-2" />
           </h2>
-          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-12 text-center mx-2 mr-2 text-1xl text-pink-600">
+          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-12 text-center mx-2 mr-2 text-2xl text-pink-600">
             Get in touch with me through these links!
           </p>
         </div>
@@ -58,19 +58,19 @@ const contactLinks: ContactLinkProps[] = [
     href: 'https://twitter.com/DAMB1987',
     text: 'Twitter',
     icon: <AiOutlineTwitter className="icon text-white" size={40} />,
-    username: '@DAMB1987',
+    username: 'Follow me',
   },
   {
     href: 'https://www.linkedin.com/in/diegomarulandabarrientos/',
     text: 'LinkedIn',
     icon: <AiOutlineLinkedin className="icon text-white" size={40} />,
-    username: 'diegomarulandabarrientos',
+    username: 'Follow me',
   },
   {
     href: 'https://github.com/DiegoMarulandaB?tab=repositories',
     text: 'GitHub',
     icon: <AiOutlineGithub className="icon text-white" size={40} />,
-    username: 'DiegoMarulandaB',
+    username: 'Follow me',
   },
 ]
 
