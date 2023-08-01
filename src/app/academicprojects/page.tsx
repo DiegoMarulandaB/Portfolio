@@ -64,13 +64,13 @@ const AcademicProjects: React.FC = () => {
                       alt="projects image"
                       width={390}
                       height={390}
-                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-4 mr-4"
+                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-2 mr-4"
                     />
                   </Link>
                 </div>
-                <div className="mt-6 md:w-2/6 mx-2 mr-2">
-                  <h1 className="text-center text-2xl font-bold mb-4  mx-2 mr-2  text-pink-600">{project.name}</h1>
-                  <p className="text-center text-1xl  mx-2 mr-2 mb-4 ">{project.description}</p>
+                <div className="mt-4 md:w-2/6 mx-2 mr-2">
+                  <h1 className="text-center text-2xl font-bold mb-2  mx-2 mr-2  text-pink-600">{project.name}</h1>
+                  <p className="text-center text-1xl  mx-2 mr-2 mt-2 ">{project.description}</p>
 
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
                     <Link href={project.github} target="_blank" rel="noopener dns-prefetch preload">

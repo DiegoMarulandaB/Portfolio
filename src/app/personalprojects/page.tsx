@@ -67,11 +67,11 @@ const PersonalProjects: React.FC = () => {
                     />
                   </Link>
                 </div>
-                <div className="mt-6 md:w-2/6 mx-2 mr-2">
-                  <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-4 mx-2 mr-2   text-pink-600">
+                <div className="mt-4 md:w-2/6 mx-2 mr-2">
+                  <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-2 mx-2 mr-2   text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center text-1xl  mx-2 mr-2 mb-4 ">
+                  <p className="flex flex-col text-center items-center justify-center text-1xl  mx-2 mr-2 mt-2 ">
                     {project.description}
                   </p>
 
