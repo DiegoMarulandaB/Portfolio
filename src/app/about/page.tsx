@@ -54,7 +54,7 @@ const About = () => {
           </p>
           <br />
 
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-2  text-pink-600 text-2xl ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4  text-pink-600 text-2xl ">
             Studies
           </span>
           <br />
@@ -80,7 +80,7 @@ const About = () => {
             For more information about my studies in programming, I invite you to visit my LinkedIn profile.
           </p>
           <br />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-2 text-2xl  text-pink-600  ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4 text-2xl  text-pink-600  ">
             Hobbies
           </span>
           <br />
@@ -125,7 +125,7 @@ const About = () => {
           <div className="flex flex-wrap flex-row justify-center md:justify-center">
             <div className="md:w-3/3">
               <h2 className="text-center text-2xl mt-4 mx-2 mr-2 mb-1 py-2 text-pink-600">Languages</h2>
-              <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                 <div>
                   <Image
                     loading="lazy"
@@ -177,7 +177,7 @@ const About = () => {
 
             <div className="md:w-3/3 md:mt-8">
               <h2 className="text-center text-2xl mb-1 py-2 text-pink-600">Tools</h2>
-              <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                 <div>
                   <Image
                     loading="lazy"
@@ -266,7 +266,7 @@ const About = () => {
 
             <div className="md:w-3/2 md:mt-8">
               <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2 text-pink-600">Learning</h2>
-              <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4">
+              <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                 <div>
                   <Image
                     loading="lazy"
