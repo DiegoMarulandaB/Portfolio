@@ -49,7 +49,7 @@ const PersonalProjects: React.FC = () => {
       <h1 className="text-center ">
         <AnimatedText text="Personal projects" className="mx-2 mr-2 mb-2 mt-4" />
       </h1>
-      <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-8  ">
+      <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-6  ">
         {projects.map((project, idx) => (
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
@@ -71,7 +71,7 @@ const PersonalProjects: React.FC = () => {
                   <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-2 mx-2 mr-2   text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center text-1xl  mx-2 mr-2 mt-2 ">
+                  <p className="flex flex-col text-center items-center justify-center text-1xl  mx-2 mr-2 mt-4 ">
                     {project.description}
                   </p>
 
@@ -79,7 +79,7 @@ const PersonalProjects: React.FC = () => {
                     <Link href={project.github} target="_blank" rel="noopener dns-prefetch  preload">
                       <button
                         type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-2 w-26 text-center text-1xl  font-bold "
+                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold "
                       >
                         Read more
                       </button>
