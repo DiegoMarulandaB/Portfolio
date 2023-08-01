@@ -32,7 +32,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
             <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
               {category}
             </span>
-            <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
+            <h3 className="mb-4 text-1xl font-bold text-dark">{title}</h3>
             <a
               href={buttonHref}
               rel="dns-prefetch"
