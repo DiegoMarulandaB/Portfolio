@@ -64,7 +64,7 @@ const AcademicProjects: React.FC = () => {
                       alt="projects image"
                       width={390}
                       height={390}
-                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-2 mr-4"
+                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-4 mr-4 mt-4"
                     />
                   </Link>
                 </div>

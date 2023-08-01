@@ -22,7 +22,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
     >
       <div className="relative mb-12">
         <div className="overflow-hidden rounded-md">
-          <img src={ImageHref} alt="portfolio" rel="dns-prefetch" className="w-full" />
+          <img src={ImageHref} alt="portfolio" rel="dns-prefetch" className="w-full mt-6" />
         </div>
         <div className="flex flex-col text-center items-center justify-center ">
           <div
@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
               <h1 className="text-center">
                 <AnimatedText text="My portfolio" className="mx-2 mr-2 mt-4" />
               </h1>
-              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-10">
+              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-6">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
                 enjoy creating it.
               </p>
