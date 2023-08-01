@@ -5,7 +5,7 @@ import AnimatedText from '@/components/AnimatedText/AnimatedText'
 
 const About = () => {
   return (
-    <section id="about" className="my-20">
+    <section id="about" className="pt-20">
       <h1 className="text-center ">
         <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-2 " />
       </h1>

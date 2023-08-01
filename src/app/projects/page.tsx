@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
   }
 
   return (
-    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+    <section className="pt-20 lg:pt-[120px] lg:pb-[90px]">
       <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">

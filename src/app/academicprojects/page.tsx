@@ -45,7 +45,7 @@ const projects: Project[] = [
 
 const AcademicProjects: React.FC = () => {
   return (
-    <section id="projects" className="my-20 pb-1 md:pt-12 md:pb-1">
+    <section id="projects" className="pt-20">
       <h1 className="text-center">
         <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-4" />
       </h1>
