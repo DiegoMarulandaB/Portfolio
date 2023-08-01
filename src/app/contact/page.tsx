@@ -38,11 +38,11 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username })
       href={href}
       target="_blank"
       rel="noopener dns-prefetch"
-      className="flex flex-col items-center text-center px-4 py-6 border  cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
+      className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
     >
       {icon}
       <span className="text-2xl font-medium text-white">{text}</span>
-      {username && <span className="text-3xl font-bold text-white">{username}</span>}
+      {username && <span className="text-2xl font-bold text-white">{username}</span>}
     </a>
   )
 }
