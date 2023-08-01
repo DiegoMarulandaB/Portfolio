@@ -56,15 +56,15 @@ const Projects: React.FC = () => {
   }
 
   return (
-    <section className="pt-20 lg:pt-[120px] lg:pb-[90px]">
+    <section className="pt-20  lg:pt-[90px] lg:pb-[90px]">
       <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1 className="text-center">
-                <AnimatedText text="My portfolio" className="mx-2 mr-2 mb-2 mt-4" />
+                <AnimatedText text="My portfolio" className="mx-2 mr-2" />
               </h1>
-              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-4">
+              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-10">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
                 enjoy creating it.
               </p>
