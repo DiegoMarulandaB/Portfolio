@@ -59,7 +59,7 @@ const AcademicProjects: React.FC = () => {
                   <Link href={project.link}>
                     <Image
                       loading="lazy"
-                      rel="dns-prefetch  preload"
+                      rel="noopener noreferrer dns-prefetch preload"
                       src={project.image}
                       alt="projects image"
                       width={390}
@@ -73,7 +73,7 @@ const AcademicProjects: React.FC = () => {
                   <p className="text-center text-1xl  mx-2 mr-2 mt-4 ">{project.description}</p>
 
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
-                    <Link href={project.github} target="_blank" rel="noopener dns-prefetch preload">
+                    <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
                       <button
                         type="button"
                         className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mx-2 mr-2 mt-4 w-26 "
@@ -81,7 +81,7 @@ const AcademicProjects: React.FC = () => {
                         Read more
                       </button>
                     </Link>
-                    <Link href={project.link} target="_blank" rel="noopener dns-prefetch preload" />
+                    <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
                   </div>
                 </div>
               </div>

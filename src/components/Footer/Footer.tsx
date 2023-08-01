@@ -11,19 +11,23 @@ const Footer = () => {
           <a href="/" className="hover:underline" />
         </div>
         <div className="flex flex-row items-center justify-between space-x-2 mb-2  mt-1 ">
-          <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener dns-prefetch">
+          <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener noreferrer dns-prefetch">
             <AiOutlineTwitter
               className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
               size={34}
             />
           </a>
-          <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener dns-prefetch">
+          <a
+            href="https://www.linkedin.com/in/diegomarulandabarrientos/"
+            target="_blank"
+            rel="noopener noreferrer dns-prefetch"
+          >
             <AiOutlineLinkedin
               className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
               size={34}
             />
           </a>
-          <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener dns-prefetch">
+          <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener noreferrer dns-prefetch">
             <AiOutlineGithub
               className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md "
               size={34}

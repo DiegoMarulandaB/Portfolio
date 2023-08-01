@@ -37,7 +37,7 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username })
     <a
       href={href}
       target="_blank"
-      rel="noopener dns-prefetch"
+      rel="noopener noreferrer dns-prefetch"
       className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
     >
       {icon}
