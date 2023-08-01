@@ -11,11 +11,11 @@ const Contact: React.FC = () => {
           <h2 className="text-center mb-4">
             <AnimatedText text="Contact me" className="mr-2 mb-2  mt-2" />
           </h2>
-          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-12 text-center mx-2 mr-2 text-2xl text-pink-600">
+          <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-6 text-center mx-2 mr-2 text-2xl text-pink-600">
             Get in touch with me through these links!
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-12 mx-2 mr-2">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-6 mx-2 mr-2">
           {contactLinks.map((link) => (
             <ContactLink key={link.text} {...link} />
           ))}
@@ -41,8 +41,8 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username })
       className="flex flex-col items-center text-center px-4 py-6 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
     >
       {icon}
-      <span className="text-1xl font-medium text-white">{text}</span>
-      {username && <span className="text-sm text-white">{username}</span>}
+      <span className="text-2xl font-medium text-white">{text}</span>
+      {username && <span className="text-1xl font-bold text-white">{username}</span>}
     </a>
   )
 }
@@ -51,25 +51,25 @@ const contactLinks: ContactLinkProps[] = [
   {
     href: 'mailto:diegomarulanda87@gmail.com',
     text: 'Email',
-    icon: <AiOutlineMail className="icon text-white" size={40} />,
+    icon: <AiOutlineMail className="icon text-white" size={42} />,
     username: 'Send me an email!',
   },
   {
     href: 'https://twitter.com/DAMB1987',
     text: 'Twitter',
-    icon: <AiOutlineTwitter className="icon text-white" size={40} />,
+    icon: <AiOutlineTwitter className="icon text-white" size={42} />,
     username: 'Follow me',
   },
   {
     href: 'https://www.linkedin.com/in/diegomarulandabarrientos/',
     text: 'LinkedIn',
-    icon: <AiOutlineLinkedin className="icon text-white" size={40} />,
+    icon: <AiOutlineLinkedin className="icon text-white" size={42} />,
     username: 'Follow me',
   },
   {
     href: 'https://github.com/DiegoMarulandaB?tab=repositories',
     text: 'GitHub',
-    icon: <AiOutlineGithub className="icon text-white" size={40} />,
+    icon: <AiOutlineGithub className="icon text-white" size={42} />,
     username: 'Follow me',
   },
 ]
