@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1 className="text-center">
-                <AnimatedText text="My portfolio" className="mx-2 mr-2" />
+                <AnimatedText text="My portfolio" className="mx-2 mr-2 mt-4" />
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-10">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i

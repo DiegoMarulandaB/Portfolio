@@ -8,7 +8,7 @@ const HomePage = () => {
     <section id="home" className="pt-20 lg:pt-[100px] pb-12 lg:pb-[100px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
         <h1 className=" text-center">
-          <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 " />
+          <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 mt-4" />
         </h1>
 
         <div className="flex flex-col items-center justify-center -mx-4">
