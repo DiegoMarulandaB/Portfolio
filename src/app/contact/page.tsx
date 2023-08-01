@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
     <div className="bg-slate-100 dark:bg-slate-700 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col text-center items-center justify-center mt-14">
-          <h2 className="text-center pt-20">
+          <h2 className="text-center mb-4">
             <AnimatedText text="Contact me" className="mr-2 mb-2  mt-2" />
           </h2>
           <p className="bg-slate-100 dark:bg-slate-700 mb-4 mt-12 text-center mx-2 mr-2 text-1xl text-pink-600">
