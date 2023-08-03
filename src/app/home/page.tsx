@@ -58,8 +58,8 @@ function HomePage() {
               <div className="flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-4 mx-2 mr-2 ">
                 <img
                   loading="lazy"
-                  src="/ProjectsWebs"
-                  alt="email image"
+                  src="/ProjectsWebs.svg"
+                  alt="ProjectsWebs image"
                   className="w-80 h-96 rounded-full mx-2 mr-2 mt-8"
                 />
               </div>
