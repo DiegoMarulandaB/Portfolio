@@ -18,7 +18,7 @@ const Footer: React.FC = () => (
         </a>
         <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener noreferrer">
           <AiOutlineLinkedin
-            className="icon text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 border-2 rounded-md"
+            className="icon text-white bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 border-2 rounded-md"
             size={34}
           />
         </a>

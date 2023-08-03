@@ -51,7 +51,7 @@ const contactLinks: ContactLinkProps[] = [
     icon: (
       <AiOutlineMail
         className="icon text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 border-2 rounded-md"
-        size={42}
+        size={43}
       />
     ),
     username: 'Send me an email!',
@@ -62,7 +62,7 @@ const contactLinks: ContactLinkProps[] = [
     icon: (
       <AiOutlineTwitter
         className="icon text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 border-2 rounded-md"
-        size={42}
+        size={43}
       />
     ),
     username: 'Follow me',
@@ -70,7 +70,12 @@ const contactLinks: ContactLinkProps[] = [
   {
     href: 'https://www.linkedin.com/in/diegomarulandabarrientos/',
     text: 'LinkedIn',
-    icon: <AiOutlineLinkedin className="icon text-white bg-blue-600 border-2 rounded-md" size={42} />,
+    icon: (
+      <AiOutlineLinkedin
+        className="icon text-white bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 border-2 rounded-md"
+        size={43}
+      />
+    ),
     username: 'Follow me',
   },
   {
@@ -79,7 +84,7 @@ const contactLinks: ContactLinkProps[] = [
     icon: (
       <AiOutlineGithub
         className="icon text-white bg-gradient-to-r from-gray-700 via-gray-700 to-gray-700 border-2  rounded-md"
-        size={42}
+        size={43}
       />
     ),
     username: 'Follow me',
