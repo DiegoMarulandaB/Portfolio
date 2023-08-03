@@ -12,19 +12,19 @@ const Footer: React.FC = () => (
       <div className="flex flex-row items-center justify-between space-x-2 mb-2  mt-1 ">
         <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener noreferrer">
           <AiOutlineTwitter
-            className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
+            className="icon  text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 rounded-md"
             size={34}
           />
         </a>
         <a href="https://www.linkedin.com/in/diegomarulandabarrientos/" target="_blank" rel="noopener noreferrer">
           <AiOutlineLinkedin
-            className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
+            className="icon text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700  rounded-md"
             size={34}
           />
         </a>
         <a href="https://github.com/DiegoMarulandaB" target="_blank" rel="noopener noreferrer">
           <AiOutlineGithub
-            className="icon text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
+            className="icon text-white bg-gradient-to-r from-gray-700 via-gray-600 to-gray-700  rounded-md"
             size={34}
           />
         </a>
