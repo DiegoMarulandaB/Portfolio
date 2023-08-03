@@ -1,7 +1,7 @@
 'use client'
 
-import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import React, { useState } from 'react'
+import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
 interface ProjectCardsProps {
   showCard: string
@@ -12,41 +12,39 @@ interface ProjectCardsProps {
   buttonHref: string
 }
 
-const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => {
-  return (
-    <div
-      id="projects"
-      className={`w-full px-4 md:w-1/2 xl:w-1/3  ${
-        showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
-      }`}
-    >
-      <div className="relative mb-12">
-        <div className="overflow-hidden rounded-md">
-          <img src={ImageHref} alt="portfolio" rel="dns-prefetch" className="w-full mt-6" />
-        </div>
-        <div className="flex flex-col text-center items-center justify-center ">
-          <div
-            className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  mx-2 mr-2 w-26
+const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => (
+  <div
+    id="projects"
+    className={`w-full px-4 md:w-1/2 xl:w-1/3  ${
+      showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
+    }`}
+  >
+    <div className="relative mb-12">
+      <div className="overflow-hidden rounded-md">
+        <img src={ImageHref} alt="portfolio" rel="noopener noreferrer" className="w-full mt-6" />
+      </div>
+      <div className="flex flex-col text-center items-center justify-center ">
+        <div
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  mx-2 mr-2 w-26
         "
-          >
-            <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
-              {category}
-            </span>
-            <h3 className="mb-4 text-1xl font-bold text-dark">{title}</h3>
-            <a
-              href={buttonHref}
-              rel="dns-prefetch"
-              className=" inline-block py-3 text-1xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
+        >
+          <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
+            {category}
+          </span>
+          <h3 className="mb-4 text-1xl font-bold text-dark">{title}</h3>
+          <a
+            href={buttonHref}
+            rel="noopener noreferrer dns-prefetch"
+            className=" inline-block py-3 text-1xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
               "
-            >
-              {button}
-            </a>
-          </div>
+          >
+            {button}
+          </a>
         </div>
       </div>
     </div>
-  )
-}
+  </div>
+)
 
 const Projects: React.FC = () => {
   const [showCard, setShowCard] = useState<string>('all')
@@ -90,7 +88,6 @@ const Projects: React.FC = () => {
               <li className="mb-1">
                 <button
                   onClick={() => handleProject('academic projects')}
-                  rel="noopener noreferrer dns-prefetch  preload"
                   className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'academic projects'
                       ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
@@ -103,7 +100,6 @@ const Projects: React.FC = () => {
               <li className="mb-1">
                 <button
                   onClick={() => handleProject('personal projects')}
-                  rel="noopener noreferrer dns-prefetch preload"
                   className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                     showCard === 'personal projects'
                       ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'

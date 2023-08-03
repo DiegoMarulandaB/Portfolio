@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react'
-import AnimatedText from '@/components/AnimatedText/AnimatedText'
+import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
-const HomePage = () => {
+function HomePage() {
   return (
     <section id="home" className="pt-20 lg:pt-[100px] pb-12 lg:pb-[100px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
@@ -12,7 +12,7 @@ const HomePage = () => {
         </h1>
 
         <div className="flex flex-col items-center justify-center -mx-4">
-          <div className="w-full px-4 lg:w-6/12"></div>
+          <div className="w-full px-4 lg:w-6/12" />
           <div className="flex flex-col text-center items-center justify-center">
             <div className="mt-18 lg:mt-0">
               <h1 className=" text-center text-4xl font-extrabold  text-pink-600  mt-4  mx-2 mr-2">Hello, I'm</h1>
@@ -25,7 +25,7 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/about"
-                    rel="dns-prefetch"
+                    rel="noopener noreferrer"
                     className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
                   >
                     About me
@@ -35,7 +35,7 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/projects"
-                    rel="dns-prefetch"
+                    rel="noopener noreferrer"
                     className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
                   >
                     My portfolio
@@ -45,7 +45,7 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/contact"
-                    rel="dns-prefetch"
+                    rel="noopener noreferrer"
                     className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
                   >
                     Contact me

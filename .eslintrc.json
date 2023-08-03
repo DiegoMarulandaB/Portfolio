@@ -8,20 +8,33 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "airbnb",
-    "airbnb-typescript/base",
-    "next/core-web-vitals"
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:import/resolver"
   ],
   "overrides": [],
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
-    "project": "./tsconfig.eslint.json",
+    "project": "./tsconfig.json",
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
+  "settings":{
+    "import/resolver": {
+      "node": {
+        "extension":[".js", ".jsx",".ts",".tsx"]
+      }
+    }
+  },
   "rules": {
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error"
+    "@typescript-eslint/no-explicit-any": "error",
+    "semi": ["error", "never"],
+    "@typescript-eslint/semi": "off",
+    "no-unexpected-multiline": "error",
+   "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
 }

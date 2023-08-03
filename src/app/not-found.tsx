@@ -7,7 +7,7 @@ export default function NotFound() {
           <p className="text-white-700  mb-6">Oops! The page you are looking for doesn't exist.</p>
           <a
             href="/"
-            rel="dns-prefetch preload"
+            rel="noopener noreferrer"
             className="hover:-translate-y-1 transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-3 py-3 mb-4 md:mb-0 w-full md:w-40 border-2 border-white-500"
           >
             Go Home!

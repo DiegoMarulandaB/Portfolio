@@ -2,9 +2,9 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import Slide from '@/components/Slide/Slide'
-import AnimatedText from '@/components/AnimatedText/AnimatedText'
 import React from 'react'
+import Slide from '../../components/Slide/Slide'
+import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
 interface Project {
   name: string
@@ -43,54 +43,52 @@ const projects: Project[] = [
   },
 ]
 
-const AcademicProjects: React.FC = () => {
-  return (
-    <section id="projects" className="pt-20">
-      <h1 className="text-center">
-        <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-4" />
-      </h1>
-      <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6">
-        {projects.map((project, idx) => (
-          <div key={idx}>
-            <Slide offset="-200px 0px -200px 0px">
-              <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
-                <div className="flex flex-col text-center items-center justify-center"></div>
-                <div className="md:w-3/6 ">
-                  <Link href={project.link}>
-                    <Image
-                      loading="lazy"
-                      rel="noopener noreferrer dns-prefetch preload"
-                      src={project.image}
-                      alt="projects image"
-                      width={390}
-                      height={390}
-                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-4 mr-4 mt-4"
-                    />
-                  </Link>
-                </div>
-                <div className="mt-4 md:w-2/6 mx-2 mr-2">
-                  <h1 className="text-center text-2xl font-bold mb-2  mx-2 mr-2  text-pink-600">{project.name}</h1>
-                  <p className="text-center text-1xl  mx-2 mr-2 mt-4 ">{project.description}</p>
+const AcademicProjects: React.FC = () => (
+  <section id="projects" className="pt-20">
+    <h1 className="text-center">
+      <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-4" />
+    </h1>
+    <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6">
+      {projects.map((project, idx) => (
+        <div key={idx}>
+          <Slide offset="-200px 0px -200px 0px">
+            <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
+              <div className="flex flex-col text-center items-center justify-center" />
+              <div className="md:w-3/6 ">
+                <Link href={project.link}>
+                  <Image
+                    loading="lazy"
+                    rel="noopener noreferrer dns-prefetch preload"
+                    src={project.image}
+                    alt="projects image"
+                    width={390}
+                    height={390}
+                    className=" rounded-md  px-18 py-4 ml-auto md:mt-1 flex flex-col text-center items-center justify-center  mx-4 mr-4 mt-4"
+                  />
+                </Link>
+              </div>
+              <div className="mt-4 md:w-2/6 mx-2 mr-2">
+                <h1 className="text-center text-2xl font-bold mb-2  mx-2 mr-2  text-pink-600">{project.name}</h1>
+                <p className="text-center text-1xl  mx-2 mr-2 mt-4 ">{project.description}</p>
 
-                  <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
-                    <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
-                      <button
-                        type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mx-2 mr-2 mt-4 w-26 "
-                      >
-                        Read more
-                      </button>
-                    </Link>
-                    <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
-                  </div>
+                <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
+                  <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
+                    <button
+                      type="button"
+                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mx-2 mr-2 mt-4 w-26 "
+                    >
+                      Read more
+                    </button>
+                  </Link>
+                  <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
                 </div>
               </div>
-            </Slide>
-          </div>
-        ))}
-      </div>
-    </section>
-  )
-}
+            </div>
+          </Slide>
+        </div>
+      ))}
+    </div>
+  </section>
+)
 
 export default AcademicProjects
