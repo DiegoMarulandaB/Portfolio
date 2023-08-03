@@ -15,13 +15,13 @@ function HomePage() {
           <div className="w-full px-4 lg:w-6/12" />
           <div className="flex flex-col text-center items-center justify-center">
             <div className="mt-18 lg:mt-0">
-              <h1 className=" text-center text-4xl font-extrabold  text-pink-600  mt-4  mx-2 mr-2">Hello, I'm</h1>
+              <h1 className=" text-center text-4xl font-extrabold  text-pink-600  mt-8  mx-2 mr-2">Hello, I'm</h1>
               <div className="flex flex-col text-center items-center justify-center">
-                <h1 className="text-center text-4xl font-extrabold text-indigo-500 mx-2 mr-2 mt-4">Diego Marulanda</h1>
-                <h1 className="text-center text-4xl font-extrabold mt-4 mx-2 mr-2">Frontend Developer</h1>
+                <h1 className="text-center text-4xl font-extrabold text-indigo-500 mx-2 mr-2 mt-8">Diego Marulanda</h1>
+                <h1 className="text-center text-4xl font-extrabold mt-8 mx-2 mr-2">Frontend Developer</h1>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 mr-2 mt-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 mr-2 mt-8">
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/about"
@@ -56,7 +56,7 @@ function HomePage() {
               {/* image */}
 
               <div className="flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-4 mx-2 mr-2 ">
-                <img src="/projects.svg" alt="email image" className="w-64 h-64 rounded-full mx-2 mr-2 mt-6" />
+                <img src="/projects.svg" alt="email image" className="w-64 h-80 rounded-full mx-2 mr-2 mt-10" />
               </div>
             </div>
           </div>

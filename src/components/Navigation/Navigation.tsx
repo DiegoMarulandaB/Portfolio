@@ -62,7 +62,6 @@ export default function Navigation() {
                   </div>
                 </Link>
               ))}
-              {/* luna */}
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
