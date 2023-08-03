@@ -10,7 +10,7 @@ const Footer: React.FC = () => (
         <a href="/" className="hover:underline" />
       </div>
       <div className="flex flex-row items-center justify-between space-x-2 mb-2  mt-1 ">
-        <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener noreferrer ">
+        <a href="https://twitter.com/DAMB1987" target="_blank" rel="noopener noreferrer">
           <AiOutlineTwitter
             className="icon  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
             size={34}
