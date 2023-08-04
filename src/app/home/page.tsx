@@ -3,7 +3,7 @@
 import React from 'react'
 import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
-function HomePage() {
+const HomePage = () => {
   return (
     <section id="home" className="pt-20 lg:pt-[100px] pb-12 lg:pb-[100px] overflow-hidden">
       <div className="flex flex-col text-center items-center justify-center">
@@ -21,7 +21,7 @@ function HomePage() {
                 <h1 className="text-center text-4xl font-extrabold mt-8 mx-2 mr-2">Frontend Developer</h1>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 mr-2 mt-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-2 mr-2 mt-10">
                 <div className="flex flex-col text-center items-center justify-center ">
                   <a
                     href="/about"
@@ -60,7 +60,7 @@ function HomePage() {
                   loading="lazy"
                   src="/ProjectsWebs.svg"
                   alt="ProjectsWebs image"
-                  className="w-80 h-96 rounded-full mx-2 mr-2 mt-8"
+                  className="w-80 h-96 rounded-full mx-2 mr-2 mt-10"
                 />
               </div>
             </div>
@@ -70,5 +70,6 @@ function HomePage() {
     </section>
   )
 }
+
 
 export default HomePage
