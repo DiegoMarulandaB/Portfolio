@@ -69,7 +69,7 @@ const AcademicProjects = () => {
                   </Link>
                 </div>
                 <div className="mt-4 md:w-2/6">
-                  <h1 className="text-center text-2xl font-bold mb-2  mx-2 mr-2  text-pink-600">{project.name}</h1>
+                  <h1 className="text-center text-2xl font-bold mb-2  mx-2 mr-2 mt-4  text-pink-600">{project.name}</h1>
                   <p className="text-center text-1xl  mx-2 mr-2 mt-4 ">{project.description}</p>
 
                   <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
