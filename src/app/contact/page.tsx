@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import { AiOutlineMail, AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
 import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
 const Contact = () => {
@@ -29,19 +28,17 @@ const Contact = () => {
 interface ContactLinkProps {
   href: string
   text: string
-  icon: React.ReactElement
   username?: string
 }
 
-const ContactLink: React.FC<ContactLinkProps> = ({ href, text, icon, username }) => (
+const ContactLink: React.FC<ContactLinkProps> = ({ href, text, username }) => (
   <a
     href={href}
     target="_blank"
     rel="noopener noreferrer"
     className="flex flex-col items-center text-center px-4 py-4 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md"
   >
-    {icon}
-    <span className="text-1xl font-medium text-white">{text}</span>
+    <span className="text-2xl font-medium text-white">{text}</span>
     {username && <span className="text-1xl font-bold text-white">{username}</span>}
   </a>
 )
@@ -50,45 +47,21 @@ const contactLinks: ContactLinkProps[] = [
   {
     href: 'mailto:diegomarulanda87@gmail.com',
     text: 'Email',
-    icon: (
-      <AiOutlineMail
-        className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-        size={43}
-      />
-    ),
     username: 'Send me an email!',
   },
   {
     href: 'https://twitter.com/DAMB1987',
     text: 'Twitter',
-    icon: (
-      <AiOutlineTwitter
-        className="icon text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-        size={43}
-      />
-    ),
     username: 'Follow me',
   },
   {
     href: 'https://www.linkedin.com/in/diegomarulandabarrientos/',
     text: 'LinkedIn',
-    icon: (
-      <AiOutlineLinkedin
-        className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-        size={43}
-      />
-    ),
     username: 'Follow me',
   },
   {
     href: 'https://github.com/DiegoMarulandaB?tab=repositories',
     text: 'GitHub',
-    icon: (
-      <AiOutlineGithub
-        className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-        size={43}
-      />
-    ),
     username: 'Follow me',
   },
 ]
