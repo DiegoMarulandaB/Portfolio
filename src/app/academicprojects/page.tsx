@@ -49,7 +49,7 @@ const AcademicProjects = () => {
       <h1 className="text-center pt-20">
         <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-4" />
       </h1>
-      <div className="flex flex-col items-center justify-center space-y-28 mx-4 mt-6">
+      <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6">
         {projects.map((project, idx) => (
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
