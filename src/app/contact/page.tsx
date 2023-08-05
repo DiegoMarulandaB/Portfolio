@@ -52,7 +52,7 @@ const contactLinks: ContactLinkProps[] = [
     text: 'Email',
     icon: (
       <AiOutlineMail
-        className="icon text-white bg-gradient-to-r from-gray-500 via-gray-600 to-gray-700 border-2 rounded-md"
+        className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
         size={43}
       />
     ),
@@ -63,7 +63,7 @@ const contactLinks: ContactLinkProps[] = [
     text: 'Twitter',
     icon: (
       <AiOutlineTwitter
-        className="icon text-white bg-gradient-to-r from-sky-500 via-sky-600 to-sky-700 border-2 rounded-md"
+        className="icon text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
         size={43}
       />
     ),
@@ -74,7 +74,7 @@ const contactLinks: ContactLinkProps[] = [
     text: 'LinkedIn',
     icon: (
       <AiOutlineLinkedin
-        className="icon text-white bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 border-2 rounded-md"
+        className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
         size={43}
       />
     ),
@@ -85,7 +85,7 @@ const contactLinks: ContactLinkProps[] = [
     text: 'GitHub',
     icon: (
       <AiOutlineGithub
-        className="icon text-white bg-gradient-to-r from-gray-700 via-gray-700 to-gray-700 border-2  rounded-md"
+        className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
         size={43}
       />
     ),
