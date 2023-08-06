@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" />
+        <link rel="icon" href="./favicon.ico" type="./favicon.ico" sizes="32x32" />
         <title>DiegoMarulanda</title>
       </head>
       <body className={`${popps.className} bg-slate-100 dark:bg-slate-700`}>

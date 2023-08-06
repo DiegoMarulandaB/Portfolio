@@ -8,7 +8,7 @@ export const size = {
   width: 32,
   height: 32,
 }
-export const contentType = 'image/png'
+export const contentType = './favicon.ico'
 
 // Image generation
 export default function Icon() {
@@ -27,7 +27,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        DM
+      DM
       </div>
     ),
     // ImageResponse options

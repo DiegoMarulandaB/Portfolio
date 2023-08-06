@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about">
       <h1 className="text-center pt-20 ">
-        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-4 " />
+        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-4 "/>
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
@@ -22,7 +22,7 @@ const About = () => {
             alt="profile image"
             width={148}
             height={148}
-            className="w-40 h-40 rounded-full mx-auto mt-6 "
+            className="w-40 h-40 rounded-full mx-auto mt-4 "
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             Hello! Allow me to introduce myself:{' '}
@@ -34,19 +34,17 @@ const About = () => {
             Passionate about technology, geopolitics, general culture, and science.
           </p>
           <br />
-          <br />
 
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-2  text-pink-600 text-2xl  ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4  text-pink-600 text-2xl  ">
             Experience
           </span>
-          <br />
           <Image
             loading="lazy"
             src="/personal_site.svg"
             alt=" personal_site image"
             width={148}
             height={148}
-            className="w-40 h-40 mx-auto rounded-full "
+            className="w-40 h-40 mx-auto rounded-full mt-4 "
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             Of course I have experience in some areas.
@@ -60,14 +58,13 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4  text-pink-600 text-2xl ">
             Studies
           </span>
-          <br />
           <Image
             loading="lazy"
             src="/Studying.svg"
             alt="Studying image"
             width={148}
             height={148}
-            className="w-40 h-40 mx-auto rounded-full"
+            className="w-40 h-40 mx-auto rounded-full mt-4"
           />
           <p className="text-center text-1xl mx-2 mr-2 mt-4">
             2021 - 2023
@@ -86,14 +83,13 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4 text-2xl  text-pink-600  ">
             Hobbies
           </span>
-          <br />
           <Image
             loading="lazy"
             src="/gaming.svg"
             alt="gaming image"
             width={148}
             height={148}
-            className="w-40 h-40 mx-auto rounded-full"
+            className="w-40 h-40 mx-auto rounded-full mt-4"
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
@@ -101,14 +97,13 @@ const About = () => {
             <br />
             Because you must be in good physical condition to spend several hours in front of a computer.
           </p>
-          <br />
           <Image
             loading="lazy"
             src="/book.svg"
             alt="book image"
             width={148}
             height={148}
-            className="w-40 h-40 mx-auto rounded-full"
+            className="w-40 h-40 mx-auto rounded-full mt-4"
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             I like to read,{' '}
@@ -119,7 +114,6 @@ const About = () => {
             <br />
             <br /> My favorite writer is Brandon Sanderson.
           </p>
-          <br />
         </div>
         <div className="md:w-1/4">
           <h1 className="text-center text-3xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
