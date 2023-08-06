@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about">
       <h1 className="text-center pt-20 ">
-        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-4 "/>
+        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-4 " />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
@@ -112,7 +112,8 @@ const About = () => {
             </span>
             , since it is a sector with different branches of learning, and my favorite genre is currently fantasy.
             <br />
-            <br /> My favorite writer is Brandon Sanderson.
+            <br />
+            My favorite writer is Brandon Sanderson.
           </p>
         </div>
         <div className="md:w-1/4">
@@ -123,7 +124,6 @@ const About = () => {
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
                     alt="Css Icon"
                     width={80}
@@ -133,7 +133,6 @@ const About = () => {
                 </div>
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
                     alt="Html Icon"
                     width={80}
@@ -144,7 +143,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
                     alt="JavaScript Icon"
                     width={80}
@@ -155,7 +153,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
                     alt="React Icon"
                     width={80}
@@ -171,7 +168,6 @@ const About = () => {
               <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg"
                     alt="Git Bash Icon"
                     width={80}
@@ -182,7 +178,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
                     alt="Git Icon"
                     width={80}
@@ -193,7 +188,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
                     alt="Github Icon"
                     width={80}
@@ -204,7 +198,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"
                     alt="Linux Icon"
                     width={80}
@@ -215,7 +208,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/neovimio/neovimio-ar21.svg"
                     alt="Neovim Icon"
                     width={80}
@@ -226,7 +218,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
                     alt="Postman Icon"
                     width={80}
@@ -237,7 +228,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"
                     alt="Vscode Icon"
                     width={80}
@@ -253,7 +243,6 @@ const About = () => {
               <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg"
                     alt="Tailwind Icon"
                     width={80}
@@ -264,7 +253,6 @@ const About = () => {
 
                 <div>
                   <Image
-                    loading="lazy"
                     src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg"
                     alt="Typescript Icon"
                     width={80}
