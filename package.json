@@ -12,7 +12,7 @@
     "eslint": "eslint 'src/**/*.ts'",
     "eslint:fix": "eslint --fix 'src/**/*.ts'",
     "prepare": "husky install",
-    "test": "jest --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@types/node": "20.4.2",
@@ -47,6 +47,25 @@
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
   },
+    "eslintConfig": {
+      "parserOptions": {
+        "projects":"./tsconfig.json"
+      },
+      "extends":["./node_modules/airbnb/eslintrc.json"],
+      "env": {
+        "jest": true
+      }
+    },
+    "jest": {
+      "preset": "ts-jest",
+      "testEnviroment": "node",
+      "collectCoverage": true,
+      "coveragePathIgnorePatterns": [
+        "/node_modules/",
+        "/test/",
+        "/dist/"
+    ]
+    },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
   "keywords": [

@@ -1,3 +1,0 @@
-// moduleNameMapper: {
-//   '^@/components/(.*)$': '<rootDir>/components/$1',
-// }
