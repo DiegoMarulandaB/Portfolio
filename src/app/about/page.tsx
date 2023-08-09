@@ -66,10 +66,11 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full mt-4"
           />
-          <p className="text-center text-1xl mx-2 mr-2 mt-4">
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             2021 - 2023
-            <br /> I received a scholarship in the Certified Tech Developer program at Digital House, in partnership
-            with Mercado Libre and Globant.
+            <br />
+            I received a scholarship in the Certified Tech Developer program at Digital House, in partnership with
+            Mercado Libre and Globant.
             <br />
             <br />
             07 - 24 - 2023
@@ -154,7 +155,7 @@ const About = () => {
                     height={80}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
-                  <span className="text-center text-1xl mx-1 mr-1 mt-4">JavaScript</span>
+                  <span className="text-center text-1xl mt-4">JavaScript</span>
                 </div>
 
                 <div>
@@ -207,7 +208,7 @@ const About = () => {
                     height={80}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
-                  <span className="text-center text-1xl mx-2 mr-2 mt-4">Github</span>
+                  <span className="text-center text-1xl mx-4 mr-4 mt-4">Github</span>
                 </div>
 
                 <div>
@@ -284,7 +285,7 @@ const About = () => {
                     height={80}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
-                  <span className="text-center text-1xl mx-1 mr-1 mt-4">TypeScript</span>
+                  <span className="text-center text-1xl mt-4">TypeScript</span>
                 </div>
               </div>
             </div>
