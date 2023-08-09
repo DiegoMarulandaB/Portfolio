@@ -94,9 +94,6 @@ const About = () => {
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
-            <br />
-            <br />
-            Because you must be in good physical condition to spend several hours in front of a computer.
           </p>
           <Image
             loading="lazy"
