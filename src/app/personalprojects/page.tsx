@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     name: 'Counter Click',
     description:
-      'This counter Click project is a basic code created in Vite and React, based on the FreeCodeCamp course on React.It helped me to understand the basics of React much better.',
+      'This counter Click project is a basic code created in Vite and React, based on the FreeCodeCamp course on React. It helped me to understand the basics of React much better.',
     image: '/counterClick.jpg',
     github: 'https://github.com/DiegoMarulandaB/click-counter-freecodecamp',
     link: 'https://github.com/DiegoMarulandaB/click-counter-freecodecamp',

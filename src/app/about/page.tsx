@@ -47,11 +47,11 @@ const About = () => {
             className="w-40 h-40 mx-auto rounded-full mt-4 "
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            Of course I have experience in some areas.
+            Of course i have experience in some areas.
             <br />
             <br />
-            But at the moment I have not had the opportunity to enter the technology sector. Therefore, I will get my
-            experience through the different projects that I carry out.
+            But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get my
+            experience through the different projects that i carry out.
           </p>
           <br />
 
@@ -78,7 +78,7 @@ const About = () => {
             I started specializing in frontend in the same academy.
             <br />
             <br />
-            For more information about my studies in programming, I invite you to visit my LinkedIn profile.
+            For more information about my studies in programming, i invite you to visit my LinkedIn profile.
           </p>
           <br />
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4 text-2xl  text-pink-600  ">
