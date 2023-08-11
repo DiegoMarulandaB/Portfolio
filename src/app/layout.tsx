@@ -29,7 +29,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <title>DiegoMarulanda</title>
         <meta
           name="description"
-          content="Author Diego Marulanda,Portfolio where you will find different projects, whether academic or personal, related to programming"
+          content="Author Diego Marulanda, Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.
+          You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
       </head>
       <body className={`${popps.className} bg-slate-100 dark:bg-slate-700`}>
