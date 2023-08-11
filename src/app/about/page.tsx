@@ -24,7 +24,7 @@ const About = () => {
             height={148}
             className="w-40 h-40 rounded-full mx-auto mt-4 "
           />
-          <p className="text-center text-1xl mx-6 mr-6 mt-4">
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             Hello! Allow me to introduce myself:{' '}
             <strong className="text-indigo-400 text-1xl ">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
