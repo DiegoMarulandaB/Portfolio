@@ -68,9 +68,7 @@ const About = () => {
             Mercado Libre and Globant.
           </p>
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">07 - 24 - 2023</span>
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">
-            I started specializing in frontend in the same academy.
-          </span>
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">I started specializing in frontend in the same academy.</p>
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             For more information about my studies in programming, i invite you to visit my LinkedIn profile.
           </p>
