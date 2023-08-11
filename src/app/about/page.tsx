@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-3/6">
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4  text-pink-600 text-2xl  ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl  ">
             About Diego
           </span>
           <Image
@@ -29,13 +29,12 @@ const About = () => {
             <strong className="text-indigo-400 text-1xl ">
               I am Diego Marulanda, an indie frontend developer based in Colombia!
             </strong>{' '}
-            <br />
-            <br />
+          </p>
+          <p className="text-center text-1xl mx-6 mr-6 mt-4">
             Passionate about technology, geopolitics, general culture, and science.
           </p>
-          <br />
 
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4  text-pink-600 text-2xl  ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl  ">
             Experience
           </span>
           <Image
@@ -46,16 +45,13 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full mt-4 "
           />
-          <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            Of course i have experience in some areas.
-            <br />
-            <br />
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">Of course i have experience in some areas.</p>
+          <p className="text-center text-1xl mx-6 mr-6 mt-4">
             But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get my
             experience through the different projects that i carry out.
           </p>
-          <br />
 
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4  text-pink-600 text-2xl ">
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl ">
             Studies
           </span>
           <Image
@@ -66,53 +62,34 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full mt-4"
           />
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">2021 - 2023</span>
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            2021 - 2023
-            <br />
             I received a scholarship in the Certified Tech Developer program at Digital House, in partnership with
             Mercado Libre and Globant.
-            <br />
-            <br />
-            07 - 24 - 2023
-            <br />
+          </p>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">07 - 24 - 2023</span>
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">
             I started specializing in frontend in the same academy.
-            <br />
-            <br />
+          </span>
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
             For more information about my studies in programming, i invite you to visit my LinkedIn profile.
           </p>
-          <br />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4 text-2xl  text-pink-600  ">
+
+          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-2xl  text-pink-600  ">
             Hobbies
           </span>
           <Image
             loading="lazy"
-            src="/gaming.svg"
+            src="/book.svg"
             alt="gaming image"
             width={148}
             height={148}
             className="w-40 h-40 mx-auto rounded-full mt-4"
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            My hobbies are rock music, videogames, playing sports, they already occupy an important place in my life.
+            My hobbies are listening to rock music, video games, books on different themes.
           </p>
-          <Image
-            loading="lazy"
-            src="/book.svg"
-            alt="book image"
-            width={148}
-            height={148}
-            className="w-40 h-40 mx-auto rounded-full mt-4"
-          />
-          <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            I like to read,{' '}
-            <span className="font-bold">
-              I believe that in the world of technology, it is essential to expand knowledge through books
-            </span>
-            , since it is a sector with different branches of learning, and my favorite genre is currently fantasy.
-            <br />
-            <br />
-            My favorite writer is Brandon Sanderson.
-          </p>
+          <p className="text-center text-1xl mx-6 mr-6 mt-4"> My favorite writer is Brandon Sanderson.</p>
         </div>
         <div className="md:w-1/4">
           <h1 className="text-center text-3xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
