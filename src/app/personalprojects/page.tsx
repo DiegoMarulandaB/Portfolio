@@ -68,14 +68,14 @@ const PersonalProjects = () => {
                   </Link>
                 </div>
                 <div className="mt-4 md:w-2/6 mx-2 mr-2">
-                  <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-2 mx-2 mr-2 mt-4  text-pink-600">
+                  <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-2 mx-2 mr-2 mt-2  text-pink-600">
                     {project.name}
                   </h1>
-                  <p className="flex flex-col text-center items-center justify-center text-1xl  mx-2 mr-2 mt-4 ">
+                  <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-2 ">
                     {project.description}
                   </p>
 
-                  <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4">
+                  <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
                     <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
                       <button
                         type="button"
