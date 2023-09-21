@@ -25,13 +25,14 @@ const About = () => {
             className="w-40 h-40 rounded-full mx-auto mt-4 "
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            Hello! Allow me to introduce myself:{' '}
             <strong className="text-indigo-400 text-1xl ">
-              I am Diego Marulanda, an indie frontend developer based in Colombia!
-            </strong>{' '}
+              Hello! I'm Diego, a passionate freelance frontend developer based in Colombia.
+            </strong>
           </p>
-          <p className="text-center text-1xl mx-6 mr-6 mt-4">
-            Passionate about technology, geopolitics, general culture, and science.
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
+            {' '}
+            My fascination with technology is combined with a deep interest in geopolitics, general culture and science,
+            giving me a unique perspective on the digital world.
           </p>
 
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl  ">
@@ -62,15 +63,18 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full mt-4"
           />
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">2021 - 2023</span>
+      
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            I received a scholarship in the Certified Tech Developer program at Digital House, in partnership with
-            Mercado Libre and Globant.
+            I recently completed the Certified Tech Developer degree at Digital House, in agreement with Mercado Libre
+            and Globant.
           </p>
-          <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-4">07 - 24 - 2023</span>
-          <p className="text-center text-1xl mx-4 mr-4 mt-4">I started specializing in frontend in the same academy.</p>
+  
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
-            For more information about my studies in programming, i invite you to visit my LinkedIn profile.
+            I am now excited to delve into the Frontend specialization, with plans to learn and maximize my knowledge.
+          </p>
+          <p className="text-center text-1xl mx-4 mr-4 mt-4">
+            I'm excited about what the future holds and look forward to connecting with other professionals who are
+            passionate about technology and innovation!
           </p>
 
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-2xl  text-pink-600  ">
