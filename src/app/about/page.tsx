@@ -18,7 +18,7 @@ const About = () => {
           </span>
           <Image
             loading="lazy"
-            src="/diego.jpg"
+            src="/Diego.png"
             alt="profile image"
             width={148}
             height={148}
@@ -63,12 +63,12 @@ const About = () => {
             height={148}
             className="w-40 h-40 mx-auto rounded-full mt-4"
           />
-      
+
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             I recently completed the Certified Tech Developer degree at Digital House, in agreement with Mercado Libre
             and Globant.
           </p>
-  
+
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             I am now excited to delve into the Frontend specialization, with plans to learn and maximize my knowledge.
           </p>
