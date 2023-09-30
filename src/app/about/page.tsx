@@ -18,7 +18,7 @@ const About = () => {
           </span>
           <Image
             loading="lazy"
-            src="/Diego.png"
+            src="/Diego.jpeg"
             alt="profile image"
             width={148}
             height={148}

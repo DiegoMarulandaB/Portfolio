@@ -19,7 +19,7 @@ const projects: Project[] = [
     name: 'Github repository',
     description:
       'Welcome to! I invite you to explore my repository on GitHub, where you will find my projects based on courses or on the Certified Tech Developer career. Dont miss the opportunity to immerse yourself in a universe of knowledge and creativity!',
-    image: '/ProfileGithub.png',
+    image: '/profileGithub.jpeg',
 
     github: 'https://github.com/DiegoMarulandaB?tab=repositories',
     link: 'https://github.com/DiegoMarulandaB?tab=repositories',
