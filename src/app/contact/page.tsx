@@ -51,7 +51,7 @@ const contactLinks: ContactLinkProps[] = [
   },
   {
     href: 'https://twitter.com/DAMB1987',
-    text: 'Twitter',
+    text: 'X (Twitter)',
     username: 'Follow me',
   },
   {
