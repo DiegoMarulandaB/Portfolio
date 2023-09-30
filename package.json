@@ -26,7 +26,7 @@
     "next-themes": "^0.2.1",
     "postcss": "8.4.25",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1",
+    "react-icons": "^4.11.0",
     "react-scroll": "^1.8.9",
     "tailwindcss": "3.3.2"
   },
@@ -47,25 +47,27 @@
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
   },
-    "eslintConfig": {
-      "parserOptions": {
-        "projects":"./tsconfig.json"
-      },
-      "extends":["./node_modules/airbnb/eslintrc.json"],
-      "env": {
-        "jest": true
-      }
+  "eslintConfig": {
+    "parserOptions": {
+      "projects": "./tsconfig.json"
     },
-    "jest": {
-      "preset": "ts-jest",
-      "testEnviroment": "node",
-      "collectCoverage": true,
-      "coveragePathIgnorePatterns": [
-        "/node_modules/",
-        "/test/",
-        "/dist/"
+    "extends": [
+      "./node_modules/airbnb/eslintrc.json"
+    ],
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnviroment": "node",
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/",
+      "/dist/"
     ]
-    },
+  },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "next.config.js",
   "keywords": [

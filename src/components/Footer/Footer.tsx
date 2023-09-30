@@ -1,5 +1,6 @@
 import React from 'react'
-import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
+import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
+import { RiTwitterXFill } from 'react-icons/ri'
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my Twitter profile"
             >
-              <AiOutlineTwitter
+              <RiTwitterXFill
                 className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
                 size={34}
               />
