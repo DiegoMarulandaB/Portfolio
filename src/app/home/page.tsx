@@ -61,9 +61,9 @@ const HomePage = () => {
                 <div className="flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-4 mx-2 mr-2 ">
                   <img
                     loading="lazy"
-                    src="/ProjectsWebs.svg"
-                    alt="ProjectsWebs image"
-                    className="w-80 h-96 rounded-full mx-2 mr-2 mt-10"
+                    src="/avatar-works.png"
+                    alt="avatar-works"
+                    className=" w-96 h-96  mx-2 mr-2 mt-10"
                   />
                 </div>
               </div>

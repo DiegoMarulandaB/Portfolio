@@ -15,11 +15,15 @@ const Contact = () => {
             Get in touch with me through these links!
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2 mt-6 mx-2 mr-2">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-6 mx-2 mr-2">
           {contactLinks.map((link) => (
             <ContactLink key={link.text} {...link} />
           ))}
         </div>
+      </div>
+
+      <div className="flex flex-col text-center items-center justify-center py-3 sm:py-4 mt-4 mx-2 mr-2 ">
+        <img loading="lazy" src="/avatar-1.png" alt="Contact me image" className="w-80 h-96 mx-2 mr-2 mt-10" />
       </div>
     </div>
   )

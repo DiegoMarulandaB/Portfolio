@@ -38,14 +38,7 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl  ">
             Experience
           </span>
-          <Image
-            loading="lazy"
-            src="/personal_site.svg"
-            alt=" personal_site image"
-            width={148}
-            height={148}
-            className="w-40 h-40 mx-auto rounded-full mt-4 "
-          />
+     
           <p className="text-center text-1xl mx-4 mr-4 mt-4">Of course i have experience in some areas.</p>
           <p className="text-center text-1xl mx-6 mr-6 mt-4">
             But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get my
@@ -55,14 +48,7 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl ">
             Studies
           </span>
-          <Image
-            loading="lazy"
-            src="/Studying.svg"
-            alt="Studying image"
-            width={148}
-            height={148}
-            className="w-40 h-40 mx-auto rounded-full mt-4"
-          />
+       
 
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             I recently completed the Certified Tech Developer degree at Digital House, in agreement with Mercado Libre
@@ -80,14 +66,7 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-2xl  text-pink-600  ">
             Hobbies
           </span>
-          <Image
-            loading="lazy"
-            src="/book.svg"
-            alt="gaming image"
-            width={148}
-            height={148}
-            className="w-40 h-40 mx-auto rounded-full mt-4"
-          />
+  
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             My hobbies are listening to rock music, video games, books on different themes.
           </p>
