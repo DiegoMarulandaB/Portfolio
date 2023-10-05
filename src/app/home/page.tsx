@@ -29,7 +29,7 @@ const HomePage = () => {
                     <a
                       href="/about"
                       rel="noopener noreferrer"
-                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
+                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-2xl  font-bold"
                     >
                       About me
                     </a>
@@ -39,7 +39,7 @@ const HomePage = () => {
                     <a
                       href="/projects"
                       rel="noopener noreferrer"
-                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
+                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-2xl  font-bold"
                     >
                       My portfolio
                     </a>
@@ -49,7 +49,7 @@ const HomePage = () => {
                     <a
                       href="/contact"
                       rel="noopener noreferrer"
-                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
+                      className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-2xl  font-bold"
                     >
                       Contact me
                     </a>

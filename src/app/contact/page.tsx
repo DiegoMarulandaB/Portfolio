@@ -15,7 +15,7 @@ const Contact = () => {
             Get in touch with me through these links!
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4 mt-6 mx-2 mr-2">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mx-2 mr-2 mt-10">
           {contactLinks.map((link) => (
             <ContactLink key={link.text} {...link} />
           ))}
@@ -40,9 +40,9 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, username }) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex flex-col items-center text-center px-4 py-4 border transform transition-transform cursor-pointer text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md"
+    className="flex flex-col items-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
   >
-    <span className="text-2xl font-medium text-white">{text}</span>
+    <span className="text-2xl font-bold text-white">{text}</span>
     {username && <span className="text-1xl font-bold text-white">{username}</span>}
   </a>
 )
