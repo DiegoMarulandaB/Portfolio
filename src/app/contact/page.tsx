@@ -40,9 +40,9 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, username }) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex flex-col items-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-center text-1xl  font-bold"
+    className="flex flex-col items-center text-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-2xl  font-bold"
   >
-    <span className="text-2xl font-bold text-white">{text}</span>
+    <span className="text-1xl font-bold text-white">{text}</span>
     {username && <span className="text-1xl font-bold text-white">{username}</span>}
   </a>
 )
