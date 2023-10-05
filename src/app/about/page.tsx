@@ -26,7 +26,7 @@ const About = () => {
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             <strong className="text-indigo-400 text-1xl ">
-              Hello! I'm Diego, a passionate freelance frontend developer based in Colombia.
+              Hello! I am Diego, a passionate independent frontend developer from Colombia!
             </strong>
           </p>
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
@@ -38,7 +38,7 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl  ">
             Experience
           </span>
-     
+
           <p className="text-center text-1xl mx-4 mr-4 mt-4">Of course i have experience in some areas.</p>
           <p className="text-center text-1xl mx-6 mr-6 mt-4">
             But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get my
@@ -48,7 +48,6 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl ">
             Studies
           </span>
-       
 
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             I recently completed the Certified Tech Developer degree at Digital House, in agreement with Mercado Libre
@@ -66,7 +65,7 @@ const About = () => {
           <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-2xl  text-pink-600  ">
             Hobbies
           </span>
-  
+
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             My hobbies are listening to rock music, video games, books on different themes.
           </p>
