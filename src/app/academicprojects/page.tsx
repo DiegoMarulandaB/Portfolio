@@ -27,7 +27,7 @@ const projects: Project[] = [
   {
     name: 'Rick and Morty application',
     description:
-      'Final project of the Frontend subject of the Digital House specialization (cloned repository of said academy). Developed in TypeScript, Redux, Thunk and their best practices, using the Rick and Morty API. 21/09/2023.',
+      'Final project of the Frontend subject of the Digital House specialization (cloned repository of said academy). Developed in TypeScript, Redux, Thunk and their best practices, using the Rick and Morty API. 09/21/2023.',
     image: '/Final-esp-frontend.png',
 
     github: 'https://github.com/DiegoMarulandaB/ctd-esp-fe1-final',
