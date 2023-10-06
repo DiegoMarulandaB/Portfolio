@@ -26,7 +26,7 @@ const About = () => {
           />
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
             <strong className="text-indigo-400 text-1xl ">
-              Hi! 👋 I'm Diego, a passionate freelancer frontend developer from Colombia!
+              Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
             </strong>
           </p>
           <p className="text-center text-1xl mx-4 mr-4 mt-4">
