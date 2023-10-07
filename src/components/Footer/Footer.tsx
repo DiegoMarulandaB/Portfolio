@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
+import { AiOutlineMail,  AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
 import { RiTwitterXFill } from 'react-icons/ri'
 
 const Footer = () => {
@@ -12,6 +12,17 @@ const Footer = () => {
             &copy; 2023 Diego Marulanda. All Rights Reserved.
           </div>
           <div className="flex flex-row items-center justify- space-x-2 mt-2 mx-18 mr-18">
+            <a
+              href="mailto:diegomarulanda87@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Read more about my Twitter profile"
+            >
+              <AiOutlineMail
+                className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
+                size={34}
+              />
+            </a>
             <a
               href="https://twitter.com/DAMB1987"
               target="_blank"

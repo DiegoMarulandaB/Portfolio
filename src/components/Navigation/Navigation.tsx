@@ -13,7 +13,6 @@ const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/' },
   { label: 'About me', route: '/about' },
   { label: 'My portfolio', route: '/projects' },
-  { label: 'Contact me', route: '/contact' },
 ]
 
 export default function Navigation() {
