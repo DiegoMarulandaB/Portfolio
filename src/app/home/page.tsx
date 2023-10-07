@@ -111,8 +111,6 @@ const HomePage = () => {
 
               <div className="max-w-lg mx-2 mr-2 my-10  bg-slate-50 dark:bg-slate-600 rounded-lg shadow-md p-5  ">
                 <img className="w-32 h-32 rounded-full mx-auto" src="/ProjectsWebs.svg" alt="Profile picture" />
-                <h2 className="text-center text-2xl font-semibold mt-3"> 💻</h2>
-
                 <div className="mt-5">
                   <h3 className="text-xl font-semibold text-pink-600">Projects</h3>
                   <p className=" text-neutral-800 dark:text-neutral-50 transition-transform  mt-2">
