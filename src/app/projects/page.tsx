@@ -112,7 +112,7 @@ const Projects: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-wrap rounded-lg -mx-4">
+        <div className="flex flex-wrap rounded-lg -mx-4 text-1xl">
           <ProjectCards
             ImageHref="digitalBooking.jpg"
             category="Academic projects"
