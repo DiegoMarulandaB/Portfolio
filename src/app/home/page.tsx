@@ -109,16 +109,13 @@ const HomePage = () => {
 
               {/* projects */}
 
-              <div
-                className="max-w-lg mx-2 mr-2 my-10  bg-slate-50 dark:bg-slate-600 rounded-lg shadow-md p-5  "
-              >
+              <div className="max-w-lg mx-2 mr-2 my-10  bg-slate-50 dark:bg-slate-600 rounded-lg shadow-md p-5  ">
                 <img className="w-32 h-32 rounded-full mx-auto" src="/ProjectsWebs.svg" alt="Profile picture" />
+                <h2 className="text-center text-2xl font-semibold mt-3"> 💻</h2>
 
                 <div className="mt-5">
                   <h3 className="text-xl font-semibold text-pink-600">Projects</h3>
-                  <p
-                    className=" text-neutral-800 dark:text-neutral-50 transition-transform  mt-2"
-                  >
+                  <p className=" text-neutral-800 dark:text-neutral-50 transition-transform  mt-2">
                     <strong className="text-indigo-400 text-1xl mt-5">
                       My web development projects are captivating creations that fuse exceptional functionality, design
                       and performance.
@@ -153,7 +150,7 @@ const HomePage = () => {
                          via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 
                           mt-4 w-26 text-center text-1xl  font-bold"
                       >
-                        My portfolio
+                        Projects
                       </a>
                     </div>
                   </div>
