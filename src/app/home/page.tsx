@@ -60,7 +60,9 @@ const HomePage = () => {
                       Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
                     </strong>
                   </p>
-                  <p>My technology stack is CSS, Git, Github, Html, JavaScript, React.</p>
+                  <p className="flex justify-center mt-5">
+                    My technology stack is CSS, Git, Github, Html, JavaScript, React.
+                  </p>
                 </div>
                 {/* botones */}
 
@@ -94,12 +96,12 @@ const HomePage = () => {
                 <div className="mt-5">
                   <h3 className="text-xl font-semibold text-pink-600">Projects</h3>
                   <p className=" text-neutral-800 dark:text-neutral-50 transition-transform  mt-2">
-                    <strong className="text-indigo-400 text-1xl ">
+                    <strong className="text-indigo-400 text-1xl mt-5">
                       My web development projects are captivating creations that fuse exceptional functionality, design
                       and performance.
                     </strong>
                   </p>
-                  <p>
+                  <p className="flex justify-center mt-5">
                     {' '}
                     Each website is a custom-made masterpiece designed to captivate your audience and highlight your
                     unique vision.
