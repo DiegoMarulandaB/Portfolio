@@ -19,7 +19,7 @@ const HomePage = () => {
                 <img className="w-32 h-32 rounded-full mx-auto" src="/Diego.jpeg" alt="Profile picture" />
                 <h2 className="text-center text-2xl font-semibold mt-3">Diego Marulanda</h2>
                 <p className="text-center text-neutral-80 dark:text-neutral-50  mt-1">Frontend Developer</p>
-                <span className="flex justify-center mt-5">Contact</span>
+                <span className="flex justify-center mt-5">Contact me</span>
                 <div className="flex justify-center mt-5">
                   <a
                     href="mailto:diegomarulanda87@gmail.com"
