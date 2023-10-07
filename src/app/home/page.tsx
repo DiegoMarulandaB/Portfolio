@@ -58,7 +58,7 @@ const HomePage = () => {
                     rel="noopener noreferrer"
                     className=" text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
                   >
-                    GitHub
+                    Github
                   </a>
                 </div>
                 <div className="mt-5">
