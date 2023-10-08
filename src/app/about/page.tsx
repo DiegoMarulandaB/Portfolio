@@ -72,7 +72,7 @@ const About = () => {
           <p className="text-center text-1xl mx-6 mr-6 mt-4"> My favorite writer is Brandon Sanderson.</p>
         </div>
         <div className="md:w-1/4">
-          <h1 className="text-center text-3xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
+          <h1 className="text-center text-2xl  mt-4 mx-2 mr-2 font-bold">My Skills</h1>
           <div className="flex flex-wrap flex-row justify-center md:justify-center">
             <div className="md:w-3/3">
               <h2 className="text-center text-2xl mt-4 mx-2 mr-2 mb-1 py-2 text-pink-600">Languages</h2>
@@ -82,8 +82,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
                     loading="lazy"
                     alt="Css Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-5xl"
                   />
                   <span className="text-center text-1xl mx-6 mr-6 mt-4">Css</span>
@@ -93,8 +93,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
                     loading="lazy"
                     alt="Html Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-4 mr-4 mt-4">Html</span>
@@ -105,8 +105,8 @@ const About = () => {
                     src="/javascript.svg"
                     loading="lazy"
                     alt="JavaScript Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mt-4">JavaScript</span>
@@ -117,8 +117,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
                     loading="lazy"
                     alt="React Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-4 mr-4 mt-4">React</span>
@@ -134,8 +134,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
                     loading="lazy"
                     alt="Git Bash Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-4 mr-4 mt-4">Bash</span>
@@ -146,8 +146,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
                     loading="lazy"
                     alt="Git Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-6 mr-6 mt-4">Git</span>
@@ -158,8 +158,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
                     loading="lazy"
                     alt="Github Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-4 mr-4 mt-4">Github</span>
@@ -170,8 +170,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
                     loading="lazy"
                     alt="Linux Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-4 mr-4 mt-4">Linux</span>
@@ -182,8 +182,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/neovimio/neovimio-icon.svg"
                     loading="lazy"
                     alt="Neovim Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-2 mr-2 mt-4">Neovim</span>
@@ -194,8 +194,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
                     loading="lazy"
                     alt="Postman Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-1 mr-1 mt-4">Postman</span>
@@ -206,8 +206,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
                     loading="lazy"
                     alt="Vscode Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-2 mr-2 mt-4">Vs Code</span>
@@ -223,8 +223,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
                     loading="lazy"
                     alt="Tailwind Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mx-2 mr-2 mt-4">Tailwind</span>
@@ -235,8 +235,8 @@ const About = () => {
                     src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
                     loading="lazy"
                     alt="Typescript Icon"
-                    width={80}
-                    height={80}
+                    width={75}
+                    height={75}
                     className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl"
                   />
                   <span className="text-center text-1xl mt-4">TypeScript</span>

@@ -18,10 +18,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my Twitter profile"
             >
-              <AiOutlineMail
-                className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-                size={34}
-              />
+              <AiOutlineMail className="icon   bg-slate-50 dark:bg-slate-600   rounded-md" size={34} />
             </a>
             <a
               href="https://twitter.com/DAMB1987"
@@ -29,10 +26,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my Twitter profile"
             >
-              <RiTwitterXFill
-                className="icon  text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-                size={34}
-              />
+              <RiTwitterXFill className="icon  bg-slate-50 dark:bg-slate-600  rounded-md" size={32} />
             </a>
             <a
               href="https://www.linkedin.com/in/diegomarulandabarrientos/"
@@ -40,10 +34,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my profile on Linkedin"
             >
-              <AiOutlineLinkedin
-                className="icon text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-                size={34}
-              />
+              <AiOutlineLinkedin className="icon bg-slate-50 dark:bg-slate-600 rounded-md" size={34} />
             </a>
             <a
               href="https://github.com/DiegoMarulandaB"
@@ -51,10 +42,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my Github profile"
             >
-              <AiOutlineGithub
-                className="icon text-white bg-gray-700 dark:bg-gray-700 border-2 border-black dark:border-white rounded-md"
-                size={34}
-              />
+              <AiOutlineGithub className="icon  bg-slate-50 dark:bg-slate-600  rounded-md" size={34} />
             </a>
           </div>
         </div>
