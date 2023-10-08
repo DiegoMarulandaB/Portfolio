@@ -25,7 +25,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  mx-2 mr-2 w-26
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600  bg-slate-50 dark:bg-slate-600   rounded-md  mx-2 mr-2 w-26
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
@@ -35,7 +35,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           <a
             href={buttonHref}
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block py-3 text-1xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white
+            className=" inline-block py-3 text-1xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white  text-white bg-gradient-to-r from-cyan-500 
+                         via-cyan-600 to-cyan-700 
               "
           >
             {button}
@@ -60,7 +61,7 @@ const Projects: React.FC = () => {
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1 className="text-center">
-                <AnimatedText text="Projects" className="mx-2 mr-2 mt-4" />
+                <AnimatedText text="My portfolio" className="mx-2 mr-2 mt-4" />
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i

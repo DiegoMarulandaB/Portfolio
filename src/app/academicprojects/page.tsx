@@ -85,8 +85,7 @@ const AcademicProjects = () => {
                     <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
                       <button
                         type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 "
-                      >
+                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 ">
                         Read more
                       </button>
                     </Link>
