@@ -12,7 +12,8 @@ interface NaviLink {
 const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/' },
   { label: 'About me', route: '/about' },
-  { label: 'My portfolio', route: '/projects' },
+  { label: 'Projects', route: '/projects' },
+  { label: 'Contact me', route: '/' },
 ]
 
 export default function Navigation() {
@@ -22,7 +23,7 @@ export default function Navigation() {
 
   // w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow
   return (
-    <header className="w-full mx-auto px-4 sm:px-30 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700  ">
+    <header className="w-full mx-auto px-4 sm:px-30 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-600  ">
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">

@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
       </head>
-      <body className={`${popps.className} bg-slate-100 dark:bg-slate-700`}>
+      <body className={`${popps.className} bg-slate-200 dark:bg-slate-700`}>
         <ThemeProvider enableSystem={true} attribute="class">
           <Navigation />
           {children}

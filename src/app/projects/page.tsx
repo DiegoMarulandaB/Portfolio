@@ -25,7 +25,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600  bg-slate-50 dark:bg-slate-600   rounded-md  mx-2 mr-2 w-26
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600  bg-slate-50 dark:bg-slate-600   rounded-3xl  mx-2 mr-2 w-26
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
@@ -35,7 +35,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           <a
             href={buttonHref}
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block py-3 text-1xl font-bold transition  rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white  text-white bg-gradient-to-r from-cyan-500 
+            className=" inline-block py-3 text-1xl font-bold transition  rounded-md px-7 hover:text-white  text-white bg-gradient-to-r from-cyan-500 
                          via-cyan-600 to-cyan-700 
               "
           >
