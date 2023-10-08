@@ -16,20 +16,20 @@ const HomePage = () => {
             <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
               <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
                 <div className="max-w-xl mb-6">
-                  <h2 className="text-center  font-sans text-3xl sm:mt-0 mt-6 font-medium tracking-tight bg-slate-50 dark:bg-slate-600 sm:text-4xl sm:leading-none max-w-lg mb-6">
+                  <h2 className="text-center  font-sans text-3xl sm:mt-0 mt-6 font-medium tracking-tight bg-slate-50 dark:bg-slate-800 sm:text-4xl sm:leading-none max-w-lg mb-6">
                     Diego Marulanda
                   </h2>
                   <p
-                    className="text-center text-neutral-80 dark:text-neutral-50  
+                    className="text-center text-slate-800 dark:text-slate-50  
                  mt-1"
                   >
                     Frontend Developer
                   </p>
-                  <span className="text-center  flex justify-center mt-5">Contact me</span>
+                  <span className="text-center text-slate-800  flex justify-center mt-5">Contact me</span>
                   <div className="flex justify-center mt-5">
                     <a
                       href="mailto:diegomarulanda87@gmail.com"
-                      className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
+                      className="text-center  text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform mx-3"
                     >
                       Email
                     </a>
@@ -37,7 +37,7 @@ const HomePage = () => {
                       href="https://twitter.com/DAMB1987"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className=" text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
+                      className=" text-center  text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform mx-3"
                     >
                       X
                     </a>
@@ -46,7 +46,7 @@ const HomePage = () => {
                       href="https://www.linkedin.com/in/diegomarulandabarrientos/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-center   text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
+                      className="text-center   text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform mx-3"
                     >
                       LinkedIn
                     </a>
@@ -54,7 +54,7 @@ const HomePage = () => {
                       href="https://github.com/DiegoMarulandaB?tab=repositories"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-center   text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
+                      className="text-center   text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform mx-3"
                     >
                       Github
                     </a>
@@ -63,20 +63,20 @@ const HomePage = () => {
                   <div className="mt-5">
                     <h3 className="text-center  text-xl font-semibold text-pink-600">Bio</h3>
                     <p
-                      className=" text-neutral-800 dark:text-neutral-50 
+                      className=" text-slate-800 dark:text-slate-50 
                    transition-transform  mt-2"
                     >
                       <strong className=" text-center  text-indigo-400 text-1xl ">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
                       </strong>
                     </p>
-                    <p className="text-center  flex justify-center mt-5">
+                    <p className="text-center text-slate-800 flex justify-center mt-5">
                       My technology stack is CSS, Git, Github, Html, JavaScript, React.
                     </p>
                   </div>
                 </div>
                 <div className="space-x-4">
-                  <button className="text-neutral-800  text-lg font-medium inline-flex items-center">
+                  <button className="text-slate-800  text-lg font-medium inline-flex items-center">
                     <a
                       href="/about"
                       rel="noopener noreferrer"
@@ -105,7 +105,7 @@ const HomePage = () => {
                     My web development projects are captivating creations that fuse exceptional functionality, design
                     and performance.
                   </strong>
-                  <p className=" text-center  flex justify-center mt-5">
+                  <p className=" text-center text-slate-800 flex justify-center mt-5">
                     {' '}
                     Each website is a custom-made masterpiece designed to captivate your audience and highlight your
                     unique vision.

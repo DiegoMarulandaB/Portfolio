@@ -35,8 +35,9 @@ export default function Navigation() {
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                id="menuButton" title="menuButton"
-                className="p-2 text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 cursor-pointer px-2 py-2 text-1xl  font-bold "
+                id="menuButton"
+                title="menuButton"
+                className="p-2 text-slate-50 bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 cursor-pointer px-2 py-2 text-1xl  font-bold "
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -48,7 +49,7 @@ export default function Navigation() {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-cyan-600 transition-transform cursor-pointer text-1xl mx-2 mr-2  text-black  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 decoration-cyan-600 transition-transform cursor-pointer text-1xl mx-2 mr-2  text-slate-800  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
@@ -56,7 +57,7 @@ export default function Navigation() {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} href={item.route} rel="dns-prefetch">
                   <div
-                    className="block lg:inline-block text-neutral-800 hover:text-cyan-500 dark:text-neutral-300 dark:hover:text-cyan-400 transition-transform "
+                    className="block lg:inline-block text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}
@@ -66,14 +67,14 @@ export default function Navigation() {
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  cursor-pointer px-2 py-2 font-bold  transition-transform   "
+                  className="text-slate-50 bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md  cursor-pointer px-2 py-2 font-bold  transition-transform   "
                 >
                   <PiSunHorizonBold size={25} color="white" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
-                  className="text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md cursor-pointer px-2 py-2 font-bold  transition-transform"
+                  className="text-slate-50 bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700  rounded-md cursor-pointer px-2 py-2 font-bold  transition-transform"
                 >
                   <PiMoonStarsBold size={24} />
                 </button>
