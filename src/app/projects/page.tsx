@@ -35,7 +35,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           <a
             href={buttonHref}
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block py-3 text-1xl font-bold transition  border rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white  text-white bg-gradient-to-r from-cyan-500 
+            className=" inline-block py-3 text-1xl font-bold transition  rounded-md px-7 text-body-color hover:border-primary hover:bg-primary hover:text-white  text-white bg-gradient-to-r from-cyan-500 
                          via-cyan-600 to-cyan-700 
               "
           >
