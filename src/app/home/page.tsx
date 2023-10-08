@@ -75,7 +75,7 @@ const HomePage = () => {
                     My technology stack is CSS, Git, Github, Html, JavaScript, React.
                   </p>
                 </div>
-                {/* botones */}
+               
 
                 <div className="mt-18 lg:mt-0">
                   <div
@@ -125,7 +125,7 @@ const HomePage = () => {
                     unique vision.
                   </p>
                 </div>
-                {/* botones */}
+               
 
                 <div className="mt-18 lg:mt-0">
                   <div
@@ -148,7 +148,7 @@ const HomePage = () => {
                          via-cyan-600 to-cyan-700 rounded-md px-4 py-4 mx-2 mr-2 
                           mt-4 w-26 text-center text-1xl  font-bold"
                       >
-                        Projects
+                        My portfolio
                       </a>
                     </div>
                   </div>

@@ -12,7 +12,7 @@ interface NaviLink {
 const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/' },
   { label: 'About me', route: '/about' },
-  { label: 'Projects', route: '/projects' },
+  { label: 'My portfolio', route: '/projects' },
 ]
 
 export default function Navigation() {
