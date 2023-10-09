@@ -25,7 +25,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600  bg-slate-50 dark:bg-slate-600   rounded-3xl  mx-2 mr-2 w-26
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600   mx-2 mr-2 w-26
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
@@ -35,8 +35,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           <a
             href={buttonHref}
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block py-3 text-1xl font-bold transition  rounded-md px-7 hover:text-white  text-white bg-gradient-to-r from-cyan-500 
-                         via-cyan-600 to-cyan-700 
+            className=" inline-block text-1xl text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 
               "
           >
             {button}
@@ -123,7 +122,7 @@ const Projects: React.FC = () => {
             showCard={showCard}
           />
           <ProjectCards
-            ImageHref="calculator.jpg"
+            ImageHref="calculator.jpeg"
             category="Personal projects"
             title=""
             button="Read more"

@@ -28,7 +28,7 @@ const projects: Project[] = [
     name: 'Basic Calculator',
     description:
       'Here a basic calculator built using Vite and React, inspired by FreeCodeCamp amazing course on React. This calculator combines the best of both technologies to provide an interactive and functional experience for users.',
-    image: '/calculator.jpg',
+    image: '/calculator.jpeg',
 
     github: 'https://github.com/DiegoMarulandaB/interactive-calculator-react',
     link: 'https://github.com/DiegoMarulandaB/interactive-calculator-react',
