@@ -13,14 +13,6 @@ const Footer = () => {
           </div>
           <div className="flex flex-row items-center justify- space-x-2 mt-2 mx-18 mr-18">
             <a
-              href="mailto:diegomarulanda87@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Read more about my Twitter profile"
-            >
-              <AiOutlineMail className="icon   bg-slate-200 dark:bg-slate-700   rounded-md" size={34} />
-            </a>
-            <a
               href="https://twitter.com/DAMB1987"
               target="_blank"
               rel="noopener noreferrer"

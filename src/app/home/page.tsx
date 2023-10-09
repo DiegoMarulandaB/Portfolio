@@ -30,12 +30,6 @@ const HomePage = () => {
                 <span className="flex justify-center mt-5">Contact me</span>
                 <div className="flex justify-center mt-5">
                   <a
-                    href="mailto:diegomarulanda87@gmail.com"
-                    className="text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
-                  >
-                    Email
-                  </a>
-                  <a
                     href="https://twitter.com/DAMB1987"
                     target="_blank"
                     rel="noopener noreferrer"
