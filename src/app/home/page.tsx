@@ -2,7 +2,6 @@
 
 import React from 'react'
 import AnimatedText from '../../components/AnimatedText/AnimatedText'
-import { Link } from 'react-scroll/modules'
 
 const HomePage = () => {
   return (
@@ -54,7 +53,7 @@ const HomePage = () => {
                       href="https://github.com/DiegoMarulandaB?tab=repositories"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-center   text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
+                      className="text-center text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3"
                     >
                       Github
                     </a>
@@ -89,6 +88,7 @@ const HomePage = () => {
                   </button>
                 </div>
               </div>
+              {/* foto */}
               <img className="w-48 h-48 rounded-full mx-auto" src="/Diego.jpeg" alt="Profile picture" />
             </div>
           </div>
