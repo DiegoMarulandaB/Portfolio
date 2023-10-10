@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     name: 'Digital booking',
     description:
-      'This is the MVP as the final project of the Digital House Certified Tech Developer career, using the agile methodology (Scrum), with 4 sprints, each of these springs lasting two weeks.Technologies used for the development of the site: Technologies used for the development of the site: CSS, HTML, React, Java, Postman, MYSQL, AWS. Presentation of the demonstration before a Globant representative. 06/04/2023.',
+      ' Digital Booking MVP as a final project of the Certified Tech Developer course at Digital House. It is a website that offers the possibility to book tours and activities in different countries. Using the agile methodology (Scrum), with 4 sprint, each of these sprints with a duration of two weeks. Stack of technologies CSS, HTML, React, Java, Postman, MYSQL, AWS. Presentation of the demonstration before a Globant representative. 06/04/2023.',
     image: '/digitalBooking.jpg',
 
     github: 'https://github.com/DiegoMarulandaB/Digital-booking',
