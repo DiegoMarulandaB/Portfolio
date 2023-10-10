@@ -23,7 +23,7 @@ export default function Navigation() {
 
   // w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-slate-50 dark:bg-slate-600 dark:border-b dark:border-slate-700 ">
+    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-slate-200 dark:bg-slate-700 dark:border-b dark:border-slate-700 ">
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
