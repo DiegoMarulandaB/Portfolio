@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     name: 'Digital booking',
     description:
-      ' Digital Booking MVP as a final project of the Certified Tech Developer course at Digital House. It is a website that offers the possibility to book tours and activities in different countries. Using the agile methodology (Scrum), with 4 sprint, each of these sprints with a duration of two weeks. Stack of technologies CSS, HTML, React, Java, Postman, MYSQL, AWS. Presentation of the demonstration before a Globant representative. 06/04/2023.',
+      'Digital Booking MVP final project of the Certified Tech Developer degree at Digital House. Website that offers to book tours and activities in different countries. The agile methodology (Scrum) was used, with 4 sprints. CSS, HTML, React, Java, Postman, MYSQL, AWS technologies stack. Presentation of the demonstration before a Globant representative. 04/06/2023.',
     image: '/digitalBooking.jpg',
 
     github: 'https://github.com/DiegoMarulandaB/Digital-booking',
@@ -85,7 +85,8 @@ const AcademicProjects = () => {
                     <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
                       <button
                         type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 ">
+                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 "
+                      >
                         Read more
                       </button>
                     </Link>
