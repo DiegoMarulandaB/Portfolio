@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about">
       <h1 className="text-center pt-20 ">
-        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-4 " />
+        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-5 " />
       </h1>
 
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">

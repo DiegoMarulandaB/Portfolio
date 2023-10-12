@@ -40,7 +40,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           <a
             href={buttonHref}
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block text-1xl text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 
+            className=" inline-block text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
+                          mt-4 w-26  text-1xl
               "
           >
             {button}
@@ -65,7 +66,7 @@ const Projects: React.FC = () => {
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1 className="text-center">
-                <AnimatedText text="Projects" className="mx-2 mr-2 mt-4" />
+                <AnimatedText text="Projects" className="mx-2 mr-2 mt-5" />
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
@@ -122,7 +123,7 @@ const Projects: React.FC = () => {
             ImageHref="digitalBooking.jpg"
             category="Academic projects"
             title=""
-            button="Read more"
+            button="Read more →"
             buttonHref="/academicprojects"
             showCard={showCard}
           />
@@ -130,7 +131,7 @@ const Projects: React.FC = () => {
             ImageHref="calculator.jpeg"
             category="Personal projects"
             title=""
-            button="Read more"
+            button="Read more →"
             buttonHref="/personalprojects"
             showCard={showCard}
           />

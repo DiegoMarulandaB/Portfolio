@@ -56,7 +56,7 @@ const AcademicProjects = () => {
   return (
     <section id="AcademicProjects">
       <h1 className="text-center pt-20">
-        <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-4" />
+        <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-5" />
       </h1>
       <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6">
         {projects.map((project, idx) => (
@@ -85,9 +85,10 @@ const AcademicProjects = () => {
                     <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
                       <button
                         type="button"
-                        className=" text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 rounded-md px-4 py-4 text-1xl text-center text-1xl font-bold  mt-4 w-26 "
+                        className=" text-center text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
+                          mt-4 w-26  text-1xl "
                       >
-                        Read more
+                        Read more →
                       </button>
                     </Link>
                     <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
