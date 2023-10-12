@@ -21,7 +21,12 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
   >
     <div className="relative mb-12">
       <div className="overflow-hidden rounded-md">
-        <img src={ImageHref} alt="portfolio" rel="noopener noreferrer" className="w-full mt-6" />
+        <img
+          src={ImageHref}
+          alt="portfolio"
+          rel="noopener noreferrer"
+          className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 "
+        />
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div

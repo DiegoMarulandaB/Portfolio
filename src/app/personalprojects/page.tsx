@@ -63,7 +63,7 @@ const PersonalProjects = () => {
                       alt="projects image"
                       width={390}
                       height={390}
-                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4 "
+                      className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4  transition-transform duration-150 ease-in-out hover:scale-125"
                     />
                   </Link>
                 </div>
