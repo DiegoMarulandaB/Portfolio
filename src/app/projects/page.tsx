@@ -25,7 +25,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           src={ImageHref}
           alt="portfolio"
           rel="noopener noreferrer"
-          className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 "
+          className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md"
         />
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
