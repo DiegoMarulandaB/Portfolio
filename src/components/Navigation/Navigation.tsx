@@ -13,7 +13,7 @@ const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/' },
   { label: 'About me', route: '/about' },
   { label: 'Projects', route: '/projects' },
-  { label: 'Contact me', route: '/' },
+  { label: 'Contact me', route: '/contact' },
 ]
 
 export default function Navigation() {
@@ -21,9 +21,9 @@ export default function Navigation() {
   const currentTheme = theme === 'system' ? systemTheme : theme
   const [navigation, setNavigation] = useState(false)
 
-  // w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow
+  
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-slate-50 dark:bg-slate-700 dark:border-b dark:border-slate-700 ">
+    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700 dark:border-b dark:border-slate-700 ">
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
