@@ -18,7 +18,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my Twitter profile"
             >
-              <RiTwitterXFill className="icon  bg-slate-50 dark:bg-slate-700  rounded-md" size={32} />
+              <RiTwitterXFill className="icon" size={32} />
             </a>
             <a
               href="https://www.linkedin.com/in/diegomarulandabarrientos/"
@@ -26,7 +26,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my profile on Linkedin"
             >
-              <AiOutlineLinkedin className="icon bg-slate-50 dark:bg-slate-700 rounded-md" size={34} />
+              <AiOutlineLinkedin className="icon " size={34} />
             </a>
             <a
               href="https://github.com/DiegoMarulandaB"
@@ -34,7 +34,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               aria-label="Read more about my Github profile"
             >
-              <AiOutlineGithub className="icon  bg-slate-50 dark:bg-slate-700  rounded-md" size={34} />
+              <AiOutlineGithub className="icon " size={34} />
             </a>
           </div>
         </div>
