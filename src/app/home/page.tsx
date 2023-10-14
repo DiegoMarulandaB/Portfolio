@@ -18,32 +18,25 @@ const HomePage = () => {
               className="flex flex-col text-center items-center justify- 
              center"
             >
-            
-              <div className="max-w-lg mx-2 mr-2 mt-6   ">
-             
-              </div>
-         
+              <div className="max-w-lg mx-2 mr-2 mt-6   "></div>
             </div>
           </div>
-
-         
 
           <div className="px-4 bg-white dark:bg-slate-600 mb-8 py-8 rounded-3xl mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
             <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
               <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
                 <div className="max-w-xl mb-6">
                   <h2 className="font-sans text-3xl sm:mt-0 mt-6 font-medium tracking-tight text-pink-600 sm:text-4xl sm:leading-none max-w-lg mb-6">
-                    Diego Marulanda
+                    About me
                   </h2>
                   <p className="text-black text-base md:text-lg">
                     {' '}
                     <strong className="text-neutral-800 dark:text-neutral-50  text-1xl ">
-                      Hi! 👋🏽 , a passionate freelancer frontend developer from Colombia!
+                      Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
                     </strong>
                   </p>
                 </div>
                 <div className="space-x-4">
-               
                   <a
                     href="/about"
                     rel="noopener noreferrer"
@@ -75,7 +68,6 @@ const HomePage = () => {
                   </p>
                 </div>
                 <div className="space-x-4">
-                
                   <a
                     href="/projects"
                     rel="noopener noreferrer"
@@ -104,7 +96,6 @@ const HomePage = () => {
                   </p>
                 </div>
                 <div className="space-x-4">
-              
                   <a
                     href="/contact"
                     rel="noopener noreferrer"
@@ -118,8 +109,6 @@ const HomePage = () => {
               <img alt="logo" width="420" height="120" src="/avatarContact.jpeg" />
             </div>
           </div>
-
-        
         </div>
       </div>
     </section>
