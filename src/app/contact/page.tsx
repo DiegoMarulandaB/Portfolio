@@ -42,7 +42,7 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, username }) => (
   >
     <span className="text-2xl font-bold text-neutral-800 dark:text-neutral-50 ">{text}</span>
     {username && (
-      <span className="text-1xl text-neutral-800 dark:text-neutral-50   hover:text-cyan-500  dark:hover:text-cyan-400 transition-transform cursor-pointer text-sm font-bold uppercase">
+      <span className="text-1xl text-neutral-800 dark:text-neutral-50   hover:text-cyan-500  dark:hover:text-cyan-400 transition-transform cursor-pointer text-sm font-bold uppercase mt-4">
         {username}
       </span>
     )}
@@ -50,21 +50,20 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, username }) => (
 )
 
 const contactLinks: ContactLinkProps[] = [
-
   {
     href: 'https://twitter.com/DAMB1987',
     text: 'X',
-    username: 'Follow me',
+    username: 'Follow me →',
   },
   {
     href: 'https://www.linkedin.com/in/diegomarulandabarrientos/',
     text: 'LinkedIn',
-    username: 'Follow me',
+    username: 'Follow me →',
   },
   {
     href: 'https://github.com/DiegoMarulandaB?tab=repositories',
     text: 'Github',
-    username: 'Follow me',
+    username: 'Follow me →',
   },
 ]
 export default Contact
