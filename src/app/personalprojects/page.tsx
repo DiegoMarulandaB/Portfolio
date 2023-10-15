@@ -53,7 +53,7 @@ const PersonalProjects = () => {
         {projects.map((project, idx) => (
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
-              <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-10 w-26 text-2xl  font-semi-bold">
+              <div className="flex flex-col items-center text-center text-white px-4 bg-white dark:bg-slate-600 mb-8 py-8 rounded-3xl mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mt-8">
                 <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
                   <div className="md:w-3/6">
                     <Link href={project.link}>
