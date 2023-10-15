@@ -22,7 +22,7 @@ const HomePage = () => {
                     </h2>
                     <p className="text-black text-base md:text-lg">
                       {' '}
-                      <strong className="text-neutral-800 dark:text-neutral-50  text-1xl ">
+                      <strong className="text-neutral-800 dark:text-neutral-50  text-2xl ">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
                       </strong>
                     </p>
@@ -52,7 +52,7 @@ const HomePage = () => {
                       Projects
                     </h2>
                     <p className="text-black text-base md:text-lg">
-                      <strong className="text-neutral-800 dark:text-neutral-50  text-1xl mt-6">
+                      <strong className="text-neutral-800 dark:text-neutral-50  text-2xl mt-6">
                         My web development projects are captivating creations that fuse exceptional functionality,
                         design and performance.
                       </strong>
@@ -80,7 +80,7 @@ const HomePage = () => {
                       Contact me
                     </h2>
                     <p className="text-black text-base md:text-lg">
-                      <strong className="text-neutral-800 dark:text-neutral-50  text-1xl mt-6">
+                      <strong className="text-neutral-800 dark:text-neutral-50  text-2xl mt-6">
                         If you are looking for a passionate and creative web developer, you have come to the right
                         place! Feel free to contact me to discuss your projects, ideas or any questions you may have.
                       </strong>
