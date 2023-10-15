@@ -19,7 +19,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
     }`}
   >
-    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-10 w-26 text-2xl  font-bold">
+    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-5 w-26 text-2xl  font-bold">
       <div className="overflow-hidden">
         <img
           src={ImageHref}
@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects">
       <div className="min-h-screen flex items-center justify-center">
-        <div className='className="pt-20  lg:pt-[100px] lg:pb-[100px]"'>
+        <div className="pt-20  lg:pt-[100px] lg:pb-[100px]">
           <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4">
