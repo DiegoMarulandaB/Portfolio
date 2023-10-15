@@ -59,51 +59,53 @@ const AcademicProjects = () => {
       <h1 className="text-center pt-20">
         <AnimatedText text="Academic projects" className=" mx-2 mr-2 mb-2 mt-5" />
       </h1>
-      <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6">
-        {projects.map((project, idx) => (
-          <div key={idx}>
-            <Slide offset="-200px 0px -200px 0px">
-              <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-10 w-26 text-2xl  font-semi-bold">
-                <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
-                  <div className="md:w-3/6">
-                    <Link href={project.link}>
-                      <Image
-                        loading="lazy"
-                        rel="noopener noreferrer dns-prefetch preload"
-                        src={project.image}
-                        alt="projects image"
-                        width={590}
-                        height={590}
-                        className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4 transition-transform duration-150 ease-in-out hover:scale-125"
-                      />
-                    </Link>
-                  </div>
-                  <div className="mt-4 md:w-3/5 mx-2 mr-2">
-                    <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-2 mx-2 mr-2 mt-2  text-pink-600">
-                      {project.name}
-                    </h1>
-                    <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-2 ">
-                      {project.description}
-                    </p>
-
-                    <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
-                      <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
-                        <button
-                          type="button"
-                          className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
-                          mt-4 w-26  text-1xl"
-                        >
-                          Read more →
-                        </button>
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6">
+          {projects.map((project, idx) => (
+            <div key={idx}>
+              <Slide offset="-200px 0px -200px 0px">
+                <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-10 w-26 text-2xl  font-semi-bold">
+                  <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
+                    <div className="md:w-3/6">
+                      <Link href={project.link}>
+                        <Image
+                          loading="lazy"
+                          rel="noopener noreferrer dns-prefetch preload"
+                          src={project.image}
+                          alt="projects image"
+                          width={590}
+                          height={590}
+                          className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4 transition-transform duration-150 ease-in-out hover:scale-125"
+                        />
                       </Link>
-                      <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
+                    </div>
+                    <div className="mt-4 md:w-3/5 mx-2 mr-2">
+                      <h1 className="flex flex-col text-center items-center justify-center  text-2xl font-bold mb-2 mx-2 mr-2 mt-2  text-pink-600">
+                        {project.name}
+                      </h1>
+                      <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-2 ">
+                        {project.description}
+                      </p>
+
+                      <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
+                        <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
+                          <button
+                            type="button"
+                            className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
+                          mt-4 w-26  text-1xl"
+                          >
+                            Read more →
+                          </button>
+                        </Link>
+                        <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </Slide>
-          </div>
-        ))}
+              </Slide>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )
