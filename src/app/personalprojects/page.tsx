@@ -72,7 +72,7 @@ const PersonalProjects = () => {
                     <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-2  text-pink-600">
                       {project.name}
                     </h1>
-                    <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-4 ">
+                    <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-4 text-neutral-800 dark:text-neutral-50  text-1xl">
                       {project.description}
                     </p>
 
