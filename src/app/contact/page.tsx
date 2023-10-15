@@ -3,7 +3,7 @@
 import React from 'react'
 import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
-export function Contact() {
+const Contact = () => {
   return (
     <section id="contact">
       <h1 className="text-center pt-20 ">
@@ -15,7 +15,7 @@ export function Contact() {
             <p className=" mt-6 text-center mx-2 mr-2 text-2xl text-pink-600">
               Get in touch with me through these links!
             </p>
-            <div className='grid grid-cols-1 md:grid-cols-1 gap-4 mx-2 mr-2 mt-20 rounded-3xl'>
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mx-2 mr-2 mt-20 rounded-3xl">
               {contactLinks.map((link) => (
                 <ContactLink key={link.text} {...link} />
               ))}
@@ -67,5 +67,4 @@ const contactLinks: ContactLinkProps[] = [
     username: 'Follow me',
   },
 ]
-
 export default Contact
