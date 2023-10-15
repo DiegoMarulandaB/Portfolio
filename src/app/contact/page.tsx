@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
         <div className="min-h-screen flex items-center justify-center">
           <div className="max-w-full mx-auto pb-80 ">
-            <p className=" mt-6 text-center mx-2 mr-2 text-2xl text-pink-600">
+            <p className=" mt-6 text-center mx-2 mr-2 text-3xl text-pink-600">
               Get in touch with me through these links!
             </p>
             <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mx-2 mr-2 mt-20 rounded-3xl">

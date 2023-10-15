@@ -32,7 +32,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600 mx-2 mr-2 w-26
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600 mx-2 mr-2 w-26 text-3xl
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">

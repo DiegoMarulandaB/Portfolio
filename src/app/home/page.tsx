@@ -20,11 +20,9 @@ const HomePage = () => {
                     <h2 className="font-sans text-3xl sm:mt-0 mt-6 font-medium tracking-tight text-pink-600 sm:text-4xl sm:leading-none max-w-lg mb-6">
                       Diego Marulanda
                     </h2>
-                    <p className="text-black text-base md:text-lg">
+                    <p className="text-neutral-800 dark:text-neutral-50  text-1xl">
                       {' '}
-                      <strong className="text-neutral-800 dark:text-neutral-50  text-1xl ">
-                        Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
-                      </strong>
+                      Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
                     </p>
                   </div>
                   <div className="space-x-4">
@@ -51,11 +49,9 @@ const HomePage = () => {
                     <h2 className="font-sans text-3xl sm:mt-0 mt-6 font-medium tracking-tight text-pink-600 sm:text-4xl sm:leading-none max-w-lg mb-6">
                       Projects
                     </h2>
-                    <p className="text-black text-base md:text-lg">
-                      <strong className="text-neutral-800 dark:text-neutral-50  text-1xl mt-6">
-                        My web development projects are captivating creations that fuse exceptional functionality,
-                        design and performance.
-                      </strong>
+                    <p className="text-neutral-800 dark:text-neutral-50  text-1xl">
+                      My web development projects are captivating creations that fuse exceptional functionality, design
+                      and performance.
                     </p>
                   </div>
                   <div className="space-x-4">
@@ -79,11 +75,11 @@ const HomePage = () => {
                     <h2 className="font-sans text-3xl sm:mt-0 mt-6 font-medium tracking-tight sm:text-4xl sm:leading-none max-w-lg mb-6 text-pink-600">
                       Contact me
                     </h2>
-                    <p className="text-black text-base md:text-lg">
-                      <strong className="text-neutral-800 dark:text-neutral-50  text-1xl mt-6">
+                    <p className="text-neutral-800 dark:text-neutral-50  text-1xl">
+                    
                         If you are looking for a passionate and creative web developer, you have come to the right
                         place! Feel free to contact me to discuss your projects, ideas or any questions you may have.
-                      </strong>
+                    
                     </p>
                   </div>
                   <div className="space-x-4">
