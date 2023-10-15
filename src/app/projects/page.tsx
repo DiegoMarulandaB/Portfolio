@@ -19,10 +19,12 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
     }`}
   >
-    <div className="relative mb-12">
-      <div className="overflow-hidden rounded-md">
+    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-10 w-26 text-2xl  font-bold">
+      <div className="overflow-hidden">
         <img
           src={ImageHref}
+          width={100}
+          height={100}
           alt="portfolio"
           rel="noopener noreferrer"
           className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md"
@@ -30,7 +32,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600   mx-2 mr-2 w-26
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600 mx-2 mr-2 w-26
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
@@ -40,9 +42,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
           <a
             href={buttonHref}
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
-                          mt-4 w-26  text-1xl
-              "
+            className=" inline-block text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-1xl"
           >
             {button}
           </a>
@@ -60,81 +60,85 @@ const Projects: React.FC = () => {
   }
 
   return (
-    <section className="pt-20  lg:pt-[100px] lg:pb-[100px]">
-      <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
-        <div className="flex flex-wrap -mx-4">
-          <div className="w-full px-4">
-            <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-              <h1 className="text-center">
-                <AnimatedText text="Projects" className="mx-2 mr-2 mt-5" />
-              </h1>
-              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
-                In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
-                enjoy creating it.
-              </p>
+    <section id="projects">
+      <div className="min-h-screen flex items-center justify-center">
+        <div className='className="pt-20  lg:pt-[100px] lg:pb-[100px]"'>
+          <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
+            <div className="flex flex-wrap -mx-4">
+              <div className="w-full px-4">
+                <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+                  <h1 className="text-center">
+                    <AnimatedText text="Projects" className="mx-2 mr-2 mt-5" />
+                  </h1>
+                  <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
+                    In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as
+                    i enjoy creating it.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full flex flex-wrap justify-center -mx-4">
+              <div className="w-full px-4">
+                <ul className="flex flex-wrap justify-center mb-12 space-x-1">
+                  <li className="mb-1">
+                    <button
+                      onClick={() => handleProject('all')}
+                      rel="noopener noreferrer dns-prefetch"
+                      className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
+                        showCard === 'all' ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2' : 'inactiveClasses'
+                      }`}
+                    >
+                      All Projects
+                    </button>
+                  </li>
+
+                  <li className="mb-1">
+                    <button
+                      onClick={() => handleProject('academic projects')}
+                      className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
+                        showCard === 'academic projects'
+                          ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
+                          : 'inactiveClasses'
+                      }`}
+                    >
+                      Academic projects
+                    </button>
+                  </li>
+                  <li className="mb-1">
+                    <button
+                      onClick={() => handleProject('personal projects')}
+                      className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
+                        showCard === 'personal projects'
+                          ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
+                          : 'inactiveClasses'
+                      }`}
+                    >
+                      Personal projects
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="flex flex-wrap rounded-lg -mx-4 text-1xl">
+              <ProjectCards
+                ImageHref="digitalBooking.jpg"
+                category="Academic projects"
+                title=""
+                button="Read more →"
+                buttonHref="/academicprojects"
+                showCard={showCard}
+              />
+              <ProjectCards
+                ImageHref="calculator.jpeg"
+                category="Personal projects"
+                title=""
+                button="Read more →"
+                buttonHref="/personalprojects"
+                showCard={showCard}
+              />
             </div>
           </div>
-        </div>
-
-        <div className="w-full flex flex-wrap justify-center -mx-4">
-          <div className="w-full px-4">
-            <ul className="flex flex-wrap justify-center mb-12 space-x-1">
-              <li className="mb-1">
-                <button
-                  onClick={() => handleProject('all')}
-                  rel="noopener noreferrer dns-prefetch"
-                  className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
-                    showCard === 'all' ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2' : 'inactiveClasses'
-                  }`}
-                >
-                  All Projects
-                </button>
-              </li>
-
-              <li className="mb-1">
-                <button
-                  onClick={() => handleProject('academic projects')}
-                  className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
-                    showCard === 'academic projects'
-                      ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
-                      : 'inactiveClasses'
-                  }`}
-                >
-                  Academic projects
-                </button>
-              </li>
-              <li className="mb-1">
-                <button
-                  onClick={() => handleProject('personal projects')}
-                  className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
-                    showCard === 'personal projects'
-                      ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
-                      : 'inactiveClasses'
-                  }`}
-                >
-                  Personal projects
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="flex flex-wrap rounded-lg -mx-4 text-1xl">
-          <ProjectCards
-            ImageHref="digitalBooking.jpg"
-            category="Academic projects"
-            title=""
-            button="Read more →"
-            buttonHref="/academicprojects"
-            showCard={showCard}
-          />
-          <ProjectCards
-            ImageHref="calculator.jpeg"
-            category="Personal projects"
-            title=""
-            button="Read more →"
-            buttonHref="/personalprojects"
-            showCard={showCard}
-          />
         </div>
       </div>
     </section>
