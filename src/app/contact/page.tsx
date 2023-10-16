@@ -11,8 +11,8 @@ const Contact = () => {
       </h1>
       <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
         <div className="min-h-screen flex items-center justify-center">
-          <div className="max-w-full mx-auto pb-80 ">
-            <p className=" mt-6 text-center mx-2 mr-2 text-3xl text-pink-600">
+          <div className="max-w-full mx-auto pb-20 ">
+            <p className=" mt-20 text-center mx-2 mr-2 text-3xl text-pink-600">
               Get in touch with me through these links!
             </p>
             <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mx-2 mr-2 mt-20 rounded-3xl">
@@ -38,7 +38,7 @@ const ContactLink: React.FC<ContactLinkProps> = ({ href, text, username }) => (
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-10 w-26 text-2xl  font-bold"
+    className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-20 w-26 text-2xl  font-bold"
   >
     <span className="text-2xl font-bold text-neutral-800 dark:text-neutral-50 ">{text}</span>
     {username && (
@@ -65,5 +65,7 @@ const contactLinks: ContactLinkProps[] = [
     text: 'Github',
     username: 'Follow me →',
   },
+
 ]
+
 export default Contact
