@@ -23,8 +23,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       <div className="overflow-hidden">
         <img
           src={ImageHref}
-          width={100}
-          height={100}
+          width={590}
+          height={590}
           alt="portfolio"
           rel="noopener noreferrer"
           className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md"
@@ -62,7 +62,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects">
       <div className="min-h-screen flex items-center justify-center">
-        <div className="pt-20  lg:pt-[100px] lg:pb-[100px]">
+       
           <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4">
@@ -140,7 +140,7 @@ const Projects: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
+
     </section>
   )
 }
