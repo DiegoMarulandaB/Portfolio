@@ -45,7 +45,7 @@ const projects: Project[] = [
   {
     name: 'Health application',
     description:
-      'Final project of the Frontend 3 subject, of the Certified Tech Developer career. Health application connected with the jsonplaceholder.typicode.com API. Tools that use Vite and React.js',
+      'Final project of the Frontend 3 subject, of the Certified Tech Developer career. Health application connected with the jsonplaceholder.typicode.com API. Tools that use Vite and React.js.',
     image: '/frontEnd3.jpg',
     github: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
     link: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
