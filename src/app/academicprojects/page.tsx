@@ -65,7 +65,6 @@ const AcademicProjects = () => {
             <Slide offset="-200px 0px -200px 0px">
               <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-4 mr-4 mt-6 ">
                 <div className="flex flex-col items-center justify-between mb-1 lg:flex-row">
-                  <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-2">
                     <div className="max-w-xl mb-6">
                       <div className="items-center text-center animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-2">
                         <div className="mx-4 mr-4">
@@ -82,10 +81,10 @@ const AcademicProjects = () => {
                           </Link>
                         </div>
                         <div className=" mx-4 mr-4">
-                          <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-4  text-pink-600">
+                          <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-5  text-pink-600">
                             {project.name}
                           </h1>
-                          <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-4 text-neutral-800 dark:text-neutral-50  text-1xl">
+                          <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-5 text-neutral-800 dark:text-neutral-50  text-1xl">
                             {project.description}
                           </p>
 
@@ -104,7 +103,6 @@ const AcademicProjects = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
             </Slide>
