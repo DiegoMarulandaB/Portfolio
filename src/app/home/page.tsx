@@ -91,7 +91,7 @@ const HomePage = () => {
                     </a>
                   </div>
                 </div>
-                <img className="rounded-md" alt="logo" width="420" height="120" src="/avatarContact.svg" />
+                <img className="rounded-md" alt="avatar contact" width="420" height="120" src="/avatarContact.svg" />
               </div>
             </div>
           </div>

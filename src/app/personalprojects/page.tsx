@@ -53,40 +53,46 @@ const PersonalProjects = () => {
         {projects.map((project, idx) => (
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
-              <div className="flex flex-col items-center text-center text-white px-4 bg-white dark:bg-slate-600 mb-8 py-8 rounded-3xl mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mt-8">
-                <div className="flex flex-col animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-8">
-                  <div className="md:w-3/6">
-                    <Link href={project.link}>
-                      <Image
-                        loading="lazy"
-                        rel="noopener noreferrer dns-prefetch preload"
-                        src={project.image}
-                        alt="projects image"
-                        width={590}
-                        height={590}
-                        className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4  transition-transform duration-150 ease-in-out hover:scale-125"
-                      />
-                    </Link>
-                  </div>
-                  <div className="mt-4 md:w-3/5 mx-2 mr-2">
-                    <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-2  text-pink-600">
-                      {project.name}
-                    </h1>
-                    <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-4 text-neutral-800 dark:text-neutral-50  text-1xl">
-                      {project.description}
-                    </p>
+              <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-5 ">
+                <div className="flex flex-col items-center justify-between w-full mb-1 lg:flex-row">
+                  <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-2">
+                    <div className="max-w-xl mb-6">
+                      <div className="items-center text-center animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-2">
+                        <div className="mx-4 mr-4">
+                          <Link href={project.link}>
+                            <Image
+                              loading="lazy"
+                              rel="noopener noreferrer dns-prefetch preload"
+                              src={project.image}
+                              alt="projects image"
+                              width={500}
+                              height={500}
+                              className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4  transition-transform duration-150 ease-in-out hover:scale-125"
+                            />
+                          </Link>
+                        </div>
+                        <div className=" mx-2 mr-2">
+                          <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-4  text-pink-600">
+                            {project.name}
+                          </h1>
+                          <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-4 text-neutral-800 dark:text-neutral-50  text-1xl">
+                            {project.description}
+                          </p>
 
-                    <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
-                      <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
-                        <button
-                          type="button"
-                          className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
+                          <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
+                            <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
+                              <button
+                                type="button"
+                                className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
                           mt-4 w-26  text-1xl"
-                        >
-                          Read more →
-                        </button>
-                      </Link>
-                      <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
+                              >
+                                Read more →
+                              </button>
+                            </Link>
+                            <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
