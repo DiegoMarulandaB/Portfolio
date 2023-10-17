@@ -49,12 +49,12 @@ const PersonalProjects = () => {
       <h1 className="text-center pt-20 ">
         <AnimatedText text="Personal projects" className="mx-2 mr-2 mb-2 mt-5" />
       </h1>
-      <div className="flex flex-col items-center justify-center space-y-26 mx-4 mt-6  ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project, idx) => (
           <div key={idx}>
             <Slide offset="-200px 0px -200px 0px">
-              <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-5 ">
-                <div className="flex flex-col items-center justify-between w-full mb-1 lg:flex-row">
+              <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-4 mr-4 mt-6 ">
+                <div className="flex flex-col items-center justify-between mb-1 lg:flex-row">
                   <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-2">
                     <div className="max-w-xl mb-6">
                       <div className="items-center text-center animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-2">
@@ -65,13 +65,13 @@ const PersonalProjects = () => {
                               rel="noopener noreferrer dns-prefetch preload"
                               src={project.image}
                               alt="projects image"
-                              width={500}
-                              height={500}
-                              className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4  transition-transform duration-150 ease-in-out hover:scale-125"
+                              width={600}
+                              height={600}
+                              className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4 pt-6 transition-transform duration-150 ease-in-out hover:scale-125"
                             />
                           </Link>
                         </div>
-                        <div className=" mx-2 mr-2">
+                        <div className=" mx-4 mr-4">
                           <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-4  text-pink-600">
                             {project.name}
                           </h1>
