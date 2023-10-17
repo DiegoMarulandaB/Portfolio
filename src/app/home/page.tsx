@@ -36,13 +36,13 @@ const HomePage = () => {
                     </a>
                   </div>
                 </div>
-                <img className="rounded-md" alt="avatar profile" width="420" height="120" src="/avatarProfile.jpeg" />
+                <img className="rounded-md" alt="avatar profile" width="420" height="120" src="/avatarProfile.svg" />
               </div>
             </div>
 
             <div className="px-4 bg-white  dark:bg-slate-600 mb-8 py-8 rounded-3xl mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
               <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
-                <img className="rounded-md" alt="avatar projects" width="420" height="120" src="/avatarProjects.jpeg" />
+                <img className="rounded-md" alt="avatar projects" width="420" height="120" src="/avatarProjects.svg" />
 
                 <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
                   <div className="max-w-xl mb-6">
@@ -91,7 +91,7 @@ const HomePage = () => {
                     </a>
                   </div>
                 </div>
-                <img className="rounded-md" alt="logo" width="420" height="120" src="/avatarContact.jpeg" />
+                <img className="rounded-md" alt="logo" width="420" height="120" src="/avatarContact.svg" />
               </div>
             </div>
           </div>
