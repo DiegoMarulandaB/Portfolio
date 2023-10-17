@@ -76,10 +76,8 @@ const HomePage = () => {
                       Contact me
                     </h2>
                     <p className="text-neutral-800 dark:text-neutral-50  text-1xl">
-                    
-                        If you are looking for a passionate and creative web developer, you have come to the right
-                        place! Feel free to contact me to discuss your projects, ideas or any questions you may have.
-                    
+                      If you are looking for a passionate and creative web developer, you have come to the right place!
+                      Feel free to contact me to discuss your projects, ideas or any questions you may have.
                     </p>
                   </div>
                   <div className="space-x-4">
