@@ -50,7 +50,6 @@ const projects: Project[] = [
     github: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
     link: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
   },
-
 ]
 
 const AcademicProjects = () => {
