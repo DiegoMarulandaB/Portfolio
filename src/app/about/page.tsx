@@ -32,8 +32,8 @@ const About = () => {
             </p>
             <p className="text-center text-1xl mx-4 mr-4 mt-4">
               {' '}
-              My fascination with technology is combined with a deep interest in geopolitics, general culture and
-              science, giving me a unique perspective on the digital world.
+              My fascination for technology is combined with a deep interest for geopolitics, general culture and
+              science, which gives me a different perspective in this industry.
             </p>
 
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-pink-600 text-2xl  ">
