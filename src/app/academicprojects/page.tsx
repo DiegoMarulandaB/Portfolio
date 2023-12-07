@@ -25,6 +25,15 @@ const projects: Project[] = [
     link: 'https://github.com/DiegoMarulandaB?tab=repositories',
   },
   {
+    name: 'The simpsons application',
+    description:
+      'Final project of the frontend 2 subject of the specialization in digital house.The Simpsons API was used. With it the user will be able to see quotes from each character, and a short description of the family. Project requirements: Typescript, unit testing, solid principles, clean code.. 12/30/2023.',
+    image: '/Final-esp-frontend-2.jpeg',
+
+    github: 'https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base',
+    link: 'https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base',
+  },
+  {
     name: 'Rick and Morty application',
     description:
       'Final project of the Frontend subject of the Digital House specialization (cloned repository of said academy). Developed in TypeScript, Redux, Thunk and their best practices, using the Rick and Morty API. 09/21/2023.',
