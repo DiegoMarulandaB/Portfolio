@@ -27,7 +27,7 @@ const projects: Project[] = [
   {
     name: 'The simpsons application',
     description:
-      'Final project of the frontend 2 subject of the specialization in digital house.The Simpsons API was used. With it the user will be able to see quotes from each character, and a short description of the family. Project requirements: Typescript, unit testing, solid principles, clean code.. 12/30/2023.',
+      'Final project of the frontend 2 subject of the specialization in digital house.The Simpsons API was used. With it the user will be able to see quotes from each character, and a short description of the family. Project requirements: Typescript, unit testing, solid principles, clean code.. 30/12/2023.',
     image: '/Final-esp-frontend-2.jpeg',
 
     github: 'https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base',
@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     name: 'Rick and Morty application',
     description:
-      'Final project of the Frontend subject of the Digital House specialization (cloned repository of said academy). Developed in TypeScript, Redux, Thunk and their best practices, using the Rick and Morty API. 09/21/2023.',
+      'Final project of the Frontend subject of the Digital House specialization (cloned repository of said academy). Developed in TypeScript, Redux, Thunk and their best practices, using the Rick and Morty API. 21/09/2023.',
     image: '/Final-esp-frontend.png',
 
     github: 'https://github.com/DiegoMarulandaB/ctd-esp-fe1-final',
@@ -54,7 +54,7 @@ const projects: Project[] = [
   {
     name: 'Health application',
     description:
-      'Final project of the Frontend 3 subject, of the Certified Tech Developer career. Health application connected with the jsonplaceholder.typicode.com API. Tools that use Vite and React.js.',
+      'Final project of the Frontend 3 subject, of the Certified Tech Developer career. Health application connected with the jsonplaceholder.typicode.com API. Tools that use Vite and React.js. 17/04/2023',
     image: '/frontEnd3.jpg',
     github: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
     link: 'https://github.com/DiegoMarulandaB/finalFrontEnd',
@@ -73,44 +73,44 @@ const AcademicProjects = () => {
             <Slide offset="-200px 0px -200px 0px">
               <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-4 mr-4 mt-6 ">
                 <div className="flex flex-col items-center justify-between mb-1 lg:flex-row">
-                    <div className="max-w-xl mb-6">
-                      <div className="items-center text-center animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-2">
-                        <div className="mx-4 mr-4">
-                          <Link href={project.link}>
-                            <Image
-                              loading="lazy"
-                              rel="noopener noreferrer dns-prefetch preload"
-                              src={project.image}
-                              alt="projects image"
-                              width={600}
-                              height={600}
-                              className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4 pt-6 transition-transform duration-150 ease-in-out hover:scale-125"
-                            />
-                          </Link>
-                        </div>
-                        <div className=" mx-4 mr-4">
-                          <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-5  text-pink-600">
-                            {project.name}
-                          </h1>
-                          <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-5 text-neutral-800 dark:text-neutral-50  text-1xl">
-                            {project.description}
-                          </p>
+                  <div className="max-w-xl mb-6">
+                    <div className="items-center text-center animate-slideCubiBezier animation-delay-2 md:flex-row md:space-x-2">
+                      <div className="mx-4 mr-4">
+                        <Link href={project.link}>
+                          <Image
+                            loading="lazy"
+                            rel="noopener noreferrer dns-prefetch preload"
+                            src={project.image}
+                            alt="projects image"
+                            width={600}
+                            height={600}
+                            className=" rounded-md  px-18 py-4 ml-auto md:mt-1  mx-4 mr-4 mt-4 pt-6 transition-transform duration-150 ease-in-out hover:scale-125"
+                          />
+                        </Link>
+                      </div>
+                      <div className=" mx-4 mr-4">
+                        <h1 className="flex flex-col text-center items-center justify-center  text-3xl font-bold mb-2 mx-2 mr-2 mt-5  text-pink-600">
+                          {project.name}
+                        </h1>
+                        <p className="flex flex-col text-center items-center justify-center text-1xl mx-2 mr-2 mt-5 text-neutral-800 dark:text-neutral-50  text-1xl">
+                          {project.description}
+                        </p>
 
-                          <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
-                            <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
-                              <button
-                                type="button"
-                                className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
+                        <div className="flex flex-col text-center items-center justify-center align-bottom space-x-4 mt-2">
+                          <Link href={project.github} target="_blank" rel="noopener noreferrer dns-prefetch preload">
+                            <button
+                              type="button"
+                              className="text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 
                           mt-4 w-26  text-1xl"
-                              >
-                                Read more →
-                              </button>
-                            </Link>
-                            <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
-                          </div>
+                            >
+                              Read more →
+                            </button>
+                          </Link>
+                          <Link href={project.link} target="_blank" rel="noopener noreferrer dns-prefetch preload" />
                         </div>
                       </div>
                     </div>
+                  </div>
                 </div>
               </div>
             </Slide>
