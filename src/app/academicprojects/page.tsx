@@ -27,7 +27,7 @@ const projects: Project[] = [
   {
     name: 'The simpsons application',
     description:
-      'Final project of the frontend 2 subject of the specialization in digital house.The Simpsons API was used. With it the user will be able to see quotes from each character, and a short description of the family. Project requirements: Typescript, unit testing, solid principles, clean code.. 30/12/2023.',
+      'Final project of the frontend 2 subject of the specialization in digital house.The Simpsons API was used. With it the user will be able to see quotes from each character, and a short description of the family. Project requirements: Typescript, unit testing, solid principles, clean code. 30/12/2023.',
     image: '/Final-esp-frontend-2.jpeg',
 
     github: 'https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base',
