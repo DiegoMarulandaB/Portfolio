@@ -55,7 +55,7 @@ const HomePage = () => {
                   </div>
                   {/* <!-- Testimonial --> */}
                   <div className="max-w-lg">
-                    <div className="bg-white dark:bg-slate-600 p-6 rounded-md shadow-xl">
+                    <div className="bg-white dark:bg-slate-600 p-6 rounded-md shadow-xl h-46 w-46">
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>
