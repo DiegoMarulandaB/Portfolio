@@ -14,7 +14,7 @@ const About = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
           <div className="md:w-3/6">
-              <p className="text-center text-1xl mx-4 mr-4 mt-4">
+            <p className="text-center text-1xl mx-4 mr-4 mt-4">
               <strong className="text-indigo-400 text-1xl ">
                 Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia!
               </strong>
@@ -40,15 +40,12 @@ const About = () => {
             </span>
 
             <p className="text-center text-1xl mx-4 mr-4 mt-4">
-             Complete the Certified tech Developer degree at Digital House, in agreement with Mercado Libre and Globant.
+              Complete the Certified tech Developer degree at Digital House, in agreement with Mercado Libre and
+              Globant.
             </p>
 
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">
-             Start the Frontend specialization in Digital house.
-            </p>
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">
-             New challenges to enhance my knowledge!.
-            </p>
+            <p className="text-center text-1xl mx-4 mr-4 mt-4">Start the Frontend specialization in Digital house.</p>
+            <p className="text-center text-1xl mx-4 mr-4 mt-4">New challenges to enhance my knowledge!.</p>
 
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-2xl  text-pink-600  ">
               Hobbies
