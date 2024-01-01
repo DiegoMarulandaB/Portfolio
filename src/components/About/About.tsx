@@ -44,7 +44,7 @@ const About = () => {
               Globant.
             </p>
 
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">Start the Frontend specialization in Digital house.</p>
+            <p className="text-center text-1xl mx-4 mr-4 mt-4">Start the Frontend specialization in Digital House.</p>
             <p className="text-center text-1xl mx-4 mr-4 mt-4">New challenges to enhance my knowledge!.</p>
 
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-2xl  text-pink-600  ">

@@ -23,7 +23,7 @@ const HomePage = () => {
                     <h2 className="text-3xl font-semibold mt-8">Contact me</h2>
 
                     {/* <!-- Social Icons --> */}
-                    <div className="flex gap-3 mt-2 justify-center">
+                    <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="https://twitter.com/DAMB1987"
                         className=" hover:text-cyan-500"
