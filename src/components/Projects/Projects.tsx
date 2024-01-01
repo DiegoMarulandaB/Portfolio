@@ -8,23 +8,32 @@ interface ProjectCardsProps {
   category: string
   ImageHref: string
   title: string
+  description: string
   button: string
   buttonHref: string
 }
 
-const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHref, title, button, buttonHref }) => (
+const ProjectCards: React.FC<ProjectCardsProps> = ({
+  showCard,
+  category,
+  ImageHref,
+  title,
+  description,
+  button,
+  buttonHref,
+}) => (
   <div
     id="projects"
-    className={`w-full px-4 md:w-1/2 xl:w-1/3  ${
+    className={`w-full px-4 md:w-1/2 xl:w-3/3  ${
       showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
     }`}
   >
-    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-5 w-26 text-2xl  font-bold">
+    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-5 w-46 h-46 text-1xl  font-bold">
       <div className="overflow-hidden">
         <img
           src={ImageHref}
-          width={590}
-          height={590}
+          width={690}
+          height={690}
           alt="portfolio"
           rel="noopener noreferrer"
           className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md"
@@ -32,15 +41,17 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({ showCard, category, ImageHr
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600 mx-2 mr-2 w-26 text-3xl
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600 mx-2 mr-2 w-26 text-1xl
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
             {category}
           </span>
           <h3 className="mb-4 text-1xl font-bold text-dark">{title}</h3>
+          <h3 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold text-dark">{description}</h3>
           <a
             href={buttonHref}
+            target="_blank"
             rel="noopener noreferrer dns-prefetch"
             className=" inline-block text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-1xl"
           >
@@ -121,19 +132,39 @@ const Projects: React.FC = () => {
           </div>
           <div className="flex flex-wrap rounded-md -mx-4 text-1xl">
             <ProjectCards
+              ImageHref="profileGithub.jpeg"
+              category="Github"
+              title="My repository"
+              description="Explore my repository on GitHub, where you will find my projects."
+              button="Read more →"
+              buttonHref="https://github.com/DiegoMarulandaB"
+              showCard={showCard}
+            />
+            <ProjectCards
               ImageHref="digitalBooking.jpg"
               category="Academic projects"
-              title=""
+              title="Digital booking"
+              description="MVP to book activities in several countries. Final project of the Certified Tech developer degree."
               button="Read more →"
-              buttonHref="/academicprojects"
+              buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
               showCard={showCard}
             />
             <ProjectCards
               ImageHref="calculator.jpeg"
               category="Personal projects"
-              title=""
+              title="Calculator basic"
+              description="Created with Vite and React, inspired by the FreeCodeCamp course on React. Provide an interactive and functional experience to users."
               button="Read more →"
-              buttonHref="/personalprojects"
+              buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
+              showCard={showCard}
+            />
+            <ProjectCards
+              ImageHref="Final-esp-frontend-2.jpeg"
+              category="Academic projects"
+              title="The simpsons application"
+              description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API."
+              button="Read more →"
+              buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
               showCard={showCard}
             />
           </div>

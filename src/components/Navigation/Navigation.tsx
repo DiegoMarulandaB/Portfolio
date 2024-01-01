@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { useTheme } from 'next-themes'
+import { usePathname } from 'next/navigation'
 import { PiMoonStarsBold, PiSunHorizonBold } from 'react-icons/pi'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
-import Link from 'next/link'
+import { Link } from 'react-scroll/modules'
 
 interface NaviLink {
   label: string
@@ -10,24 +11,24 @@ interface NaviLink {
 }
 
 const LINKS_NAV: NaviLink[] = [
-  { label: 'Home', route: '/' },
-  { label: 'About me', route: '/about' },
-  { label: 'Projects', route: '/projects' },
-  { label: 'Contact me', route: '/contact' },
+  { label: 'Home', route: 'home' },
+  { label: 'About me', route: 'about' },
+  { label: 'Projects', route: 'projects' },
+  { label: 'Contact me', route: 'contact' },
 ]
 
 export default function Navigation() {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === 'system' ? systemTheme : theme
+  const pathname = usePathname()
   const [navigation, setNavigation] = useState(false)
 
-  
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700  dark:border-slate-600 ">
       <div className="justify-between  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
-            <Link href="/" rel="noopener noreferrer dns-prefetch">
+            <Link to="home" rel="noopener noreferrer dns-prefetch">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-1xl font-bold transition-transform cursor-pointer mx-2 mr-2">Diego Marulanda</h2>
               </div>
@@ -55,7 +56,7 @@ export default function Navigation() {
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
               {LINKS_NAV.map((item, index) => (
-                <Link key={index} href={item.route} rel="dns-prefetch">
+                <Link key={index} to={item.route} rel="dns-prefetch">
                   <div
                     className="block lg:inline-block text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform "
                     onClick={() => setNavigation(!navigation)}
