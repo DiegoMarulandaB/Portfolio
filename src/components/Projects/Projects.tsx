@@ -112,7 +112,7 @@ const Projects: React.FC = () => {
                         : 'inactiveClasses'
                     }`}
                   >
-                    Academic projects
+                    Academic Projects
                   </button>
                 </li>
                 <li className="mb-1">
@@ -124,7 +124,7 @@ const Projects: React.FC = () => {
                         : 'inactiveClasses'
                     }`}
                   >
-                    Personal projects
+                    Personal Projects
                   </button>
                 </li>
               </ul>
@@ -142,7 +142,7 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               ImageHref="digitalBooking.jpg"
-              category="Academic projects"
+              category="Academic Projects"
               title="Digital booking"
               description="MVP to book activities in several countries. Final project of the Certified Tech developer degree."
               button="Read more →"
@@ -151,7 +151,7 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               ImageHref="calculator.jpeg"
-              category="Personal projects"
+              category="Personal Projects"
               title="Calculator basic"
               description="Created with Vite and React, inspired by the FreeCodeCamp course on React. Provide an interactive and functional experience to users."
               button="Read more →"
@@ -160,7 +160,7 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               ImageHref="Final-esp-frontend-2.jpeg"
-              category="Academic projects"
+              category="Academic Projects"
               title="The simpsons application"
               description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API."
               button="Read more →"
