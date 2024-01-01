@@ -9,9 +9,9 @@ const HomePage = () => {
   return (
     <section id="home">
       <div className="relative w-full">
-        <div className="grid place-items-center min-h-[78vh] px-8">
+        <div className="grid place-items-center min-h-[86vh] px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="bg-slate-100 dark:bg-slate-700 text-center pt-16 ">
+            <h1 className="bg-slate-100 dark:bg-slate-700 text-center pt-24 ">
               <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 mt-5" />
             </h1>
             {/* card */}
@@ -55,7 +55,7 @@ const HomePage = () => {
                   </div>
                   {/* <!-- Testimonial --> */}
                   <div className="max-w-lg">
-                    <div className="bg-white dark:bg-slate-600 p-6 rounded-md shadow-xl h-46 w-46">
+                    <div className="bg-white dark:bg-slate-600 p-6 rounded-md shadow-xl w-46 h-46">
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>
