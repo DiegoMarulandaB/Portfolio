@@ -67,11 +67,6 @@ const HomePage = () => {
                         <div className="md:text-lg">
                           <p className=" text-md">
                             <span className=" text-blue-800 dark:text-green-400"> Freelance programmer</span>
-
-                            <a
-                              href="#"
-                              className="hover:underline hover:cursor-pointer hover:text-blue-500 transition-colors duration-75"
-                            ></a>
                           </p>
                         </div>
                       </div>
