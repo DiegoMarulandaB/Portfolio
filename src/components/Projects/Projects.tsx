@@ -41,7 +41,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
-          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center text-pink-600 mx-2 mr-2 w-26 text-1xl
+          className="relative z-10 px-4 py-4 -mt-2 text-center items-center justify-center  text-blue-800 dark:text-green-400 mx-2 mr-2 w-26 text-1xl
         "
         >
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
@@ -53,7 +53,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
             href={buttonHref}
             target="_blank"
             rel="noopener noreferrer dns-prefetch"
-            className=" inline-block text-center  text-neutral-800 hover:text-cyan-500 dark:text-neutral-50 dark:hover:text-cyan-400 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-1xl"
+            className=" inline-block text-center  text-neutral-800 hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300 transition-transform mx-3cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-1xl"
           >
             {button}
           </a>
@@ -96,7 +96,9 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('all')}
                     rel="noopener noreferrer dns-prefetch"
                     className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
-                      showCard === 'all' ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2' : 'inactiveClasses'
+                      showCard === 'all'
+                        ? 'activeClasses bg-primary text-blue-800 dark:text-green-400 mx-2 mr-2'
+                        : 'inactiveClasses'
                     }`}
                   >
                     All Projects
@@ -108,7 +110,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('academic projects')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'academic projects'
-                        ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
+                        ? 'activeClasses bg-primary text-blue-800 dark:text-green-400  mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -120,7 +122,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('personal projects')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'personal projects'
-                        ? 'activeClasses bg-primary text-cyan-500  mx-2 mr-2'
+                        ? 'activeClasses bg-primary text-blue-800 dark:text-green-400  mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >

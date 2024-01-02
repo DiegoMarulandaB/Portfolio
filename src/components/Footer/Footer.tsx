@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex flex-row items-center justify-evenly space-x-2 mt-2 mx-18 mr-18">
             <a
               href="https://twitter.com/DAMB1987"
-              className=" hover:text-cyan-500"
+              className=" hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Read more about my Twitter profile"
@@ -23,7 +23,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-              className=" hover:text-cyan-500"
+              className="  hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Read more about my profile on Linkedin"
@@ -32,7 +32,7 @@ const Footer = () => {
             </a>
             <a
               href="https://github.com/DiegoMarulandaB"
-              className=" hover:text-cyan-500"
+              className=" hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Read more about my Github profile"

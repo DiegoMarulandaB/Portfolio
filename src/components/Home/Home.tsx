@@ -26,7 +26,7 @@ const HomePage = () => {
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="https://twitter.com/DAMB1987"
-                        className=" hover:text-cyan-500"
+                        className="  hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my Twitter profile"
@@ -35,7 +35,7 @@ const HomePage = () => {
                       </a>
                       <a
                         href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                        className=" hover:text-cyan-500"
+                        className="  hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my profile on Linkedin"
@@ -44,7 +44,7 @@ const HomePage = () => {
                       </a>
                       <a
                         href="https://github.com/DiegoMarulandaB"
-                        className=" hover:text-cyan-500"
+                        className="  hover:text-purple-800 dark:text-neutral-50 dark:hover:text-amber-300"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my Github profile"
@@ -65,28 +65,8 @@ const HomePage = () => {
                           <img className="rounded-full" src="/Diego.jpeg" alt="Diego Marulanda Profile Picture" />
                         </div>
                         <div className="md:text-lg">
-                          <div className="flex flex-row">
-                            <p className="font-semibold mr-2">Diego Marulanda</p>
-                            <div className="flex gap-3">
-                              <a
-                                href="#"
-                                className="dark:hover:text-blue-500 transition-colors duration-75"
-                                target="_blank"
-                              >
-                                <i className="fa-brands fa-linkedin"></i>
-                              </a>
-                              <a
-                                href="#"
-                                className="dark:hover:text-blue-500 transition-colors duration-75"
-                                target="_blank"
-                              >
-                                <i className="fa-brands fa-twitter"></i>
-                              </a>
-                            </div>
-                          </div>
-
                           <p className=" text-md">
-                            <span className=" text-pink-600 "> Freelance programmer</span>
+                            <span className=" text-blue-800 dark:text-green-400"> Freelance programmer</span>
 
                             <a
                               href="#"
