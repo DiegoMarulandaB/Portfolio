@@ -30,7 +30,9 @@ export default function Navigation() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform cursor-pointer mx-2 mr-2">Diego Marulanda</h2>
+                <h2 className="text-1xl font-bold transition-transform  hover:text-purple-800 dark:text-slate-100 dark:hover:text-amber-300  cursor-pointer mx-2 mr-2">
+                  Diego Marulanda
+                </h2>
               </div>
             </Link>
             {/* mobile menu */}
