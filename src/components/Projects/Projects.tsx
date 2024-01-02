@@ -94,7 +94,6 @@ const Projects: React.FC = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject('all')}
-                    rel="noopener noreferrer dns-prefetch"
                     className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
                       showCard === 'all'
                         ? 'activeClasses bg-primary text-blue-800 dark:text-green-400 mx-2 mr-2'

@@ -28,7 +28,7 @@ export default function Navigation() {
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
-            <Link to="home" rel="noopener noreferrer dns-prefetch">
+            <Link to="home">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-1xl font-bold transition-transform cursor-pointer mx-2 mr-2">Diego Marulanda</h2>
               </div>
