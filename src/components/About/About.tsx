@@ -35,7 +35,7 @@ const About = () => {
             </span>
 
             <p className="text-center text-1xl mx-4 mr-4 mt-4">
-              Complete the Certified tech Developer degree at Digital House, in agreement with Mercado Libre and
+              Complete the Certified Tech Developer degree at Digital House, in agreement with Mercado Libre and
               Globant.
             </p>
 
