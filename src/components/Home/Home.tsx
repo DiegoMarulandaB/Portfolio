@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="relative w-full">
         <div className="grid place-items-center min-h-[86vh] px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="bg-slate-100 dark:bg-slate-700 text-center mt-18 ">
+            <h1 className="bg-slate-100 dark:bg-slate-700 text-center mt-16 ">
               <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 mt-5" />
             </h1>
             {/* card */}
