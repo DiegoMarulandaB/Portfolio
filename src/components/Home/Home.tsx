@@ -62,7 +62,13 @@ const HomePage = () => {
                       {/* <!-- --> */}
                       <div className="flex mt-4 justify-end">
                         <div className="w-16 h-16 mr-4 md:w-18 md:h-18">
-                          <img className="rounded-full" src="/Diego.jpeg" alt="Diego Marulanda Profile Picture" />
+                          <img
+                            className=" rounded-full"
+                            width={120}
+                            height={120}
+                            src="/Diego.jpeg"
+                            alt="Diego Marulanda Profile Picture"
+                          />
                         </div>
                         <div className="md:text-lg">
                           <p className=" text-md">
