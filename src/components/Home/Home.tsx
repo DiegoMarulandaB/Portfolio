@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="relative w-full">
         <div className="grid place-items-center min-h-[86vh] px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="bg-slate-100 dark:bg-slate-700 text-center mt-16 ">
+            <h1 className="bg-slate-100 dark:bg-slate-700 text-center mt-18 ">
               <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 mt-5" />
             </h1>
             {/* card */}
@@ -20,7 +20,7 @@ const HomePage = () => {
                 <div className="flex flex-col lg:flex-row items-center justify-between">
                   {/* <!-- Text Content --> */}
                   <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center">
-                    <h2 className="text-3xl font-semibold mt-8">Contact Me</h2>
+                    <h2 className="text-3xl font-semibold mt-12">Contact Me</h2>
 
                     {/* <!-- Social Icons --> */}
                     <div className="flex gap-3 mt-4 justify-center">
@@ -55,7 +55,7 @@ const HomePage = () => {
                   </div>
                   {/* <!-- Testimonial --> */}
                   <div className="max-w-lg">
-                    <div className="mt-8 w-46 h-46">
+                    <div className="mt-12 w-46 h-46">
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>

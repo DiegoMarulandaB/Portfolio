@@ -28,7 +28,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
       showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
     }`}
   >
-    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl px-4 py-4 mx-2 mr-2 mt-5 w-46 h-46 text-1xl  font-bold">
+    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl border-solid border-2 border-slate-400 opacity-90  px-4 py-4 mx-2 mr-2 mt-5 w-46 h-46">
       <div className="overflow-hidden">
         <img
           src={ImageHref}
@@ -36,7 +36,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
           height={690}
           alt="portfolio"
           rel="noopener noreferrer"
-          className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md"
+          className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md  border-solid border-2 border-gray-200"
         />
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
@@ -165,6 +165,33 @@ const Projects: React.FC = () => {
               description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
+              showCard={showCard}
+            />
+            <ProjectCards
+              ImageHref="counterClick.jpg"
+              category="Personal Projects"
+              title="Counter Click"
+              description="This project is created in Vite and React, based on the FreeCodeCamp course in React."
+              button="Read more →"
+              buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecampe"
+              showCard={showCard}
+            />
+            <ProjectCards
+              ImageHref="Final-esp-frontend.png"
+              category="Academic Projects"
+              title="Rick and Morty application"
+              description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API."
+              button="Read more →"
+              buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
+              showCard={showCard}
+            />
+            <ProjectCards
+              ImageHref="frontEnd3.jpg"
+              category="Academic Projects"
+              title="Health application"
+              description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API."
+              button="Read more →"
+              buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
               showCard={showCard}
             />
           </div>
