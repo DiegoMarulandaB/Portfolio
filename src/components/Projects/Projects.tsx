@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { lazy, useState } from 'react'
 import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
 interface ProjectCardsProps {
@@ -11,7 +11,7 @@ interface ProjectCardsProps {
   description: string
   button: string
   buttonHref: string
-  loading: string
+  loading?: 'eager' | 'lazy' | undefined
   href: string
 }
 
@@ -36,6 +36,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
       <div className="overflow-hidden">
         <a href={href} target="_blank" rel="noopener noreferrer">
           <img
+            loading={loading}
             src={ImageHref}
             width={690}
             height={690}

@@ -57,6 +57,7 @@ const HomePage = () => {
                       <div className="flex mt-4 justify-end">
                         <div className="w-16 h-16 mr-4 md:w-18 md:h-18">
                           <img
+                            loading="lazy"
                             className=" rounded-full"
                             width={120}
                             height={120}
