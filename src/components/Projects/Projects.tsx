@@ -11,6 +11,7 @@ interface ProjectCardsProps {
   description: string
   button: string
   buttonHref: string
+  loading: string
 }
 
 const ProjectCards: React.FC<ProjectCardsProps> = ({
@@ -21,6 +22,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   description,
   button,
   buttonHref,
+  loading,
 }) => (
   <div
     id="projects"
@@ -47,7 +49,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
           <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
             {category}
           </span>
-          <h3 className="mb-4 text-1xl font-bold text-dark">{title}</h3>
+          <h3 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold text-dark">{title}</h3>
           <h3 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold text-dark">{description}</h3>
           <a
             href={buttonHref}
@@ -133,6 +135,7 @@ const Projects: React.FC = () => {
           </div>
           <div className="flex flex-wrap rounded-md -mx-4 text-1xl">
             <ProjectCards
+              loading="lazy"
               ImageHref="profileGithub.jpeg"
               category="Github"
               title="My repository"
@@ -142,6 +145,7 @@ const Projects: React.FC = () => {
               showCard={showCard}
             />
             <ProjectCards
+              loading="lazy"
               ImageHref="digitalBooking.jpg"
               category="Academic Projects"
               title="Digital booking"
@@ -151,6 +155,7 @@ const Projects: React.FC = () => {
               showCard={showCard}
             />
             <ProjectCards
+              loading="lazy"
               ImageHref="calculator.jpeg"
               category="Personal Projects"
               title="Calculator basic"
@@ -160,6 +165,7 @@ const Projects: React.FC = () => {
               showCard={showCard}
             />
             <ProjectCards
+              loading="lazy"
               ImageHref="Final-esp-frontend-2.jpeg"
               category="Academic Projects"
               title="The simpsons application"
@@ -169,6 +175,7 @@ const Projects: React.FC = () => {
               showCard={showCard}
             />
             <ProjectCards
+              loading="lazy"
               ImageHref="counterClick.jpg"
               category="Personal Projects"
               title="Counter Click"
@@ -178,6 +185,7 @@ const Projects: React.FC = () => {
               showCard={showCard}
             />
             <ProjectCards
+              loading="lazy"
               ImageHref="Final-esp-frontend.png"
               category="Academic Projects"
               title="Rick and Morty application"
@@ -187,6 +195,7 @@ const Projects: React.FC = () => {
               showCard={showCard}
             />
             <ProjectCards
+              loading="lazy"
               ImageHref="frontEnd3.jpg"
               category="Academic Projects"
               title="Health application"
