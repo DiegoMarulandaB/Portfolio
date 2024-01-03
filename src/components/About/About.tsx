@@ -192,7 +192,7 @@ const About = () => {
                       height={75}
                       className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
                     />
-                    <span className="justify-center text-1xl mx-2 mr-2 mt-4">Vs Code</span>
+                    <span className="justify-center text-1xl mx-1 mr-1 mt-4">Vs Code</span>
                   </div>
                 </div>
               </div>
@@ -211,7 +211,7 @@ const About = () => {
                       height={75}
                       className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
                     />
-                    <span className="justify-center text-1xl mt-4">Tailwind</span>
+                    <span className="justify-center text-1xl mx-1">Tailwind</span>
                   </div>
 
                   <div>
