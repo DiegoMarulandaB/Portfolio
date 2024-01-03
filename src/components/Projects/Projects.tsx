@@ -77,8 +77,8 @@ const Projects: React.FC = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <h1 className="text-center pt-20">
-                  <AnimatedText text="Projects" className="mx-2 mr-2 mt-5" />
+                <h1 className="text-center pt-6">
+                  <AnimatedText text="Projects" className="mx-2 mr-2 mt-16" />
                 </h1>
                 <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
                   In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
