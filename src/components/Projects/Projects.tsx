@@ -1,6 +1,6 @@
 'use client'
 
-import React, { lazy, useState } from 'react'
+import React, { useState } from 'react'
 import AnimatedText from '../../components/AnimatedText/AnimatedText'
 
 interface ProjectCardsProps {
