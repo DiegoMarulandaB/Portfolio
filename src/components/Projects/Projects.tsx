@@ -12,6 +12,7 @@ interface ProjectCardsProps {
   button: string
   buttonHref: string
   loading: string
+  href: string
 }
 
 const ProjectCards: React.FC<ProjectCardsProps> = ({
@@ -23,6 +24,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   button,
   buttonHref,
   loading,
+  href,
 }) => (
   <div
     id="projects"
@@ -32,14 +34,15 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   >
     <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl border-solid border-2 border-slate-400 opacity-90  px-4 py-4 mx-2 mr-2 mt-5 w-46 h-46">
       <div className="overflow-hidden">
-        <img
-          src={ImageHref}
-          width={690}
-          height={690}
-          alt="portfolio"
-          rel="noopener noreferrer"
-          className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md  border-solid border-2 border-gray-200"
-        />
+        <a href={href} target="_blank" rel="noopener noreferrer">
+          <img
+            src={ImageHref}
+            width={690}
+            height={690}
+            alt="portfolio"
+            className="w-full mt-6 transition-transform duration-150 ease-in-out hover:scale-125 rounded-md  border-solid border-2 border-gray-200"
+          />
+        </a>
       </div>
       <div className="flex flex-col text-center items-center justify-center ">
         <div
@@ -142,6 +145,7 @@ const Projects: React.FC = () => {
               description="Explore my repository on GitHub, where you will find my projects."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB"
+              href="https://github.com/DiegoMarulandaB"
               showCard={showCard}
             />
             <ProjectCards
@@ -152,6 +156,7 @@ const Projects: React.FC = () => {
               description="MVP to book activities in several countries. Final project of the Certified Tech developer degree."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
+              href="https://github.com/DiegoMarulandaB/Digital-booking"
               showCard={showCard}
             />
             <ProjectCards
@@ -162,6 +167,7 @@ const Projects: React.FC = () => {
               description="Created with Vite and React, inspired by the FreeCodeCamp course on React. Provide an interactive and functional experience to users."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
+              href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
               showCard={showCard}
             />
             <ProjectCards
@@ -172,6 +178,7 @@ const Projects: React.FC = () => {
               description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
+              href="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
               showCard={showCard}
             />
             <ProjectCards
@@ -181,7 +188,8 @@ const Projects: React.FC = () => {
               title="Counter Click"
               description="This project is created in Vite and React, based on the FreeCodeCamp course in React."
               button="Read more →"
-              buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecampe"
+              buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
+              href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
               showCard={showCard}
             />
             <ProjectCards
@@ -192,6 +200,7 @@ const Projects: React.FC = () => {
               description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
+              href="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
               showCard={showCard}
             />
             <ProjectCards
@@ -202,6 +211,7 @@ const Projects: React.FC = () => {
               description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
+              href="https://github.com/DiegoMarulandaB/finalFrontEnd"
               showCard={showCard}
             />
           </div>
