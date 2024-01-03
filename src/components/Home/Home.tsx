@@ -20,7 +20,7 @@ const HomePage = () => {
                 <div className="flex flex-col lg:flex-row items-center justify-between">
                   {/* <!-- Text Content --> */}
                   <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center">
-                    <h2 className="text-3xl font-semibold mt-20">Contact Me</h2>
+                    <h2 className="text-3xl font-semibold mt-16">Contact Me</h2>
 
                     {/* <!-- Social Icons --> */}
                     <div className="flex gap-3 mt-4 justify-center">
@@ -55,7 +55,7 @@ const HomePage = () => {
                   </div>
                   {/* <!-- Testimonial --> */}
                   <div className="max-w-lg">
-                    <div className="mt-20 w-46 h-46">
+                    <div className="mt-16 w-46 h-46">
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>
