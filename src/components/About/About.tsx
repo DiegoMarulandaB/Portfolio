@@ -56,7 +56,7 @@ const About = () => {
             <div className="flex flex-wrap flex-row justify-center md:justify-center">
               <div className="md:w-3/3">
                 <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-green-400">
-                  Languages
+                  Technologies
                 </h2>
                 <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                   <div>
