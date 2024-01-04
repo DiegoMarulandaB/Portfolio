@@ -9,7 +9,7 @@ const Footer = () => {
         <hr className=" dark:border-slate-600 " />
         <div className="mx-auto p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly">
           <div className="flex flex-row items-center justify-evenly space-x-2   mt-2 mx-18 mr-18 ">
-            &copy; 2023 Diego Marulanda. All Rights Reserved.
+            &copy; 2023-2024 Diego Marulanda. All Rights Reserved.
           </div>
           <div className="flex flex-row items-center justify-evenly space-x-2 mt-2 mx-18 mr-18">
             <a
