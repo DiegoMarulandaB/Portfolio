@@ -120,7 +120,7 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               loading="lazy"
-              ImageHref="counterClick.jpeg"
+              ImageHref="counterclick.jpeg"
               category="Personal Projects"
               title="Counter Click"
               description="This project is created in Vite and React, based on the FreeCodeCamp course in React."
