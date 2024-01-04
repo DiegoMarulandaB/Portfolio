@@ -49,7 +49,7 @@ const Navigation = () => {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-1xl mx-2 mr-2  text-slate-800  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 cursor-pointer text-1xl mx-2 mr-2  text-slate-800  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
