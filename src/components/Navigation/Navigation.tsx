@@ -4,11 +4,8 @@ import { usePathname } from 'next/navigation'
 import { PiMoonStarsBold, PiSunHorizonBold } from 'react-icons/pi'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
 import { Link } from 'react-scroll/modules'
+import NaviLink  from '../../types/NaviLink'
 
-interface NaviLink {
-  label: string
-  route: string
-}
 
 const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: 'home' },
@@ -24,7 +21,7 @@ const Navigation = () => {
   const [navigation, setNavigation] = useState(false)
 
   return (
-    <header className="w-full mx-auto  px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700  dark:border-slate-600 ">
+    <header className="w-full mx-auto  px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700 dark:border-slate-600 ">
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-6 md:block ">
