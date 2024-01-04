@@ -17,7 +17,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
       showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
     }`}
   >
-    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl border-solid border-2 border-slate-400 opacity-90  px-4 py-4 mx-2 mr-2 mt-5 w-46 h-46">
+    <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-3xl outline outline-offset-2 outline-purple-900 dark:outline-amber-300 opacity-90  px-4 py-4 mx-2 mr-2 mt-5 w-46 h-46">
       <div className="overflow-hidden">
         <a href={href} target="_blank" rel="noopener noreferrer">
           <img
