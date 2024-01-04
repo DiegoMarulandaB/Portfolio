@@ -123,7 +123,7 @@ const Projects: React.FC = () => {
               ImageHref="counterclick.jpeg"
               category="Personal Projects"
               title="Counter Click"
-              description="This project is created in Vite and React, based on the FreeCodeCamp course in React."
+              description="Vite compiler and the React library, inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for users."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
               href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
