@@ -87,7 +87,7 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               loading="lazy"
-              ImageHref="digitalBooking.jpg"
+              ImageHref="digitalBooking.jpeg"
               category="Academic Projects"
               title="Digital booking"
               description="MVP to book activities in several countries. Final project of the Certified Tech developer degree."
