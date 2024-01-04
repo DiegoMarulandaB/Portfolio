@@ -27,7 +27,9 @@ const Navigation = () => {
           <div className="flex items-center justify-between py-3 md:py-6 md:block ">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform  cursor-pointer mx-2 mr-2">Diego Marulanda</h2>
+                <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer mx-2 mr-2">
+                  Diego Marulanda
+                </h2>
               </div>
             </Link>
             {/* mobile menu */}
@@ -35,7 +37,7 @@ const Navigation = () => {
               <button
                 id="menuButton"
                 title="menuButton"
-                className="p-2 text-slate-800 bg-gradient-to-r  hover:text-purple-900 dark:text-slate-100 dark:hover:text-amber-200 cursor-pointer px-2 py-2 text-1xl  font-bold "
+                className="p-2 text-slate-800 bg-gradient-to-r  hover:text-purple-900 dark:text-slate-100 dark:hover:text-amber-200 transition-transform duration-150 ease-in-out hover:scale-125  cursor-pointer px-2 py-2 text-1xl  font-bold "
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -47,7 +49,7 @@ const Navigation = () => {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0  transition-transform cursor-pointer text-1xl mx-2 mr-2  text-slate-800  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-1xl mx-2 mr-2  text-slate-800  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
