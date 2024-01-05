@@ -11,13 +11,13 @@ const HomePage = () => {
       <div className="relative w-full">
         <div className="grid place-items-center px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="text-center mx-2 mr-2 mt-24">
+            <h1 className="text-center mx-2 mr-2 mt-28">
               <AnimatedText text="Dive into the world of code and creativity!" />
             </h1>
             <div id="contact">
-              <div className="container mx-auto px-4">
+              <div className="container mx-auto px-4 mt-24">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
-                  <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center mt-28">
+                  <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center">
                     <h2 className="text-3xl font-semibold">Contact Me</h2>
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
@@ -49,7 +49,7 @@ const HomePage = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="max-w-lg mt-28">
+                  <div className="max-w-lg">
                     <div className="w-46 h-46">
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
