@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
             <ProjectCards
               loading="lazy"
               ImageHref="profileGithub.jpeg"
-              category="Github"
+              category="All Projects"
               title="My repository"
               description="Explore my repository on GitHub, where you will find my projects."
               button="Read more →"
