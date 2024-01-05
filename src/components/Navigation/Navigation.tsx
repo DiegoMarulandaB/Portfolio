@@ -21,9 +21,9 @@ const Navigation = () => {
 
   return (
     <header className="w-full mx-auto  px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700 dark:border-slate-500 ">
-      <div className="justify-evenly  md:items-center md:flex  ">
+      <div className="justify-evenly  md:items-center md:flex">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-6 md:block ">
+          <div className="flex items-center justify-between py-3 md:py-6 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 cursor-pointer mx-2 mr-2">
@@ -48,11 +48,11 @@ const Navigation = () => {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 cursor-pointer text-1xl mx-2 mr-2  text-slate-800  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 cursor-pointer text-1xl mx-24 mr-1  text-slate-800  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  mx-24 mr-1 ">
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} to={item.route}>
                   <div
