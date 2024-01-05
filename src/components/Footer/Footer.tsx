@@ -8,10 +8,10 @@ const Footer = () => {
       <div className=" mx-auto max-w-full md:max-w-full  px-1 sm:px-1  mt-28  bg-slate-100 dark:bg-slate-700 ">
         <hr className=" dark:border-slate-500 " />
         <div className="mx-auto p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly">
-          <div className="flex flex-row items-center justify-evenly space-x-2   mt-2 mx-20 mr-16 ">
+          <div className="flex flex-row items-center justify-evenly space-x-2   mt-2 mx-16 mr-16 ">
             &copy; 2023-2024 Diego Marulanda. All Rights Reserved.
           </div>
-          <div className="flex flex-row items-center justify-evenly space-x-2 mt-2 mx-16 mr-20">
+          <div className="flex flex-row items-center justify-evenly space-x-2 mt-2 mx-16 mr-16">
             <a
               href="https://twitter.com/DAMB1987"
               className=" hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
