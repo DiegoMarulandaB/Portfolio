@@ -22,7 +22,7 @@ const HomePage = () => {
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="https://twitter.com/DAMB1987"
-                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 transition-transform duration-150 ease-in-out hover:scale-125"
+                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my Twitter profile"
@@ -31,7 +31,7 @@ const HomePage = () => {
                       </a>
                       <a
                         href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 transition-transform duration-150 ease-in-out hover:scale-125"
+                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my profile on Linkedin"
@@ -40,7 +40,7 @@ const HomePage = () => {
                       </a>
                       <a
                         href="https://github.com/DiegoMarulandaB"
-                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 transition-transform duration-150 ease-in-out hover:scale-125"
+                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my Github profile"
@@ -67,7 +67,7 @@ const HomePage = () => {
                         </div>
                         <div className="md:text-lg">
                           <p className=" text-md">
-                            <span className=" text-blue-800 dark:text-green-400"> Freelance programmer</span>
+                            <span className=" text-blue-800 dark:text-amber-200"> Freelance programmer</span>
                           </p>
                         </div>
                       </div>

@@ -20,7 +20,7 @@ const About = () => {
               science, which gives me a different perspective in this industry.
             </p>
 
-            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-blue-800 dark:text-green-400 text-2xl  ">
+            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-blue-800 dark:text-amber-200 text-2xl  ">
               Experience
             </span>
 
@@ -30,7 +30,7 @@ const About = () => {
               experience through the different projects that i carry out.
             </p>
 
-            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-green-400 text-2xl ">
+            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-amber-200 text-2xl ">
               Studies
             </span>
 
@@ -42,7 +42,7 @@ const About = () => {
             <p className="text-center text-1xl mx-4 mr-4 mt-4">Start the Frontend specialization in Digital House.</p>
             <p className="text-center text-1xl mx-4 mr-4 mt-4">New challenges to enhance my knowledge!.</p>
 
-            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-green-400 text-2xl   ">
+            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-amber-200 text-2xl   ">
               Hobbies
             </span>
 
@@ -55,7 +55,7 @@ const About = () => {
             <h1 className="text-center text-2xl  mt-2 mx-2 mr-2 font-bold">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center md:justify-center">
               <div className="md:w-3/3">
-                <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-green-400">
+                <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
                   Technologies
                 </h2>
                 <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
@@ -109,7 +109,7 @@ const About = () => {
               </div>
 
               <div className="md:w-3/3">
-                <h2 className="text-center text-2xl mb-1 py-2 text-blue-800 dark:text-green-400 mt-2">Tools</h2>
+                <h2 className="text-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mt-2">Tools</h2>
                 <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
                   <div>
                     <Image
@@ -198,7 +198,7 @@ const About = () => {
               </div>
 
               <div className="md:w-3/3">
-                <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-green-400">
+                <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
                   Learning
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">

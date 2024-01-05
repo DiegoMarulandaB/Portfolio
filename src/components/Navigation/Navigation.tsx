@@ -20,13 +20,13 @@ const Navigation = () => {
   const [navigation, setNavigation] = useState(false)
 
   return (
-    <header className="w-full mx-auto  px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-800 dark:border-slate-500 ">
+    <header className="w-full mx-auto  px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow bg-slate-100 dark:bg-slate-700 dark:border-slate-500 ">
       <div className="justify-evenly  md:items-center md:flex  ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-6 md:block ">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 cursor-pointer mx-2 mr-2">
+                <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 cursor-pointer mx-2 mr-2">
                   Diego Marulanda
                 </h2>
               </div>
@@ -56,7 +56,7 @@ const Navigation = () => {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} to={item.route}>
                   <div
-                    className="block lg:inline-block text-slate-800 hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100"
+                    className="block lg:inline-block text-slate-800 hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300"
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}
