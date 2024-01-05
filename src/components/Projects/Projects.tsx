@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('all')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
                       showCard === 'all'
-                        ? 'activeClasses bg-primary hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
+                        ? 'activeClasses bg-primary hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('academic projects')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'academic projects'
-                        ? 'activeClasses bg-primary  hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
+                        ? 'activeClasses bg-primary  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('personal projects')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'personal projects'
-                        ? 'activeClasses bg-primary   hover:text-purple-950 dark:text-slate-100 dark:hover:text-amber-100 transition-transform duration-150 ease-in-out hover:scale-125   mx-2 mr-2'
+                        ? 'activeClasses bg-primary   hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125   mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
