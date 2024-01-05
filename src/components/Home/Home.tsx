@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="relative w-full">
         <div className="grid place-items-center min-h-[86vh] px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="text-center mx-2 mr-2 mt-4">
+            <h1 className="text-center mx-2 mr-2 mt-8">
               <AnimatedText text="Dive into the world of code and creativity!"/>
             </h1>
             <div id="contact">
