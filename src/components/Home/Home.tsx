@@ -10,15 +10,15 @@ const HomePage = () => {
     <section id="home">
       <div className="relative w-full">
         <div className="grid place-items-center min-h-[86vh] px-8">
-          <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="text-center mx-2 mr-2 mt-8">
-              <AnimatedText text="Dive into the world of code and creativity!"/>
+          <div className="container mx-auto grid place-items-center h-max text-center mt-10">
+            <h1 className="text-center mx-2 mr-2">
+              <AnimatedText text="Dive into the world of code and creativity!" />
             </h1>
             <div id="contact">
-              <div className="container mx-auto mt-10 px-4">
+              <div className="container mx-auto px-4">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
-                  <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center">
-                    <h2 className="text-3xl font-semibold mt-14">Contact Me</h2>
+                  <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center mt-24">
+                    <h2 className="text-3xl font-semibold">Contact Me</h2>
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="https://twitter.com/DAMB1987"
@@ -49,8 +49,8 @@ const HomePage = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="max-w-lg">
-                    <div className="mt-14 w-46 h-46">
+                  <div className="max-w-lg mt-24">
+                    <div className="w-46 h-46">
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>
