@@ -7,8 +7,8 @@ import AnimatedText from '../../components/AnimatedText/AnimatedText'
 const About = () => {
   return (
     <section id="about">
-      <h1 className="text-center pt-6 ">
-        <AnimatedText text="About me" className="mx-2 mr-2 mb-2 mt-16 " />
+      <h1 className="text-center">
+        <AnimatedText text="About me" className="mx-2 mr-2 mt-24" />
       </h1>
 
       <div className="min-h-screen flex items-center justify-center">
