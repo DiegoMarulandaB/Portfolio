@@ -12,7 +12,7 @@ const HomePage = () => {
         <div className="grid place-items-center min-h-[86vh] px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
             <h1 className="text-center pt-6 ">
-              <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 mb-2 mt-16" />
+              <AnimatedText text="Dive into the world of code and creativity!" className=" mx-2 mr-2 mb-2" />
             </h1>
             <div id="contact">
               <div className="container mx-auto mt-10 px-4">
