@@ -17,15 +17,15 @@ const Projects: React.FC = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
           <div className="flex flex-wrap -mx-4">
-              <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                <h1 className="text-center mt-24">
-                  <AnimatedText text="Projects" className="mx-2 mr-2" />
-                </h1>
-                <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
-                  In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
-                  enjoy creating it.
-                </p>
-              </div>
+            <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+              <h1 className="text-center mt-24">
+                <AnimatedText text="Projects" className="mx-2 mr-2" />
+              </h1>
+              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
+                In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
+                enjoy creating it.
+              </p>
+            </div>
           </div>
 
           <div className="w-full flex flex-wrap justify-center -mx-4">
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
               ImageHref="profileGithub.jpeg"
               category="All Projects"
               title="My repository"
-              description="Explore my repository on GitHub, where you will find my projects."
+              description="Explore my repository on GitHub, where you will find all my academic training projects in Digital House, Alura, among others, also my personal projects."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB"
               href="https://github.com/DiegoMarulandaB"
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
               ImageHref="digitalBooking.jpeg"
               category="Academic Projects"
               title="Digital booking"
-              description="MVP to book activities in several countries. Final project of the Certified Tech developer degree."
+              description="MVP to book activities in several countries.  Technologies: Git, Gitlab, React, Java 17, JWT, Gradle,  Spring Boot, MySQL, infrastructure AWS, Jest.js, Postman, Selenium."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
               href="https://github.com/DiegoMarulandaB/Digital-booking"
@@ -99,7 +99,7 @@ const Projects: React.FC = () => {
               ImageHref="calculator.jpeg"
               category="Personal Projects"
               title="Calculator basic"
-              description="Created with Vite and React, inspired by the FreeCodeCamp course on React. Provide an interactive and functional experience to users."
+              description="Project inspired by the FreeCodeCamp course on React. Provides an interactive and functional experience. Technologies: Vite, React."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
               href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
@@ -110,7 +110,7 @@ const Projects: React.FC = () => {
               ImageHref="Final-esp-frontend-2.jpeg"
               category="Academic Projects"
               title="The simpsons application"
-              description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API."
+              description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
               href="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
@@ -121,7 +121,7 @@ const Projects: React.FC = () => {
               ImageHref="counterclick.jpeg"
               category="Personal Projects"
               title="Counter Click"
-              description="Vite compiler and the React library, inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for users."
+              description="Project inspired by the FreeCodeCamp course on React. Provides an interactive and functional experience. Technologies: Vite, React"
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
               href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
@@ -132,7 +132,7 @@ const Projects: React.FC = () => {
               ImageHref="Final-esp-frontend.png"
               category="Academic Projects"
               title="Rick and Morty application"
-              description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API."
+              description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API. Tecnologies: TypeScript, Redux, Thunk."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
               href="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
@@ -143,7 +143,7 @@ const Projects: React.FC = () => {
               ImageHref="frontEnd3.jpg"
               category="Academic Projects"
               title="Health application"
-              description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API."
+              description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API.Tecnologies: React, Vite"
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
               href="https://github.com/DiegoMarulandaB/finalFrontEnd"
