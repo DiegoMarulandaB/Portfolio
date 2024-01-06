@@ -34,13 +34,33 @@ const About = () => {
               Studies
             </span>
 
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">
-              Complete the Certified Tech Developer degree at Digital House, in agreement with Mercado Libre and
-              Globant.
-            </p>
-
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">Start the Frontend specialization in Digital House.</p>
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">New challenges to enhance my knowledge!.</p>
+            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
+              <p>
+                <span className=" text-blue-800 dark:text-amber-200">Digital House</span> 📚 2023 -2024
+              </p>
+              <p>Frontend specialization at Digital House co-created with Mercado Libre and Globant.</p>
+            </div>
+            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
+              <p>
+                <span className=" text-blue-800 dark:text-amber-200">Digital House</span> 👨🏽‍🎓 2021 - 2023
+              </p>
+              <p>Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.</p>
+            </div>
+            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
+              <p>
+                <span className=" text-blue-800 dark:text-amber-200">Alura </span> 👨🏽‍🎓 2022 - 2022
+              </p>
+              <p>Oracle Next Education Program Certification</p>
+            </div>
+            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
+              <p>
+                <span className=" text-blue-800 dark:text-amber-200"> MisionTic </span> 👨🏽‍🎓 2021 - 2021
+              </p>
+              <p>
+                Program of the Government of Colombia together with the MinTic, and the Pontifical Bolivarian University
+                to train programmers.
+              </p>
+            </div>
 
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-amber-200 text-2xl   ">
               Hobbies
