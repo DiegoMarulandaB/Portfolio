@@ -5,13 +5,13 @@ import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/a
 const Footer = () => {
   return (
     <section id="footer">
-      <div className=" mx-auto max-w-full md:max-w-full  px-1 sm:px-1  mt-24  bg-slate-100 dark:bg-slate-700 ">
+      <div className=" mx-auto max-w-full md:max-w-full px-1 sm:px-1  mt-24  bg-slate-100 dark:bg-slate-700 ">
         <hr className=" dark:border-slate-500 " />
-        <div className="mx-auto p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly">
-          <div className="flex flex-row items-center justify-evenly space-x-2   mt-2 mx-16 mr-16 ">
+        <div className="p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly">
+          <div className="flex flex-row space-x-2 justify-between mx-36 mr-18">
             &copy; 2023-2024 Diego Marulanda. All Rights Reserved.
           </div>
-          <div className="flex flex-row items-center justify-evenly space-x-2 mt-2 mx-16 mr-16">
+          <div className="flex flex-row space-x-2 justify-evenly mx-36 mr-18 ">
             <a
               href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
               className=" hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
