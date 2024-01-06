@@ -48,7 +48,7 @@ const About = () => {
             </div>
             <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
               <p>
-                <span className=" text-blue-800 dark:text-amber-200">Alura </span> 👨🏽‍🎓 2022 - 2022
+                <span className=" text-blue-800 dark:text-amber-200">Alura Latam </span> 👨🏽‍🎓 2022 - 2022
               </p>
               <p>Oracle Next Education Program Certification</p>
             </div>
@@ -57,7 +57,7 @@ const About = () => {
                 <span className=" text-blue-800 dark:text-amber-200"> MisionTic </span> 👨🏽‍🎓 2021 - 2021
               </p>
               <p>
-                Program of the Government of Colombia together with the MinTic, and the Pontifical Bolivarian University
+                Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana University
                 to train programmers.
               </p>
             </div>
