@@ -14,6 +14,9 @@ const About = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
           <div className="md:w-3/6">
+            <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-blue-800 dark:text-amber-200 text-2xl  ">
+              About Diego
+            </span>
             <p className="text-center text-1xl mx-4 mr-4 mt-4">
               {' '}
               My fascination for technology is combined with a deep interest for geopolitics, general culture and
@@ -57,8 +60,8 @@ const About = () => {
                 <span className=" text-blue-800 dark:text-amber-200"> MisionTic </span> 👨🏽‍🎓 2021 - 2021
               </p>
               <p>
-                Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana University
-                to train programmers.
+                Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana
+                University to train programmers.
               </p>
             </div>
 
