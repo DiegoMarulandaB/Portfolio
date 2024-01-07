@@ -7,7 +7,7 @@ const Footer = () => {
         <hr className=" dark:border-slate-500 " />
         <div className="mx-auto p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-evenly">
           <div className="flex flex-row space-x-2 justify-between mt-2 mx-34 mr-34">
-            &copy; 2024-2023 Diego Marulanda. All Rights Reserved.
+            &copy; 2023-2024 Diego Marulanda. All Rights Reserved.
           </div>
           <div className="flex flex-row space-x-2 justify-between mt-2 mx-34 mr-34">
             <a
