@@ -53,7 +53,7 @@ const About = () => {
               <p>
                 <span className=" text-blue-800 dark:text-amber-200">Alura Latam </span> 👨🏽‍🎓 2022 - 2022
               </p>
-              <p>Oracle Next Education Program Certification</p>
+              <p>Oracle Next Education Program Certification.</p>
             </div>
             <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
               <p>
