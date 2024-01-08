@@ -52,7 +52,7 @@ const Navigation = () => {
               navigation ? 'block' : 'hidden'
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 mx-20 mr-1">
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} to={item.route}>
                   <div
