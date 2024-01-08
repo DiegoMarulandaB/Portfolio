@@ -39,7 +39,7 @@ const About = () => {
 
             <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
               <p>
-                <span className=" text-blue-800 dark:text-amber-200">Digital House</span> 📚 2023 -2024
+                <span className=" text-blue-800 dark:text-amber-200">Digital House</span> 📚 2023 - 2024
               </p>
               <p>Frontend specialization at Digital House co-created with Mercado Libre and Globant.</p>
             </div>
