@@ -41,7 +41,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold text-primary">
                 {category}
               </span>
-              <h3 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold text-dark">{title}</h3>
+              <h2 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold text-dark">{title}</h2>
               <h3 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold text-dark">{description}</h3>
               <a
                 href={buttonHref}
