@@ -15,7 +15,7 @@ const Footer = () => {
               className=" hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Read more about my Twitter profile"
+              aria-label="Send email"
             >
               <AiOutlineMail className="icon" size={34} />
             </a>
