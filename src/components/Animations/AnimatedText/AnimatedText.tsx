@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 
 interface AnimatedTextProps {
@@ -13,8 +12,8 @@ const quote = {
   animate: {
     opacity: 1,
     transition: {
-      delay: 0.3,
-      staggerChildren: 0.08,
+      ease: [0.455, 0.03, 0.515, 0.955],
+      duration: 0.85,
     },
   },
 }
@@ -22,14 +21,14 @@ const quote = {
 const singelWord = {
   initial: {
     opacity: 0,
-    x: 50,
+    y: "200%",
   },
   animate: {
     opacity: 1,
-    x: 0,
+    y: 0,
     transition: {
-      ease: 'easeOut',
-      duration: 2,
+      ease: [0.455, 0.03, 0.515, 0.955],
+      duration: 0.85,
     },
   },
 }
