@@ -48,11 +48,11 @@ const Navigation = () => {
         <div>
           <div
             // menu
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 cursor-pointer text-1xl mx-24 mr-1  text-slate-800  ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 cursor-pointer text-1xl mx-20 mr-1 text-slate-800  ${
               navigation ? 'block' : 'hidden'
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  mx-24 mr-1 ">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} to={item.route}>
                   <div
