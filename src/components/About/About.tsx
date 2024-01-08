@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import AnimatedText from '../../components/AnimatedText/AnimatedText'
+import AnimatedText from '../Animations/AnimatedText/AnimatedText'
 
 const About = () => {
   return (

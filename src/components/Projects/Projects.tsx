@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import AnimatedText from '../../components/AnimatedText/AnimatedText'
+import AnimatedText from '../Animations/AnimatedText/AnimatedText'
 import ProjectCardsProps from '../../types/ProjectsCardsProps'
 import ProjectCards from './ProjectsCards'
 

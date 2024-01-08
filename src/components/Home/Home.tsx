@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import AnimatedText from '../AnimatedText/AnimatedText'
+import AnimatedText from '../Animations/AnimatedText/AnimatedText'
 import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
 
 const HomePage = () => {
