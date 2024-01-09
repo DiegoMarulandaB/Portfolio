@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-row space-x-2 mt-2 ml-24 mr-24">
             &copy; 2023-2024 Diego Marulanda. All Rights Reserved.
           </div>
-          <div className="flex flex-row space-x-2 mt-2 ml-24 mr-24">
+          <div className="flex flex-row space-x-2 mt-2 ml-20 mr-20">
             <a
               href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
               className=" hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
