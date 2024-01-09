@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import AnimatedText from '../Animations/AnimatedText/AnimatedText'
+import { PiStudentBold } from 'react-icons/pi'
 
 const About = () => {
   return (
@@ -17,49 +18,46 @@ const About = () => {
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-blue-800 dark:text-amber-200 text-2xl  ">
               About Diego
             </span>
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">
-              {' '}
-              My fascination for technology is combined with a deep interest for geopolitics, general culture and
-              science, which gives me a different perspective in this industry.
-            </p>
+            <div className="text-center text-1xl mx-4 mr-4 mt-4">
+              <p className="mb-4 mt-4">
+                {' '}
+                My fascination for technology is combined with a deep interest for geopolitics, general culture and
+                science, which gives me a different perspective in this industry.
+              </p>
+            </div>
 
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6 text-blue-800 dark:text-amber-200 text-2xl  ">
               Experience
             </span>
-
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">Of course i have experience in some areas.</p>
-            <p className="text-center text-1xl mx-6 mr-6 mt-4">
-              But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get my
-              experience through the different projects that i carry out.
-            </p>
+            <div className="text-center text-1xl mx-4 mr-4 mt-4">
+              <p className="mb-4 mt-4">Of course i have experience in some areas.</p>
+              <p className="mb-4 mt-4">
+                But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get
+                my experience through the different projects that i carry out.
+              </p>
+            </div>
 
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-amber-200 text-2xl ">
               Studies
             </span>
-
-            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
-              <p>
-                <span className=" text-blue-800 dark:text-amber-200">Digital House</span> 📚 2023 - 2024
+            <div className="text-center text-1xl mx-4 mr-4 mt-4">
+              <p className="mb-4 mt-4">
+                <span>Digital House 2023 - 2024</span>
               </p>
               <p>Frontend specialization at Digital House co-created with Mercado Libre and Globant.</p>
-            </div>
-            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
-              <p>
-                <span className=" text-blue-800 dark:text-amber-200">Digital House</span> 👨🏽‍🎓 2021 - 2023
+              <p className="mb-4 mt-4">
+                <span>Digital House 2021 - 2023</span>
               </p>
               <p>Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.</p>
-            </div>
-            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
-              <p>
-                <span className=" text-blue-800 dark:text-amber-200">Alura Latam </span> 👨🏽‍🎓 2022 - 2022
+              <p className="mb-4 mt-4">
+                <span>Alura Latam 2022 - 2022</span>
               </p>
               <p>Oracle Next Education Program Certification.</p>
-            </div>
-            <div className=" text-center text-1xl mx-4 mr-4 mt-4 ">
-              <p>
-                <span className=" text-blue-800 dark:text-amber-200"> MisionTic </span> 👨🏽‍🎓 2021 - 2021
+              <p className="mb-4 mt-4">
+                <span>MisionTic 2021 - 2021</span>
               </p>
               <p>
+                {' '}
                 Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana
                 University to train programmers.
               </p>
@@ -68,11 +66,12 @@ const About = () => {
             <span className="flex flex-col items-center justify-center mx-4 mr-4 mt-6  text-blue-800 dark:text-amber-200 text-2xl   ">
               Hobbies
             </span>
-
-            <p className="text-center text-1xl mx-4 mr-4 mt-4">
-              My hobbies are listening to rock music, video games, books on different themes.
-            </p>
-            <p className="text-center text-1xl mx-6 mr-6 mt-4"> My favorite writer is Brandon Sanderson.</p>
+            <div className="text-center text-1xl mx-4 mr-4 mt-4">
+              <p className="mb-4 mt-4">
+                My hobbies are listening to rock music, video games, books on different themes.
+              </p>
+              <p className="mb-4 mt-4"> My favorite writer is Brandon Sanderson.</p>
+            </div>
           </div>
           <div className="md:w-1/3 justify-between">
             <h1 className="text-center text-2xl  mt-2 mx-2 mr-2 font-bold">My Skills</h1>
