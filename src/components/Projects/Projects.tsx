@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1 className="text-center mt-24">
-                <AnimatedText text="Projects" className="mx-2 mr-2" />
+                <AnimatedText text="Projects" className="mx-2 mr-2"/>
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-wrap rounded-md -mx-4 text-1xl">
+          <div className="flex flex-wrap rounded-md text-1xl">
             <ProjectCards
               loading="lazy"
               ImageHref="profileGithub.jpeg"
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
               ImageHref="digitalBooking.jpeg"
               category="Academic Projects"
               title="Digital booking"
-              description="MVP to book activities in several countries.  Technologies: Git, Gitlab, React, Java 17, JWT, Gradle,  Spring Boot, MySQL, infrastructure AWS, Jest.js, Postman, Selenium."
+              description="MVP to book activities in several countries.  Technologies: Git, Gitlab, React, Java v. 17, JWT, Gradle,  Spring Boot, MySQL, infrastructure AWS, Jest.js, Postman, Selenium."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
               href="https://github.com/DiegoMarulandaB/Digital-booking"
@@ -99,7 +99,7 @@ const Projects: React.FC = () => {
               ImageHref="calculator.jpeg"
               category="Personal Projects"
               title="Calculator basic"
-              description="Project inspired by the FreeCodeCamp course on React. Provides an interactive and functional experience. Technologies: Vite, React."
+              description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
               href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
@@ -110,7 +110,7 @@ const Projects: React.FC = () => {
               ImageHref="Final-esp-frontend-2.jpeg"
               category="Academic Projects"
               title="The simpsons application"
-              description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code."
+              description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code, validations."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
               href="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
