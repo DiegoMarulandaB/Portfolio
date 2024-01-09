@@ -6,10 +6,10 @@ const Footer = () => {
       <div className=" mx-auto max-w-full md:max-w-full px-1 sm:px-1 mt-24  bg-slate-100 dark:bg-slate-700">
         <hr className=" dark:border-slate-500 " />
         <div className="mx-auto p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-between">
-          <div className="flex flex-row space-x-2 mt-2 ml-16 mr-16">
+          <div className="flex flex-row space-x-2 mt-2 ml-24 mr-24">
             &copy; 2023-2024 Diego Marulanda. All Rights Reserved.
           </div>
-          <div className="flex flex-row space-x-2 mt-2 ml-16 mr-16">
+          <div className="flex flex-row space-x-2 mt-2 ml-24 mr-24">
             <a
               href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
               className=" hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
