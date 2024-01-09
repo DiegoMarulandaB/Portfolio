@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1 className="text-center mt-24">
-                <AnimatedText text="Projects" className="mx-2 mr-2"/>
+                <AnimatedText text="Projects" className="mx-2 mr-2" />
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
               </ul>
             </div>
           </div>
-          <div className="flex flex-wrap rounded-md text-1xl">
+          <div className="flex flex-wrap rounded-md -mx-4 text-1xl">
             <ProjectCards
               loading="lazy"
               ImageHref="profileGithub.jpeg"
