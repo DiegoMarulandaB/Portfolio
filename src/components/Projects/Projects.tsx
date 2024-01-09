@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject('all')}
-                    className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8  ${
+                    className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'all'
                         ? 'activeClasses bg-primary hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
                         : 'inactiveClasses'
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('academic projects')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'academic projects'
-                        ? 'activeClasses bg-primary  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
+                        ? 'activeClasses bg-primary hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -61,7 +61,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('personal projects')}
                     className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'personal projects'
-                        ? 'activeClasses bg-primary   hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125   mx-2 mr-2'
+                        ? 'activeClasses bg-primary hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -118,21 +118,10 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               loading="lazy"
-              ImageHref="counterclick.jpeg"
-              category="Personal Projects"
-              title="Counter Click"
-              description="Project inspired by the FreeCodeCamp course on React. Provides an interactive and functional experience. Technologies: Vite, React."
-              button="Read more →"
-              buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
-              href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
-              showCard={showCard}
-            />
-            <ProjectCards
-              loading="lazy"
               ImageHref="Final-esp-frontend.png"
               category="Academic Projects"
               title="Rick and Morty application"
-              description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API. Tecnologies: TypeScript, Redux, Thunk."
+              description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API.     Tecnologies: TypeScript, Redux, Thunk."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
               href="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
@@ -143,10 +132,23 @@ const Projects: React.FC = () => {
               ImageHref="frontEnd3.jpg"
               category="Academic Projects"
               title="Health application"
-              description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API.Tecnologies: React, Vite."
+              description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API.
+              Tecnologies: React, Vite."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
               href="https://github.com/DiegoMarulandaB/finalFrontEnd"
+              showCard={showCard}
+            />
+
+            <ProjectCards
+              loading="lazy"
+              ImageHref="counterclick.jpeg"
+              category="Personal Projects"
+              title="Counter Click"
+              description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
+              button="Read more →"
+              buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
+              href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
               showCard={showCard}
             />
           </div>
