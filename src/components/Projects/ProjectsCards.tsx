@@ -20,7 +20,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   >
     <div>
       <Slide offset="-200px 0px -200px 0px">
-        <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-2xl outline outline-offset-2 outline-purple-900 dark:outline-slate-100 opacity-90  px-2 py-2 mx-2 mr-2 mt-6">
+        <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-2xl outline outline-offset-2 outline-purple-900 dark:outline-slate-100 opacity-90  px-4 py-4 mx-2 mr-2 mt-6">
           <div className="overflow-hidden">
             <a href={href} target="_blank" rel="noopener noreferrer">
               <img
