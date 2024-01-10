@@ -3,7 +3,8 @@
 import React, { useState } from 'react'
 import AnimatedText from '../Animations/AnimatedText/AnimatedText'
 import ProjectCardsProps from '../../types/ProjectsCardsProps'
-import ProjectCards from './ProjectsCards'
+import ProjectCards from '../ProjectsCards/ProjectsCards'
+
 
 const Projects: React.FC = () => {
   const [showCard, setShowCard] = useState<string>('all')
@@ -19,7 +20,7 @@ const Projects: React.FC = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center">
               <h1>
-                <AnimatedText text="Projects" className="text-center mx-2 mr-2 mt-24"/>
+                <AnimatedText text="Projects" className="text-center mx-2 mr-2 mt-24" />
               </h1>
               <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
                 In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
@@ -77,7 +78,7 @@ const Projects: React.FC = () => {
               ImageHref="profileGithub.jpeg"
               category="All Projects"
               title="My repository"
-              description="Explore my repository on GitHub, where you will find all my academic training projects in Digital House, Alura, among others, also my personal projects."
+              description="Browse my repositories on GitHub, where you will find all my projects from my academic training. And my most relevant personal projects!"
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB"
               href="https://github.com/DiegoMarulandaB"
@@ -110,7 +111,7 @@ const Projects: React.FC = () => {
               ImageHref="Final-esp-frontend-2.jpeg"
               category="Academic Projects"
               title="The simpsons application"
-              description="Final project of the frontend 2 subject of the specialization in digital house. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code, validations."
+              description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code, validations."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
               href="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
@@ -121,7 +122,7 @@ const Projects: React.FC = () => {
               ImageHref="Final-esp-frontend.png"
               category="Academic Projects"
               title="Rick and Morty application"
-              description="Final project of the frontend 1 subject of the specialization in digital house. Using Rick and Morty API.     Tecnologies: TypeScript, Redux, Thunk."
+              description="Final project of the frontend 1 subject of the specialization in Digital House. Using Rick and Morty API.     Tecnologies: TypeScript, documentation, Redux, Thunk."
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
               href="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"

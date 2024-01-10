@@ -1,5 +1,4 @@
 // 'use client'
-
 interface ProjectCardsProps {
   showCard: string
   category: string
