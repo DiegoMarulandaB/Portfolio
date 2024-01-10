@@ -8,8 +8,8 @@ import { PiStudentBold } from 'react-icons/pi'
 const About = () => {
   return (
     <section id="about">
-      <h1 className="text-center">
-        <AnimatedText text="About me" className="mx-2 mr-2 mt-24" />
+      <h1>
+        <AnimatedText text="About me" className=" text-center mx-2 mr-2 mt-24" />
       </h1>
 
       <div className="min-h-screen flex items-center justify-center">

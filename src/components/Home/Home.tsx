@@ -17,7 +17,7 @@ const HomePage = () => {
               <div className="container mx-auto px-4 mt-24">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
                   <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center">
-                    <h2 className="text-3xl font-semibold">Contact Me</h2>
+                    <h2 className="text-center text-3xl font-semibold mx-2 mr-2">Contact Me</h2>
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
