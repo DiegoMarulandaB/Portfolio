@@ -75,10 +75,10 @@ const Projects: React.FC = () => {
           <div className="flex flex-wrap rounded-md -mx-4 text-1xl">
             <ProjectCards
               loading="lazy"
-              ImageHref="profileGithub.jpeg"
+              ImageHref="profileGithub.jpg"
               category="All Projects"
               title="My repository"
-              description="Browse my repositories on GitHub, where you will find all my projects from my academic training. And my most relevant personal projects!"
+              description="Browse my repository on GitHub, where you will find all my projects from my academic training at Digital House, Alura, MisionTic. And my most relevant personal projects!"
               button="Read more →"
               buttonHref="https://github.com/DiegoMarulandaB"
               href="https://github.com/DiegoMarulandaB"
