@@ -20,7 +20,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   >
     <div>
       <Slide offset="-200px 0px -200px 0px">
-        <div className="flex flex-col items-center text-center text-whitemax-w-sm border border-slate-800 rounded-2xl shadow  bg-slate-50 dark:bg-slate-600 dark:border-slate-100 px-1 py-1 mx-2 mr-2 mt-6">
+        <div className="flex flex-col items-center text-center border border-gray-800 rounded-2xl shadow bg-slate-100 dark:bg-slate-600 dark:border-slate-100 px-1 py-1 mx-2 mr-2 mt-6">
           <div className="overflow-hidden">
             <a href={href} target="_blank" rel="noopener noreferrer">
               <img
@@ -28,8 +28,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 src={ImageHref}
                 width={690}
                 height={690}
-                alt="portfolio"
-                className="rounded-t-lg"
+                alt="projects"
+                className="rounded-t-lg border-slate-800 dark:border-slate-100 transition-transform duration-150 ease-in-out hover:scale-125"
               />
             </a>
           </div>
@@ -38,13 +38,13 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
                 {category}
               </span>
-              <h2 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100 font-bold">{title}</h2>
-              <h3 className="mb-4 text-1xl  text-slate-800 dark:text-slate-100  font-bold">{description}</h3>
+              <h2 className="mb-4 text-1xl text-slate-800 dark:text-slate-100 font-bold">{title}</h2>
+              <h3 className="mb-4 text-1xl text-slate-800 dark:text-slate-100  font-bold">{description}</h3>
               <a
                 href={buttonHref}
                 target="_blank"
                 rel="noopener noreferrer dns-prefetch"
-                className=" inline-block text-center  text-slate-800 hover:text-purple-900 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold uppercase rounded-md px-4 py-4 mx-2 mr-2 mt-4 w-26 text-1xl"
+                className=" inline-block text-center text-slate-800 hover:text-purple-900 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold uppercase px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
               >
                 {button}
               </a>
