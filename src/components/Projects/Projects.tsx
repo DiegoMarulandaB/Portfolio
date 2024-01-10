@@ -130,7 +130,7 @@ const Projects: React.FC = () => {
             />
             <ProjectCards
               loading="lazy"
-              ImageHref="frontEnd3.jpg"
+              ImageHref="frontEnd3.jpeg"
               category="Academic Projects"
               title="Health application"
               description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API.
