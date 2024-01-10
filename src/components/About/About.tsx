@@ -3,7 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import AnimatedText from '../Animations/AnimatedText/AnimatedText'
-import { PiStudentBold } from 'react-icons/pi'
+
 
 const About = () => {
   return (
@@ -71,7 +71,7 @@ const About = () => {
                 <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
                   Technologies
                 </h2>
-                <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
+                <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
                   <div>
                     <Image
                       src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
@@ -125,7 +125,7 @@ const About = () => {
                 <h2 className="text-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mx-2 mr-2  mt-2">
                   Tools
                 </h2>
-                <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
+                <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
                   <div>
                     <Image
                       src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
@@ -216,7 +216,7 @@ const About = () => {
                 <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
                   Learning
                 </h2>
-                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-4 mr-4 mt-4">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
                   <div>
                     <Image
                       src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
