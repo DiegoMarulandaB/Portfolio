@@ -21,7 +21,7 @@ const HomePage = () => {
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
-                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
+                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 font-bold rounded  hover:border-slate-50 hover:bg-gray-600 hover:text-slate-50 inline-flex items-center"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Send email"
@@ -30,7 +30,7 @@ const HomePage = () => {
                       </a>
                       <a
                         href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
+                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 font-bold rounded  hover:border-blue-600 hover:bg-blue-600 hover:text-white inline-flex items-center"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my profile on Linkedin"
@@ -39,7 +39,7 @@ const HomePage = () => {
                       </a>
                       <a
                         href="https://github.com/DiegoMarulandaB"
-                        className="  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125"
+                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 font-bold rounded  hover:border-slate-50 hover:bg-slate-900 hover:text-slate-50 inline-flex items-center"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my Github profile"
