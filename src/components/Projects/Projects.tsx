@@ -2,8 +2,9 @@
 
 import React, { useState } from 'react'
 import AnimatedText from '../Animations/AnimatedText/AnimatedText'
-import ProjectCardsProps from '../../types/ProjectsCardsProps'
+// import ProjectCardsProps from '../../types/ProjectsCardsProps'
 import ProjectCards from '../ProjectsCards/ProjectsCards'
+
 
 
 const Projects: React.FC = () => {
