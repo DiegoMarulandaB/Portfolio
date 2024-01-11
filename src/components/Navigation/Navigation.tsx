@@ -27,7 +27,7 @@ const Navigation = () => {
             <Link to="home">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 cursor-pointer mx-2 mr-2">
-                 ｛  Diego Marulanda ｝
+                Diego Marulanda
                 </h2>
               </div>
             </Link>
