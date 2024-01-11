@@ -66,16 +66,16 @@ const Navigation = () => {
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="text-slate-100 bg-gradient-to-r from-purple-800 via-purple-900 to-purple-800  rounded-md cursor-pointer px-2 py-2 font-bold"
+                  className="hover:bg-gradient-to-r from-purple-800 via-purple-900 to-purple-800  rounded-md cursor-pointer px-2 py-2 font-bold"
                 >
                   <PiMoonStarsBold size={25} color="white" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
-                  className="text-slate-100 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500  rounded-md cursor-pointer px-2 py-2 font-bold"
+                  className="hover:bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500  rounded-md cursor-pointer px-2 py-2 font-bold"
                 >
-                  <PiSunHorizonBold size={25} color="white" />
+                  <PiSunHorizonBold size={25} color="black" />
                 </button>
               )}
             </div>
