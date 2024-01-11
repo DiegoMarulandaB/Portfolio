@@ -5,7 +5,7 @@ const Footer = () => {
         <hr className="border-slate-500 dark:border-slate-100 mb-2" />
         <div className="mx-auto p-2 flex flex-col items-center justify-center text-center md:flex-row md:justify-between">
           <div className="flex flex-row space-x-2 mt-1 mb-1 mx-20">
-         ｛  Diego Marulanda. ｝  Colombia. |  All Rights Reserved.
+         ｛  Diego Marulanda ｝  All Rights Reserved.
           </div>
           <div className="flex flex-row space-x-2 mt-1 mb-1 mx-20">&copy; 2023-2024</div>
         </div> 
