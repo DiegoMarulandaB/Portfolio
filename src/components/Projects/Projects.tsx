@@ -132,8 +132,7 @@ const Projects: React.FC = () => {
                 ImageHref="frontEnd3.jpeg"
                 category="Academic Projects"
                 title="Health application"
-                description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API, error validations and submit. Technologies: React, Vite..
-              Tecnologies: React, Vite."
+                description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API, error validations and submit. Technologies: React, Vite."
                 button="Read More →"
                 buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
                 href="https://github.com/DiegoMarulandaB/finalFrontEnd"
