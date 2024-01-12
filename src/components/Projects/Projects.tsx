@@ -121,7 +121,7 @@ const Projects: React.FC = () => {
                 ImageHref="Final-esp-frontend.png"
                 category="Academic Projects"
                 title="Rick and Morty application"
-                description="Final project of the frontend 1 subject of the frontend specialization in Digital House. Using the Rick and Morty API. Technologies: TypeScript, documentation, Redux, Thunk."
+                description="Final project of the frontend subject 1 of the frontend specialization in Digital House. Using the Rick and Morty API with documentation. Technologies: TypeScript, Redux, Thunk."
                 button="Read More →"
                 buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
                 href="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
