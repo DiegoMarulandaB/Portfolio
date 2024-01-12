@@ -12,7 +12,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   loading,
   href,
 }) => (
-  <section id="projects">
+  <div id="projects">
     <div className={` ${showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'}`}>
       <Slide offset="-200px 0px -200px 0px">
         <div className="border border-gray-800 rounded-2xl shadow bg-slate-50 dark:bg-slate-600 dark:border-slate-50 px-1 py-1 mx-2 mr-2 mt-6">
@@ -46,7 +46,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
         </div>
       </Slide>
     </div>
-  </section>
+  </div>
 )
 
 export default ProjectCards
