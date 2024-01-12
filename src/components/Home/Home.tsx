@@ -16,7 +16,7 @@ const HomePage = () => {
             <div id="contact">
               <div className="container mx-auto px-4 mt-24">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
-                  <div className="mb-8 lg:mb-0 lg:w-1/2 justify-center">
+                  <div className="mb-8 lg:mb-0 lg:w-5/4 justify-center">
                     <h2 className="text-center text-3xl font-semibold mx-2 mr-2">Contact Me</h2>
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
@@ -35,7 +35,7 @@ const HomePage = () => {
                         rel="noopener noreferrer"
                         aria-label="Read more about my profile on Linkedin"
                       >
-                        <AiOutlineLinkedin className="icon " size={34} />
+                        <AiOutlineLinkedin className="icon" size={34} />
                       </a>
                       <a
                         href="https://github.com/DiegoMarulandaB"
@@ -44,7 +44,7 @@ const HomePage = () => {
                         rel="noopener noreferrer"
                         aria-label="Read more about my Github profile"
                       >
-                        <AiOutlineGithub className="icon " size={34} />
+                        <AiOutlineGithub className="icon" size={34} />
                       </a>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ const HomePage = () => {
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>
-                      <div className="flex mt-4 justify-end">
+                      <div className="flex mt-4 justify-end lg:mb-0 lg:w-3/4">
                         <div className="w-16 h-16 mr-4 md:w-18 md:h-18">
                           <img
                             loading="lazy"

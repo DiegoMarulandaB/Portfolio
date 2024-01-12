@@ -12,15 +12,10 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   loading,
   href,
 }) => (
-  <div
-    id="projects"
-    className={`w-full px-4 md:w-1/2 xl:w-3/3  ${
-      showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
-    }`}
-  >
-    <div>
+  <section id="projects">
+    <div className={` ${showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'}`}>
       <Slide offset="-200px 0px -200px 0px">
-        <div className="flex flex-col items-center text-center border border-gray-800 rounded-2xl shadow bg-slate-100 dark:bg-slate-600 dark:border-slate-100 px-1 py-1 mx-2 mr-2 mt-6">
+        <div className="border border-gray-800 rounded-2xl shadow bg-slate-50 dark:bg-slate-600 dark:border-slate-50 px-1 py-1 mx-2 mr-2 mt-6">
           <div className="overflow-hidden">
             <a href={href} target="_blank" rel="noopener noreferrer">
               <img
@@ -33,27 +28,25 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               />
             </a>
           </div>
-          <div className="flex flex-col text-center items-center justify-center bg-slate-50  dark:bg-slate-600 rounded-b-lg shadow-xl overflow-hidden opacity-80">
-            <div className="relative z-10 px-2 py-2 -mt-2 text-center items-center justify-center text-blue-800 dark:text-amber-200 mx-2 mr-2 w-26 text-1xl">
-              <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
-                {category}
-              </span>
-              <h2 className="mb-4 text-1xl text-slate-800 dark:text-slate-100 font-bold">{title}</h2>
-              <h3 className="mb-4 text-1xl text-slate-800 dark:text-slate-100  font-bold">{description}</h3>
-              <a
-                href={buttonHref}
-                target="_blank"
-                rel="noopener noreferrer dns-prefetch"
-                className=" inline-block text-center text-slate-800 hover:text-purple-900 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold uppercase px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
-              >
-                {button}
-              </a>
-            </div>
+          <div className="bg-slate-50 dark:bg-slate-600 rounded-b-lg shadow-xl overflow-hidden">
+            <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
+              {category}
+            </span>
+            <h2 className="mb-4 text-1xl font-medium text-blue-800 dark:text-amber-200">{title}</h2>
+            <h3 className="mb-4 text-1xl text-slate-800 dark:text-slate-50">{description}</h3>
+            <a
+              href={buttonHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" inline-block text-center text-slate-800 hover:text-purple-900 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
+            >
+              {button}
+            </a>
           </div>
         </div>
       </Slide>
     </div>
-  </div>
+  </section>
 )
 
 export default ProjectCards
