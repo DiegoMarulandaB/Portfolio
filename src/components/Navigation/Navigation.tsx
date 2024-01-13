@@ -27,7 +27,7 @@ const Navigation = () => {
             <Link to="home">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 cursor-pointer mx-2 mr-2">
-                Diego Marulanda
+                  Diego Marulanda
                 </h2>
               </div>
             </Link>
@@ -67,6 +67,7 @@ const Navigation = () => {
                 <button
                   onClick={() => setTheme('light')}
                   className="bg-gradient-to-r from-purple-800 via-purple-900 to-purple-800  rounded-md cursor-pointer px-2 py-2 font-bold"
+                  aria-label="light mode button"
                 >
                   <PiMoonStarsBold size={25} color="white" />
                 </button>
@@ -74,6 +75,7 @@ const Navigation = () => {
                 <button
                   onClick={() => setTheme('dark')}
                   className="bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500  rounded-md cursor-pointer px-2 py-2 font-bold"
+                  aria-label="dark mode button"
                 >
                   <PiSunHorizonBold size={25} color="black" />
                 </button>
