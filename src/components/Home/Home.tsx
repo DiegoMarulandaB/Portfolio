@@ -16,35 +16,45 @@ const HomePage = () => {
             <div id="contact">
               <div className="container mx-auto px-4 mt-24">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
-                  <div className="mb-8 lg:mb-0 lg:w-5/4 justify-center">
-                    <h2 className="text-center text-3xl font-semibold mx-2 mr-2">Contact Me</h2>
+                  <div className="mb-8 lg:mb-0 lg:w-5/3 justify-center">
+                    <h2 className="mx-auto text-center text-3xl font-semibold  mr-2">Contact Me</h2>
                     <div className="flex gap-3 mt-4 justify-center">
                       <a
                         href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
-                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 font-bold rounded  hover:border-slate-50 hover:bg-red-600 hover:text-slate-50 inline-flex hover:rounded-lg"
+                        className=" transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide
+                        text-slate-900 dark:text-slate-50 inline-flex hover:rounded-lg"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Send email"
                       >
-                        <AiOutlineMail className="icon" size={34} />
+                        <span className="relative group-hover:bg-opacity-0">
+                          <AiOutlineMail className="icon mx-auto" size={34} />
+                          Email
+                        </span>
                       </a>
                       <a
                         href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 font-bold rounded  hover:border-blue-600 hover:bg-blue-600 hover:text-white inline-flex hover:rounded-lg"
+                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 hover:text-blue-500 dark:hover:text-blue-500 inline-flex hover:rounded-lg"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my profile on Linkedin"
                       >
-                        <AiOutlineLinkedin className="icon" size={34} />
+                        <span className="relative group-hover:bg-opacity-0">
+                          <AiOutlineLinkedin className="icon mx-auto" size={34} />
+                          Linkedin
+                        </span>
                       </a>
                       <a
                         href="https://github.com/DiegoMarulandaB"
-                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 font-bold rounded  hover:border-slate-50 hover:bg-slate-900 hover:text-slate-50 inline-flex hover:rounded-lg"
+                        className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-slate-50 inline-flex hover:rounded-lg"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Read more about my Github profile"
                       >
-                        <AiOutlineGithub className="icon" size={34} />
+                        <span className="relative group-hover:bg-opacity-0">
+                          <AiOutlineGithub className="icon mx-auto" size={34} />
+                          Github
+                        </span>
                       </a>
                     </div>
                   </div>
@@ -53,7 +63,7 @@ const HomePage = () => {
                       <p className="text-lg">
                         Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                       </p>
-                      <div className="flex mt-4 justify-end lg:mb-0 lg:w-3/4">
+                      <div className="flex mt-4 justify-end lg:mb-0 lg:w-5/6">
                         <div className="w-16 h-16 mr-4 md:w-18 md:h-18">
                           <img
                             loading="lazy"
