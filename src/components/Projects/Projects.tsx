@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
             </div>
           </div>
           <div className="mx-auto mb-[60px] max-w-[810px]">
-            <div className="flex flex-wrap rounded-md -mx-4 text-1xl">
+            <div className="flex flex-wrap -mx-4 text-1xl">
               <ProjectCards
                 loading="lazy"
                 ImageHref="profileGithub.jpg"
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
                 ImageHref="digitalBooking.jpeg"
                 category="Academic Projects"
                 title="Digital booking"
-                description="MVP to book activities in several countries.  Technologies: Git, Gitlab, Css, React, Java v. 17, JWT, Gradle,  Spring Boot, MySQL, AWS, Jest.js, Postman, Selenium IDE."
+                description="MVP to book activities in several countries.  Technologies: Git, Gitlab, Css, React, Java version 17, JWT, Gradle,  Spring Boot, MySQL, AWS, Jest.js, Postman, Selenium IDE."
                 button="Read More →"
                 buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
                 href="https://github.com/DiegoMarulandaB/Digital-booking"
