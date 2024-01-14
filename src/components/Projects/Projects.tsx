@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects">
-      <div className="mx-auto lg:px-8 max-w-screen-lg px-4 sm:px-6 py-8">
+      <div className="mx-auto min-h-screen flex items-center justify-center py-8">
         <div className="min-h-screen flex items-center justify-center">
           <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
             <div className="flex flex-wrap -mx-4">
