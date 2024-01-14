@@ -29,7 +29,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 width={690}
                 height={690}
                 alt="projects"
-                className="rounded-t-lg border-slate-800 dark:border-slate-100 transition-transform duration-150 ease-in-out hover:scale-125"
+                className="rounded-t-lg border-slate-800 dark:border-slate-50 transition-transform duration-150 ease-in-out hover:scale-125"
               />
             </a>
           </div>
@@ -39,12 +39,12 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 {category}
               </span>
               <h2 className="mb-4 text-1xl text-blue-800 dark:text-amber-200 font-semibold">{title}</h2>
-              <h3 className="mb-4 text-1xl">{description}</h3>
+              <h3 className="mb-4 text-1xl dark:text-white">{description}</h3>
               <a
                 href={buttonHref}
                 target="_blank"
                 rel="noopener noreferrer dns-prefetch"
-                className=" inline-block text-center text-slate-800 hover:text-purple-900 dark:text-slate-100 dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold  px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
+                className=" inline-block text-center text-slate-800 hover:text-purple-900 dark:text-white dark:hover:text-green-300 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold  px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
               >
                 {button}
               </a>

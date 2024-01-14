@@ -26,7 +26,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between py-3 md:py-6 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 cursor-pointer mx-2 mr-2">
+                <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  hover:text-purple-950 dark:text-white dark:hover:text-green-300 cursor-pointer mx-2 mr-2">
                   Diego Marulanda
                 </h2>
               </div>
@@ -36,7 +36,7 @@ const Navigation = () => {
               <button
                 id="menuButton"
                 title="menuButton"
-                className="p-2 text-slate-800 bg-gradient-to-r  hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300 cursor-pointer px-2 py-2 text-1xl  font-bold "
+                className="p-2 text-slate-800 bg-gradient-to-r  hover:text-purple-950 dark:text-white dark:hover:text-green-300 cursor-pointer px-2 py-2 text-1xl  font-bold "
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
@@ -56,7 +56,7 @@ const Navigation = () => {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} to={item.route}>
                   <div
-                    className="block lg:inline-block text-slate-800 hover:text-purple-950 dark:text-slate-100 dark:hover:text-green-300"
+                    className="block lg:inline-block text-slate-800 hover:text-purple-950 dark:text-white dark:hover:text-green-300"
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}
