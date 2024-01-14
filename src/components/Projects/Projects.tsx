@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
                 <h1>
                   <AnimatedText text="Projects" className="mx-auto mr-2 mt-20" />
                 </h1>
-                <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
+                <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-10">
                   In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
                   enjoy creating it.
                 </p>
