@@ -72,7 +72,7 @@ const HomePage = () => {
                           width={120}
                           height={120}
                           src="/Diego.jpeg"
-                          alt="Diego Marulanda Profile Picture"
+                          alt="Profile Picture"
                         />
                       </div>
                       <div className="md:text-lg">
