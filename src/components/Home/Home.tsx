@@ -23,10 +23,10 @@ const HomePage = () => {
                     <a
                       href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
                       className=" transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide
-                        text-slate-900 dark:text-white inline-flex hover:rounded-lg"
+                        text-slate-700 hover:text-slate-950  dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label="Send email"
+                      aria-label="Contact me by sending me an email"
                     >
                       <span className="relative group-hover:bg-opacity-0">
                         <AiOutlineMail className="icon mx-auto" size={34} />
@@ -35,7 +35,7 @@ const HomePage = () => {
                     </a>
                     <a
                       href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-white inline-flex hover:rounded-lg"
+                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide  text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Read more about my profile on Linkedin"
@@ -47,7 +47,7 @@ const HomePage = () => {
                     </a>
                     <a
                       href="https://github.com/DiegoMarulandaB"
-                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-white inline-flex hover:rounded-lg"
+                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide  text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Read more about my Github profile"
