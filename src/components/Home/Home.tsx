@@ -35,7 +35,7 @@ const HomePage = () => {
                     </a>
                     <a
                       href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-500 inline-flex hover:rounded-lg"
+                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-900 dark:text-white inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Read more about my profile on Linkedin"
