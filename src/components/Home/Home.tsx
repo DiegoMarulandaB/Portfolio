@@ -59,7 +59,7 @@ const HomePage = () => {
                     </a>
                   </div>
                 </div>
-                <div className="max-w-lg">
+                <div className="max-w-lg mt-2">
                   <div className="w-46 h-46">
                     <p className="text-lg">
                       Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
