@@ -15,7 +15,7 @@ const HomePage = () => {
         </div>
         <div className="container mx-auto grid place-items-center h-max text-center">
           <div id="contact">
-            <div className="mx-auto lg:px-8 max-w-screen-lg px-4 sm:px-6 py-8 mt-24">
+            <div className="mx-auto lg:px-8 max-w-screen-lg px-4 sm:px-6 py-8 mt-20">
               <div className="flex flex-col lg:flex-row items-center justify-between">
                 <div className="mb-8 lg:mb-0 lg:w-5/3 justify-center">
                   <h2 className="mx-auto text-center text-3xl font-semibold  mr-2">Contact Me</h2>
