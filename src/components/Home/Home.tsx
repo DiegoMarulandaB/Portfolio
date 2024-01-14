@@ -7,12 +7,13 @@ import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/a
 const HomePage = () => {
   return (
     <section id="home">
-      <div className="relative w-full">
         <div className="grid place-items-center px-8">
           <div className="container mx-auto grid place-items-center h-max text-center">
-            <h1 className="text-center mx-2 mr-2 mt-28">
-              <AnimatedText text="Dive into the world of code and creativity!" />
-            </h1>
+            <div className="text-center mx-2 mr-2 mt-28">
+              <h1>
+                <AnimatedText text="Dive into the world of code and creativity!" />
+              </h1>
+            </div>
             <div id="contact">
               <div className="container mx-auto px-4 mt-24">
                 <div className="flex flex-col lg:flex-row items-center justify-between">
@@ -87,7 +88,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   )
 }
