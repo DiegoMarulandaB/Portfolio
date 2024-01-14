@@ -36,7 +36,7 @@ const Navigation = () => {
               <button
                 id="menuButton"
                 title="menuButton"
-                className="p-2 text-slate-800 bg-gradient-to-r  hover:text-cyan-800  dark:text-white dark:hover:text-green-300 cursor-pointer px-2 py-2 text-1xl  font-bold "
+                className="p-2 text-slate-800 bg-gradient-to-r  hover:text-cyan-800  dark:text-white dark:hover:text-blue-100 cursor-pointer px-2 py-2 text-1xl  font-bold "
                 onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
