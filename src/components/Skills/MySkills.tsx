@@ -1,14 +1,16 @@
 import Image from 'next/image'
 const MySkills = () => {
   return (
-    <div className="md:w-1/3 justify-between">
-      <h1 className="text-center mx-2 mr-2 mt-4 text-2xl font-bold">My Skills</h1>
+    <div className="md:w-1/4 justify-between">
+      <div className="text-center mx-2 mr-2 mt-4 text-2xl font-bold">
+        <h1>My Skills</h1>
+      </div>
+      <div className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
+        <h2>Technologies</h2>
+      </div>
       <div className="flex flex-wrap flex-row justify-center md:justify-center">
-        <div className="md:w-3/3">
-          <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
-            Technologies
-          </h2>
-          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
+        <div className="">
+          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4 md:w-3/3">
             <div>
               <Image
                 src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
@@ -59,7 +61,9 @@ const MySkills = () => {
         </div>
 
         <div className="md:w-3/3">
-          <h2 className="text-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mx-2 mr-2  mt-2">Tools</h2>
+          <div className="text-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mx-2 mr-2  mt-2">
+            <h2>Tools</h2>
+          </div>
           <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
             <div>
               <Image
@@ -148,7 +152,9 @@ const MySkills = () => {
         </div>
 
         <div className="md:w-3/3">
-          <h2 className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">Learning</h2>
+          <div className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
+            <h2>Learning</h2>
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
             <div>
               <Image
