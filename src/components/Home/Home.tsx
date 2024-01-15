@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="container mx-auto grid place-items-center h-max text-center">
           <div className="text-center dark:text-white mx-2 mr-2 mt-28">
             <h1>
-              <AnimatedText text="｛Dive into the world of code and creativity!｝" />
+              <AnimatedText text="Dive into the world of code and creativity!" />
             </h1>
           </div>
           <div id="contact">
