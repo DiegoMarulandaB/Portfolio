@@ -21,7 +21,7 @@ const HomePage = () => {
                   <h2 className="mx-auto text-center text-3xl dark:text-white font-semibold  mr-2">Contact Me</h2>
                   <div className="flex gap-3 mt-4 justify-center">
                     <a
-                      href="mailto:diegomarulanda87@gmail.com?Subject=Aquí%20el%20asunto%20del%20mail"
+                      href="mailto:%20diegomarulanda87@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
                       className=" transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide
                         text-slate-700 hover:text-slate-950  dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
                       target="_blank"
