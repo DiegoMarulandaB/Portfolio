@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="about">
       <h1>
-        <AnimatedText text="About me" className=" text-center  dark:text-white justify-center mx-2 mr-2 mt-24"/>
+        <AnimatedText text="About me" className=" text-center  dark:text-white justify-center mx-2 mr-2 mt-24" />
       </h1>
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
@@ -23,10 +23,12 @@ const About = () => {
               </div>
               <span className="mx-2 mr-2 mt-4 text-blue-800 dark:text-amber-200 text-2xl">Experience</span>
               <div className="text-center text-1xl dark:text-white mx-2 mr-2 mt-4 mb-4">
-                <p className="mb-4 mt-4">Of course i have experience in some areas.</p>
                 <p className="mb-4 mt-4">
-                  But at the moment i have not had the opportunity to enter the technology sector. Therefore, i will get
-                  my experience through the different projects that i carry out.
+                  I will acquire my experience through various projects, both academic and personal, my focus is on
+                  innovation and constant growth.
+                </p>
+                <p className="mb-4 mt-4">
+                  My background reflects my commitment to excellence and creative problem solving.
                 </p>
               </div>
               <span className="mx-2 mr-2 mt-4 text-blue-800 dark:text-amber-200 text-2xl">Studies</span>
