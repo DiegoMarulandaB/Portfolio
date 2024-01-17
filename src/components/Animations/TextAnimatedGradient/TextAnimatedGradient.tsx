@@ -10,7 +10,8 @@ const TextAnimatedGradient = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.8,
+        ease: [0.455, 0.03, 0.515, 0.955],
+        duration: 0.85,
       },
     },
   }
