@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
             <div className="flex flex-wrap -mx-4 text-1xl">
               <ProjectCards
                 loading="lazy"
-                ImageHref="profileGithub.jpg"
+                ImageHref="profileGithub.png"
                 category="All Projects"
                 title="My repository"
                 description="Browse my repository on GitHub, where you will find all my projects from my academic training at Digital House, Alura, MisionTic. And my most relevant personal projects!"
@@ -85,7 +85,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="digitalBooking.jpeg"
+                ImageHref="digitalBooking.jpg"
                 category="Academic Projects"
                 title="Digital booking"
                 description="MVP to book activities in several countries.  Technologies: Git, Gitlab, Css, React, Java version 17, JWT, Gradle,  Spring Boot, MySQL, AWS, Jest.js, Postman, Selenium IDE."
@@ -107,7 +107,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="Final-esp-frontend-2.jpeg"
+                ImageHref="Final-esp-frontend-2.jpg"
                 category="Academic Projects"
                 title="The simpsons application"
                 description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code, validations."
@@ -118,7 +118,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="Final-esp-frontend.png"
+                ImageHref="Final-esp-frontend.jpg"
                 category="Academic Projects"
                 title="Rick and Morty application"
                 description="Final project of the frontend subject 1 of the frontend specialization in Digital House. Using the Rick and Morty API with documentation. Technologies: TypeScript, Redux, Thunk."
@@ -129,7 +129,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="frontEnd3.jpeg"
+                ImageHref="frontEnd3.jpg"
                 category="Academic Projects"
                 title="Health application"
                 description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API, error validations and submit. Technologies: React, Vite."

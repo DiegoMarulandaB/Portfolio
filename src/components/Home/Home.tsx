@@ -73,8 +73,8 @@ const HomePage = () => {
                           className=" rounded-full"
                           width={120}
                           height={120}
-                          src="/Diego.jpeg"
-                          alt="Diego Marulanda Profile Picture"
+                          src="/Diego.jpg"
+                          alt="Profile Picture"
                         />
                       </div>
                       <div className="md:text-lg">
