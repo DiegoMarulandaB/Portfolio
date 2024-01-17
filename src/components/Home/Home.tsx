@@ -73,7 +73,7 @@ const HomePage = () => {
                           className=" rounded-full"
                           width={120}
                           height={120}
-                          src="/Diego.jpg"
+                          src="/Diego.webp"
                           alt="Profile Picture"
                         />
                       </div>
