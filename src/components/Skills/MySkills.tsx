@@ -13,7 +13,7 @@ const MySkills = () => {
           <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4 md:w-3/3">
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
+                src="/w3_css-icon.svg"
                 loading="lazy"
                 alt="Css Icon"
                 width={75}
@@ -24,7 +24,7 @@ const MySkills = () => {
             </div>
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+                src="/html5-icon.svg"
                 loading="lazy"
                 alt="Html Icon"
                 width={75}
@@ -48,7 +48,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg"
+                src="/reactjs-icon.svg"
                 loading="lazy"
                 alt="React Icon"
                 width={75}
@@ -67,7 +67,7 @@ const MySkills = () => {
           <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
+                src="/gnu_bash-icon.svg"
                 loading="lazy"
                 alt="Git Bash Icon"
                 width={75}
@@ -79,7 +79,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                src="/git-scm-icon.svg"
                 loading="lazy"
                 alt="Git Icon"
                 width={75}
@@ -91,7 +91,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/github/github-icon.svg"
+                src="/github-icon.svg"
                 loading="lazy"
                 alt="Github Icon"
                 width={68}
@@ -103,7 +103,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg"
+                src="/linux-icon.svg"
                 loading="lazy"
                 alt="Linux Icon"
                 width={75}
@@ -115,7 +115,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/neovimio/neovimio-icon.svg"
+                src="/neovimio-icon.svg"
                 loading="lazy"
                 alt="Neovim Icon"
                 width={75}
@@ -127,7 +127,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                src="/getpostman-icon.svg"
                 loading="lazy"
                 alt="Postman Icon"
                 width={75}
@@ -139,7 +139,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg"
+                src="/visualstudio_code-icon.svg"
                 loading="lazy"
                 alt="Vscode Icon"
                 width={75}
@@ -158,7 +158,7 @@ const MySkills = () => {
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                src="/tailwindcss-icon.svg"
                 loading="lazy"
                 alt="Tailwind Icon"
                 width={75}
@@ -170,7 +170,7 @@ const MySkills = () => {
 
             <div>
               <Image
-                src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg"
+                src="/typescriptlang-icon.svg"
                 loading="lazy"
                 alt="Typescript Icon"
                 width={75}
