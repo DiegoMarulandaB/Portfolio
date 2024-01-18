@@ -34,12 +34,12 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
             </a>
           </div>
           <div className="mx-auto overflow-hidden">
-            <div className="relative z-10 px-2 py-2 -mt-2 text-center items-center justify-center mx-2 mr-2 w-26 text-1xl">
+            <div className="relative z-10 px-2 py-2 mt-2 text-center items-center justify-center mx-2 mr-2 w-26 text-1xl">
               <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
                 {category}
               </span>
-              <h2 className="mb-4 text-1xl text-blue-800 dark:text-amber-200 font-semibold">{title}</h2>
-              <h3 className="mb-4 text-1xl dark:text-white">{description}</h3>
+              <h2 className="mb-4 mt-2 text-1xl text-blue-800 dark:text-amber-200 font-semibold">{title}</h2>
+              <h3 className="mb-4 mt-2 text-1xl dark:text-white">{description}</h3>
               <a
                 href={buttonHref}
                 target="_blank"
