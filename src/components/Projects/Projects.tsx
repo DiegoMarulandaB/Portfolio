@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
                 <li className="mb-1">
                   <button
                     onClick={() => handleProject('all')}
-                    className={`inline-block rounded-md py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
+                    className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'all'
                         ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
                         : 'inactiveClasses'
