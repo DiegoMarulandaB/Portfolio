@@ -43,8 +43,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               <a
                 href={buttonHref}
                 target="_blank"
-                rel="noopener noreferrer dns-prefetch"
-                className=" inline-block text-center text-slate-700 hover:text-slate-950  dark:text-white dark:hover:text-blue-100 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer text-sm font-bold  px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
+                rel="noopener noreferrer"
+                className=" inline-block text-center text-slate-700 hover:text-slate-950  dark:text-white dark:hover:text-blue-100 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer font-bold px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
               >
                 {button}
               </a>
