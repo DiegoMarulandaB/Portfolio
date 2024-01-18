@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                 category="All Projects"
                 title="My repository"
                 description="Browse my repository on GitHub, where you will find all my projects from my academic training at Digital House, Alura, MisionTic. And my most relevant personal projects!"
-                button="Read More →"
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB"
                 href="https://github.com/DiegoMarulandaB"
                 showCard={showCard}
@@ -89,7 +89,7 @@ const Projects: React.FC = () => {
                 category="Academic Projects"
                 title="Digital booking"
                 description="MVP to book activities in several countries.  Technologies: Git, Gitlab, Css, React, Java version 17, JWT, Gradle,  Spring Boot, MySQL, AWS, Jest.js, Postman, Selenium IDE."
-                button="Read More →"
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
                 href="https://github.com/DiegoMarulandaB/Digital-booking"
                 showCard={showCard}
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
                 category="Personal Projects"
                 title="Calculator basic"
                 description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
-                button="Read More →"
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
                 href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
                 showCard={showCard}
@@ -110,8 +110,8 @@ const Projects: React.FC = () => {
                 ImageHref="Final-esp-frontend-2.jpg"
                 category="Academic Projects"
                 title="The simpsons application"
-                description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API. Technologies: Typescript, unit testing, solid principles, clean code, validations."
-                button="Read More →"
+                description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API with solid principles, clean code, validations. Technologies: Typescript, unit testing."
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
                 href="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
                 showCard={showCard}
@@ -122,7 +122,7 @@ const Projects: React.FC = () => {
                 category="Academic Projects"
                 title="Rick and Morty application"
                 description="Final project of the frontend subject 1 of the frontend specialization in Digital House. Using the Rick and Morty API with documentation. Technologies: TypeScript, Redux, Thunk."
-                button="Read More →"
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
                 href="https://github.com/DiegoMarulandaB/ctd-esp-fe1-final"
                 showCard={showCard}
@@ -133,7 +133,7 @@ const Projects: React.FC = () => {
                 category="Academic Projects"
                 title="Health application"
                 description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API, error validations and submit. Technologies: React, Vite."
-                button="Read More →"
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
                 href="https://github.com/DiegoMarulandaB/finalFrontEnd"
                 showCard={showCard}
@@ -145,7 +145,7 @@ const Projects: React.FC = () => {
                 category="Personal Projects"
                 title="Counter Click"
                 description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
-                button="Read More →"
+                button="Github →"
                 buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
                 href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
                 showCard={showCard}

@@ -29,11 +29,11 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 width={690}
                 height={690}
                 alt="projects"
-                className="rounded-t-lg border-slate-800 dark:border-slate-50 transition-transform duration-150 ease-in-out hover:scale-125"
+                className="rounded-t-lg border-solid border-2 border-slate-500 dark:border-slate-50 transition-transform duration-150 ease-in-out hover:scale-125"
               />
             </a>
           </div>
-          <div className="mx-auto shadow-xl overflow-hidden">
+          <div className="mx-auto shadow-xl overflow-hidden rounded-b-lg">
             <div className="relative z-10 px-2 py-2 -mt-2 text-center items-center justify-center mx-2 mr-2 w-26 text-1xl">
               <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
                 {category}
