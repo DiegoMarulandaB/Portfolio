@@ -34,10 +34,10 @@ const Navigation = () => {
             {/* mobile menu */}
             <div className="md:hidden">
               <button
-                id="menuButton"
-                title="menuButton"
+                onClick={() => {
+                  setNavigation(!navigation)
+                }}
                 className="p-2 bg-gradient-to-r text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 cursor-pointer px-2 py-2 text-1xl  font-bold "
-                onClick={() => setNavigation(!navigation)}
               >
                 {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
               </button>
@@ -66,8 +66,8 @@ const Navigation = () => {
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="bg-gradient-to-r from-purple-600 via-purple-800 to-purple-700  rounded-full cursor-pointer px-2 py-2 font-bold"
-                  aria-label="light mode button"
+                  className="bg-gradient-to-r from-purple-500 via-purple-500 to-purple-500  rounded-full cursor-pointer px-2 py-2 font-bold"
+                  aria-label="dark mode button"
                 >
                   <PiMoonStarsBold size={25} color="white" />
                 </button>
@@ -75,7 +75,7 @@ const Navigation = () => {
                 <button
                   onClick={() => setTheme('dark')}
                   className="bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500  rounded-full cursor-pointer px-2 py-2 font-bold"
-                  aria-label="dark mode button"
+                  aria-label="light mode button"
                 >
                   <PiSunHorizonBold size={25} color="black" />
                 </button>
