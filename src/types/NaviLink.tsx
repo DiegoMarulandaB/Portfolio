@@ -1,4 +1,4 @@
- interface NaviLink {
+interface NaviLink {
   label: string
   route: string
 }
