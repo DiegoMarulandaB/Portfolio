@@ -44,7 +44,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 href={buttonHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" inline-block text-center text-slate-700 hover:text-slate-950  dark:text-white dark:hover:text-blue-100 transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer font-bold px-4 py-4 mx-2 mr-2 mt-2 text-1xl"
+                className=" inline-block text-center transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100 focus:outline-none dark:focus:ring-blue-100"
                 aria-label="Github button to go to the repository"
               >
                 {button}
