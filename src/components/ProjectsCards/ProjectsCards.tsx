@@ -20,7 +20,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   >
     <div>
       <Slide offset="-200px 0px -200px 0px">
-        <div className="flex flex-col items-center text-center rounded-lg  bg-slate-50 dark:bg-slate-600 shadow-lg shadow-blue-500/40 dark:shadow-slate-50/40 mx-2 mr-2 mt-6">
+        <div className="flex flex-col items-center text-center rounded-lg  bg-slate-50 dark:bg-slate-600 shadow-lg shadow-blue-600/40 dark:shadow-slate-100/40 border-2 border-slate-950 dark:border-2 dark:border-blue-200 mx-2 mr-2 mt-6">
           <div className="overflow-hidden">
             <a href={href} target="_blank" rel="noopener noreferrer">
               <img
@@ -44,7 +44,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
                 href={buttonHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" inline-block text-center transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100 focus:outline-none dark:focus:ring-blue-100 shadow-lg shadow-slate-600/40 dark:shadow-slate-50/40"
+                className=" inline-block text-center transition-transform duration-150 ease-in-out hover:scale-125 cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100 focus:outline-none dark:focus:ring-blue-100"
                 aria-label="Github button to go to the repository"
               >
                 {button}
