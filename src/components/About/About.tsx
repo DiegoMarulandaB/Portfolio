@@ -13,7 +13,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
           <div className="md:w-3/5">
             <div className="flex flex-col items-center justify-center">
-              <span className="mx-2 mr-2 mt-4 text-2xl dark:text-white font-bold">About Diego</span>
+              <span className="text-center justify-center mx-2 mr-2 mt-4 text-2xl dark:text-white font-bold">About Diego</span>
               <div className="text-center text-1xl dark:text-white mx-2 mr-2 mt-4 mb-4">
                 <p className="mb-4 mt-4">
                   {' '}
