@@ -84,10 +84,10 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <Experience />
-          <Projects />
-          <About />
         </div>
+        <Experience />
+        <Projects />
+        <About />
       </div>
     </section>
   )
