@@ -19,10 +19,6 @@ const Projects: React.FC = () => {
               <h1 className=" text-center justify-center mx-2 mr-2 mt-24 font-extrabold capitalize text-4xl sm:text-7xl md:text-6xl lg:text-6xl xl:text-7xl">
                 Projects
               </h1>
-              <p className="text-1xl text-body-color text-center mx-2 mr-2 mt-8">
-                In this section, you can find samples of my projects, i hope you enjoy exploring my work as much as i
-                enjoy creating it.
-              </p>
             </div>
           </div>
 

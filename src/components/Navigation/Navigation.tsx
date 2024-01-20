@@ -3,15 +3,15 @@ import { useTheme } from 'next-themes'
 import { usePathname } from 'next/navigation'
 import { PiMoonStarsBold, PiSunHorizonBold } from 'react-icons/pi'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
-import { Link } from 'react-scroll/modules'
+import Link from 'next/link'
 import NaviLink from '../../types/NaviLink'
 
 const LINKS_NAV: NaviLink[] = [
-  { label: 'Home', route: 'home' },
-  { label: 'Experience', route: 'experience' },
-  { label: 'Projects', route: 'projects' },
-  { label: 'About Me', route: 'about' },
-  { label: 'Contact Me', route: 'contact' },
+  { label: 'Home', route: '/#home' },
+  { label: 'Experience', route: '/#experience' },
+  { label: 'Projects', route: '/#projects' },
+  { label: 'About Me', route: '/#about' },
+  { label: 'Contact Me', route: '/#contact' },
 ]
 
 const Navigation = () => {
@@ -25,9 +25,9 @@ const Navigation = () => {
       <div className="justify-evenly md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-6 md:block">
-            <Link to="home">
+            <Link href="/#home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-1xl font-bold transition-transform duration-150 ease-in-out hover:scale-125  text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 cursor-pointer mx-2 mr-2">
+                <h2 className="text-1xl font-bold text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 cursor-pointer mx-2 mr-2">
                   Diego Marulanda
                 </h2>
               </div>
@@ -56,9 +56,9 @@ const Navigation = () => {
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {LINKS_NAV.map((item, index) => (
-                <Link key={index} to={item.route}>
+                <Link key={index} href={item.route} rel="dns-prefetch">
                   <div
-                    className="block lg:inline-block text-slate-700 hover:text-slate-950  dark:text-white dark:hover:text-blue-100"
+                    className="block lg:inline-block text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}

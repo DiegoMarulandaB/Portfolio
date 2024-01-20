@@ -18,8 +18,7 @@ const HomePage = () => {
                   <div className="flex gap-3 mt-4 justify-center">
                     <a
                       href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
-                      className=" transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide
-                        text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
+                      className=" text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Contact me by sending me an email"
@@ -31,7 +30,7 @@ const HomePage = () => {
                     </a>
                     <a
                       href="https://www.linkedin.com/in/diegomarulandabarrientos/"
-                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
+                      className="text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Read more about my profile on Linkedin"
@@ -43,7 +42,7 @@ const HomePage = () => {
                     </a>
                     <a
                       href="https://github.com/DiegoMarulandaB"
-                      className="transition-transform duration-150 ease-in-out hover:scale-125 tracking-wide text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
+                      className="text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Read more about my Github profile"
