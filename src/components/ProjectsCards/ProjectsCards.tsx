@@ -13,7 +13,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   href,
 }) => (
   <div
-    id="projects"
+    id="projectsCards"
     className={`w-full px-4 md:w-1/2 xl:w-3/3 ${
       showCard === 'all' || showCard === category.toLowerCase() ? 'block' : 'hidden'
     }`}
