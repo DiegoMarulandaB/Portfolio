@@ -5,7 +5,7 @@ import MySkills from '../Skills/MySkills'
 const About = () => {
   return (
     <section id="about">
-      <div className=" text-center justify-center mx-2 mr-2 mt-24 font-extrabold capitalize text-4xl sm:text-7xl md:text-6xl lg:text-6xl xl:text-7xl">
+      <div className=" text-center justify-center mx-2 mr-2 pt-24 font-extrabold capitalize text-4xl sm:text-7xl md:text-6xl lg:text-6xl xl:text-7xl">
         <h1>About me</h1>
       </div>
       <div className="min-h-screen flex items-center justify-center">
