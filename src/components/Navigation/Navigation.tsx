@@ -58,7 +58,7 @@ const Navigation = () => {
               {LINKS_NAV.map((item, index) => (
                 <Link key={index} href={item.route} rel="dns-prefetch">
                   <div
-                    className="block lg:inline-block text-slate-800 hover:text-cyan-500 dark:text-slate-50 dark:hover:text-cyan-400 transition-transform "
+                    className="block lg:inline-block text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 "
                     onClick={() => setNavigation(!navigation)}
                   >
                     {item.label}

@@ -19,16 +19,6 @@ const About = () => {
                   science, which gives me a different perspective in this industry.
                 </p>
               </div>
-              {/* <span className="mx-2 mr-2 mt-4 text-blue-800 dark:text-amber-200 text-2xl">Experience</span>
-              <div className="text-center text-1xl dark:text-white mx-2 mr-2 mt-4 mb-4">
-                <p className="mb-4 mt-4">
-                  I will acquire my experience through various projects, both academic and personal, my focus is on
-                  innovation and constant growth.
-                </p>
-                <p className="mb-4 mt-4">
-                  My background reflects my commitment to excellence and creative problem solving.
-                </p>
-              </div> */}
               <span className="mx-2 mr-2 mt-4 text-blue-800 dark:text-amber-200 text-2xl">Studies</span>
               <div className="text-center text-1xl dark:text-white mx-2 mr-2 mt-4 mb-4">
                 <p className="mb-4 mt-4">
