@@ -135,7 +135,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl dark:text-white mx-1 mr-1 mt-4">Vs Code</span>
+              <span className="justify-center text-1xl dark:text-white mx-1 mr-1 mt-4">VsCode</span>
             </div>
           </div>
         </div>

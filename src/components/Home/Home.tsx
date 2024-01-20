@@ -2,9 +2,7 @@
 
 import TextAnimatedGradient from '../Animations/TextAnimatedGradient/TextAnimatedGradient'
 import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
-import Experience from '../Experience/Experience'
-import Projects from '../Projects/Projects'
-import About from '../About/About'
+
 
 const HomePage = () => {
   return (
@@ -85,9 +83,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <Experience />
-        <Projects />
-        <About />
       </div>
     </section>
   )
