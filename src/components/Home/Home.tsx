@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className="container mx-auto grid place-items-center h-max text-center">
           <TextAnimatedGradient />
           <div id="contact">
-            <div className="container mx-auto px-4 mt-24">
+            <div className="container mx-auto px-4 mt-28">
               <div className="flex flex-col lg:flex-row items-center justify-between">
                 <div className="mb-8 lg:mb-0 lg:w-5/3 justify-center">
                   <h2 className="mx-auto text-center text-3xl dark:text-white font-semibold mr-2">Contact Me</h2>
