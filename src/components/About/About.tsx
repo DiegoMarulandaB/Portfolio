@@ -10,7 +10,7 @@ const About = () => {
       </h1>
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
-          <div className="md:w-3/3">
+          <div className="md:w-2/3">
             <div className="flex flex-col items-center justify-center">
               <span className="text-center justify-center mx-2 mr-2 mt-4 text-2xl dark:text-white font-bold">
                 About Diego
