@@ -8,17 +8,19 @@ const Experience = () => {
       </div>
       <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
         <div className="md:w-4/5">
-          <div className="flex flex-col items-center justify-center pb-4">
-            <div className="text-center text-1xl dark:text-white mx-2 mr-2 mt-4 mb-4">
-              <p className="mb-4 mt-4">
-                <span className="text-blue-800 dark:text-amber-200">
-                  I will acquire my experience through various projects,{' '}
-                </span>
-                both academic and personal, my focus is on innovation and constant growth.
-              </p>
-              <p className="mb-4 mt-4">
-                My background reflects my commitment to excellence and creative problem solving.
-              </p>
+          <div className="container m-auto px-6 md:px-12 xl:px-6">
+            <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+              <div className="md:5/12 lg:w-5/12 mt-4">
+                <img src="/developer.svg" alt="image developer" loading="lazy" width="300" height="300" />
+              </div>
+              <div className="md:7/12 lg:w-7/12">
+                <p className="mb-4 mt-4">
+                  <span className="text-blue-800 dark:text-amber-200">
+                    I will acquire my experience through various projects.
+                  </span>
+                </p>
+                <p className="mb-4 mt-4">Academically and personally, my focus is on innovation and constant growth.</p>
+              </div>
             </div>
           </div>
         </div>
