@@ -8,6 +8,7 @@ import NaviLink from '../../types/NaviLink'
 
 const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/#home' },
+  { label: 'Experience', route: '/#experience' },
   { label: 'Projects', route: '/#projects' },
   { label: 'About Me', route: '/#about' },
   { label: 'Contact Me', route: '/#contact' },
