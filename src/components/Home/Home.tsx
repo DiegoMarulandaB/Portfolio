@@ -3,11 +3,10 @@
 import TextAnimatedGradient from '../Animations/TextAnimatedGradient/TextAnimatedGradient'
 import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
 
-
 const HomePage = () => {
   return (
     <section id="home">
-      <div className="grid place-items-center px-8">
+      <div>
         <div className="container mx-auto grid place-items-center h-max text-center">
           <TextAnimatedGradient />
           <div id="contact">
@@ -17,7 +16,7 @@ const HomePage = () => {
                   <div className="container m-auto px-6 md:px-12 xl:px-6">
                     <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                       <div className="md:5/12 lg:w-4/12 mt-2 mb-10">
-                        <h2 className="mx-auto text-center text-3xl dark:text-white font-semibold mr-2">Contact Me</h2>
+                        <h2 className="mx-auto text-center text-3xl dark:text-white font-semibold mr-2 ml-4">Contact Me</h2>
                         <div className="flex gap-3 mt-2 justify-center">
                           <a
                             href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
@@ -58,10 +57,8 @@ const HomePage = () => {
                         </div>
                       </div>
                       <div className="md:7/12 lg:w-7/12">
-                        <div className="mb-4 mt-4 text-lg lg:w-2/2">
-                          <p>
-                            Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
-                          </p>
+                        <div className="mb-4 mt-4 text-lg">
+                          <p>Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!</p>
                           <div className="flex mt-4 justify-end">
                             <div className="w-16 h-16 mr-4 md:w-18 md:h-18">
                               <img
