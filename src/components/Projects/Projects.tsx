@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('all')}
                     className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'all'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
+                        ? 'activeClasses text-slate-600 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('academic projects')}
                     className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'academic projects'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
+                        ? 'activeClasses text-slate-600 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
                     onClick={() => handleProject('personal projects')}
                     className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
                       showCard === 'personal projects'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
+                        ? 'activeClasses text-slate-600 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
                         : 'inactiveClasses'
                     }`}
                   >
