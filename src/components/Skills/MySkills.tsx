@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const MySkills = () => {
   return (
-    <div className="md:w-1/4 justify-between">
+    <div className="md:w-1/5 justify-between">
       <div className="text-center mx-2 mr-2 mt-4 text-2xl dark:text-white font-bold">
         <h1>My Skills</h1>
       </div>

@@ -55,11 +55,11 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="max-w-lg mt-2">
-                  <div className="w-46 h-46">
+                  <div className="w-46 h-46 lg:mb-0 lg:w-2/2">
                     <p className="text-lg">
                       Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                     </p>
-                    <div className="flex mt-4 justify-end lg:mb-0 lg:w-5/6">
+                    <div className="flex mt-4 justify-end">
                       <div className="w-16 h-16 mr-4 md:w-18 md:h-18">
                         <img
                           loading="lazy"
