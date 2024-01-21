@@ -6,7 +6,6 @@ import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/a
 const HomePage = () => {
   return (
     <section id="home">
-      <div>
         <div className="container mx-auto grid place-items-center h-max text-center">
           <TextAnimatedGradient />
           <div id="contact">
@@ -85,7 +84,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   )
 }
