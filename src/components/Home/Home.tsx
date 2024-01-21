@@ -57,9 +57,9 @@ const HomePage = () => {
                           </a>
                         </div>
                       </div>
-                      <div className="max-w-lg mt-2">
-                        <div className="w-46 h-46 lg:mb-0 lg:w-2/2">
-                          <p className="text-lg">
+                      <div className="md:7/12 lg:w-7/12">
+                        <div className="mb-4 mt-4 text-lg lg:w-2/2">
+                          <p>
                             Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!
                           </p>
                           <div className="flex mt-4 justify-end">
