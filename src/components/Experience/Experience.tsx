@@ -14,12 +14,14 @@ const Experience = () => {
                 <img src="/developer.svg" alt="image developer" loading="lazy" width="300" height="300" />
               </div>
               <div className="md:7/12 lg:w-7/12">
-                <p className="mb-4 mt-4">
+                <p className="mb-4 mt-4 text-lg">
                   <span className="text-blue-800 dark:text-amber-200">
                     I will acquire my experience through various projects.
                   </span>
                 </p>
-                <p className="mb-4 mt-4">Academically and personally, my focus is on innovation and constant growth.</p>
+                <p className="mb-4 mt-4 text-lg">
+                  Academically and personally, my focus is on innovation and constant growth.
+                </p>
               </div>
             </div>
           </div>
