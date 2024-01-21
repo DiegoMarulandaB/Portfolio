@@ -15,7 +15,7 @@ const About = () => {
             <div className="flex flex-col mx-2 mr-2">
               <div className="flex items-center text-center justify-center">
                 <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-4" size={34} />
-                <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">About Diego</span>
+                <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Diego</span>
               </div>
               <div className="[&>p]:mb-4 text-center">
                 <p>
