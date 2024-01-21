@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="digitalBooking.jpg"
+                ImageHref="digitalBooking.webp"
                 category="Academic Projects"
                 title="Digital booking"
                 description="MVP to book tours and different activities in various countries. Technologies: Git, Gitlab, CSS, React, Java version 17, JWT, Gradle, Spring Boot, MySQL, AWS, Jest.JS, Postman, Selenium IDE."
@@ -91,7 +91,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="calculator.jpeg"
+                ImageHref="calculator.webp"
                 category="Personal Projects"
                 title="Calculator basic"
                 description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
@@ -102,7 +102,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="Final-esp-frontend-2.jpg"
+                ImageHref="Final-esp-frontend-2.webp"
                 category="Academic Projects"
                 title="The simpsons application"
                 description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API with solid principles, clean code, validations. Technologies: Typescript, unit testing."
@@ -113,7 +113,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="Final-esp-frontend.jpg"
+                ImageHref="Final-esp-frontend.webp"
                 category="Academic Projects"
                 title="Rick and Morty application"
                 description="Final project of the frontend subject 1 of the frontend specialization in Digital House. Using the Rick and Morty API with documentation. Technologies: TypeScript, Redux, Thunk."
@@ -124,7 +124,7 @@ const Projects: React.FC = () => {
               />
               <ProjectCards
                 loading="lazy"
-                ImageHref="frontEnd3.jpg"
+                ImageHref="frontEnd3.webp"
                 category="Academic Projects"
                 title="Health application"
                 description="Final project of the Frontend 3 subject, of the Certified Tech Developer degree. Health application using an API, error validations and submit. Technologies: React, Vite."
@@ -136,7 +136,7 @@ const Projects: React.FC = () => {
 
               <ProjectCards
                 loading="lazy"
-                ImageHref="counterclick.jpeg"
+                ImageHref="counterclick.webp"
                 category="Personal Projects"
                 title="Counter Click"
                 description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
