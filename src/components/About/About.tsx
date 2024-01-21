@@ -13,22 +13,22 @@ const About = () => {
         <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
           <div className="md:w-3/5">
             <div className="flex flex-col mx-2 mr-2">
-              <div className="flex items-center">
+              <div className="flex items-center text-center justify-center">
                 <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-4" size={34} />
                 <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">About Diego</span>
               </div>
-              <div className="[&>p]:mb-4">
+              <div className="[&>p]:mb-4 text-center">
                 <p>
                   {' '}
                   My fascination for technology is combined with a deep interest for geopolitics, general culture and
                   science, which gives me a different perspective in this industry.
                 </p>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center text-center justify-center">
                 <FaGraduationCap className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={34} />
                 <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Studies</span>
               </div>
-              <div className="[&>p]:mb-4">
+              <div className="[&>p]:mb-4 text-center">
                 <p>
                   <span>Digital House 2023 - 2024</span>
                 </p>
@@ -50,11 +50,11 @@ const About = () => {
                   university to train programmers.
                 </p>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center text-center justify-center">
                 <FaBook className="text-blue-800 dark:text-amber-200 text-2xl mb-3" size={34} />
                 <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Hobbies</span>
               </div>
-              <div className="[&>p]:mb-4">
+              <div className="[&>p]:mb-4 text-center">
                 <p>My hobbies are listening to rock music, video games, books on different themes.</p>
                 <p> My favorite writer is Brandon Sanderson.</p>
               </div>

@@ -13,7 +13,7 @@ const HomePage = () => {
           <div id="contact">
             <div className="container mx-auto px-4 mt-24">
               <div className="flex flex-col lg:flex-row items-center justify-between">
-                <div className="mb-8 lg:mb-0 lg:w-5/3 justify-center">
+                <div className="mb-8 lg:mb-0 lg:w-5/1 justify-center">
                   <h2 className="mx-auto text-center text-3xl dark:text-white font-semibold mr-2">Contact Me</h2>
                   <div className="flex gap-3 mt-4 justify-center">
                     <a
