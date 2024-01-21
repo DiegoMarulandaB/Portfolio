@@ -14,13 +14,25 @@ const Projects: React.FC = () => {
     <section id="projects">
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col mx-4 mr-4">
-          <div className="">
-            <div className="mx-auto mb-[56px] max-w-[510px]">
+            <div className="mx-auto mb-[4px] max-w-[510px]">
               <h1 className=" text-center mx-2 mr-2 mt-24 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
                 Projects
               </h1>
+              <div className="md:w-5/3">
+                <div className="flex flex-col items-center justify-center pb-4">
+                  <div className="text-center text-1xl dark:text-white mx-2 mr-2 mt-8 [&>p]:mb-4">
+                    <p>
+                      <span className="text-blue-800 dark:text-amber-200">
+                        {' '}
+                        I will acquire my experience through various projects,
+                      </span>{' '}
+                      both academic and personal, my focus is on innovation and constant growth.
+                    </p>
+                    <p>My background reflects my commitment to excellence and creative problem solving.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
 
           <div className="w-full flex flex-wrap justify-center -mx-4">
             <div className="">
