@@ -3,13 +3,13 @@ import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/a
 const Contact = () => {
   return (
       <div id="contact">
-        <div className="container mx-auto px-4 mt-24">
+        <div className="container mx-auto px-4 pt-24">
           <div className="flex flex-col md:flex-row md:p-4 md:text-left mt-2 space-y-10 md:space-x-10 md:space-y-0 items-stretch justify-center align-top">
             <div className="md:w-4/1">
               <div className="container m-auto px-6 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                   <div className="md:5/12 lg:w-4/12 mt-2 mb-10">
-                    <h2 className="mx-auto text-center text-3xl dark:text-white font-semibold mr-2 ml-2">Contact Me</h2>
+                    <h2 className="mx-auto text-center text-3xl font-semibold mr-2 ml-2">Contact Me</h2>
                     <div className="flex gap-3 mt-2 justify-center">
                       <a
                         href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"

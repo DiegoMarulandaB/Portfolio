@@ -15,15 +15,14 @@ const Projects: React.FC = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
           <div className="flex flex-wrap -mx-4">
-            <div className="mx-auto mb-[56px] max-w-[510px] text-center">
-              <h1 className=" text-center justify-center mx-2 mr-2 mt-24 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
-                Projects
-              </h1>
+            <div className="mx-auto mb-[56px] max-w-[510px]">
+              <div className=" text-center justify-center mx-2 mr-2 mt-24 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
+                <h1>Projects</h1>
+              </div>
             </div>
           </div>
 
           <div className="w-full flex flex-wrap justify-center -mx-4">
-            <div className="w-full px-4">
               <ul className="flex flex-wrap justify-center mb-12 space-x-1">
                 <li className="mb-1">
                   <button
@@ -63,7 +62,6 @@ const Projects: React.FC = () => {
                   </button>
                 </li>
               </ul>
-            </div>
           </div>
           <div className="mx-auto mb-[60px] max-w-[810px]">
             <div className="flex flex-wrap -mx-4 text-1xl">
