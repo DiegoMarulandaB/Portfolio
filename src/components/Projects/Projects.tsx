@@ -11,57 +11,56 @@ const Projects: React.FC = () => {
   }
 
   return (
-    <section id="projects">
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="flex flex-col text-center items-center justify-center mx-4 mr-4">
+    <section id="projects" className="pt-28">
+      <div className=" text-start justify-start mx-2 mr-2 ml-10  font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
+        <h1>Projects</h1>
+      </div>
+      <div className="min-h-screen flex items-start justify-start ml-8">
+        <div className="">
           <div className="flex flex-wrap -mx-4">
-            <div className="mx-auto mb-[56px] max-w-[510px]">
-              <div className=" text-center justify-center mx-2 mr-2 mt-24 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
-                <h1>Projects</h1>
-              </div>
-            </div>
+            <div className="mx-auto mb-[56px] max-w-[510px]"></div>
           </div>
 
           <div className="w-full flex flex-wrap justify-center -mx-4">
-              <ul className="flex flex-wrap justify-center mb-12 space-x-1">
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject('all')}
-                    className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'all'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
-                        : 'inactiveClasses'
-                    }`}
-                  >
-                    All Projects
-                  </button>
-                </li>
+            <ul className="flex flex-wrap justify-center mb-12 space-x-1">
+              <li className="mb-1">
+                <button
+                  onClick={() => handleProject('all')}
+                  className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
+                    showCard === 'all'
+                      ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
+                      : 'inactiveClasses'
+                  }`}
+                >
+                  All Projects
+                </button>
+              </li>
 
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject('academic projects')}
-                    className={`inline-block py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'academic projects'
-                        ? 'activeClassestext-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
-                        : 'inactiveClasses'
-                    }`}
-                  >
-                    Academic Projects
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject('personal projects')}
-                    className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'personal projects'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 transition-transform duration-150 ease-in-out hover:scale-125 mx-2 mr-2'
-                        : 'inactiveClasses'
-                    }`}
-                  >
-                    Personal Projects
-                  </button>
-                </li>
-              </ul>
+              <li className="mb-1">
+                <button
+                  onClick={() => handleProject('academic projects')}
+                  className={`inline-block py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
+                    showCard === 'academic projects'
+                      ? 'activeClassestext-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  transition-transform duration-150 ease-in-out hover:scale-125  mx-2 mr-2'
+                      : 'inactiveClasses'
+                  }`}
+                >
+                  Academic Projects
+                </button>
+              </li>
+              <li className="mb-1">
+                <button
+                  onClick={() => handleProject('personal projects')}
+                  className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
+                    showCard === 'personal projects'
+                      ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 transition-transform duration-150 ease-in-out hover:scale-125 mx-2 mr-2'
+                      : 'inactiveClasses'
+                  }`}
+                >
+                  Personal Projects
+                </button>
+              </li>
+            </ul>
           </div>
           <div className="mx-auto mb-[60px] max-w-[810px]">
             <div className="flex flex-wrap -mx-4 text-1xl">

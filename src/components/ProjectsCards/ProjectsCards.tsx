@@ -20,7 +20,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
   >
     <div>
       <Slide offset="-200px 0px -200px 0px">
-        <div className="flex flex-col items-center text-center rounded-lg  bg-slate-50 dark:bg-slate-600 shadow-lg shadow-blue-600/40 dark:shadow-slate-100/40 mx-2 mr-2 mt-6">
+        <div className="flex flex-col items-center text-center rounded-lg  bg-slate-50 dark:bg-slate-600 shadow-lg shadow-blue-600/40 dark:shadow-slate-100/40 mx-auto mr-2 mt-6">
           <div className="overflow-hidden">
             <a href={href} target="_blank" rel="noopener noreferrer">
               <img
@@ -33,8 +33,8 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               />
             </a>
           </div>
-          <div className="mx-auto overflow-hidden">
-            <div className="relative z-10 px-2 py-2 mt-2 text-center items-center justify-center mx-2 mr-2 w-26 text-1xl">
+          <div className="mx-2 mr-2 overflow-hidden">
+            <div className="relative z-10 px-2 py-2 mt-2 text-start items-center justify-center mx-2 mr-2 w-26 text-1xl">
               <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
                 {category}
               </span>

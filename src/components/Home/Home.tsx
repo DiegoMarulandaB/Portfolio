@@ -4,9 +4,11 @@ import TextAnimatedGradient from '../Animations/TextAnimatedGradient/TextAnimate
 
 const HomePage = () => {
   return (
-    <section id="home">
-      <div className="container mx-auto grid place-items-center h-max text-center">
-        <TextAnimatedGradient />
+    <section id="home" className="pt-18">
+      <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
+        <div className="flex items-start justify-between md:items-center sm:gap-4">
+          <TextAnimatedGradient />
+        </div>
       </div>
     </section>
   )
