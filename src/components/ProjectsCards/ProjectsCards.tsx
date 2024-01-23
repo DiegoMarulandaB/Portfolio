@@ -38,13 +38,13 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               <span className="block mb-2 text-1xl sm:text-1xl md:text-1xl lg:text-1xl xl:text-2xl font-bold">
                 {category}
               </span>
-              <h2 className="mb-4 mt-2 text-1xl text-blue-800 dark:text-amber-200 font-semibold">{title}</h2>
-              <h3 className="mb-4 mt-2 text-1xl dark:text-white">{description}</h3>
+              <h2 className="mb-4 mt-4 text-1xl text-blue-800 dark:text-amber-200 font-semibold">{title}</h2>
+              <h3 className="mb-4 mt-4 text-1xl dark:text-white">{description}</h3>
               <a
                 href={buttonHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" inline-block text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100"
+                className=" inline-block text-center cursor-pointer mx-2 mr-2  text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-2 py-2 me-1 mb-4 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100"
                 aria-label="Github button to go to the repository"
               >
                 {button}
