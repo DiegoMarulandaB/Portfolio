@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
                     </button>
                   </li>
 
-                  <li className="mb-1">
+                  <li className="mb-1 pl-2">
                     <button
                       onClick={() => handleProject('academic projects')}
                       className={`inline-block py-2 px-2 text-1xl  font-semibold md:py-2 lg:px-1${
@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
                       Academic Projects
                     </button>
                   </li>
-                  <li className="mb-1 ml-2">
+                  <li className="mb-1 pl-2">
                     <button
                       onClick={() => handleProject('personal projects')}
                       className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
