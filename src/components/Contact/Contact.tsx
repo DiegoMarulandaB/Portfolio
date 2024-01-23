@@ -1,15 +1,13 @@
-import { AiOutlineMail, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai'
-
 const Contact = () => {
   return (
-    <div id="contact" className="pt-20">
+    <div id="contact">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="flex items-start justify-between md:items-center">
           <div className="flex flex-col ml-2 mx-1 mr-1">
             <div className="md:w-4/1">
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-1">
                 <div className="md:w-6/12 text-start">
-                  <div className="mb-4 mt-6 text-lg">
+                  <div className="mb-4 pt-28 text-lg">
                     <p>Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!</p>
                     <div className="flex mt-4">
                       <div className="w-16 h-16 mx-2 mr-2 md:w-18 md:h-18">
@@ -31,10 +29,8 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="md:5/12 lg:w-5/2">
-                  <h2 className=" pl-8 mb-2 mx-1 mr-1 text-center text-2xl font-semibold justify-center">
-                    Contact Me
-                  </h2>
-                  <div className="flex pl-8 mb-12 mx-1 mr-1 text-center justify-center">
+                  <h2 className=" pl-8 pt-12 mx-1 mr-1 text-center text-2xl font-semibold justify-center">Contact Me</h2>
+                  <div className="flex pl-8 mx-1 mr-1 mt-4 text-center justify-center">
                     <a
                       href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
                       className=" text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
