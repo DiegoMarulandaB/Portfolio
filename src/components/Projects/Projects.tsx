@@ -20,56 +20,57 @@ const Projects: React.FC = () => {
           <div className="justify-start">
             <div className="flex flex-wrap -mx-4">
               <div className="mx-auto mb-[17px] max-w-[510px]"></div>
-            </div>
-            <div className="w-full flex flex-wrap justify-start -mx-10">
-              <ul className="flex flex-wrap justify-center mb-12 space-x-1">
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject('all')}
-                    className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'all'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 mx-2 mr-2'
-                        : 'inactiveClasses'
-                    }`}
-                  >
-                    All Projects
-                  </button>
-                </li>
+              <div className="w-full flex flex-wrap text-center justify-start -mx-2">
+                <ul className="flex flex-wrap justify-center mb-2 space-x-1 mt-4">
+                  <li className="mb-1">
+                    <button
+                      onClick={() => handleProject('all')}
+                      className={`inline-block py-2 px-2 text-1xl font-semibold transition md:py-2 lg:px-8 ${
+                        showCard === 'all'
+                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
+                          : 'inactiveClasses'
+                      }`}
+                    >
+                      All Projects
+                    </button>
+                  </li>
 
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject('academic projects')}
-                    className={`inline-block py-3 px-3 text-1xl  font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'academic projects'
-                        ? 'activeClassestext-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  mx-2 mr-2'
-                        : 'inactiveClasses'
-                    }`}
-                  >
-                    Academic Projects
-                  </button>
-                </li>
-                <li className="mb-1">
-                  <button
-                    onClick={() => handleProject('personal projects')}
-                    className={`inline-block py-3 px-3 text-1xl font-semibold transition md:py-3 lg:px-8 ${
-                      showCard === 'personal projects'
-                        ? 'activeClasses text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100  mx-2 mr-2'
-                        : 'inactiveClasses'
-                    }`}
-                  >
-                    Personal Projects
-                  </button>
-                </li>
-              </ul>
+                  <li className="mb-1">
+                    <button
+                      onClick={() => handleProject('academic projects')}
+                      className={`inline-block py-2 px-2 text-1xl  font-semibold transition md:py-2 lg:px-8 ${
+                        showCard === 'academic projects'
+                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100 '
+                          : 'inactiveClasses'
+                      }`}
+                    >
+                      Academic Projects
+                    </button>
+                  </li>
+                  <li className="mb-1">
+                    <button
+                      onClick={() => handleProject('personal projects')}
+                      className={`inline-block py-2 px-2 text-1xl font-semibold transition md:py-2 lg:px-8 ${
+                        showCard === 'personal projects'
+                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
+                          : 'inactiveClasses'
+                      }`}
+                    >
+                      Personal Projects
+                    </button>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div className="mx-auto mb-[60px] max-w-[710px]">
+
+            <div className="mx-auto mb-[60px] max-w-[810px]">
               <div className="flex flex-wrap -mx-4 text-1xl">
                 <ProjectCards
                   loading="lazy"
                   ImageHref="profileGithub.webp"
                   category="All Projects"
                   title="My repository on Github"
-                  description="Browse all my repositories on GitHub, where you can discover a variety of projects from my academic training at Digital House, Alura Latam, MisionTic among others. And my most relevant personal projects!"
+                  description="Browse all my repositories on GitHub, where you can discover a variety of projects from my academic programming background, and my most relevant personal projects!"
                   button="Github →"
                   buttonHref="https://github.com/DiegoMarulandaB"
                   href="https://github.com/DiegoMarulandaB"

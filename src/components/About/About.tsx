@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about" className="pt-28">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
-        <div className="text-start justify-center ml-2 mx-1 mr-1 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
+        <div className="text-start justify-center ml-2 mt-2 mx-1 mr-1 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
           <h1>About me</h1>
         </div>
         <div className="min-h-screen flex items-start justify-start ml-2">
@@ -17,7 +17,7 @@ const About = () => {
                   <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-2 mb-4" size={24} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Diego</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 text-start">
+                <div className="[&>p]:mb-4 mr-1 mt-2 text-start">
                   <p>
                     {' '}
                     My fascination for technology is combined with a deep interest for geopolitics, general culture and
@@ -28,7 +28,7 @@ const About = () => {
                   <FaGraduationCap className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={34} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Studies</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 text-start">
+                <div className="[&>p]:mb-4 mr-1 mt-2 text-start">
                   <p>
                     <span>Digital House 2023 - 2024</span>
                   </p>
@@ -51,10 +51,10 @@ const About = () => {
                   </p>
                 </div>
                 <div className="flex items-center text-center justify-start">
-                  <FaBook className="text-blue-800 dark:text-amber-200 text-2xl mb-3 mt-2" size={24} />
+                  <FaBook className="text-blue-800 dark:text-amber-200 text-2xl mb-3 mt-1" size={24} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Hobbies</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 text-start">
+                <div className="[&>p]:mb-4 mr-1 mt-3 text-start">
                   <p>My hobbies are listening to rock music, video games, books on different themes.</p>
                   <p> My favorite writer is Brandon Sanderson.</p>
                 </div>

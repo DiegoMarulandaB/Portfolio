@@ -2,7 +2,7 @@ import Image from 'next/image'
 const MySkills = () => {
   return (
     <div className="md:w-1/3 items-start text-start justify-start md:text-start md:justify-start mx-4 mr-4">
-      <div className=" text-center mx-2 mr-2 mt-4 text-2xl font-bold">
+      <div className=" text-center mx-2 mr-2 mt-2 text-2xl font-bold">
         <h1>My Skills</h1>
       </div>
       <div className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">

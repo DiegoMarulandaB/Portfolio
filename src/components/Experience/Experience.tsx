@@ -8,8 +8,8 @@ const Experience = () => {
           <h1>Experience</h1>
         </div>
         <div className="flex flex-col ml-2 mt-2 mx-1 mr-1">
-          <div className="md:w-4/5">
-            <div className="space-y-6 md:flex md:gap-6 lg:items-start lg:gap-12">
+          <div className="md:w-4/1">
+            <div className="space-y-6 md:flex md:gap-6 lg:items-start lg:gap-1">
               <div className="md:w-7/12">
                 <p className="mb-4 mt-2 text-lg text-start">
                   <span className="text-blue-800 dark:text-amber-200">
