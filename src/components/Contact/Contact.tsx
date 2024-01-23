@@ -31,8 +31,8 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="md:5/12 lg:w-5/2">
-                  <h2 className=" pl-8 mb-2 mx-1 mr-1 text-center text-2xl font-semibold justify-center">Contact Me</h2>
-                  <div className="flex pl-8 mb-12 mx-1 mr-1 text-center justify-center">
+                  <h2 className=" pl-12 mb-2 mx-1 mr-1 text-center text-2xl font-semibold justify-center">Contact Me</h2>
+                  <div className="flex pl-12 mb-12 mx-1 mr-1 text-center justify-center">
                     <a
                       href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
                       className=" text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
@@ -40,7 +40,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       aria-label="Contact me by sending me an email"
                     >
-                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
+                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-2 py-2 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
                         Email →
                       </span>
                     </a>
