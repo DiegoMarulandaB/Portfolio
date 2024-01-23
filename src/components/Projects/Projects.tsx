@@ -17,12 +17,12 @@ const Projects: React.FC = () => {
           <h1>Projects</h1>
         </div>
         <div className="min-h-screen flex items-start justify-start ml-2 mx-1 mr-1">
-          <div className="">
+          <div className="justify-start">
             <div className="flex flex-wrap -mx-4">
-              <div className="mx-auto mb-[56px] max-w-[510px]"></div>
+              <div className="mx-auto mb-[56px] max-w-[510px]">
+              </div>
             </div>
-
-            <div className="w-full flex flex-wrap justify-center -mx-4">
+            <div className="w-full flex flex-wrap justify-start -mx-10">
               <ul className="flex flex-wrap justify-center mb-12 space-x-1">
                 <li className="mb-1">
                   <button
