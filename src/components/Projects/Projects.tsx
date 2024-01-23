@@ -16,18 +16,18 @@ const Projects: React.FC = () => {
         <div className=" text-start justify-start ml-2 mx-1 mr-1 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
           <h1>Projects</h1>
         </div>
-        <div className="min-h-screen flex items-start justify-start ml-2 mx-2 mr-2">
-          <div className="justify-start">
+        <div className="min-h-screen flex items-start justify-start">
+          <div className="">
             <div className="flex flex-wrap -mx-4">
               <div className="mx-auto mb-[17px] max-w-[510px]"></div>
               <div className="w-full flex flex-wrap text-center justify-start -mx-2">
-                <ul className="flex flex-wrap justify-center mb-2 space-x-1 mt-4">
-                  <li className="mb-1">
+                <ul className="flex flex-wrap justify-start mb-2 space-x-1 mt-4">
+                  <li className="mb-1 ml-2">
                     <button
                       onClick={() => handleProject('all')}
-                      className={`inline-block py-2 px-2 text-1xl font-semibold transition md:py-2 lg:px-8 ${
+                      className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
                         showCard === 'all'
-                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
+                          ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
                           : 'inactiveClasses'
                       }`}
                     >
@@ -38,9 +38,9 @@ const Projects: React.FC = () => {
                   <li className="mb-1">
                     <button
                       onClick={() => handleProject('academic projects')}
-                      className={`inline-block py-2 px-2 text-1xl  font-semibold transition md:py-2 lg:px-8 ${
+                      className={`inline-block py-2 px-2 text-1xl  font-semibold md:py-2 lg:px-1${
                         showCard === 'academic projects'
-                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100 '
+                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
                           : 'inactiveClasses'
                       }`}
                     >
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
                   <li className="mb-1">
                     <button
                       onClick={() => handleProject('personal projects')}
-                      className={`inline-block py-2 px-2 text-1xl font-semibold transition md:py-2 lg:px-8 ${
+                      className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
                         showCard === 'personal projects'
                           ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
                           : 'inactiveClasses'
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
 
-            <div className="mx-auto mb-[60px] max-w-[810px]">
+            <div className=" mb-[60px] max-w-[810px] ml-2 mx-1 mr-1">
               <div className="flex flex-wrap -mx-4 text-1xl">
                 <ProjectCards
                   loading="lazy"
