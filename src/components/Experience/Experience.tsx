@@ -22,7 +22,7 @@ const Experience = () => {
               </div>
               <div className="md:w-4/12">
                 <img
-                  className="mx-auto mt-[-24px]"
+                  className="mx-auto mt-[-24px] pr-2"
                   src="/developer.svg"
                   alt="image developer"
                   loading="lazy"

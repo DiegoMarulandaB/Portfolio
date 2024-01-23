@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
                       Academic Projects
                     </button>
                   </li>
-                  <li className="mb-1">
+                  <li className="mb-1 ml-2">
                     <button
                       onClick={() => handleProject('personal projects')}
                       className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
@@ -63,7 +63,7 @@ const Projects: React.FC = () => {
               </div>
             </div>
 
-            <div className=" mb-[60px] max-w-[810px] ml-2 mx-1 mr-1">
+            <div className=" mb-[60px] max-w-[794px] ml-2 mx-1 mr-1">
               <div className="flex flex-wrap -mx-4 text-1xl">
                 <ProjectCards
                   loading="lazy"
@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
                   ImageHref="digitalBooking.webp"
                   category="Academic Projects"
                   title="Digital booking"
-                  description="MVP to book tours and different activities in various countries. Technologies: Git, Gitlab, CSS, React, Java v. 17, JWT, Gradle, Spring Boot, MySQL,   infrastructure AWS, Jest.JS, Postman, Selenium IDE."
+                  description="MVP to book tours and different activities in various countries. Technologies: Git, Gitlab,React, Java v. 17, JWT, Gradle, Spring Boot, MySQL, AWS, Jest.JS, Postman, Selenium IDE."
                   button="Github →"
                   buttonHref="https://github.com/DiegoMarulandaB/Digital-booking"
                   href="https://github.com/DiegoMarulandaB/Digital-booking"
@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
                   ImageHref="calculator.webp"
                   category="Personal Projects"
                   title="Calculator basic"
-                  description="Project inspired by FreeCodeCamp's YouTube course on basic React. It provides an interactive experience, basic and functional design for the user. Technologies: Vite compiler, React library."
+                  description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
                   button="Github →"
                   buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
                   href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
@@ -137,7 +137,7 @@ const Projects: React.FC = () => {
                   ImageHref="counterclick.webp"
                   category="Personal Projects"
                   title="Counter Click"
-                  description="Project inspired by FreeCodeCamp's YouTube course on basic React. It provides an interactive experience, basic and functional design for the user. Technologies: Vite compiler, React library."
+                  description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
                   button="Github →"
                   buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
                   href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
