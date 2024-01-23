@@ -8,7 +8,7 @@ const Contact = () => {
           <div className="flex flex-col ml-2 mx-1 mr-1">
             <div className="md:w-4/1">
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-1">
-                <div className="md:w-6/12 text-start">
+                <div className="md:w-5/12 text-start">
                   <div className="mb-4 mt-6 text-lg">
                     <p>Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!</p>
                     <div className="flex mt-4">
@@ -40,7 +40,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       aria-label="Contact me by sending me an email"
                     >
-                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
+                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
                         Email →
                       </span>
                     </a>
@@ -51,7 +51,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       aria-label="Read more about my profile on Linkedin"
                     >
-                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
+                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
                         Linkedin →
                       </span>
                     </a>
@@ -62,7 +62,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       aria-label="Read more about my Github profile"
                     >
-                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
+                      <span className="relative text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100">
                         Github →
                       </span>
                     </a>
