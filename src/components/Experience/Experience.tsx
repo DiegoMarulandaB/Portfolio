@@ -20,16 +20,16 @@ const Experience = () => {
                   Academically and personally, my focus is on innovation and constant growth.
                 </p>
               </div>
-              {/* <div className="md:w-3/12">
-              <img
-                className="mx-auto ml-24 mr-24"
-                src="/developer.svg"
-                alt="image developer"
-                loading="lazy"
-                width="150"
-                height="150"
-              />
-            </div> */}
+              <div className="md:w-4/12">
+                <img
+                  className="mx-auto mt-[-24px]"
+                  src="/developer.svg"
+                  alt="image developer"
+                  loading="lazy"
+                  width="220"
+                  height="220"
+                />
+              </div>
             </div>
           </div>
         </div>
