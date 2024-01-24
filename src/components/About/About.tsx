@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="pt-28">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="text-start justify-center ml-2 mx-1 mr-1 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
-          <h1>About me</h1>
+          <h2>About me</h2>
         </div>
         <div className="min-h-screen flex items-start justify-start ml-2">
           <div className="flex flex-col md:flex-row justify-start mt-2">

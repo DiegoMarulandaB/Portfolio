@@ -5,7 +5,7 @@ const Experience = () => {
     <section id="experience" className="pt-28">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="ml-2 mx-2 mr-2 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl text-start">
-          <h1>Experience</h1>
+          <h2>Experience</h2>
         </div>
         <div className="flex flex-col ml-2 mt-2 mx-1 mr-1">
           <div className="space-y-6 md:flex md:gap-6 lg:items-start lg:gap-1">
