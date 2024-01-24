@@ -20,14 +20,14 @@ const Experience = () => {
               </div>
             </div>
             <div className="md:w-4/12">
-              <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-24">
+              <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-12">
                 <img
                   className="mt-[-24px]"
                   src="/developer.svg"
                   alt="image developer"
                   loading="lazy"
-                  width="240"
-                  height="240"
+                  width="220"
+                  height="220"
                 />
               </div>
             </div>
