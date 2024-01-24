@@ -16,13 +16,12 @@ const Projects: React.FC = () => {
         <div className=" text-start justify-start ml-2 mx-1 mr-1 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
           <h1>Projects</h1>
         </div>
-        <div className="min-h-screen flex items-start justify-start">
-          <div className="">
+        <div className="min-h-screen flex">
+          <div className="items-start justify-start">
             <div className="flex flex-wrap -mx-4">
-              <div className="mx-auto mb-[17px] max-w-[510px]"></div>
               <div className="w-full flex flex-wrap text-center justify-start -mx-2">
                 <ul className="flex flex-wrap justify-start mb-2 space-x-1 mt-4">
-                  <li className="mb-1 ml-2">
+                  <li className="mb-1 ml-6">
                     <button
                       onClick={() => handleProject('all')}
                       className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
@@ -35,7 +34,7 @@ const Projects: React.FC = () => {
                     </button>
                   </li>
 
-                  <li className="mb-1 pl-2">
+                  <li className="mb-1 pl-5">
                     <button
                       onClick={() => handleProject('academic projects')}
                       className={`inline-block py-2 px-2 text-1xl  font-semibold md:py-2 lg:px-1${
@@ -47,7 +46,7 @@ const Projects: React.FC = () => {
                       Academic Projects
                     </button>
                   </li>
-                  <li className="mb-1 pl-2">
+                  <li className="mb-1 pl-5">
                     <button
                       onClick={() => handleProject('personal projects')}
                       className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${

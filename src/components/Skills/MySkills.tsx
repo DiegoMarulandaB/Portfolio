@@ -1,15 +1,15 @@
 import Image from 'next/image'
 const MySkills = () => {
   return (
-    <div className="md:w-1/3 items-start text-start justify-start md:text-start md:justify-start mx-4 mr-4">
-      <div className=" text-center mx-2 mr-2 mt-2 text-2xl font-bold">
+    <div className="md:w-1/3">
+      <div className=" flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mt-2 text-2xl font-bold">
         <h1>My Skills</h1>
       </div>
-      <div className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
+      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
         <h2>Technologies</h2>
       </div>
-      <div className="flex flex-wrap flex-row justify-center md:justify-center">
-        <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4 md:w-3/3">
+      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
+        <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-4 md:w-3/3">
           <div>
             <Image
               src="/w3_css-icon.svg"
@@ -56,10 +56,10 @@ const MySkills = () => {
           </div>
         </div>
         <div className="md:w-3/3">
-          <div className="text-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mx-2 mr-2  mt-2">
+          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mt-2">
             <h2>Tools</h2>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
+          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-4">
             <div>
               <Image
                 src="/gnu_bash-icon.svg"
@@ -140,10 +140,10 @@ const MySkills = () => {
           </div>
         </div>
         <div className="md:w-3/3">
-          <div className="text-center text-2xl mt-2 mx-2 mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
+          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mt-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
             <h2>Learning</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mx-2 mr-2 mt-4">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-4">
             <div>
               <Image
                 src="/tailwindcss-icon.svg"

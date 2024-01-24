@@ -2,20 +2,22 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <section id="footer" className="mt-10">
-      <div className="mx-auto max-w-full md:max-w-full sm:px-1 bg-slate-100 dark:bg-slate-700">
-        <hr className="dark:border-slate-500 mb-4" />
-        <div className="mx-auto flex flex-col items-center justify-center text-center md:flex-row md:justify-center">
+    <footer id="footer" className="mt-10">
+      <div className="mx-auto max-w-full md:max-w-full sm:px-1">
+        <div className="mb-4">
+          <hr />
+        </div>
+        <div className="mx-auto flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center space-x-2 ml-6 mr-6">
           <div className="flex flex-row space-x-2 mt-2 mb-2">
-            <span className="text-slate-800 dark:text-white">&copy;&nbsp;2023-{currentYear}</span>
+            <span className="text-slate-800 dark:text-white">&copy;&nbsp;2023-{currentYear} &nbsp;</span>
             <span className="text-blue-800 dark:text-amber-200">Diego Marulanda.</span>
           </div>
           <div className="flex flex-row space-x-2 mt-2 mb-2">
-            <span className="text-slate-800 dark:text-white">&nbsp; All Rights Reserved.</span>
+            <span className="text-slate-800 dark:text-white">All Rights Reserved.</span>
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   )
 }
 
