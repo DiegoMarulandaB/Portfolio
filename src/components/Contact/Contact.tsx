@@ -29,8 +29,8 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="md:5/12 lg:w-5/2">
-                  <h2 className=" pl-6 pt-12 mx-1 mr-1 mt-2 mb-4 text-center text-2xl font-semibold justify-center">Contact Me</h2>
-                  <div className="flex pl-6 mx-1 mr-1 text-center justify-center">
+                  <h2 className=" pl-6 pt-12 mx-20 mr-20 mt-2 mb-4 text-start text-2xl font-semibold justify-start md:text-center md:justify-start">Contact Me</h2>
+                  <div className="flex pl-6 mx-1 mr-1 text-start justify-start md:text-start md:justify-start">
                     <a
                       href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
                       className=" text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex hover:rounded-lg"
