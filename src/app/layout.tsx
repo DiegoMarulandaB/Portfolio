@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer'
 import { ThemeProvider } from 'next-themes'
 
 const metadata: Metadata = {
-  title: 'Diego Marulanda',
+  title: 'Diego Marulanda portfolio made with typeScript, Tailwind, Next.js 13',
   description:
     'Author Diego Marulanda,Portfolio where you will find different projects, whether academic or personal, related to programming.',
   keywords:
