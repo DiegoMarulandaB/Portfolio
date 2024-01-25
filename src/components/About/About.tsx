@@ -17,46 +17,56 @@ const About = () => {
                   <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-2 mb-4" size={24} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Diego</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 mt-2 text-start">
+                <div className="[&>p]:mb-4 mr-1 mt-4 text-start">
                   <p>
                     {' '}
                     My fascination for technology is combined with a deep interest for geopolitics, general culture and
                     science, which gives me a different perspective in this industry.
                   </p>
                 </div>
-                <div className="flex items-center text-center justify-start">
+                <div className="flex items-center text-center justify-start mt-2">
                   <FaGraduationCap className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={34} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Studies</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 mt-2 text-start">
+                <div className="[&>p]:mb-4 mr-1 [&>p]:mt-6 text-start">
                   <p>
-                    <span>Digital House 2023 - 2024</span>
+                    <span className="mt-4">Digital House 2023 - 2024</span>
                   </p>
-                  <p>Frontend specialization at Digital House co-created with Mercado Libre and Globant.</p>
-                  <p>
-                    <span>Digital House 2021 - 2023</span>
-                  </p>
-                  <p>Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.</p>
-                  <p>
-                    <span>Alura Latam 2022 - 2022</span>
-                  </p>
-                  <p>Oracle Next Education Program Certification.</p>
-                  <p>
-                    <span>MisionTic 2021 - 2021</span>
+                  <p className="">
+                    Frontend specialization at Digital House co-created with Mercado Libre and Globant.
                   </p>
                   <p>
+                    <span className="mt-6">Digital House 2021 - 2023</span>
+                  </p>
+                  <p className="">
+                    Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.
+                  </p>
+                  <p>
+                    <span className="mt-4">Alura Latam 2022 - 2022</span>
+                  </p>
+                  <p className="">Oracle Next Education Program Certification.</p>
+                  <p>
+                    <span className="mt-4">MisionTic 2021 - 2021</span>
+                  </p>
+                  <p className="">
                     {' '}
                     Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana
                     university to train programmers.
                   </p>
                 </div>
-                <div className="flex items-center text-center justify-start">
+                <div className="flex items-center text-center justify-start mt-3">
                   <FaBook className="text-blue-800 dark:text-amber-200 text-2xl mb-3 mt-1" size={24} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl ml-2">Hobbies</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 mt-3 text-start">
-                  <p>My hobbies are listening to rock music, video games, books on different themes.</p>
-                  <p> My favorite writer is Brandon Sanderson.</p>
+                <div className="[&>p]:mb-6 mr-1 [&>p]:mt-7 text-start">
+                  <p>My hobbies:</p>
+                  <span className="block mt-6">listening to rock music.</span>
+                  <span className="block mt-6">video games.</span>
+                  <span className="block mt-6">books on different themes.</span>
+                </div>
+                <div className="[&>p]:mb-6 mr-1 [&>p]:mt-6 ">
+                  <p> My favorite writer:</p>
+                  <span className="block mt-6 mb-20">Brandon Sanderson.</span>
                 </div>
               </div>
             </div>

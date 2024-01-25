@@ -2,7 +2,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer id="footer" className="mt-10">
+    <footer id="footer" className="mt-7">
       <div className="mx-auto max-w-full md:max-w-full sm:px-1">
         <div className="mb-2">
           <hr />

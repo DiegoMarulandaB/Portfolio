@@ -1,11 +1,11 @@
 import Image from 'next/image'
 const MySkills = () => {
   return (
-    <div className="md:w-1/3">
-      <div className=" flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mt-2 text-2xl font-bold">
+    <div className="md:w-1/3 mt-[-52px]">
+      <div className=" flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mt-2 font-bold">
         <h2>My Skills</h2>
       </div>
-      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mr-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
+      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mr-2 mt-2 py-2  text-blue-800 dark:text-amber-200">
         <h2>Technologies</h2>
       </div>
       <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
