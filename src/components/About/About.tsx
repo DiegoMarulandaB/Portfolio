@@ -67,7 +67,7 @@ const About = () => {
                 </div>
                 <div className="mr-1 [&>p]:mt-1">
                   <p> My favorite writer:</p>
-                  <span className="block mt-6 mb-20">Brandon Sanderson.</span>
+                  <span className="block mt-6 mb-24">Brandon Sanderson.</span>
                 </div>
               </div>
             </div>
