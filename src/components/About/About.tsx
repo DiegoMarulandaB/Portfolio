@@ -32,23 +32,23 @@ const About = () => {
                   <p>
                     <span className="mt-4">Digital House 2023 - 2024</span>
                   </p>
-                  <p className="">
+                  <p>
                     Frontend specialization at Digital House co-created with Mercado Libre and Globant.
                   </p>
                   <p>
                     <span className="mt-6">Digital House 2021 - 2023</span>
                   </p>
-                  <p className="">
+                  <p>
                     Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.
                   </p>
                   <p>
                     <span className="mt-4">Alura Latam 2022 - 2022</span>
                   </p>
-                  <p className="">Oracle Next Education Program Certification.</p>
+                  <p>Oracle Next Education Program Certification.</p>
                   <p>
                     <span className="mt-4">MisionTic 2021 - 2021</span>
                   </p>
-                  <p className="">
+                  <p>
                     {' '}
                     Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana
                     university to train programmers.
@@ -60,12 +60,12 @@ const About = () => {
                 </div>
                 <div className="[&>p]:mb-6 mr-1 [&>p]:mt-6 text-start">
                   <p>My hobbies:</p>
-                  <p className="">
+                  <p>
                     I am a rock fan, I enjoy immersing myself in the exciting worlds of video games and explore a wide
                     variety of topics through books or articles.
                   </p>
                 </div>
-                <div className=" mr-1 [&>p]:mt-1 ">
+                <div className="mr-1 [&>p]:mt-1">
                   <p> My favorite writer:</p>
                   <span className="block mt-6 mb-20">Brandon Sanderson.</span>
                 </div>
