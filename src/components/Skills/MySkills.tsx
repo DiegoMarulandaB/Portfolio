@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const MySkills = () => {
   return (
-    <div className="md:w-1/3 mt-[-52px]">
+    <div className="md:w-1/2 mt-[-52px]">
       <div className=" flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-4 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl">
         <h2>My Skills</h2>
       </div>
@@ -19,7 +19,7 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-4 mr-6 mt-4">Css</span>
+            <span className="justify-center text-1xl mx-auto mr-6 mt-4">Css</span>
           </div>
           <div>
             <Image
@@ -30,7 +30,7 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-4 mr-4 mt-4">Html</span>
+            <span className="justify-center text-1xl mx-auto mr-4 mt-4">Html</span>
           </div>
           <div>
             <Image
@@ -52,7 +52,7 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-4 mr-4 mt-4">React</span>
+            <span className="justify-center text-1xl mx-auto mr-4 mt-4">React</span>
           </div>
         </div>
         <div className="md:w-3/3">
@@ -69,7 +69,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-4 mr-4 mt-4">Bash</span>
+              <span className="justify-center text-1xl mx-auto mr-4 mt-4">Bash</span>
             </div>
             <div>
               <Image
@@ -80,15 +80,15 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-6 mr-6 mt-4">Git</span>
+              <span className="justify-center text-1xl mx-auto mr-6 mt-4">Git</span>
             </div>
             <div>
               <Image
                 src="/github-icon.svg"
                 loading="lazy"
                 alt="Github Icon"
-                width={68}
-                height={68}
+                width={75}
+                height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
               <span className="justify-center text-1xl mx-2 mr-6 mt-4">Github</span>
@@ -102,7 +102,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-4 mr-4 mt-4">Linux</span>
+              <span className="justify-center text-center text-1xl mx-auto mr-4 mt-4">Linux</span>
             </div>
             <div>
               <Image
@@ -113,7 +113,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-2 mr-2 mt-4">Neovim</span>
+              <span className="justify-center text-1xl mx-auto mr-2 mt-4">Neovim</span>
             </div>
             <div>
               <Image
@@ -124,7 +124,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-1 mr-1 mt-4">Postman</span>
+              <span className="justify-center text-1xl mx-auto mr-1 mt-4">Postman</span>
             </div>
             <div>
               <Image
@@ -135,7 +135,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-1 mr-1 mt-4">VsCode</span>
+              <span className="justify-center text-1xl mx-auto mr-1 mt-4">VsCode</span>
             </div>
           </div>
         </div>
@@ -153,7 +153,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-1">Tailwind</span>
+              <span className="justify-center text-1xl mx-auto mr-1">Tailwind</span>
             </div>
             <div>
               <Image
@@ -164,7 +164,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className=" justify-center text-1xl mt-4">TypeScript</span>
+              <span className=" justify-center text-1xl  mx-auto mt-4">TypeScript</span>
             </div>
           </div>
         </div>
