@@ -20,9 +20,7 @@ const Contact = () => {
                       />
                     </div>
                     <div className="text-md mx-1 mr-1 mt-2 ml-2">
-                      <p>
                         <span className=" text-blue-800 dark:text-amber-200"> Freelance programmer</span>
-                      </p>
                     </div>
                   </div>
                 </div>

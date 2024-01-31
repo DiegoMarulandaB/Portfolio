@@ -28,22 +28,14 @@ const About = () => {
                   <FaGraduationCap className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={34} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl">Studies</span>
                 </div>
-                <div className="mr-1 [&>p]:mb-4 [&>p]:mt-7 [&>span]:mt-7 text-start">
-                  <p>
-                    <span>Digital House 2023 - 2024</span>
-                  </p>
+                <div className="mr-1 [&>p]:mb-4 [&>p]:mt-7 text-start">
+                  <span className="block mt-7">Digital House 2023 - 2024</span>
                   <p>Frontend specialization at Digital House co-created with Mercado Libre and Globant.</p>
-                  <p>
-                    <span>Digital House 2021 - 2023</span>
-                  </p>
+                  <span className="block mt-7">Digital House 2021 - 2023</span>
                   <p>Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.</p>
-                  <p>
-                    <span>Alura Latam 2022 - 2022</span>
-                  </p>
-                  <p>Oracle Next Education Program Certification.</p>
-                  <p>
-                    <span>MisionTic 2021 - 2021</span>
-                  </p>
+                  <span className="block mt-7">Alura Latam 2022 - 2022</span>
+                  <span className="block mt-7">Oracle Next Education Program Certification.</span>
+                  <span className="block mt-7">MisionTic 2021 - 2021</span>
                   <p>
                     {' '}
                     Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana
