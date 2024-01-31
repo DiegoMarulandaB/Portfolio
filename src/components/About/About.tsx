@@ -14,7 +14,7 @@ const About = () => {
             <div className="md:w-3/5">
               <div className="flex flex-col">
                 <div className="flex items-center text-start justify-start mt-2 [&>span]:ml-2">
-                  <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-4" size={24} />
+                  <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={24} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl">Diego</span>
                 </div>
                 <div className="[&>p]:mb-4 mr-1 mt-7 text-start">
@@ -28,14 +28,14 @@ const About = () => {
                   <FaGraduationCap className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={34} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl">Studies</span>
                 </div>
-                <div className="mr-1 [&>p]:mb-4 [&>p]:mt-8 [&>span]:block mt-7 [&>span]:mb-4 text-start">
-                  <span className="">Digital House 2023 - 2024</span>
+                <div className="mr-1 [&>p]:mb-4 [&>p]:mt-8 [&>span]:mb-4 text-start">
+                  <span className="block mt-6">Digital House 2023 - 2024</span>
                   <p>Frontend specialization at Digital House co-created with Mercado Libre and Globant.</p>
-                  <span className="mt-8">Digital House 2021 - 2023</span>
+                  <span className="block mt-8">Digital House 2021 - 2023</span>
                   <p>Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.</p>
-                  <span className="mt-8">Alura Latam 2022 - 2022</span>
-                  <span className="mt-8">Oracle Next Education Program Certification.</span>
-                  <span className="mt-8">MisionTic 2021 - 2021</span>
+                  <span className="block mt-8">Alura Latam 2022 - 2022</span>
+                  <span className="block mt-8">Oracle Next Education Program Certification.</span>
+                  <span className="block mt-8">MisionTic 2021 - 2021</span>
                   <p>
                     {' '}
                     Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana
