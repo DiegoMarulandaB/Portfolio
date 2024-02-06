@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
                       onClick={() => handleProject('all')}
                       className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
                         showCard === 'all'
-                          ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
+                          ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-full text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
                           : 'inactiveClasses'
                       }`}
                     >
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
                       onClick={() => handleProject('academic projects')}
                       className={`inline-block py-2 px-2 text-1xl  font-semibold md:py-2 lg:px-1${
                         showCard === 'academic projects'
-                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
+                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-full text-sm px-2 py-2 me-1 mb-1 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
                           : 'inactiveClasses'
                       }`}
                     >
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                       onClick={() => handleProject('personal projects')}
                       className={`inline-block py-2 px-2 text-1xl font-semibold  md:py-2 lg:px-1${
                         showCard === 'personal projects'
-                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
+                          ? 'activeClasses text-center cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100'
                           : 'inactiveClasses'
                       }`}
                     >
