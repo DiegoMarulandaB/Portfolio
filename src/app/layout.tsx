@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react'
 import '../styles/globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
