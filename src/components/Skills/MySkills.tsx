@@ -19,7 +19,7 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-auto mr-6 mt-4">Css</span>
+            <span className="justify-center text-1xl mx-auto mr-4 mt-4">Css</span>
           </div>
           <div>
             <Image
