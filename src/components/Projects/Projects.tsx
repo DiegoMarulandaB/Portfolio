@@ -88,13 +88,13 @@ const Projects: React.FC = () => {
                 />
                 <ProjectCards
                   loading="lazy"
-                  ImageHref="calculator.webp"
+                  ImageHref="arkanoidGame.webp"
                   category="Personal Projects"
-                  title="Calculator basic"
-                  description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
+                  title="Arkanoid clone game"
+                  description="Arkanoid is a 1986 block-breaking arcade game developed and published by Taito. Wikipedia source. Clone of this game based on Midudev. Technologies: html, css, javaScript"
                   button="Github →"
-                  buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
-                  href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
+                  buttonHref="https://github.com/DiegoMarulandaB/Arkanoid-clone-with-JavaScript"
+                  href="https://github.com/DiegoMarulandaB/Arkanoid-clone-with-JavaScript"
                   showCard={showCard}
                 />
                 <ProjectCards
@@ -108,6 +108,18 @@ const Projects: React.FC = () => {
                   href="https://github.com/DiegoMarulandaB/ctd-fe2-proyecto-final-base"
                   showCard={showCard}
                 />
+                <ProjectCards
+                  loading="lazy"
+                  ImageHref="calculator.webp"
+                  category="Personal Projects"
+                  title="Calculator basic"
+                  description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
+                  button="Github →"
+                  buttonHref="https://github.com/DiegoMarulandaB/interactive-calculator-react"
+                  href="https://github.com/DiegoMarulandaB/interactive-calculator-react"
+                  showCard={showCard}
+                />
+
                 <ProjectCards
                   loading="lazy"
                   ImageHref="Final-esp-frontend.webp"
