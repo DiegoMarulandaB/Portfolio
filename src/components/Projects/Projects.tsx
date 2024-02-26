@@ -133,18 +133,6 @@ const Projects: React.FC = () => {
                 />
                 <ProjectCards
                   loading="lazy"
-                  ImageHref="frontEnd3.webp"
-                  category="Academic Projects"
-                  title="Health application"
-                  description="Final project of the Frontend 3 subject, of the Certified Tech Developer career at Digital House. Health application using an API, error validations and submission. Technologies: React, Vite."
-                  button="Github →"
-                  buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
-                  href="https://github.com/DiegoMarulandaB/finalFrontEnd"
-                  showCard={showCard}
-                />
-
-                <ProjectCards
-                  loading="lazy"
                   ImageHref="counterclick.webp"
                   category="Personal Projects"
                   title="Counter Click"
@@ -152,6 +140,17 @@ const Projects: React.FC = () => {
                   button="Github →"
                   buttonHref="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
                   href="https://github.com/DiegoMarulandaB/click-counter-freecodecamp"
+                  showCard={showCard}
+                />
+                <ProjectCards
+                  loading="lazy"
+                  ImageHref="frontEnd3.webp"
+                  category="Academic Projects"
+                  title="Health application"
+                  description="Final project of the Frontend 3 subject, of the Certified Tech Developer career at Digital House. Health application using an API, error validations and submission. Technologies: React, Vite."
+                  button="Github →"
+                  buttonHref="https://github.com/DiegoMarulandaB/finalFrontEnd"
+                  href="https://github.com/DiegoMarulandaB/finalFrontEnd"
                   showCard={showCard}
                 />
               </div>
