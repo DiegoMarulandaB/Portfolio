@@ -91,7 +91,7 @@ const Projects: React.FC = () => {
                   ImageHref="arkanoidGame.webp"
                   category="Personal Projects"
                   title="Arkanoid clone game"
-                  description="Arkanoid is a 1986 block-breaking arcade game developed and published by Taito. Wikipedia source. Clone of this game based on Midudev. Technologies: html, css, javaScript"
+                  description="Arkanoid is a 1986 block-breaking arcade game developed and published by Taito. Wikipedia source. Clone of this game based on Midudev. Technologies: html, css, javaScript."
                   button="Github →"
                   buttonHref="https://github.com/DiegoMarulandaB/Arkanoid-clone-with-JavaScript"
                   href="https://github.com/DiegoMarulandaB/Arkanoid-clone-with-JavaScript"
