@@ -12,7 +12,7 @@ const Contact = () => {
                     <div className="w-16 h-16 md:w-18 md:h-18">
                       <img
                         loading="lazy"
-                        className=" rounded-full"
+                        className=" rounded-full aspect-auto object-cover"
                         width={120}
                         height={120}
                         src="/Diego.webp"

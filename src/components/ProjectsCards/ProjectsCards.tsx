@@ -27,7 +27,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
               width={690}
               height={690}
               alt="projects"
-              className="rounded-t-lg transition-transform duration-150 ease-in-out hover:scale-125"
+              className="rounded-t-lg transition-transform duration-150 ease-in-out hover:scale-125 aspect-auto object-cover"
             />
           </a>
         </div>
