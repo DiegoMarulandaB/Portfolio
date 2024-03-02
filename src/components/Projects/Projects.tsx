@@ -99,7 +99,7 @@ const Projects: React.FC = () => {
                 />
                 <ProjectCards
                   loading="lazy"
-                  ImageHref="Final-esp-frontend-2.webp"
+                  ImageHref="TheSimpsonsApplication.webp"
                   category="Academic Projects"
                   title="The simpsons application"
                   description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API with solid principles, clean code, validations. Technologies: Typescript, unit testing."
@@ -122,7 +122,7 @@ const Projects: React.FC = () => {
 
                 <ProjectCards
                   loading="lazy"
-                  ImageHref="Final-esp-frontend.webp"
+                  ImageHref="RickAndMortyApplication.webp"
                   category="Academic Projects"
                   title="Rick and Morty application"
                   description="Final project of the frontend subject 1 of the frontend specialization in Digital House. Using the Rick and Morty API with documentation. Technologies: TypeScript, Redux, Thunk."
@@ -144,7 +144,7 @@ const Projects: React.FC = () => {
                 />
                 <ProjectCards
                   loading="lazy"
-                  ImageHref="frontEnd3.webp"
+                  ImageHref="healthApplication.webp"
                   category="Academic Projects"
                   title="Health application"
                   description="Final project of the Frontend 3 subject, of the Certified Tech Developer career at Digital House. Health application using an API, error validations and submission. Technologies: React, Vite."
