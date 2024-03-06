@@ -10,7 +10,7 @@ const MySkills = () => {
       </div>
       <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
         <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-4 md:w-3/3">
-          <div>
+          <div className="flex flex-col items-center justify-center">
             <Image
               src="/w3_css-icon.svg"
               loading="lazy"
@@ -19,9 +19,9 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-auto mr-4 mt-4">Css</span>
+            <span className="justify-center text-center text-1xl">Css</span>
           </div>
-          <div>
+          <div className="flex flex-col items-center justify-center">
             <Image
               src="/html5-icon.svg"
               loading="lazy"
@@ -30,9 +30,9 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-auto mr-4 mt-4">Html</span>
+            <span className="justify-center text-1xl">Html</span>
           </div>
-          <div>
+          <div className="flex flex-col items-center justify-center">
             <Image
               src="/javascript.svg"
               loading="lazy"
@@ -41,9 +41,9 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xlmt-2">JavaScript</span>
+            <span className="justify-center text-1xl">JavaScript</span>
           </div>
-          <div>
+          <div className="flex flex-col items-center justify-center">
             <Image
               src="/reactjs-icon.svg"
               loading="lazy"
@@ -52,7 +52,7 @@ const MySkills = () => {
               height={75}
               className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg   text-lg xl:text-4xl border-solid border-2 border-slate-100"
             />
-            <span className="justify-center text-1xl mx-auto mr-4 mt-4">React</span>
+            <span className="justify-center text-1xl">React</span>
           </div>
         </div>
         <div className="md:w-3/3">
@@ -60,7 +60,7 @@ const MySkills = () => {
             <h2>Tools</h2>
           </div>
           <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-4">
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/gnu_bash-icon.svg"
                 loading="lazy"
@@ -69,9 +69,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-auto mr-4 mt-4">Bash</span>
+              <span className="justify-center text-1xl">Bash</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/git-scm-icon.svg"
                 loading="lazy"
@@ -80,9 +80,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-auto mr-6 mt-4">Git</span>
+              <span className="justify-center text-1xl">Git</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/github-icon.svg"
                 loading="lazy"
@@ -91,9 +91,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-2 mr-6 mt-4">Github</span>
+              <span className="justify-center text-1xl">Github</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/linux-icon.svg"
                 loading="lazy"
@@ -102,9 +102,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-center text-1xl mx-auto mr-4 mt-4">Linux</span>
+              <span className="justify-center text-center text-1xl">Linux</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/neovimio-icon.svg"
                 loading="lazy"
@@ -113,9 +113,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-auto mr-2 mt-4">Neovim</span>
+              <span className="justify-center text-1xl">Neovim</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/getpostman-icon.svg"
                 loading="lazy"
@@ -124,9 +124,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-auto mr-1 mt-4">Postman</span>
+              <span className="justify-center text-1xl">Postman</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/visualstudio_code-icon.svg"
                 loading="lazy"
@@ -135,7 +135,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-auto mr-1 mt-4">VsCode</span>
+              <span className="justify-center text-1xl">VsCode</span>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ const MySkills = () => {
             <h2>Learning</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-4">
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/tailwindcss-icon.svg"
                 loading="lazy"
@@ -153,9 +153,9 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl mx-auto mr-1">Tailwind</span>
+              <span className="justify-center text-1xl">Tailwind</span>
             </div>
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <Image
                 src="/typescriptlang-icon.svg"
                 loading="lazy"
@@ -164,7 +164,7 @@ const MySkills = () => {
                 height={75}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className=" justify-center text-1xl  mx-auto mt-4">TypeScript</span>
+              <span className="justify-center text-1xl">TypeScript</span>
             </div>
           </div>
         </div>
