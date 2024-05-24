@@ -15,7 +15,7 @@ const metadata: Metadata = {
     'Next.js 13,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash',
 }
 
-export const popps = Poppins({
+const popps = Poppins({
   weight: ['600', '400'],
   subsets: ['latin'],
   display: 'swap',
