@@ -17,6 +17,7 @@ const LINKS_NAV: NaviLink[] = [
 const Navigation = () => {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === 'system' ? systemTheme : theme === 'dark' ? 'dark' : 'light'
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const pathname = usePathname()
   const [navigation, setNavigation] = useState(false)
 

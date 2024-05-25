@@ -6,7 +6,9 @@ import { Poppins } from 'next/font/google'
 import Navigation from '../components/Navigation/Navigation'
 import Footer from '../components/Footer/Footer'
 import { ThemeProvider } from 'next-themes'
+import React from 'react'
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const metadata: Metadata = {
   title: 'Diego Marulanda portfolio made with typeScript, Tailwind, Next.js 13',
   description:

@@ -1,6 +1,7 @@
 'use client'
 
 import TextAnimatedGradient from '../Animations/TextAnimatedGradient/TextAnimatedGradient'
+import React from 'react'
 
 const HomePage = () => {
   return (

@@ -1,4 +1,5 @@
 'use client'
+import React from 'react'
 function NotFound() {
   return (
     <div className=" bg-slate-100 dark:bg-slate-700 py-4 px-4 sm:px-6 lg:px-8">
@@ -8,7 +9,7 @@ function NotFound() {
             Error 404
           </h1>
           <p className="text-start justify-start md:items-center md:text-center md:justify-center text-4xl text-blue-800 dark:text-amber-200 mb-6 mt-4 mr-2 mx-2">
-            Oops! The page you are looking for doesn't exist.
+            Oops! The page you are looking for doesn&apos;t exist.
           </p>
           <div className="text-start justify-start md:items-center md:text-center md:justify-center">
             <a

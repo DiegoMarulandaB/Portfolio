@@ -1,5 +1,6 @@
 import ProjectCardsProps from '../../types/ProjectsCardsProps'
 import Slide from '../Animations/Slide/Slide'
+import React from 'react'
 
 const ProjectCards: React.FC<ProjectCardsProps> = ({
   showCard,

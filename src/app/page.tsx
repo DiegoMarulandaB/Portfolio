@@ -3,8 +3,7 @@ import Projects from '@/s/Projects/Projects'
 import About from '@/s/About/About'
 import Experience from '@/s/Experience/Experience'
 import Contact from '@/s/Contact/Contact'
-
-
+import React from 'react'
 
 export default function HomePage() {
   return (

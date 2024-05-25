@@ -1,4 +1,4 @@
-'use client'
+import React from 'react'
 import { FaUser, FaGraduationCap, FaBook } from 'react-icons/fa'
 import MySkills from '../Skills/MySkills'
 

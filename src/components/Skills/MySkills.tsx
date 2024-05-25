@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import React from 'react'
+
 const MySkills = () => {
   return (
     <div className="md:w-1/2 mt-[-52px]">
