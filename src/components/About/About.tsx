@@ -31,7 +31,7 @@ const About = () => {
                 <div className="w-3/2  mx-auto relative mb-1">
                   <div className="border-l-2 mt-4">
                     {/* <!-- Card 1 --> */}
-                    <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-3 py-3 text-slate-800 dark:text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                    <div className="transform transition ml-10 relative flex items-center px-3 py-3 text-slate-800 dark:text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                       {/* <!-- Dot Follwing the Left Vertical Line --> */}
                       <div className="w-5 h-5 bg-blue-500 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
                       {/* <!-- Line that connecting the box with the vertical line --> */}
@@ -46,7 +46,7 @@ const About = () => {
                     </div>
 
                     {/* <!-- Card 2 --> */}
-                    <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-3 py-3  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                    <div className="transform transition ml-10 relative flex items-center px-3 py-3  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                       {/* <!-- Dot Follwing the Left Vertical Line --> */}
                       <div className="w-5 h-5 bg-red-400 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
@@ -62,7 +62,7 @@ const About = () => {
                     </div>
 
                     {/* <!-- Card 3 --> */}
-                    <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-3 py-3  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                    <div className="transform transition ml-10 relative flex items-center px-3 py-3  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                       {/* <!-- Dot Follwing the Left Vertical Line --> */}
                       <div className="w-5 h-5 bg-green-400 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
                       {/* <!-- Line that connecting the box with the vertical line --> */}
@@ -74,7 +74,7 @@ const About = () => {
                       </div>
                     </div>
                     {/* <!-- Card 4 --> */}
-                    <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-3 py-2 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                    <div className="transform transition ml-10 relative flex items-center px-3 py-2 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                       {/* <!-- Dot Follwing the Left Vertical Line --> */}
                       <div className="w-5 h-5 bg-purple-400 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
