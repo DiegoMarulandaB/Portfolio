@@ -7,7 +7,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
       <div className="flex flex-wrap -mx-4 text-1xl">
         <ProjectCards
           loading="lazy"
-          ImageHref="profileGithub.webp"
+          ImageHref="assets/webp/profileGithub.webp"
           category="All Projects"
           title="My repository on Github"
           description="Browse all my repositories on GitHub, where you can see a variety of projects from my academic training in MisionTic, Alura Latam, Digital House, as well as my most relevant personal projects."
@@ -18,7 +18,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectCards
           loading="lazy"
-          ImageHref="digitalBooking.webp"
+          ImageHref="assets/webp/digitalBooking.webp"
           category="Academic Projects"
           title="Digital booking"
           description="MVP to book tours and different activities in various countries. Technologies: Git, Gitlab, React, Java v. 17, JWT, Gradle, Spring Boot, MySQL, AWS, Jest.JS, Postman, Selenium IDE."
@@ -29,7 +29,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectCards
           loading="lazy"
-          ImageHref="arkanoidGame.webp"
+          ImageHref="assets/webp/arkanoidGame.webp"
           category="Personal Projects"
           title="Arkanoid clone game"
           description="Arkanoid is a 1986 block-breaking arcade game developed and published by Taito. Wikipedia source. Clone of this game based on Midudev. Technologies: html, css, javaScript."
@@ -40,7 +40,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectCards
           loading="lazy"
-          ImageHref="TheSimpsonsApplication.webp"
+          ImageHref="assets/webp/TheSimpsonsApplication.webp"
           category="Academic Projects"
           title="The simpsons application"
           description="Final project of the frontend 2 subject of the frontend specialization in Digital House. Using The Simpsons API with solid principles, clean code, validations. Technologies: Typescript, unit testing."
@@ -51,7 +51,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectCards
           loading="lazy"
-          ImageHref="calculator.webp"
+          ImageHref="assets/webp/calculator.webp"
           category="Personal Projects"
           title="Calculator basic"
           description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
@@ -63,7 +63,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
 
         <ProjectCards
           loading="lazy"
-          ImageHref="RickAndMortyApplication.webp"
+          ImageHref="assets/webp/RickAndMortyApplication.webp"
           category="Academic Projects"
           title="Rick and Morty application"
           description="Final project of the frontend subject 1 of the frontend specialization in Digital House. Using the Rick and Morty API with documentation. Technologies: TypeScript, Redux, Thunk."
@@ -74,7 +74,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectCards
           loading="lazy"
-          ImageHref="counterclick.webp"
+          ImageHref="assets/webp/counterclick.webp"
           category="Personal Projects"
           title="Counter Click"
           description="Project inspired by the FreeCodeCamp course on basic React. Provides an interactive and functional experience for the user. Technologies: Vite compiler, React library."
@@ -85,7 +85,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectCards
           loading="lazy"
-          ImageHref="healthApplication.webp"
+          ImageHref="assets/webp/healthApplication.webp"
           category="Academic Projects"
           title="Health application"
           description="Final project of the Frontend 3 subject, of the Certified Tech Developer career at Digital House. Health application using an API, error validations and submission. Technologies: React, Vite."
@@ -98,6 +98,5 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
     </div>
   )
 }
-
 
 export default ProjectsCardsDescription

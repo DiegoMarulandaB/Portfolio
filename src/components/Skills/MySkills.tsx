@@ -8,170 +8,211 @@ const MySkills = () => {
         <h2>My Skills</h2>
       </div>
       <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
-        {/* copia */}
         <div className="md:w-3/3">
           <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mr-2 mt-2 py-2 text-blue-800 dark:text-amber-200">
             <h2>Technologies </h2>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-4">
+          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-8">
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/w3_css-icon.svg"
+                src="assets/svg/css.svg"
                 loading="lazy"
                 alt="Git Bash Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Css</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/html5-icon.svg"
+                src="assets/svg/html5.svg"
                 loading="lazy"
                 alt="Git Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Html</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/javascript.svg"
+                src="assets/svg/javascript.svg"
                 loading="lazy"
-                alt="Github Icon"
-                width={75}
-                height={75}
+                alt="JavaScript Icon"
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Js</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/reactjs-icon.svg"
+                src="assets/svg/reactjs.svg"
                 loading="lazy"
-                alt="Linux Icon"
-                width={75}
-                height={75}
+                alt="React Icon"
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-center text-1xl">React</span>
+              <span className="justify-center text-center text-1xl"></span>
             </div>
           </div>
         </div>
-
-        {/* fin copia */}
         <div className="md:w-3/3">
-          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mt-2">
+          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mb-1 py-2 text-blue-800 dark:text-amber-200 mt-6">
             <h2>Tools</h2>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-4">
+          <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-8">
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/gnu_bash-icon.svg"
+                src="assets/svg/bash.svg"
                 loading="lazy"
                 alt="Git Bash Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Bash</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/git-scm-icon.svg"
+                src="assets/svg/docker.svg"
+                loading="lazy"
+                alt="Docker Icon"
+                width={100}
+                height={100}
+                className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
+              />
+              <span className="justify-center text-1xl"></span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                src="assets/svg/git.svg"
                 loading="lazy"
                 alt="Git Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Git</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/github-icon.svg"
+                src="assets/svg/github.svg"
                 loading="lazy"
                 alt="Github Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Github</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/linux-icon.svg"
+                src="assets/svg/gitlab.svg"
+                loading="lazy"
+                alt="GitLab Icon"
+                width={100}
+                height={100}
+                className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
+              />
+              <span className="justify-center text-1xl"></span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                src="assets/svg/kubernetes.svg"
+                loading="lazy"
+                alt="Kubernetes Icon"
+                width={100}
+                height={100}
+                className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
+              />
+              <span className="justify-center text-center text-1xl"></span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                src="assets/svg/linux.svg"
                 loading="lazy"
                 alt="Linux Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-center text-1xl">Linux</span>
+              <span className="justify-center text-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/neovimio-icon.svg"
+                src="assets/svg/mysql.svg"
+                loading="lazy"
+                alt="Mysql Icon"
+                width={100}
+                height={100}
+                className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
+              />
+              <span className="justify-center text-center text-1xl"></span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <Image
+                src="assets/svg/neovimio.svg"
                 loading="lazy"
                 alt="Neovim Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Neovim</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/getpostman-icon.svg"
+                src="assets/svg/postman.svg"
                 loading="lazy"
                 alt="Postman Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Postman</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/visualstudio_code-icon.svg"
+                src="assets/svg/vsCode.svg"
                 loading="lazy"
                 alt="Vscode Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">VsCode</span>
+              <span className="justify-center text-1xl"></span>
             </div>
           </div>
         </div>
         <div className="md:w-3/3">
-          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mt-2 mb-1 py-2  text-blue-800 dark:text-amber-200">
+          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mt-6 mb-1 py-2  text-blue-800 dark:text-amber-200">
             <h2>Learning</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-4">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-6">
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/tailwindcss-icon.svg"
+                src="assets/svg/tailwindcss.svg"
                 loading="lazy"
                 alt="Tailwind Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg  text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">Tailwind</span>
+              <span className="justify-center text-1xl"></span>
             </div>
             <div className="flex flex-col items-center justify-center">
               <Image
-                src="/typescriptlang-icon.svg"
+                src="assets/svg/typescriptlang.svg"
                 loading="lazy"
                 alt="Typescript Icon"
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded-lg text-lg xl:text-4xl border-solid border-2 border-slate-100"
               />
-              <span className="justify-center text-1xl">TypeScript</span>
+              <span className="justify-center text-1xl"></span>
             </div>
           </div>
         </div>

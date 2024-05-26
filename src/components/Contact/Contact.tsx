@@ -8,7 +8,6 @@ const Contact = () => {
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-1">
               <div className="md:w-6/12">
                 <div className="[&>p]:mb-4 pt-28 text-lg">
-                  {/* <p>Hi! 👋🏽 I'm Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!</p> */}
                   <p>Hi! 👋🏽 I&apos;m Diego, a passionate freelancer frontend developer from Colombia 🇨🇴!</p>
 
                   <div className="flex mt-4">
@@ -18,7 +17,7 @@ const Contact = () => {
                         className=" rounded-full aspect-auto object-cover"
                         width={120}
                         height={120}
-                        src="/Diego.webp"
+                        src="/assets/webp/Diego.webp"
                         alt="Profile Picture"
                       />
                     </div>
