@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
 import Link from 'next/link'
-import ThemeMenu from './ThemeMenu'
+import Menu from './Menu'
 
 const Navigation = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -40,7 +40,7 @@ const Navigation = () => {
               navigation ? 'block' : 'hidden'
             }`}
           >
-            <ThemeMenu />
+            <Menu />
           </div>
         </div>
       </div>
