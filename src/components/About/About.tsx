@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className="min-h-screen flex items-start justify-start ml-2">
           <div className="flex flex-col md:flex-row justify-start mt-2">
-            <div className="md:w-3/5">
+            <div className="md:w-3/6">
               <div className="flex flex-col">
                 <div className="flex items-center text-start justify-start mt-2 [&>span]:ml-2">
                   <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={24} />
