@@ -12,10 +12,10 @@ const LINKS_NAV: NaviLink[] = [
   { label: 'Contact Me', route: '/#contact' },
 ]
 
-const ThemeButton = () => {
+const ThemeMenu = () => {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === 'system' ? systemTheme : theme === 'dark' ? 'dark' : 'light'
-    const [navigation, setNavigation] = useState(false)
+  const [navigation, setNavigation] = useState(false)
   return (
     <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 mr-28">
       {LINKS_NAV.map((item, index) => (
@@ -49,4 +49,4 @@ const ThemeButton = () => {
   )
 }
 
-export default ThemeButton
+export default ThemeMenu
