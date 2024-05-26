@@ -188,7 +188,7 @@ const MySkills = () => {
           </div>
         </div>
         <div className="md:w-3/3">
-          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mt-6 mb-1 py-2  text-blue-800 dark:text-amber-200">
+          <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center text-2xl mt-7 mb-1 py-2  text-blue-800 dark:text-amber-200">
             <h2>Learning</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-6">
