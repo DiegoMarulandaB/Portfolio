@@ -1,8 +1,8 @@
 import { FaUser } from 'react-icons/fa'
-import MySkills from '../Skills/MySkills'
 import Studies from './Studies'
 import TimeLine from './TimeLine'
 import Hobbies from './Hobbies'
+import MySkills from '../Skills/MySkills'
 import React from 'react'
 
 const About = () => {
