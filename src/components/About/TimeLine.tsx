@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const TimeLine = () => {
   return (
     <div className="w-3/2  mx-auto relative mb-1">
