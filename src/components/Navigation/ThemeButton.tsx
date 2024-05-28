@@ -6,7 +6,7 @@ const ThemeButton = () => {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === 'system' ? systemTheme : theme === 'dark' ? 'dark' : 'light'
   return (
-    <div>
+    <>
       {currentTheme === 'dark' ? (
         <button
           onClick={() => setTheme('light')}
@@ -24,7 +24,7 @@ const ThemeButton = () => {
           <PiMoonStarsBold size={25} color="black" />
         </button>
       )}
-    </div>
+    </>
   )
 }
 
