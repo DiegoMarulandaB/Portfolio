@@ -18,7 +18,7 @@ const MenuNav = () => {
       {LINKS_NAV.map((item, index) => (
         <Link key={index} href={item.route} rel="dns-prefetch">
           <div
-            className="block lg:inline-block text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 "
+            className="block lg:inline-block text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-gray-300 "
             onClick={() => setNavigation(!navigation)}
           >
             {item.label}
