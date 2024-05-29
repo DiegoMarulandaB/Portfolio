@@ -22,7 +22,7 @@ const Experience = () => {
             <div className="md:w-4/12">
               <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-12">
                 <img
-                  className="mt-[-24px] aspect-auto object-cover"
+                  className="mt-[-24px] aspect-auto object-cover ml-6"
                   src="/assets/svg/developer.svg"
                   alt="image developer"
                   loading="lazy"

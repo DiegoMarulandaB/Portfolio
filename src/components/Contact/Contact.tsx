@@ -30,7 +30,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="md:5/12 lg:w-5/2">
-                <div className="pt-16 mr-4 mt-2 mb-4 text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl font-extrabold capitalize flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
+                <div className="pt-16 mr-4 mt-2 mb-4 ml-4 text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl font-extrabold capitalize flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
                   <h2>Contact Me</h2>
                 </div>
                 <ContactButton />
