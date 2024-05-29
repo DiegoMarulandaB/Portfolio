@@ -37,11 +37,11 @@ declare module 'react-scroll-up' {
       | 'easeOutBounce'
       | 'easeInOutBounce'
     duration?: number
-    style?: object
+    style?: React.CSSProperties
     onShow?: () => void
     onHide?: () => void
     children?: ReactNode
   }
 
-  export default class ScrollToTop extends React.Component<ScrollToTopProps, any> {}
+  export default class ScrollToTop extends React.Component<ScrollToTopProps, Record<string, never>> {}
 }
