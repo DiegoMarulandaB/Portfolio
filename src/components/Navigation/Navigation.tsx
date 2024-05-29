@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
 import Link from 'next/link'
-import Menu from './Menu'
+import MenuNav from './MenuNav'
+import React, { useState } from 'react'
 
 const Navigation = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -40,7 +40,7 @@ const Navigation = () => {
               navigation ? 'block' : 'hidden'
             }`}
           >
-            <Menu />
+           <MenuNav />
           </div>
         </div>
       </div>

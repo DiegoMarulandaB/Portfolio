@@ -11,7 +11,7 @@ const LINKS_NAV: NaviLink[] = [
   { label: 'Contact Me', route: '/#contact' },
 ]
 
-const Menu = () => {
+const MenuNav = () => {
   const [navigation, setNavigation] = useState(false)
   return (
     <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 mr-28">
@@ -30,4 +30,4 @@ const Menu = () => {
   )
 }
 
-export default Menu
+export default MenuNav
