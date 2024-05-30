@@ -1,6 +1,18 @@
-import React from 'react'
+'use client'
+
+import { useTheme } from 'next-themes'
+import React, { useEffect, useState } from 'react'
 
 const Experience = () => {
+  const { resolvedTheme } = useTheme()
+  const [theme, setLocalTheme] = useState(resolvedTheme)
+
+  useEffect(() => {
+    setLocalTheme(resolvedTheme)
+  }, [resolvedTheme])
+
+  const svgSrc = theme === 'dark' ? '/assets/svg/dev.svg' : '/assets/svg/devBlue.svg'
+
   return (
     <section id="experience" className="pt-28">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
@@ -10,9 +22,9 @@ const Experience = () => {
         <div className="flex flex-col ml-2 mt-2 mx-1 mr-1">
           <div className="space-y-6 md:flex md:gap-6 lg:items-start lg:gap-1">
             <div className="md:w-7/12">
-              <div className="[&>p]:mb-4 mt-2 text-lg text-start justify-start">
+              <div className="mb-4 mt-2 text-lg text-start justify-start">
                 <p>
-                  <span className="[&>p>strong] text-blue-800 dark:text-amber-200 [&>p>strong] mr-2">
+                  <span className="text-blue-800 dark:text-amber-200 mr-2">
                     <strong>I will acquire my experience through various projects.</strong>
                   </span>
                 </p>
@@ -23,7 +35,7 @@ const Experience = () => {
               <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-12">
                 <img
                   className="mt-[-24px] aspect-auto object-cover"
-                  src="/assets/svg/dev.svg"
+                  src={svgSrc}
                   alt="image developer"
                   loading="lazy"
                   width="220"
