@@ -19,7 +19,7 @@ const ThemeButton = () => {
       {currentTheme === 'dark' ? (
         <button
           onClick={() => setTheme('light')}
-          className="bg-purple-400 hover:bg-purple-300 rounded-lg cursor-pointer px-2 py-2 font-bold"
+          className="bg-purple-300 hover:bg-purple-400 rounded-lg cursor-pointer px-2 py-2 font-bold"
           aria-label="dark mode button"
         >
           <PiMoonStarsBold size={26} color="white" />
