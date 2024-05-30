@@ -6,12 +6,29 @@ import React, { useEffect, useState } from 'react'
 const Experience = () => {
   const { resolvedTheme } = useTheme()
   const [theme, setLocalTheme] = useState(resolvedTheme)
+  const [svgLoaded, setSvgLoaded] = useState(false)
 
   useEffect(() => {
     setLocalTheme(resolvedTheme)
   }, [resolvedTheme])
 
-  const svgSrc = theme === 'dark' ? '/assets/svg/dev.svg' : '/assets/svg/devBlue.svg'
+  const svgDarkSrc = '/assets/svg/dev.svg'
+  const svgLightSrc = '/assets/svg/devBlue.svg'
+
+  const preloadSVGs = () => {
+    const darkImg = new Image()
+    darkImg.src = svgDarkSrc
+    darkImg.onload = () => setSvgLoaded(true)
+
+    const lightImg = new Image()
+    lightImg.src = svgLightSrc
+  }
+
+  useEffect(() => {
+    preloadSVGs()
+  }, [])
+
+  const svgSrc = theme === 'dark' ? svgDarkSrc : svgLightSrc
 
   return (
     <section id="experience" className="pt-28">
@@ -33,14 +50,16 @@ const Experience = () => {
             </div>
             <div className="md:w-4/12">
               <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-12">
-                <img
-                  className="mt-[-24px] aspect-auto object-cover"
-                  src={svgSrc}
-                  alt="image developer"
-                  loading="lazy"
-                  width="220"
-                  height="220"
-                />
+                {svgLoaded && (
+                  <img
+                    className="mt-[-24px] aspect-auto object-cover"
+                    src={svgSrc}
+                    alt="image developer"
+                    loading="lazy"
+                    width="220"
+                    height="220"
+                  />
+                )}
               </div>
             </div>
           </div>
