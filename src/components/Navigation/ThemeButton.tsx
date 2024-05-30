@@ -1,10 +1,19 @@
 import { useTheme } from 'next-themes'
 import { PiMoonStarsBold, PiSunHorizonBold } from 'react-icons/pi'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 const ThemeButton = () => {
   const { systemTheme, theme, setTheme } = useTheme()
-  const currentTheme = theme === 'system' ? systemTheme : theme === 'dark' ? 'dark' : 'light'
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) return null
+
+  const currentTheme = theme === 'system' ? systemTheme : theme
+
   return (
     <>
       {currentTheme === 'dark' ? (
