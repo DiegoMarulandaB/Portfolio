@@ -1,30 +1,38 @@
 'use client'
+
 import React from 'react'
-function NotFound() {
+
+const NotFound = () => {
   return (
-    <div className=" bg-slate-100 dark:bg-slate-700 py-4 px-4 sm:px-6 lg:px-8">
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="flex flex-col items-center text-center text-white bg-gradient-to-r bg-white dark:bg-slate-600 rounded-lg px-18 py-18 mx-2 mr-2 mt-10 text-2xl  font-bold ">
-          <h1 className="text-start justify-start md:items-center md:text-center md:justify-center text-8xl text-slate-950 dark:text-slate-50 mx-2 mr-2 mb-2 mt-4 font-bold">
-            Error 404
-          </h1>
-          <p className="text-start justify-start md:items-center md:text-center md:justify-center text-4xl text-blue-800 dark:text-amber-200 mb-6 mt-4 mr-2 mx-2">
-            Oops! The page you are looking for doesn&apos;t exist.
-          </p>
-          <div className="text-start justify-start md:items-center md:text-center md:justify-center">
-            <a
-              href="/#home"
-              rel="noopener noreferrer"
-              className=" inline-block cursor-pointer mr-16 text-1xl text-white bg-slate-600 hover:bg-slate-950  font-medium rounded-lg text-sm px-4 py-4 me-1 mb-4 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100"
-              aria-label="not-found"
-            >
-              Go Home!
-            </a>
-          </div>
-        </div>
+    <div className="bg-slate-100 dark:bg-[#13161c] w-full px-16 md:px-0 h-screen flex items-center justify-center">
+      <div className="bg-slate-50 dark:bg-[#2b2d39] border-gray-200 flex flex-col items-center justify-center px-4 md:px-8 lg:px-24 py-8 rounded-lg shadow-2xl">
+        <p className="text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider text-blue-800 dark:text-amber-200 ">
+          404
+        </p>
+        <p className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-wider text-slate-700 dark:text-slate-50  mt-4">
+          Page Not Found
+        </p>
+        <p className="text-gray-500 mt-4 pb-4 border-b-2 text-center">
+          Sorry, the page you are looking for could not be found.
+        </p>
+        <a
+          href="/#home"
+          className="flex items-center space-x-2 text-white bg-slate-600 hover:bg-slate-950 font-medium rounded-lg text-sm px-2.5 py-2.5 me-1 mb-4 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-blue-100  mt-6 transition duration-150"
+          title="Return Home"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              fillRule="evenodd"
+              d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+          <span>Return Home</span>
+        </a>
       </div>
     </div>
   )
 }
 
 export default NotFound
+
