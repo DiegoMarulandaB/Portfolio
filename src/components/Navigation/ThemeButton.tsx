@@ -22,7 +22,7 @@ const ThemeButton = () => {
           className="bg-purple-300 hover:bg-purple-400 rounded-lg cursor-pointer px-2 py-2 font-bold"
           aria-label="dark mode button"
         >
-          <PiMoonStarsBold size={26} color="white" />
+          <PiMoonStarsBold size={25} color="white" />
         </button>
       ) : (
         <button
@@ -30,7 +30,7 @@ const ThemeButton = () => {
           className="bg-amber-200 hover:bg-amber-300 rounded-lg cursor-pointer px-2 py-2 font-bold"
           aria-label="light mode button"
         >
-          <PiSunHorizonBold size={26} color="black" />
+          <PiSunHorizonBold size={25} color="black" />
         </button>
       )}
     </>
