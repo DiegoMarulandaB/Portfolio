@@ -20,7 +20,7 @@ const About = () => {
                   <FaUser className="text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2" size={24} />
                   <span className="text-blue-800 dark:text-amber-200 text-2xl">Diego</span>
                 </div>
-                <div className="[&>p]:mb-4 mr-1 mt-7 text-start">
+                <div className="[&>p]:mb-4 mr-1 mt-7 text-start dark:text-gray-300">
                   <p>
                     {' '}
                     My fascination for technology is combined with a deep interest for geopolitics, general culture and

@@ -13,7 +13,7 @@ const TimeLine = () => {
           {/* Content that showing in the box */}
           <div className="flex-auto">
             <h2 className="text-lg">Digital House 2023 - 2024</h2>
-            <p className="text-1xl font-semi-bold">
+            <p className="text-1xl font-semi-bold dark:text-gray-300">
               Frontend specialization at Digital House co-created with Mercado Libre and Globant.
             </p>
           </div>
@@ -29,7 +29,7 @@ const TimeLine = () => {
           {/*Content that showing in the box*/}
           <div className="flex-auto">
             <h2 className="text-lg">Digital House 2021 - 2023</h2>
-            <p className="text-1xl font-semi-bold">
+            <p className="text-1xl font-semi-bold dark:text-gray-300">
               Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.
             </p>
           </div>
@@ -43,7 +43,7 @@ const TimeLine = () => {
           {/* Content that showing in the box*/}
           <div className="flex-auto">
             <h2 className="text-lg">Alura Latam 2022 - 2022</h2>
-            <p className="text-1xl font-semi-bold">Oracle Next Education Program Certification.</p>
+            <p className="text-1xl font-semi-bold dark:text-gray-300">Oracle Next Education Program Certification.</p>
           </div>
         </div>
         {/* Card 4 */}
@@ -55,7 +55,7 @@ const TimeLine = () => {
           {/* Content that showing in the box  */}
           <div className="flex-auto">
             <h2 className="text-lg">MisionTic 2021 - 2021</h2>
-            <p className="text-1xl font-semi-bold">
+            <p className="text-1xl font-semi-bold dark:text-gray-300">
               Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana university
               to train programmers.
             </p>

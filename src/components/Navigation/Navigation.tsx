@@ -15,7 +15,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between py-3 md:py-6 md:block">
           <Link href="/#home">
             <div className="container flex items-center space-x-2">
-              <h2 className="text-1xl font-bold text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 cursor-pointer mr-32">
+              <h2 className="text-1xl font-bold text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-gray-300 cursor-pointer mr-32">
                 Diego Marulanda
               </h2>
             </div>

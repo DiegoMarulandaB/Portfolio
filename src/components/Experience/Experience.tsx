@@ -45,7 +45,9 @@ const Experience = () => {
                     <strong>I will acquire my experience through various projects.</strong>
                   </span>
                 </p>
-                <p className="block mt-2">Academically and personally, my focus is on innovation and constant growth.</p>
+                <p className="block mt-2 dark:text-gray-300">
+                  Academically and personally, my focus is on innovation and constant growth.
+                </p>
               </div>
             </div>
             <div className="md:w-4/12">
