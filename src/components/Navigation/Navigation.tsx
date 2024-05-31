@@ -26,7 +26,7 @@ const Navigation = () => {
               onClick={() => {
                 setNavigation(!navigation)
               }}
-              className="p-2 bg-gradient-to-r text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 cursor-pointer px-2 py-2 text-1xl font-bold"
+              className="p-2 bg-gradient-to-r text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300 cursor-pointer px-2 py-2 text-1xl font-bold"
               aria-label="mobile menu button"
             >
               {navigation ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
