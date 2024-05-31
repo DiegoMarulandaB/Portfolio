@@ -2,10 +2,10 @@ import React from 'react'
 
 const TimeLine = () => {
   return (
-    <div className="w-3/2  mx-auto relative mb-1 ml-1">
+    <div className="w-3/2  mx-auto relative mb-1 ml-2">
       <div className="border-l-2 border-l-gray-400 dark:border-l-white mt-4">
         {/* Card 1 */}
-        <div className="transform transition ml-11 relative flex items-center px-2 py-1 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition ml-10 relative flex items-center px-2 py-1 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* Dot Follwing the Left Vertical Line */}
           <div className="w-5 h-5 bg-slate-800 dark:bg-slate-50  absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-1 md:mt-0"></div>
           {/* <!-- Line that connecting the box with the vertical line --> */}
@@ -20,7 +20,7 @@ const TimeLine = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="transform transition ml-11 relative flex items-center px-2 py-1  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition ml-10 relative flex items-center px-2 py-1  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* Dot Follwing the Left Vertical Line*/}
           <div className="w-5 h-5 bg-blue-800 dark:bg-amber-200  absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-1 md:mt-0"></div>
 
@@ -35,7 +35,7 @@ const TimeLine = () => {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="transform transition ml-11 relative flex items-center px-2 py-1  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition ml-10 relative flex items-center px-2 py-1  text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* Dot Follwing the Left Vertical Line*/}
           <div className="w-5 h-5 bg-blue-800 dark:bg-amber-200  absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-1 md:mt-0"></div>
           {/* Line that connecting the box with the vertical line */}
@@ -47,7 +47,7 @@ const TimeLine = () => {
           </div>
         </div>
         {/* Card 4 */}
-        <div className="transform transition ml-11 relative flex items-center px-2 py-1 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+        <div className="transform transition ml-10 relative flex items-center px-2 py-1 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* Dot Follwing the Left Vertical Line */}
           <div className="w-5 h-5 bg-slate-800 dark:bg-slate-50  absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-1 md:mt-0"></div>
           {/*  Line that connecting the box with the vertical line */}
