@@ -19,7 +19,7 @@ const ThemeButton = () => {
       {currentTheme === 'dark' ? (
         <button
           onClick={() => setTheme('light')}
-          className="bg-purple-300 hover:bg-purple-400 rounded-lg cursor-pointer px-2 py-2 font-bold"
+          className="bg-purple-300 hover:bg-purple-400 rounded-lg cursor-pointer px-1 py-1 font-bold"
           aria-label="dark mode button"
         >
           <PiMoonStarsBold size={25} color="white" />
@@ -27,7 +27,7 @@ const ThemeButton = () => {
       ) : (
         <button
           onClick={() => setTheme('dark')}
-          className="bg-amber-200 hover:bg-amber-300 rounded-lg cursor-pointer px-2 py-2 font-bold"
+          className="bg-amber-200 hover:bg-amber-300 rounded-lg cursor-pointer px-1 py-1 font-bold"
           aria-label="light mode button"
         >
           <PiSunHorizonBold size={25} color="black" />

@@ -10,14 +10,12 @@ const Navigation = () => {
   const [navigation, setNavigation] = useState(false)
 
   return (
-    <header className="w-full mx-auto px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow bg-slate-100 dark:bg-[#13161c] dark:border-slate-500">
+    <header className="w-full mx-auto px-6 sm:px-20 opacity-90 fixed top-0 z-50 shadow ligth-bg-theme  dark-bg-theme dark-border-header">
       <div className="justify-center md:items-center md:flex">
         <div className="flex items-center justify-between py-3 md:py-6 md:block">
           <Link href="/#home">
             <div className="container flex items-center space-x-2">
-              <h2 className="text-1xl font-bold text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-gray-300 cursor-pointer mr-32">
-                Diego Marulanda
-              </h2>
+              <h2 className="h2-header cursor-pointer mr-32">Diego Marulanda</h2>
             </div>
           </Link>
           {/* mobile menu */}

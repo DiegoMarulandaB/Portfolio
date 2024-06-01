@@ -16,9 +16,9 @@ const MenuButton: React.FC = () => {
               <li className="mb-1 ml-6">
                 <button
                   onClick={() => handleProject('all')}
-                  className={`inline-block py-2 px-2 text-1xl md:py-2 lg:px-1 dark:text-gray-300 ${
+                  className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand ${
                     showCard === 'all'
-                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300 font-medium rounded-lg text-sm px-2.5 py-2.5 me-1 mb-4'
+                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 rounded-lg px-2.5 py-2.5 me-1 mb-4 buttons-showCard-projects'
                       : 'inactiveClasses '
                   }`}
                 >
@@ -29,9 +29,9 @@ const MenuButton: React.FC = () => {
               <li className="mb-1 pl-5">
                 <button
                   onClick={() => handleProject('academic projects')}
-                  className={`inline-block py-2 px-2 text-1xl md:py-2 lg:px-1 dark:text-gray-300 ${
+                  className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand ${
                     showCard === 'academic projects'
-                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300 font-medium rounded-lg text-sm px-2.5 py-2.5 me-1 mb-4'
+                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 rounded-lg px-2.5 py-2.5 me-1 mb-4 buttons-showCard-projects'
                       : 'inactiveClasses'
                   }`}
                 >
@@ -41,9 +41,9 @@ const MenuButton: React.FC = () => {
               <li className="mb-1 pl-5">
                 <button
                   onClick={() => handleProject('personal projects')}
-                  className={`inline-block py-2 px-2 text-1xl md:py-2 lg:px-1 dark:text-gray-300 ${
+                  className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand ${
                     showCard === 'personal projects'
-                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 text-1xl text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300 font-medium rounded-lg text-sm px-2.5 py-2.5 me-1 mb-4'
+                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 rounded-lg px-2.5 py-2.5 me-1 mb-4 buttons-showCard-projects'
                       : 'inactiveClasses'
                   }`}
                 >

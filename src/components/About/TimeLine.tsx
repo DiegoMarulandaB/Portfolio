@@ -12,8 +12,8 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-slate-800 dark:bg-slate-50  absolute -left-10 z-0"></div>
           {/* Content that showing in the box */}
           <div className="flex-auto">
-            <h2 className="text-lg">Digital House 2023 - 2024</h2>
-            <p className="text-1xl font-semi-bold dark:text-gray-300">
+            <h3 className="heading-3-studies-timeline">Digital House 2023 - 2024</h3>
+            <p className="description-studies-timeline">
               Frontend specialization at Digital House co-created with Mercado Libre and Globant.
             </p>
           </div>
@@ -28,8 +28,8 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-blue-800 dark:bg-amber-200 absolute -left-10 z-0"></div>
           {/*Content that showing in the box*/}
           <div className="flex-auto">
-            <h2 className="text-lg">Digital House 2021 - 2023</h2>
-            <p className="text-1xl font-semi-bold dark:text-gray-300">
+            <h3 className="heading-3-studies-timeline">Digital House 2021 - 2023</h3>
+            <p className="description-studies-timeline">
               Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.
             </p>
           </div>
@@ -42,8 +42,10 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-blue-800 dark:bg-amber-200  absolute -left-10 z-0"></div>
           {/* Content that showing in the box*/}
           <div className="flex-auto">
-            <h2 className="text-lg">Alura Latam 2022 - 2022</h2>
-            <p className="text-1xl font-semi-bold dark:text-gray-300">Oracle Next Education Program Certification.</p>
+            <h3 className="heading-3-studies-timeline">Alura Latam 2022 - 2022</h3>
+            <p className="description-studies-timeline">
+              Oracle Next Education Certification is an education and employability program.
+            </p>
           </div>
         </div>
         {/* Card 4 */}
@@ -54,8 +56,8 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-slate-800 dark:bg-slate-50  absolute -left-10 z-0"></div>
           {/* Content that showing in the box  */}
           <div className="flex-auto">
-            <h2 className="text-lg">MisionTic 2021 - 2021</h2>
-            <p className="text-1xl font-semi-bold dark:text-gray-300">
+            <h3 className="heading-3-studies-timeline">MisionTic 2021 - 2021</h3>
+            <p className="description-studies-timeline">
               Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana university
               to train programmers.
             </p>

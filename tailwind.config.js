@@ -33,7 +33,7 @@ module.exports = {
           to: { transform: 'translateY(0)' },
         },
       },
-      screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
+      screens: { sm:'640px', md: '768px', lg: '1024px', xl: '1280px', '2xl': '1536px' },
       animation: {
         fadeIn: 'fadeIn 1.5s',
         bounce: 'bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite',

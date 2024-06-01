@@ -32,8 +32,8 @@ const Experience = () => {
 
   return (
     <section id="experience" className="pt-28">
-      <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
-        <div className="ml-2 mx-2 mr-2 font-extrabold capitalize text-4xl sm:text-6xl md:text-4xl lg:text-4xl xl:text-7xl text-start">
+      <div className=" heading-2 mx-auto lg:px-8 max-w-screen-lg sm:px-6">
+        <div className="ml-2 mx-2 mr-2 text-start">
           <h2>Experience</h2>
         </div>
         <div className="flex flex-col ml-2 mt-2 mx-1 mr-1">
@@ -41,11 +41,11 @@ const Experience = () => {
             <div className="md:w-7/12">
               <div className="mb-4 mt-2 text-lg text-start justify-start">
                 <p>
-                  <span className="text-blue-800 dark:text-amber-200 mr-2">
+                  <span className="span-experience mr-2">
                     <strong>I will acquire my experience through various projects.</strong>
                   </span>
                 </p>
-                <p className="block mt-2 dark:text-gray-300">
+                <p className="paragraph paragraph-dark-theme block mt-2">
                   Academically and personally, my focus is on innovation and constant growth.
                 </p>
               </div>
