@@ -47,6 +47,37 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           content="Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.
           You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
+        <meta property="og:title" content="Portfolio Diego Marulanda" />
+        <meta property="og:image" content="./opengraph-image.jpg" />
+        <meta property="og:image:alt" content="Programming portfolio" />
+        <meta
+          property="og:description"
+          content="Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript"
+        />
+        {/* op */}
+        <meta property="og:title" content="Portfolio Diego Marulanda" />
+        <meta name="og:image" content="./opengraph-image.jpg" />
+        <meta property="og:image:alt" content="Programming portfolio" />
+        <meta
+          property="og:description"
+          content="Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript"
+        />
+        <meta property="og:site_name" content="diegomarulanda.vercel.app" />
+        <meta property="og:image:type" content="image/jpg" />
+        <meta property="og:image:width" content="565" />
+        <meta property="og:image:height" content="296" />
+        {/* twitter */}
+        <meta property="twitter:title" content="Portfolio Diego Marulanda" />
+        <meta name="twitter:image" content="./twitter-image.jpg" />
+        <meta property="twitter:image:alt" content="Programming portfolio" />
+        <meta
+          property="twitter:description"
+          content="Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript"
+        />
+        <meta property="twitter:site_name" content="diegomarulanda.vercel.app" />
+        <meta name="twitter:image:type" content="image/jpg" />
+        <meta name="twitter:image:width" content="565" />
+        <meta name="twitter:image:height" content="296" />
       </head>
       <body className={`${popps.className} ligth-bg-theme dark-bg-theme`}>
         <ThemeProvider enableSystem={true} attribute="class">
