@@ -1,4 +1,4 @@
-import Metadata  from '../types/Metadata.types'
+import Metadata from '../types/Metadata.types'
 
 export const metadata: Metadata = {
   title: 'DiegoMarulanda',
