@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     'Author Diego Marulanda. Portfolio made with TypeScript, Tailwind, Next.js 14. Where you will find different projects, whether academic or personal, related to programming.',
   keywords:
     'Next.js 14,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim, Visual Studio Code, Bash',
-  metadataBase: new URL('https://diegomarulanda.vercel.app/'),
+  metadataBase: new URL('http://localhost:3000'),
   alternates: {
     canonical: '/',
     languages: {
@@ -34,6 +34,6 @@ export const metadata: Metadata = {
     title: 'Diego Marulanda',
     description:
       'Portfolio where you will find different projects, whether academic or personal, related to programming.',
-    images: [new URL('./twitter-image.png', 'https://diegomarulanda.vercel.app/')],
+    images: [new URL('./twitter-image.png', 'http://localhost:3000')],
   },
 }
