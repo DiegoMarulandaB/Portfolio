@@ -1,4 +1,4 @@
-import ProjectCardsProps from '../../types/ProjectsCardsProps'
+import ProjectCardsProps from '../../types/ProjectsCardsProps.types'
 import Slide from '../Animations/Slide/Slide'
 import React from 'react'
 

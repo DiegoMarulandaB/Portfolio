@@ -1,4 +1,4 @@
-import NaviLink from '../../types/NaviLink'
+import NaviLink from '../../types/NaviLink.types.'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import ThemeButton from './ThemeButton'
