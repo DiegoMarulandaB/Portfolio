@@ -15,7 +15,8 @@ const metadata: Metadata = {
     'Author Diego Marulanda,Portfolio where you will find different projects, whether academic or personal, related to programming.',
   keywords:
     'Next.js 13,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash',
-  metadataBase: new URL('https://smallest-weights-reservation-pennsylvania.trycloudflare.com/'),
+  // metadataBase: new URL('https://smallest-weights-reservation-pennsylvania.trycloudflare.com/'),
+  metadataBase: new URL('https://diegomarulanda.vercel.app/'),
   openGraph: {
     title: "Diego Marulanda",
     description:
@@ -44,6 +45,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           content="Author Diego Marulanda, Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.
           You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
+        <meta property="og:image" content="./opengraph-image.png" />
+        <meta property="og:image:alt" content="Portfolio" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:image" content="./twitter-image.png"/>
+        <meta property="twitter:image:alt" content="Portfolio" />
+        <meta name="twitter:image:type" content="image/png" />
+        <meta name="twitter:image:width" content="1200" />
+        <meta name="twitter:image:height" content="630" />
       </head>
       <body className={`${popps.className} ligth-bg-theme dark-bg-theme`}>
         <ThemeProvider enableSystem={true} attribute="class">
