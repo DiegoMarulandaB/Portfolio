@@ -14,6 +14,15 @@ export const metadata: Metadata = {
   keywords:
     'Next.js 13,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash',
   metadataBase: new URL('https://diegomarulanda.vercel.app/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
+  openGraph: {
+    images: '/og-image.jpg',
+  },
 }
 
 const popps = Poppins({
