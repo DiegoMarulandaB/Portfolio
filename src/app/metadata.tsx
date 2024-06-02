@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: new URL('./opengraph-image.png', 'https://diegomarulanda.vercel.app/'),
+        url: new URL('./opengraph-image.png', 'http://localhost:3000'),
         width: 1200,
         height: 630,
         alt: 'Open Graph Image Alt',
