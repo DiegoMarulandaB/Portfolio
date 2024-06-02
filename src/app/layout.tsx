@@ -45,12 +45,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           content="Author Diego Marulanda, Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.
           You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
-        <meta property="og:image" content="./opengraph-image.png" />
+        <meta property="og:image" content="./opengraph-image.jpg" />
         <meta property="og:image:alt" content="Portfolio" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta name="twitter:image" content="./twitter-image.png"/>
+        <meta name="twitter:image" content="./twitter-image.jpg"/>
         <meta property="twitter:image:alt" content="Portfolio" />
         <meta name="twitter:image:type" content="image/png" />
         <meta name="twitter:image:width" content="1200" />
