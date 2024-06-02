@@ -15,8 +15,13 @@ const metadata: Metadata = {
     'Author Diego Marulanda,Portfolio where you will find different projects, whether academic or personal, related to programming.',
   keywords:
     'Next.js 13,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash',
-  // metadataBase: new URL('https://smallest-weights-reservation-pennsylvania.trycloudflare.com/'),
   metadataBase: new URL('https://diegomarulanda.vercel.app/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   openGraph: {
     title: 'Diego Marulanda',
     description:
@@ -38,13 +43,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        {/* canonical */}
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="canonical" href="https://diegomarulanda.vercel.app/" />
         <title>DiegoMarulanda</title>
         <meta
           name="description"
           content="Author Diego Marulanda, Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.
           You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
+        {/* op */}
         <meta property="og:title" content="Portfolio Diego Marulanda" />
         <meta property="og:image" content="./opengraph-image.jpg" />
         <meta property="og:image:alt" content="Programming portfolio" />
@@ -56,6 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        {/* twitter */}
         <meta property="twitter:title" content="Portfolio Diego Marulanda" />
         <meta name="twitter:image" content="./twitter-image.jpg" />
         <meta property="twitter:image:alt" content="Programming portfolio" />
