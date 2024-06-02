@@ -5,5 +5,6 @@ module.exports = {
     // loader: "custom",
     // loaderFile: "./my/image/loader.js",
     unoptimized: true,
+    domains: ['https://diegomarulanda.vercel.app/'],
   },
-};
+}

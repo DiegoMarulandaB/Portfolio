@@ -30,7 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:title" content={String(metadata.openGraph?.title)} />
         <meta property="og:description" content={String(metadata.openGraph?.description)} />
         <meta property="og:type" content={String(metadata.openGraph?.type)} />
-        <meta property="og:image" content="./opengraph-image.png" />
+        <meta property="og:image" content="https://diegomarulanda.vercel.app/opengraph-image.png" />
         <meta property="og:image:alt" content="Programming portfolio" />
         <meta property="og:site_name" content="diegomarulanda.vercel.app" />
         <meta property="og:image:type" content="image/png" />
