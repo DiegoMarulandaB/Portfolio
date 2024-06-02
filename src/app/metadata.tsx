@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: new URL('/og-image.png', 'https://diegomarulanda.vercel.app/'),
+        url: new URL('./opengraph-image.png', 'https://diegomarulanda.vercel.app/'),
         width: 1200,
         height: 630,
         alt: 'Open Graph Image Alt',
@@ -34,6 +34,6 @@ export const metadata: Metadata = {
     title: 'Diego Marulanda',
     description:
       'Portfolio where you will find different projects, whether academic or personal, related to programming.',
-    images: [new URL('/twitter-image.png', 'https://diegomarulanda.vercel.app/')],
+    images: [new URL('./twitter-image.png', 'https://diegomarulanda.vercel.app/')],
   },
 }
