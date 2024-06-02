@@ -1,3 +1,5 @@
+'use client'
+
 import { usePathname } from 'next/navigation'
 import { IoMdMenu, IoMdClose } from 'react-icons/io'
 import Link from 'next/link'
