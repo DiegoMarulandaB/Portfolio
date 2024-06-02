@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="twitter:title" content="Portfolio Diego Marulanda" />
-        <meta name="twitter:image" content="./twitter-image.png" />
+        <meta name="twitter:image" content="https://diegomarulanda.vercel.app/twitter-image.png" />
         <meta property="twitter:image:alt" content="Programming portfolio" />
         <meta
           property="twitter:description"
