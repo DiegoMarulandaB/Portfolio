@@ -18,10 +18,10 @@ const metadata: Metadata = {
   // metadataBase: new URL('https://smallest-weights-reservation-pennsylvania.trycloudflare.com/'),
   metadataBase: new URL('https://diegomarulanda.vercel.app/'),
   openGraph: {
-    title: "Diego Marulanda",
+    title: 'Diego Marulanda',
     description:
-      "Portfolio where you will find different projects, whether academic or personal, related to programming.",
-    type: "website",
+      'Portfolio where you will find different projects, whether academic or personal, related to programming.',
+    type: 'website',
   },
 }
 
@@ -50,9 +50,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta name="twitter:image" content="./twitter-image.jpg" />
+        <meta name="twitter:image" content="./twitter-image.png" />
         <meta property="twitter:image:alt" content="Programming portfolio" />
-        <meta name="twitter:image:type" content="image/jpeg" />
+        <meta name="twitter:image:type" content="image/png" />
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="630" />
       </head>
