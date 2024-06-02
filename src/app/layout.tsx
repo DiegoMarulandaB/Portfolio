@@ -31,14 +31,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:title" content={String(metadata.openGraph?.title)} />
         <meta property="og:description" content={String(metadata.openGraph?.description)} />
         <meta property="og:type" content={String(metadata.openGraph?.type)} />
-        <meta property="og:image" content="../../public/opengraph-image.png" />
+        <meta property="og:image" content="https://diegomarulanda.vercel.app/opengraph-image.png" />
         <meta property="og:image:alt" content="Programming portfolio" />
         <meta property="og:site_name" content="diegomarulanda.vercel.app" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="twitter:title" content="Portfolio Diego Marulanda" />
-        <meta name="twitter:image" content="../../public/twitter-image.png" />
+        <meta name="twitter:image" content="https://diegomarulanda.vercel.app/twitter-image.png" />
         <meta property="twitter:image:alt" content="Programming portfolio" />
         <meta
           property="twitter:description"
