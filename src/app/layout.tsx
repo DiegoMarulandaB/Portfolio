@@ -17,10 +17,10 @@ const metadata: Metadata = {
     'Next.js 13,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash',
   metadataBase: new URL('https://smallest-weights-reservation-pennsylvania.trycloudflare.com/'),
   openGraph: {
-    title: 'Diego Marulanda',
+    title: "Diego Marulanda",
     description:
-      'Portfolio where you will find different projects, whether academic or personal, related to programming.',
-    type: 'website',
+      "Portfolio where you will find different projects, whether academic or personal, related to programming.",
+    type: "website",
   },
 }
 
