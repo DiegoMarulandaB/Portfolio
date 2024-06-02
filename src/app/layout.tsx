@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           property="og:description"
           content="Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript"
         />
-        <meta property="og:site_name" content="DiegoMarulanda" />
+        <meta property="og:site_name" content="diegomarulanda.vercel.app" />
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           property="twitter:description"
           content="Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript"
         />
-        <meta property="twitter:site_name" content="DiegoMarulanda" />
+        <meta property="twitter:site_name" content="diegomarulanda.vercel.app" />
         <meta name="twitter:image:type" content="image/png" />
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="630" />
