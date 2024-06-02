@@ -24,7 +24,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="canonical" href="https://diegomarulanda.vercel.app/" />
-        <title>{String(metadata.title)}</title>
+        {/* <title>{String(metadata.title)}</title> */}
+        <title>{metadata && metadata.title ? String(metadata.title) : 'Diego Marulanda'}</title>
         <meta name="description" content={String(metadata.description)} />
         <meta name="keywords" content={String(metadata.keywords)} />
         <meta property="og:title" content={String(metadata.openGraph?.title)} />
