@@ -46,13 +46,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           You can also see academic projects, personal projects. with their respective repository on Github"
         ></meta>
         <meta property="og:image" content="./opengraph-image.jpg" />
-        <meta property="og:image:alt" content="Portfolio" />
-        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:alt" content="Programming portfolio" />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta name="twitter:image" content="./twitter-image.jpg"/>
-        <meta property="twitter:image:alt" content="Portfolio" />
-        <meta name="twitter:image:type" content="image/png" />
+        <meta name="twitter:image" content="./twitter-image.jpg" />
+        <meta property="twitter:image:alt" content="Programming portfolio" />
+        <meta name="twitter:image:type" content="image/jpeg" />
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="630" />
       </head>
