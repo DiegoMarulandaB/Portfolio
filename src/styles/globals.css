@@ -59,7 +59,7 @@
 }
 
 .span-experience {
-  @apply text-lg text-blue-800 dark:text-amber-200
+  @apply text-lg normal-case text-blue-800 dark:text-amber-200
 }
 
 .buttons-projects-hand {
@@ -81,7 +81,7 @@
 @apply text-lg font-semibold text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .project-description {
-@apply text-base font-normal dark:text-gray-300 mb-4 mt-4
+@apply text-base font-normal normal-case dark:text-gray-300 mb-4 mt-4
 }
 .icons-about {
   @apply text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2
