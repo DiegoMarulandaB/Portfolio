@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
     images: [
       {
-        url: 'https://diegomarulanda.vercel.app/',
+        url: './opengraph-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Programming portfolio',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
     images: [
       {
-        url: 'https://diegomarulanda.vercel.app/',
+        url: './twitter-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Programming portfolio',
