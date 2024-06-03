@@ -6,7 +6,6 @@ import Footer from '../components/Footer/Footer'
 import { ThemeProvider } from 'next-themes'
 import React from 'react'
 
-
 export const metadata: Metadata = {
   title: 'Diego Marulanda',
   description:
@@ -64,8 +63,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <meta property="og:site_name" content="diegomarulanda.vercel.app" />
         <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:width" content="565" />
-        <meta property="og:image:height" content="296" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         {/* twitter */}
         <meta property="twitter:title" content="Portfolio Diego Marulanda" />
         <meta name="twitter:image" content="./twitter-image.jpg" />
@@ -76,8 +75,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <meta property="twitter:site_name" content="diegomarulanda.vercel.app" />
         <meta name="twitter:image:type" content="image/jpg" />
-        <meta name="twitter:image:width" content="565" />
-        <meta name="twitter:image:height" content="296" />
+        <meta name="twitter:image:width" content="1200" />
+        <meta name="twitter:image:height" content="630" />
       </head>
       <body className={`${popps.className} ligth-bg-theme dark-bg-theme`}>
         <ThemeProvider enableSystem={true} attribute="class">
