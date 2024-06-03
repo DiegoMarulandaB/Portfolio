@@ -2,6 +2,11 @@ import ProjectCardsProps from '../../types/ProjectsCardsProps.types'
 import Slide from '../Animations/Slide/Slide'
 import React from 'react'
 
+function capitalize(str: string): string {
+  if (!str) return str
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+}
+
 const ProjectCards: React.FC<ProjectCardsProps> = ({
   showCard,
   category,
@@ -34,7 +39,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
         </div>
         <div className="mx-2 mr-2 overflow-hidden">
           <div className="relative z-10 px-2 py-2 mt-2 text-start items-center justify-center mx-2 mr-2 w-26">
-            <span className="projects-category">{category}</span>
+            <span className="projects-category">{capitalize(category)}</span>
             <h2 className="projects-title">{title}</h2>
             <p className="project-description">{description}</p>
             <a
