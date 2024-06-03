@@ -1,6 +1,7 @@
 /**
  * @type {import('next').NextConfig}
  */
+// c
 const nextConfig = {
   images: {
     // loader: "custom",
