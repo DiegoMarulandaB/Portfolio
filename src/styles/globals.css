@@ -78,7 +78,7 @@
 }
 
 .projects-title {
-@apply text-lg font-semibold text-blue-800 dark:text-amber-200 mb-4 mt-4
+@apply text-lg font-semibold normal-case text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .project-description {
 @apply text-base font-normal normal-case dark:text-gray-300 mb-4 mt-4
