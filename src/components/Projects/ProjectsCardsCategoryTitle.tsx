@@ -34,7 +34,7 @@ const ProjectCards: React.FC<ProjectCardsProps> = ({
         </div>
         <div className="mx-2 mr-2 overflow-hidden">
           <div className="relative z-10 px-2 py-2 mt-2 text-start items-center justify-center mx-2 mr-2 w-26">
-            <span className=" category">{category}</span>
+            <span className="projects-category">{category}</span>
             <h2 className="projects-title">{title}</h2>
             <p className="project-description">{description}</p>
             <a

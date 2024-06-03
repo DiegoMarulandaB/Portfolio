@@ -1,4 +1,4 @@
-import ProjectCards from '../Projects/ProjectsCards'
+import ProjectCards from './ProjectsCardsCategoryTitle'
 import React from 'react'
 
 const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) => {

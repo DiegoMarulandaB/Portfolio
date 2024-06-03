@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
 import ProjectsCardsDescription from './ProjectsCardsDescription'
+import React, { useState } from 'react'
 
 const MenuButton: React.FC = () => {
   const [showCard, setShowCard] = useState<string>('all')
@@ -22,7 +22,7 @@ const MenuButton: React.FC = () => {
                       : 'inactiveClasses '
                   }`}
                 >
-                  All Projects
+                  All projects
                 </button>
               </li>
 
@@ -35,7 +35,7 @@ const MenuButton: React.FC = () => {
                       : 'inactiveClasses'
                   }`}
                 >
-                  Academic Projects
+                  Academic projects
                 </button>
               </li>
               <li className="mb-1 pl-5">
@@ -47,7 +47,7 @@ const MenuButton: React.FC = () => {
                       : 'inactiveClasses'
                   }`}
                 >
-                  Personal Projects
+                  Personal projects
                 </button>
               </li>
             </ul>

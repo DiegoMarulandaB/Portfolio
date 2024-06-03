@@ -7,8 +7,8 @@ const LINKS_NAV: NaviLink[] = [
   { label: 'Home', route: '/#home' },
   { label: 'Experience', route: '/#experience' },
   { label: 'Projects', route: '/#projects' },
-  { label: 'About Me', route: '/#about' },
-  { label: 'Contact Me', route: '/#contact' },
+  { label: 'About me', route: '/#about' },
+  { label: 'Contact me', route: '/#contact' },
 ]
 
 const MenuNav = () => {

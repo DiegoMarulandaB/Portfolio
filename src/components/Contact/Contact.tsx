@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
               <div className="md:5/12 lg:w-5/2">
                 <div className="heading-2 pt-16 mr-4 mt-2 mb-4 flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
-                  <h2>Contact Me</h2>
+                  <h2>Contact me</h2>
                 </div>
                 <ContactButton />
               </div>
