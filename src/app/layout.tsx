@@ -55,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         {/* op */}
         <meta property="og:title" content="Portfolio Diego Marulanda" />
-        <meta name="og:image" content="./opengraph-image.jpg" />
+        <meta name="og:image" content="./openGraph-image.jpg" />
         <meta property="og:image:alt" content="Programming portfolio" />
         <meta
           property="og:description"
