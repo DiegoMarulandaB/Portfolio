@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import MenuButton from './MenuButton'
+import MenuButtonAllProjects from './MenuButtonAllProjects'
 
 const Projects: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
         <div className=" text-start justify-start ml-2 mx-1 mr-1">
           <h2>Projects</h2>
         </div>
-        <MenuButton />
+        <MenuButtonAllProjects />
       </div>
     </section>
   )

@@ -23,7 +23,7 @@
 }
 
 .menuNav {
-  @apply text-base font-normal text-slate-700 hover:text-slate-950 dark:text-gray-300 dark:hover:text-slate-50
+  @apply text-base  font-normal text-slate-700 hover:text-slate-950 dark:text-gray-300 dark:hover:text-slate-50
 }
 
 .dark-border-header {
@@ -51,7 +51,10 @@
 }
 
 .buttons {
-  @apply text-base text-white bg-slate-600 hover:bg-slate-950  dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300 font-medium
+  @apply text-base text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 font-medium rounded-lg
+}
+.buttons-email {
+  @apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
 }
 
 .heading-2 {
@@ -63,10 +66,14 @@
 }
 
 .buttons-projects-hand {
-  @apply text-base font-normal dark:text-gray-300
+   @apply text-base text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 font-medium rounded-lg
 }
-.buttons-showCard-projects {
+/* .buttons-showCard-projects {
   @apply text-base text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300
+} */
+
+.buttons-showCard-projects-allProjects {
+   @apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
 }
 
 .img-projects-cards {
@@ -82,6 +89,13 @@
 }
 .project-description {
 @apply text-base font-normal normal-case dark:text-gray-300 mb-4 mt-4
+}
+
+.buttons-card-projects-demo {
+@apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
+}
+.button-card-projects-github {
+@apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
 }
 .icons-about {
   @apply text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2

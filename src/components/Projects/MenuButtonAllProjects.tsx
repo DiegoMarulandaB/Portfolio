@@ -1,7 +1,7 @@
 import ProjectsCardsDescription from './ProjectsCardsDescription'
 import React, { useState } from 'react'
 
-const MenuButton: React.FC = () => {
+const MenuButtonAllProjects: React.FC = () => {
   const [showCard, setShowCard] = useState<string>('all')
 
   const handleProject = (category: string) => {
@@ -16,9 +16,9 @@ const MenuButton: React.FC = () => {
               <li className="mb-1 ml-6">
                 <button
                   onClick={() => handleProject('all')}
-                  className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand ${
+                  className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand buttons-showCard-projects-allProjects  ${
                     showCard === 'all'
-                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 rounded-lg px-2.5 py-2.5 me-1 mb-4 buttons-showCard-projects'
+                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 px-2.5 py-2.5 me-1 mb-4 '
                       : 'inactiveClasses '
                   }`}
                 >
@@ -31,7 +31,7 @@ const MenuButton: React.FC = () => {
                   onClick={() => handleProject('academic projects')}
                   className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand ${
                     showCard === 'academic projects'
-                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 rounded-lg px-2.5 py-2.5 me-1 mb-4 buttons-showCard-projects'
+                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 px-2.5 py-2.5 me-1 mb-4 '
                       : 'inactiveClasses'
                   }`}
                 >
@@ -43,7 +43,7 @@ const MenuButton: React.FC = () => {
                   onClick={() => handleProject('personal projects')}
                   className={`inline-block py-2 px-2 md:py-2 lg:px-1 buttons-projects-hand ${
                     showCard === 'personal projects'
-                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 rounded-lg px-2.5 py-2.5 me-1 mb-4 buttons-showCard-projects'
+                      ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 px-2.5 py-2.5 me-1 mb-4 '
                       : 'inactiveClasses'
                   }`}
                 >
@@ -59,4 +59,4 @@ const MenuButton: React.FC = () => {
   )
 }
 
-export default MenuButton
+export default MenuButtonAllProjects
