@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         ></meta>
         {/* op */}
         <meta property="og:title" content="Portfolio Diego Marulanda" />
-        <meta property="og:image" content="./opengraph-image.jpg" />
+        <meta property="og:image" content="https://diegomarulanda.vercel.app/opengraph-image.jpg" />
         <meta property="og:image:alt" content="Programming portfolio" />
         <meta
           property="og:description"
@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:image:height" content="296" />
         {/* twitter */}
         <meta property="twitter:title" content="Portfolio Diego Marulanda" />
-        <meta name="twitter:image" content="./twitter-image.jpg" />
+        <meta name="twitter:image" content="https://diegomarulanda.vercel.app/twitter-image.jpg" />
         <meta property="twitter:image:alt" content="Programming portfolio" />
         <meta
           property="twitter:description"
