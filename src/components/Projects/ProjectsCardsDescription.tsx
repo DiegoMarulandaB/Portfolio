@@ -35,7 +35,7 @@ const ProjectsCardsDescription: React.FC<{ showCard: string }> = ({ showCard }) 
         />
         <ProjectsCardsCategoryTitle
           loading="lazy"
-          ImageHref="assets/webp/arkanoidGame.png"
+          ImageHref="assets/webp/arkanoidGame.webp"
           category="Personal Projects"
           title="Arkanoid clone game"
           description="Arkanoid 1986 block breaking arcade game developed and published by Taito. Source from Wikipedia. Clone of this game based on Midudev. Technologies: HTML, CSS, JavaScript."
