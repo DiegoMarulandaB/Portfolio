@@ -32,8 +32,8 @@ const ProjectsCardsCategoryTitle: React.FC<ProjectCardsProps> = ({
             <img
               loading={loading}
               src={ImageHref}
-              width={1091}
-              height={543}
+              width={1920}
+              height={1080}
               alt="projects"
               className="img-projects-cards"
             />

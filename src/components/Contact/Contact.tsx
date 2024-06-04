@@ -17,8 +17,8 @@ const Contact = () => {
                       <img
                         loading="lazy"
                         className="img-contact"
-                        width={120}
-                        height={120}
+                        width={776}
+                        height={724}
                         src="/assets/webp/Diego.webp"
                         alt="Profile Picture"
                       />
