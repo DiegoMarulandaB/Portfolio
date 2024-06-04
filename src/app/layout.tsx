@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     'Portfolio where you will find different projects, whether academic or personal, related to programming.',
   keywords:
-    'Next.js 14,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash , typeScript',
+    'Next.js 14,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash, testing',
   metadataBase: new URL('https://diegomarulanda.vercel.app/'),
   alternates: {
     canonical: '/',
@@ -27,11 +27,11 @@ export const metadata: Metadata = {
       'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
     images: [
       {
-        url: 'https://diegomarulanda.vercel.app/opengraph-image.jpg',
+        url: './opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'opengraph image from my portfolio',
-        type: 'image/jpg',
+        type: 'image/png',
       },
     ],
     siteName: 'diegomarulanda.vercel.app',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
     images: [
       {
-        url: 'https://diegomarulanda.vercel.app/twitter-image.jpg',
+        url: './twitter-image.png',
         width: 1200,
         height: 630,
         alt: 'image to post on twitter from my portfolio',
