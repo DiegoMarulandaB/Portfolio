@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'Portfolio where you will find different projects, whether academic or personal, related to programming.',
   keywords:
     'Next.js 14,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash, testing',
-  metadataBase: new URL('https://diegomarulanda.vercel.app/#home'),
+  metadataBase: new URL('https://diegomarulanda.vercel.app/'),
   alternates: {
     canonical: '/',
     languages: {
