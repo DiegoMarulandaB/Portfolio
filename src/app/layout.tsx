@@ -9,7 +9,7 @@ import React from 'react'
 export const metadata: Metadata = {
   title: 'Diego Marulanda',
   description:
-    'Portfolio where you will find different projects, whether academic or personal, related to programming.',
+    'Welcome to my portfolio. Here you can explore a variety of projects developed with cutting-edge technologies such as CSS, HTML, JavaScript, React and TypeScript.',
   keywords:
     'Next.js 14,React,TypeScript,Tailwind, Frontend Developer, Html, Css, JavaScript, Git, Github, Linux, Neovim,Visual Studio Code, Bash, testing',
   metadataBase: new URL('https://diegomarulanda.vercel.app/'),
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: 'https://diegomarulanda.vercel.app/',
     title: 'Diego Marulanda',
     description:
-      'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
+      'Welcome to my portfolio. Here you can explore a variety of projects developed with cutting-edge technologies such as CSS, HTML, JavaScript, React and TypeScript.',
     images: [
       {
         url: 'https://diegomarulanda.vercel.app/opengraph-imagepng.png',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Diego Marulanda',
     description:
-      'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
+      'Welcome to my portfolio. Here you can explore a variety of projects developed with cutting-edge technologies such as CSS, HTML, JavaScript, React and TypeScript.',
     images: [
       {
         url: 'https://diegomarulanda.vercel.app/twitter-image.png',
