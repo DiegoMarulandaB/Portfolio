@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       'Welcome to my portfolio. Here you can explore a variety of projects developed with cutting-edge technologies such as CSS, HTML, JavaScript, React and TypeScript.',
     images: [
       {
-        url: 'https://diegomarulanda.vercel.app/opengraph-imagepng.png',
+        url: 'https://diegomarulanda.vercel.app/opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'opengraph image from my portfolio',
