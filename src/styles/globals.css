@@ -23,8 +23,16 @@
 }
 
 .menuNav {
-  @apply text-base  font-normal text-slate-700 hover:text-slate-950 dark:text-gray-300 dark:hover:text-slate-50
+ @apply text-base font-normal text-slate-700 hover:text-slate-950 dark:text-gray-300 dark:hover:text-slate-50
 }
+
+.menu-underline {
+ @apply no-underline hover:underline underline-offset-8 decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
+}
+/* .underline-offset {
+ text-decoration: underline;
+  text-underline-offset: 4px
+} */
 
 .dark-border-header {
   @apply dark:border-slate-500
@@ -59,6 +67,10 @@
 
 .heading-2 {
   @apply text-3xl font-extrabold normal-case text-slate-800  dark:text-slate-50
+}
+
+.heading-2-underline {
+  @apply underline underline-offset-8 decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
 }
 
 .span-experience {

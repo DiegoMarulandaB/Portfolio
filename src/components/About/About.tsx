@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id="about" className="pt-28">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
-        <div className=" heading-2 text-start justify-center ml-2 mx-1 mr-1">
+        <div className=" heading-2 text-start justify-center ml-2 mx-1 mr-1 heading-2-underline">
           <h2>About me</h2>
         </div>
         <div className="min-h-screen flex items-start justify-start ml-2">

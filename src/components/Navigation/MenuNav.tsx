@@ -17,10 +17,7 @@ const MenuNav = () => {
     <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 mr-28">
       {LINKS_NAV.map((item, index) => (
         <Link key={index} href={item.route} rel="dns-prefetch">
-          <div
-            className="menuNav block lg:inline-block no-underline hover:underline "
-            onClick={() => setNavigation(!navigation)}
-          >
+          <div className="menuNav menu-underline block lg:inline-block" onClick={() => setNavigation(!navigation)}>
             {item.label}
           </div>
         </Link>
