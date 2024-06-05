@@ -18,7 +18,8 @@ export default function Icon() {
       // ImageResponse JSX element
       <div
         style={{
-          fontSize: 20,
+          fontFamily: 'Poppins',
+          fontSize: 22,
           background: '#13161c',
           width: '100%',
           height: '100%',
@@ -28,7 +29,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        DM
+        {'{ DM }'}
       </div>
     ),
     // ImageResponse options
