@@ -27,7 +27,7 @@ export const metadata: Metadata = {
       'Portfolio where you will find different projects with different programming languages, such as Css, Html, JavaScript, React, TypeScript.',
     images: [
       {
-        url: 'https://diegomarulanda.vercel.app/opengraph-image.png',
+        url: 'https://diegomarulanda.vercel.app/opengraph-imagepng.png',
         width: 1200,
         height: 630,
         alt: 'opengraph image from my portfolio',
