@@ -4,7 +4,7 @@ import React from 'react'
 const Learning = () => {
   return (
     <div className="md:w-3/3">
-      <div className="flex flex-col items-center justify-center text-center mb-6 span-about">
+      <div className="md:text-center md:justify-center mb-1 py-2 span-about">
         <h2 className="mt-5">Learning</h2>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-8">
