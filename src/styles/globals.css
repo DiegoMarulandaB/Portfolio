@@ -44,7 +44,7 @@
 }
 
 .paragraph {
-  @apply font-normal
+  @apply font-light
 }
 .paragraph-dark-theme {
 @apply dark:text-gray-300
