@@ -10,9 +10,7 @@ const Contact = () => {
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-1">
               <div className="md:w-6/12">
                 <div className="paragraph paragraph-dark-theme [&>p]:mb-4">
-                  <p>
-                    Hi!{''} 👋🏽 I&apos;m Diego, a passionate freelancer frontend developer from Colombia. !
-                  </p>
+                  <p>Hi!{''} 👋🏽 I&apos;m Diego, a passionate freelancer frontend developer from Colombia! {''}🇨🇴 </p>
 
                   <div className="flex mt-4">
                     <div className="w-16 h-16 md:w-18 md:h-18 mb-4">
@@ -46,4 +44,3 @@ const Contact = () => {
 }
 
 export default Contact
-

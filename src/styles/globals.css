@@ -19,11 +19,11 @@
 }
 
 .h2-header{
-@apply text-base font-bold text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
+@apply font-bold text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
 }
 
 .menuNav {
- @apply text-base font-normal text-slate-700 hover:text-slate-950 dark:text-gray-300 dark:hover:text-slate-50
+ @apply font-medium text-slate-700 hover:text-slate-950 dark:text-gray-300 dark:hover:text-slate-50
 }
 
 .menu-underline {
@@ -44,7 +44,7 @@
 }
 
 .paragraph {
-  @apply text-base font-normal
+  @apply font-normal
 }
 .paragraph-dark-theme {
 @apply dark:text-gray-300
@@ -55,14 +55,14 @@
 }
 
 .span-contact {
-  @apply text-base text-blue-800 dark:text-amber-200
+  @apply font-light text-blue-800 dark:text-amber-200
 }
 
 .buttons {
-  @apply text-base text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 font-medium rounded-lg
+  @apply font-light text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg
 }
 .buttons-email {
-  @apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
+  @apply font-light text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 
 .heading-2 {
@@ -74,18 +74,18 @@
 }
 
 .span-experience {
-  @apply text-lg normal-case text-blue-800 dark:text-amber-200
+  @apply font-medium text-blue-800 dark:text-amber-200
 }
 
 .buttons-projects-hand {
-   @apply text-base text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 font-medium rounded-lg
+   @apply font-light text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg
 }
 /* .buttons-showCard-projects {
-  @apply text-base text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300
+  @apply font-light text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300
 } */
 
 .buttons-showCard-projects-allProjects {
-   @apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
+   @apply font-light text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 
 .img-projects-cards {
@@ -93,36 +93,36 @@
 }
 
 .projects-category {
-@apply text-xl normal-case dark:text-slate-50 block mb-2
+@apply text-xl font-bold dark:text-slate-50 block mb-2
 }
 
 .projects-title {
-@apply text-lg font-semibold normal-case text-blue-800 dark:text-amber-200 mb-4 mt-4
+@apply font-semibold text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .project-description {
-@apply text-base font-normal normal-case dark:text-gray-300 mb-4 mt-4
+@apply font-light  dark:text-gray-300 mb-4 mt-4
 }
 
 .buttons-card-projects-demo {
-@apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
+@apply font-light text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 .button-card-projects-github {
-@apply text-base text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 font-medium
+@apply font-light text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 .icons-about {
   @apply text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2
 }
 
 .span-about{
-  @apply text-2xl text-blue-800 dark:text-amber-200
+  @apply text-xl text-blue-800 dark:text-amber-200
 } 
 
 .heading-3-studies-timeline {
-  @apply text-lg
+  @apply font-medium
 }
 
 .description-studies-timeline {
-  @apply text-base dark:text-gray-300
+  @apply font-light dark:text-gray-300
 }
 
 .footer-year{
