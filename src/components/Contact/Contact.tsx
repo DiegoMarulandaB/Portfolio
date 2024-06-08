@@ -23,7 +23,7 @@ const Contact = () => {
                         alt="Profile Picture"
                       />
                     </div>
-                    <div className="mx-1 mr-1 mt-2 ml-2">
+                    <div className="mx-1 mr-1 mt-4 ml-2">
                       <span className="span-contact">Freelance programmer</span>
                     </div>
                   </div>
