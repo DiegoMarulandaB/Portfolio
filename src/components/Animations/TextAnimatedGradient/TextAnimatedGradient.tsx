@@ -21,7 +21,7 @@ const TextAnimatedGradient = () => {
       initial="hidden"
       animate="visible"
       variants={textVariants}
-      className="heading-1 inline-flex  mx-1 mr-1 pt-36 bg-clip-text "
+      className="heading-1 inline-flex  bg-clip-text ml-2 mx-1 mr-2 mb-4 pt-52 mt-[-80px]"
     >
       <motion.h1>Dive into the world of code and creativity!</motion.h1>
     </motion.div>

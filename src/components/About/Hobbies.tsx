@@ -8,13 +8,13 @@ const Hobbies = () => {
         <FaBook className="icons-about" size={24} />
         <span className="span-about ml-2">Hobbies</span>
       </div>
-      <div className=" paragraph paragraph-dark-theme mr-1 [&>p]:mt-7 text-start">
+      <div className=" paragraph paragraph-dark-theme [&>p]:mt-7 text-start mb-4">
         <p>
           I am a rock fan, I enjoy immersing myself in the exciting worlds of video games and explore a wide variety of
           topics through books or articles.
         </p>
       </div>
-      <div className=" paragraph paragraph-dark-theme mr-1 [&>p]:mb-6 [&>p]:mt-6">
+      <div className=" paragraph paragraph-dark-theme [&>p]:mb-6 [&>p]:mt-6 mb-4">
         <p> My favorite writer:</p>
         <span className="block mb-16">Brandon Sanderson.</span>
       </div>
