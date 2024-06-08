@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactButton = () => {
   return (
-    <div className="flex flex-col-row items-start text-start justify-start md:items-center md:text-center md:justify-center  ml-2 mx-1 mr-2">
+    <div className="flex flex-col-row items-start text-start justify-start md:items-center md:text-center md:justify-center">
       <a
         href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
         className="text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-blue-100 inline-flex"
