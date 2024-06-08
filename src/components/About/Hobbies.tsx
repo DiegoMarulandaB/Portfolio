@@ -16,7 +16,7 @@ const Hobbies = () => {
       </div>
       <div className=" paragraph paragraph-dark-theme mr-1 [&>p]:mb-6 [&>p]:mt-6">
         <p> My favorite writer:</p>
-        <span className="block mb-20">Brandon Sanderson.</span>
+        <span className="block mb-16">Brandon Sanderson.</span>
       </div>
     </div>
   )

@@ -4,8 +4,8 @@ import React from 'react'
 const Tools = () => {
   return (
     <div className="md:w-3/3">
-      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 py-2 mt-7 span-about">
-        <h2>Tools</h2>
+      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 py-2 span-about">
+        <h2 className="mt-6">Tools</h2>
       </div>
       <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-8">
         <div className="flex flex-col items-center justify-center">

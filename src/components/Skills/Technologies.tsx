@@ -5,9 +5,9 @@ const Technologies = () => {
   return (
     <div className="md:w-3/3">
       <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-2 mt-2 py-2 span-about">
-        <h2>Technologies </h2>
+        <h2 className= "mt-4">Technologies </h2>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-8">
+      <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-6">
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/css.svg"
