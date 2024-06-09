@@ -143,7 +143,7 @@
 } 
 
 .heading-4-studies-timeline {
-  @apply font-normal
+  @apply font-normal dark:text-white
 }
 
 .paragraph-description-studies-timeline {
