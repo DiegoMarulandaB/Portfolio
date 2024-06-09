@@ -61,11 +61,12 @@
 }
 
 .paragraph {
-  @apply font-light dark:text-gray-300
+  @apply text-base font-light dark:text-gray-300
 }
-/* .paragraph-dark-theme {
+
+.paragraph-dark-theme {
 @apply dark:text-gray-300
-} */
+}
 
 
 
@@ -91,11 +92,11 @@
 }
 
 .span-experience-1 {
-  @apply font-medium text-blue-800 dark:text-amber-200
+  @apply text-lg font-medium text-blue-800 dark:text-amber-200
 }
 
 .paragraph-experience-2 {
-  @apply font-light
+  @apply text-base font-light
 }
 /* projects cards */
 
@@ -115,14 +116,14 @@
 }
 
 .heading-3-projects-category {
-@apply text-xl font-bold dark:text-slate-50 block mb-2
+@apply text-2xl font-bold dark:text-slate-50 block mb-2
 }
 
 .span-projects-title {
-@apply text-xl font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
+@apply text-lg font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .paragraph-project-description {
-@apply font-light  dark:text-gray-300 mb-4 mt-4
+@apply text-base font-light  dark:text-gray-300 mb-4 mt-4
 }
 
 .buttons-card-projects-demo {
@@ -139,21 +140,21 @@
 }
 
 .heading-3-user-studies-hobbies {
-  @apply text-xl font-medium text-blue-800 dark:text-amber-200
+  @apply text-2xl font-medium text-blue-800 dark:text-amber-200
 } 
 
 .heading-4-studies-timeline {
-  @apply font-normal dark:text-white
+  @apply text-lg font-medium dark:text-white
 }
 
 .paragraph-description-studies-timeline {
-  @apply font-light dark:text-gray-300
+  @apply text-base font-light dark:text-gray-300
 }
 
 /* Technologies-tools-learning */
 
 .span-technologies-tools-learning  {
-  @apply text-xl font-medium text-blue-800 dark:text-amber-200
+  @apply text-2xl font-medium text-blue-800 dark:text-amber-200
 }
 
 .footer-year{
