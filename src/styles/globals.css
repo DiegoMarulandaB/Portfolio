@@ -43,6 +43,14 @@
         from-[#60a5fa] via-[#2563eb] to-[#93c5fd] dark:from-[#fde68a] dark:via-[#fef3c7] dark:to-[#fde68a] bg-[200%_auto] text-transparent font-extrabold capitalize text-4xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-7xl
 }
 
+.heading-1 {
+  @apply text-xl
+}
+
+.description-user {
+  @apply text-blue-800 dark:text-amber-200
+}
+
 .paragraph {
   @apply font-light
 }
@@ -54,9 +62,6 @@
   @apply rounded-full aspect-auto object-cover
 }
 
-.description-user {
-  @apply font-bold  text-blue-800 dark:text-amber-200
-}
 .span-contact {
   @apply font-light text-blue-800 dark:text-amber-200
 }

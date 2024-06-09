@@ -10,9 +10,9 @@ const Contact = () => {
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-1">
               <div className="md:w-6/12">
                 <div className="paragraph paragraph-dark-theme [&>p]:mb-4">
-                  <h1>
-                    Hi!{''} 👋🏽 <strong className="description-user ">I&apos;m Diego</strong>, a passionate freelancer
-                    frontend developer from Colombia! {''}🇨🇴{' '}
+                  <h1 className="heading-1">
+                    Hi!{''} 👋🏽 <strong className="description-user heading-1">I&apos;m Diego</strong>, a passionate
+                    freelancer frontend developer from Colombia! {''}🇨🇴{' '}
                   </h1>
 
                   <div className="flex mt-4">
@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
               <div className="md:5/12 lg:w-5/2">
                 <div className="heading-2 flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center heading-2-underline">
-                  <h2 className="mb-4 ">Contact me</h2>
+                  <h2 className="mb-4 mt-[-28px]">Contact me</h2>
                 </div>
                 <ContactButton />
               </div>
