@@ -23,7 +23,7 @@ const TextAnimatedGradient = () => {
       variants={textVariants}
       className="heading-1 inline-flex  bg-clip-text ml-2 mx-1 mr-2 mb-4 pt-28"
     >
-      <motion.h1>Dive into the world of code and creativity!</motion.h1>
+      <motion.h1>I transform your idea into an impressive website!</motion.h1>
     </motion.div>
   )
 }

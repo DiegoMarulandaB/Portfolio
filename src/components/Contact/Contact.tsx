@@ -11,7 +11,8 @@ const Contact = () => {
               <div className="md:w-6/12">
                 <div className="paragraph paragraph-dark-theme [&>p]:mb-4">
                   <p>
-                    Hi!{''} 👋🏽 I&apos;m Diego, a passionate freelancer frontend developer from Colombia! {''}🇨🇴{' '}
+                    Hi!{''} 👋🏽 <strong className="description-user ">I&apos;m Diego</strong>, a passionate freelancer
+                    frontend developer from Colombia! {''}🇨🇴{' '}
                   </p>
 
                   <div className="flex mt-4">

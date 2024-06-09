@@ -54,6 +54,9 @@
   @apply rounded-full aspect-auto object-cover
 }
 
+.description-user {
+  @apply font-bold  text-blue-800 dark:text-amber-200
+}
 .span-contact {
   @apply font-light text-blue-800 dark:text-amber-200
 }
