@@ -31,7 +31,7 @@ const Experience = () => {
   const svgSrc = theme === 'dark' ? svgDarkSrc : svgLightSrc
 
   return (
-    <section id="experience" className="pt-28 mt-[-50px]">
+    <section id="experience" className="pt-28 mt-[-46px] ">
       <div className="heading-2 mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="ml-2 mx-2 mr-2 text-start heading-2-underline mb-4">
           <h2>Experience</h2>
