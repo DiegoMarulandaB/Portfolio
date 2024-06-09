@@ -4,8 +4,8 @@ import React from 'react'
 const Learning = () => {
   return (
     <div className="md:w-3/3">
-      <div className="md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning ">
-        <h2 className="mt-5">Learning</h2>
+      <div className="md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning mt-5">
+        <span className="mt-5">Learning</span>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-8">
         <div className="flex flex-col items-center justify-center">
@@ -28,7 +28,6 @@ const Learning = () => {
             height={100}
             className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded text-lg xl:text-4xl border-solid border-2 border-slate-100 aspect-auto object-cover"
           />
-          <span className="text-lg xl:text-4xl"></span>
         </div>
       </div>
     </div>

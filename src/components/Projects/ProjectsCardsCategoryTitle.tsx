@@ -41,7 +41,7 @@ const ProjectsCardsCategoryTitle: React.FC<ProjectCardsProps> = ({
         </div>
         <div className="mx-2 mr-2 overflow-hidden">
           <div className="relative z-10 px-2 py-2 mt-2 text-start items-center justify-center mx-2 mr-2 w-26">
-            <h3 className="heading-3-projects-category">{capitalize(category)}</h3>
+            <h2 className="heading-2-projects-category">{capitalize(category)}</h2>
             <span className="span-projects-title ">{title}</span>
             <p className="paragraph-project-description">{description}</p>
             {/* <a

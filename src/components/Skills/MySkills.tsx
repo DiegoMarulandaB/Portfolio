@@ -6,8 +6,8 @@ import React from 'react'
 const MySkills = () => {
   return (
     <div className="w-full pt-28 mt-[-176px]">
-      <div className="heading-2 flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-4 mt-1">
-        <h2>My skills</h2>
+      <div className="span-contact-experience-about  flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mr-4 mt-1">
+        <span>My skills</span>
       </div>
       <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
         <Technologies />

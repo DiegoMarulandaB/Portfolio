@@ -83,11 +83,11 @@
 
 /* h2 */
 
-.heading-2 {
+.span-contact-experience-about {
   @apply text-3xl font-bold  text-slate-800  dark:text-slate-50
 }
 
-.heading-2-underline {
+.span-underline {
   @apply underline underline-offset-8 decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
 }
 
@@ -115,7 +115,7 @@
   @apply rounded-t-lg transition-transform duration-150 ease-in-out hover:scale-125 aspect-auto object-cover
 }
 
-.heading-3-projects-category {
+.heading-2-projects-category {
 @apply text-2xl font-bold dark:text-slate-50 block mb-2
 }
 
