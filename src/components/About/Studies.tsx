@@ -6,7 +6,7 @@ const Studies = () => {
     <div>
       <div className="flex items-center text-center justify-start mt-2 [&>span]:ml-2">
         <FaGraduationCap className="icons-about" size={34} />
-        <span className="span-about">Studies</span>
+        <h3 className="heading-3-user-studies-hobbies  ml-2">Studies</h3>
       </div>
     </div>
   )

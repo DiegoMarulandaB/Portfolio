@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Theme */
 
 .ligth-bg-theme {
   @apply bg-slate-100
@@ -17,6 +18,8 @@
 .dark-text-theme {
   @apply dark:text-amber-200
 }
+
+/* Header */
 
 .span-header{
 @apply font-bold text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
@@ -37,10 +40,16 @@
 .dark-border-header {
   @apply dark:border-slate-500
 }
+/* Text animation */
 
-.span-1 {
+.span-text-animation {
     @apply animate-text-gradient bg-gradient-to-r
         from-[#60a5fa] via-[#2563eb] to-[#93c5fd] dark:from-[#fde68a] dark:via-[#fef3c7] dark:to-[#fde68a] bg-[200%_auto] text-transparent font-extrabold capitalize text-5xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-7xl
+}
+
+/* h1 */
+.img-contact {
+  @apply rounded-full aspect-auto object-cover
 }
 
 .heading-1 {
@@ -48,23 +57,21 @@
 }
 
 .description-user {
-  @apply text-blue-800 dark:text-amber-200
+  @apply font-bold text-blue-800 dark:text-amber-200
 }
 
 .paragraph {
-  @apply font-light
+  @apply font-light dark:text-gray-300
 }
-.paragraph-dark-theme {
+/* .paragraph-dark-theme {
 @apply dark:text-gray-300
-}
+} */
 
-.img-contact {
-  @apply rounded-full aspect-auto object-cover
-}
 
-.span-contact {
+
+/* .span-contact {
   @apply font-light text-blue-800 dark:text-amber-200
-}
+} */
 
 .buttons {
   @apply font-semibold text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg
@@ -73,17 +80,24 @@
   @apply font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 
+/* h2 */
+
 .heading-2 {
-  @apply text-3xl font-extrabold normal-case text-slate-800  dark:text-slate-50
+  @apply text-3xl font-bold  text-slate-800  dark:text-slate-50
 }
 
 .heading-2-underline {
   @apply underline underline-offset-8 decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
 }
 
-.span-experience {
+.span-experience-1 {
   @apply font-medium text-blue-800 dark:text-amber-200
 }
+
+.paragraph-experience-2 {
+  @apply font-light
+}
+/* projects cards */
 
 .buttons-projects-hand {
    @apply font-semibold text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg
@@ -100,14 +114,14 @@
   @apply rounded-t-lg transition-transform duration-150 ease-in-out hover:scale-125 aspect-auto object-cover
 }
 
-.projects-category {
+.heading-3-projects-category {
 @apply text-xl font-bold dark:text-slate-50 block mb-2
 }
 
-.projects-title {
-@apply font-semibold text-blue-800 dark:text-amber-200 mb-4 mt-4
+.span-projects-title {
+@apply text-xl font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
-.project-description {
+.paragraph-project-description {
 @apply font-light  dark:text-gray-300 mb-4 mt-4
 }
 
@@ -117,20 +131,29 @@
 .button-card-projects-github {
 @apply font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
+
+/* About */
+
 .icons-about {
-  @apply text-blue-800 dark:text-amber-200 text-2xl mt-1 mb-2
+  @apply  text-blue-800 dark:text-amber-200 mt-1 mb-2
 }
 
-.span-about{
-  @apply text-xl text-blue-800 dark:text-amber-200
+.heading-3-user-studies-hobbies {
+  @apply text-xl font-medium text-blue-800 dark:text-amber-200
 } 
 
-.heading-3-studies-timeline {
-  @apply font-medium
+.heading-4-studies-timeline {
+  @apply font-normal
 }
 
-.description-studies-timeline {
+.paragraph-description-studies-timeline {
   @apply font-light dark:text-gray-300
+}
+
+/* Technologies-tools-learning */
+
+.span-technologies-tools-learning  {
+  @apply text-xl font-medium text-blue-800 dark:text-amber-200
 }
 
 .footer-year{
@@ -140,6 +163,6 @@
   @apply text-sm text-blue-800 dark:text-amber-200
 }
 
-.footer-all-rights-reserved {
+.footer-front-end {
   @apply text-sm text-slate-800 dark:text-gray-300
 }

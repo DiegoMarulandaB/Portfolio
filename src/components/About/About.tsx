@@ -18,7 +18,7 @@ const About = () => {
               <div className="flex flex-col">
                 <div className="flex items-center text-start justify-start mt-2 [&>span]:ml-2">
                   <FaUser className="icons-about" size={24} />
-                  <span className="span-about">Diego</span>
+                  <h3 className="heading-3-user-studies-hobbies ml-2">Diego</h3>
                 </div>
                 <div className="paragraph paragraph-dark-theme [&>p]:mb-4 mt-7 text-start">
                   <p>

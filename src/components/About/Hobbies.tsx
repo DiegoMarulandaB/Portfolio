@@ -6,7 +6,7 @@ const Hobbies = () => {
     <div>
       <div className="flex items-center text-center justify-start mt-3">
         <FaBook className="icons-about" size={24} />
-        <span className="span-about ml-2">Hobbies</span>
+        <h3 className="heading-3-user-studies-hobbies  ml-2">Hobbies</h3>
       </div>
       <div className=" paragraph paragraph-dark-theme [&>p]:mt-7 text-start mb-4">
         <p>

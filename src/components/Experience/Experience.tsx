@@ -31,7 +31,7 @@ const Experience = () => {
   const svgSrc = theme === 'dark' ? svgDarkSrc : svgLightSrc
 
   return (
-    <section id="experience" className="pt-28 mt-[-46px] ">
+    <section id="experience" className="pt-28 mt-[-42px] ">
       <div className="heading-2 mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="ml-2 mx-2 mr-2 text-start heading-2-underline mb-4">
           <h2>Experience</h2>
@@ -41,11 +41,11 @@ const Experience = () => {
             <div className="md:w-7/12">
               <div className="mb-4 mt-2 text-lg text-start justify-start">
                 <p>
-                  <span className="span-experience mr-2">
+                  <span className="span-experience-1 mr-2">
                     <strong>I will acquire my experience through various projects.</strong>
                   </span>
                 </p>
-                <p className="paragraph paragraph-dark-theme normal-case block mt-2">
+                <p className="paragraph block mt-2">
                   Academically and personally, my focus is on innovation and constant growth.
                 </p>
               </div>
