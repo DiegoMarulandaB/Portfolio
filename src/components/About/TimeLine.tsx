@@ -12,7 +12,7 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-slate-800 dark:bg-slate-50  absolute -left-10 z-0"></div>
           {/* Content that showing in the box */}
           <div className="flex-auto">
-            <h3 className="heading-3-studies-timeline">Digital House 2023 - 2024</h3>
+            <h3 className="heading-3-studies-timeline mb-1">Digital House 2023 - 2024</h3>
             <p className="description-studies-timeline">
               Frontend specialization at Digital House co-created with Mercado Libre and Globant.
             </p>
@@ -28,7 +28,7 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-slate-800 dark:bg-slate-50  absolute -left-10 z-0"></div>
           {/*Content that showing in the box*/}
           <div className="flex-auto">
-            <h3 className="heading-3-studies-timeline">Digital House 2021 - 2023</h3>
+            <h3 className="heading-3-studies-timeline mb-1">Digital House 2021 - 2023</h3>
             <p className="description-studies-timeline">
               Certified Tech Developer career at Digital House co-created with Mercado Libre and Globant.
             </p>
@@ -42,7 +42,7 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-slate-800 dark:bg-slate-50   absolute -left-10 z-0"></div>
           {/* Content that showing in the box*/}
           <div className="flex-auto">
-            <h3 className="heading-3-studies-timeline">Alura Latam 2022 - 2022</h3>
+            <h3 className="heading-3-studies-timeline mb-1">Alura Latam 2022 - 2022</h3>
             <p className="description-studies-timeline">
               Oracle Next Education Certification is an education and employability program.
             </p>
@@ -56,7 +56,7 @@ const TimeLine = () => {
           <div className="w-10 h-1 bg-slate-800 dark:bg-slate-50  absolute -left-10 z-0"></div>
           {/* Content that showing in the box  */}
           <div className="flex-auto">
-            <h3 className="heading-3-studies-timeline">MisionTic 2021 - 2021</h3>
+            <h3 className="heading-3-studies-timeline mb-1">MisionTic 2021 - 2021</h3>
             <p className="description-studies-timeline">
               Program of the Government of Colombia together with the MinTic, and the Pontificia Bolivariana university
               to train programmers.
