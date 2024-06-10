@@ -4,10 +4,10 @@ import React from 'react'
 const Learning = () => {
   return (
     <div className="md:w-3/3">
-      <div className="md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning mt-5">
+      <div className="md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning mt-7">
         <span className="mt-5">Learning</span>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-8">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-5">
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/tailwindcss.svg"

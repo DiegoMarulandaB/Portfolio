@@ -44,7 +44,7 @@
 
 .span-text-animation {
     @apply animate-text-gradient bg-gradient-to-r
-        from-[#60a5fa] via-[#2563eb] to-[#93c5fd] dark:from-[#fde68a] dark:via-[#fef3c7] dark:to-[#fde68a] bg-[200%_auto] text-transparent font-extrabold capitalize text-5xl sm:text-2xl md:text-2xl lg:text-4xl xl:text-7xl
+        from-[#60a5fa] via-[#2563eb] to-[#93c5fd] dark:from-[#fde68a] dark:via-[#fef3c7] dark:to-[#fde68a] bg-[200%_auto] text-transparent font-extrabold capitalize text-5xl sm:text-2xl md:text-5xl lg:text-4xl xl:text-6xl
 }
 
 /* h1 */
@@ -68,8 +68,6 @@
 @apply dark:text-gray-300
 }
 
-
-
 /* .span-contact {
   @apply font-light text-blue-800 dark:text-amber-200
 } */
@@ -92,11 +90,11 @@
 }
 
 .span-experience-1 {
-  @apply text-lg font-medium text-blue-800 dark:text-amber-200
+  @apply text-lg font-medium text-blue-800 dark:text-amber-200 mt-6 sm:mt-0 sm:ml-3 mb-4
 }
 
 .paragraph-experience-2 {
-  @apply text-base font-light
+  @apply text-base font-light mt-6 sm:mt-0 sm:ml-3 mb-4
 }
 /* projects cards */
 
@@ -116,14 +114,14 @@
 }
 
 .heading-2-projects-category {
-@apply text-2xl font-bold dark:text-slate-50 block mb-2
+@apply text-2xl font-bold dark:text-slate-50 block mb-4 text-start
 }
 
 .span-projects-title {
-@apply text-lg font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
+@apply text-lg font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4  text-start
 }
 .paragraph-project-description {
-@apply text-base font-light  dark:text-gray-300 mb-4 mt-4
+@apply text-base font-light  dark:text-gray-300 mb-4 mt-4 text-start
 }
 
 .buttons-card-projects-demo {

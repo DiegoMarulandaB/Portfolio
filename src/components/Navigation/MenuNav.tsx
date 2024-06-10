@@ -14,7 +14,7 @@ const LINKS_NAV: NaviLink[] = [
 const MenuNav = () => {
   const [navigation, setNavigation] = useState(false)
   return (
-    <div className=" items-start justify-center md:flex space-y-2 md:space-y-0 md:space-x-5 mr-28 flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row items-start justify-center space-y-2 md:space-y-0 md:space-x-8 p-4 md:p-0 mr-2 ml-2">
       {LINKS_NAV.map((item, index) => (
         <Link key={index} href={item.route} rel="dns-prefetch">
           <div className="menuNav menu-underline block lg:inline-block mt-2" onClick={() => setNavigation(!navigation)}>
@@ -22,7 +22,9 @@ const MenuNav = () => {
           </div>
         </Link>
       ))}
-      <ThemeButton />
+      <div className="mb-8 sm:mb-0">
+        <ThemeButton />
+      </div>
     </div>
   )
 }

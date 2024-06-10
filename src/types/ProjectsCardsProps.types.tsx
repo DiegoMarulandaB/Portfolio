@@ -8,9 +8,9 @@ interface ProjectCardsProps {
   buttonHref: string
   loading?: 'eager' | 'lazy' | undefined
   href: string
-  buttonDemo: string
-  buttonHrefDemo: string
-  hrefDemo: string
+  // buttonDemo: string
+  // buttonHrefDemo: string
+  // hrefDemo: string
 }
 
 export default ProjectCardsProps
