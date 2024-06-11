@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id="contact" className="pt-28 mt-[-26px]">
+    <div id="contact" className="pt-28 mt-[-28px]">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="flex items-start md:items-start md:justify-start justify-between text-start">
           <div className="flex flex-col ml-2 mx-1 mr-1">
