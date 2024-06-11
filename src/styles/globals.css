@@ -61,7 +61,7 @@
 }
 
 .paragraph {
-  @apply text-base font-light dark:text-gray-300
+  @apply text-lg font-light dark:text-gray-300
 }
 
 .paragraph-dark-theme {
@@ -148,7 +148,7 @@
 }
 
 .paragraph-description-studies-timeline {
-  @apply text-lg  font-light dark:text-gray-300
+  @apply text-lg font-light dark:text-gray-300
 }
 
 /* Technologies-tools-learning */

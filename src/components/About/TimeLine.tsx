@@ -3,7 +3,7 @@ import React from 'react'
 const TimeLine = () => {
   return (
     <div className="w-3/2  mx-auto relative mb-1 ml-2">
-      <div className="border-l-2 border-l-gray-400 dark:border-l-white mt-4">
+      <div className="border-l-2 border-l-gray-400 dark:border-l-white">
         {/* Card 1 */}
         <div className="transform transition ml-10 relative flex items-center px-2 py-1 text-slate-800 dark:text-white mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
           {/* Dot Follwing the Left Vertical Line */}
