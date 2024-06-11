@@ -96,7 +96,7 @@
 }
 
 .paragraph-experience-2 {
-  @apply text-base font-light
+  @apply text-lg font-light
 }
 /* projects cards */
 
@@ -120,10 +120,10 @@
 }
 
 .span-projects-title {
-@apply text-lg font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
+@apply text-xl font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .paragraph-project-description {
-@apply text-base font-light  dark:text-gray-300 mb-4 mt-4
+@apply text-lg font-light  dark:text-gray-300 mb-4 mt-4
 }
 
 .buttons-card-projects-demo {
@@ -148,7 +148,7 @@
 }
 
 .paragraph-description-studies-timeline {
-  @apply text-base font-light dark:text-gray-300
+  @apply text-lg  font-light dark:text-gray-300
 }
 
 /* Technologies-tools-learning */

@@ -15,10 +15,10 @@ const Hobbies = () => {
         </p>
       </div>
       <div className=" paragraph paragraph-dark-theme [&>p]:mb-4 [&>p]:mt-4 mb-4">
-        <p>
+        {/* <p>
           <span> My favorite writer:</span>
-        </p>
-        <span className="block mb-16">Brandon Sanderson.</span>
+        </p> */}
+        <span className="block mb-16"></span>
       </div>
     </div>
   )
