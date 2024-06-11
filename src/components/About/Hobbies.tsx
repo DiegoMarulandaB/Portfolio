@@ -5,7 +5,7 @@ const Hobbies = () => {
   return (
     <div>
       <div className="flex items-center text-center justify-start mt-3">
-        <FaBook className="icons-about" size={24} />
+        <FaBook className="icons-about" size={24} aria-label="Book Icon" />
         <h3 className="heading-3-user-studies-hobbies ml-2">Hobbies</h3>
       </div>
       <div className=" paragraph paragraph-dark-theme [&>p]:mt-7 text-start mb-4">
