@@ -22,7 +22,9 @@ const MenuNav = () => {
           </div>
         </Link>
       ))}
-      <ThemeButton />
+      <div className="mb-4 sm:mb-0 pt-3 sm:pt-0">
+        <ThemeButton />
+      </div>
     </div>
   )
 }

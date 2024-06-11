@@ -11,7 +11,7 @@ const Contact = () => {
               <div className="w-full md:w-6/12">
                 <div className="paragraph [&>p]:mb-4">
                   <div className="flex flex-col sm:flex-row mt-4">
-                    <div className="flex-shrink-0 w-16 h-16 md:w-18 md:h-18 mb-4 sm:mb-0">
+                    <div className="flex-shrink-0 w-16 h-16 md:w-18 md:h-18 mb-6 sm:mb-0">
                       <img
                         loading="lazy"
                         className="img-contact w-full h-full object-cover"
@@ -21,7 +21,7 @@ const Contact = () => {
                         alt="Profile Picture"
                       />
                     </div>
-                    <div className="mt-2 sm:mt-0 sm:ml-4">
+                    <div className="mt-2 sm:mt-0 sm:ml-4 mb-4 sm:mb-0">
                       <h1 className="heading-1">
                         Hi! 👋🏽 <strong className="description-user heading-1">I&apos;m Diego</strong>, a passionate
                         freelancer frontend developer from Colombia! 🇨🇴
@@ -30,9 +30,8 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-
               <div className="md:5/12 lg:w-5/2">
-                <div className="span-contact-experience-about span-underline pt-4 flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
+                <div className="span-contact-experience-about span-underline pt-4 flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 sm:mb-0">
                   <span className="mb-4 mt-[-28px]">Contact me</span>
                 </div>
                 <ContactButton />
