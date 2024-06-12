@@ -17,7 +17,7 @@ const MenuButtonAllProjects: React.FC = () => {
               <li className="mb-1 ml-6">
                 <button
                   onClick={() => handleProject('all')}
-                  className={`inline-block py-2 px-4 md:py-2 md:px-4 lg:py-2 lg:px-4 buttons-projects-hand buttons-showCard-projects-allProjects ${
+                  className={`inline-block buttons-projects-hand buttons-showCard-projects-allProjects ${
                     showCard === 'all'
                       ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 mb-4'
                       : 'inactiveClasses'
@@ -29,7 +29,7 @@ const MenuButtonAllProjects: React.FC = () => {
               <li className="mb-1 pl-5">
                 <button
                   onClick={() => handleProject('academic projects')}
-                  className={`inline-block py-2 px-4 md:py-2 md:px-4 lg:py-2 lg:px-4 buttons-projects-hand ${
+                  className={`inline-block buttons-projects-hand ${
                     showCard === 'academic projects'
                       ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 mb-4'
                       : 'inactiveClasses'
@@ -41,7 +41,7 @@ const MenuButtonAllProjects: React.FC = () => {
               <li className="mb-1 pl-5">
                 <button
                   onClick={() => handleProject('personal projects')}
-                  className={`inline-block py-2 px-4 md:py-2 md:px-4 lg:py-2 lg:px-4 buttons-projects-hand ${
+                  className={`inline-block buttons-projects-hand ${
                     showCard === 'personal projects'
                       ? 'activeClasses text-start cursor-pointer mx-2 mr-2 mt-2 mb-4'
                       : 'inactiveClasses'

@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
                     <div className="mt-2 sm:mt-0 sm:ml-4 mb-4 sm:mb-0">
                       <h1 className="heading-1">
-                        Hi! 👋🏽 <strong className="description-user heading-1">I&apos;m Diego</strong>, a passionate
+                        Hi! 👋🏽 <strong className="description-user">I&apos;m Diego</strong>, a passionate
                         freelancer frontend developer from Colombia! 🇨🇴
                       </h1>
                     </div>

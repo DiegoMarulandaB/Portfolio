@@ -42,7 +42,7 @@ const ProjectsCardsCategoryTitle: React.FC<ProjectCardsProps> = ({
         <div className="mx-2 mr-2 overflow-hidden">
           <div className="relative z-10 px-2 py-2 mt-2 text-start items-center justify-center mx-2 mr-2 w-26">
             <h2 className="heading-2-projects-category">{capitalize(category)}</h2>
-            <span className="span-projects-title ">{title}</span>
+            <span className="span-projects-title">{title}</span>
             <p className="paragraph-project-description">{description}</p>
             {/* <a
               href={buttonHrefDemo}
@@ -57,7 +57,7 @@ const ProjectsCardsCategoryTitle: React.FC<ProjectCardsProps> = ({
               href={buttonHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="button-card-projects-github buttons inline-block text-center mr-16 rounded-lg  px-2.5 py-2.5 me-1 mb-4"
+              className="inline-block text-buttons buttons-email buttons"
               aria-label="Github button to go to the repository"
             >
               {button}

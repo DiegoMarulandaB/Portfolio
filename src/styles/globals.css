@@ -22,7 +22,7 @@
 /* Header */
 
 .span-header{
-@apply font-bold text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
+@apply text-lg font-bold text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
 }
 
 .menuNav {
@@ -40,6 +40,7 @@
 .dark-border-header {
   @apply dark:border-slate-500
 }
+
 /* Text animation */
 
 .span-text-animation {
@@ -48,6 +49,7 @@
 }
 
 /* h1 */
+
 .img-contact {
   @apply rounded-full aspect-auto object-cover
 }
@@ -74,17 +76,22 @@
   @apply font-light text-blue-800 dark:text-amber-200
 } */
 
+/* Buttons */
+
+.text-buttons {
+  @apply text-base font-semibold text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-slate-50 inline-flex
+}
 .buttons {
-  @apply font-semibold text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg
+  @apply text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg relative text-center cursor-pointer mr-4 mt-2 px-2.5 py-2.5 me-3 mb-1
 }
 .buttons-email {
-  @apply font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
+  @apply text-base font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 relative text-center cursor-pointer mr-4 mt-2 px-2.5 py-2.5 me-3 mb-1 rounded-lg
 }
 
 /* h2 */
 
 .span-contact-experience-about {
-  @apply text-3xl font-bold  text-slate-800  dark:text-slate-50
+  @apply text-3xl font-bold text-slate-800  dark:text-slate-50
 }
 
 .span-underline {
@@ -98,17 +105,18 @@
 .paragraph-experience-2 {
   @apply text-lg font-light
 }
+
 /* projects cards */
 
 .buttons-projects-hand {
-   @apply font-semibold text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg
+   @apply text-base font-semibold text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg py-2 px-4 md:py-2 md:px-4 lg:py-2 lg:px-4
 }
 /* .buttons-showCard-projects {
   @apply font-light text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300
 } */
 
 .buttons-showCard-projects-allProjects {
-   @apply font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
+   @apply text-base font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 
 .img-projects-cards {
@@ -126,12 +134,12 @@
 @apply text-lg font-light  dark:text-gray-300 mb-4 mt-4
 }
 
-.buttons-card-projects-demo {
+/* .buttons-card-projects-demo {
 @apply font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
-}
-.button-card-projects-github {
+} */
+/* .button-card-projects-github {
 @apply font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
-}
+} */
 
 /* About */
 
@@ -156,6 +164,8 @@
 .span-technologies-tools-learning  {
   @apply text-2xl font-medium text-blue-800 dark:text-amber-200
 }
+
+/* Footer */
 
 .footer-year{
   @apply text-sm text-slate-800 dark:text-white
