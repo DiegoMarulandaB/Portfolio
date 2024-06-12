@@ -7,7 +7,7 @@ const Learning = () => {
       <div className="md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning mt-5">
         <span className="mt-3">Learning</span>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-7">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-8">
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/tailwindcss.svg"
