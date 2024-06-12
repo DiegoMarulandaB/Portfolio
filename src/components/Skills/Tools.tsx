@@ -7,7 +7,7 @@ const Tools = () => {
       <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning">
         <span className="mt-5">Tools</span>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-6">
+      <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-5">
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/bash.svg"
