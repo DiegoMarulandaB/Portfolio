@@ -11,7 +11,6 @@ const Technologies = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/css.svg"
-            loading="lazy"
             alt="CSS Icon"
             width={100}
             height={100}
@@ -22,7 +21,6 @@ const Technologies = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/html5.svg"
-            loading="lazy"
             alt="HTML5 Icon"
             width={100}
             height={100}
@@ -33,7 +31,6 @@ const Technologies = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/javascript.svg"
-            loading="lazy"
             alt="JavaScript Icon"
             width={100}
             height={100}
@@ -44,7 +41,6 @@ const Technologies = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/reactjs.svg"
-            loading="lazy"
             alt="React Icon"
             width={100}
             height={100}

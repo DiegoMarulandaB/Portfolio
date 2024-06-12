@@ -11,7 +11,6 @@ const Learning = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/tailwindcss.svg"
-            loading="lazy"
             alt="Tailwind Icon"
             width={100}
             height={100}
@@ -22,7 +21,6 @@ const Learning = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/typescriptlang.svg"
-            loading="lazy"
             alt="Typescript Icon"
             width={100}
             height={100}

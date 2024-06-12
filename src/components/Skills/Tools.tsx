@@ -11,7 +11,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/bash.svg"
-            loading="lazy"
             alt="Git Bash Icon"
             width={100}
             height={100}
@@ -22,7 +21,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/docker.svg"
-            loading="lazy"
             alt="Docker Icon"
             width={100}
             height={100}
@@ -33,7 +31,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/git.svg"
-            loading="lazy"
             alt="Git Icon"
             width={100}
             height={100}
@@ -44,7 +41,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/github.svg"
-            loading="lazy"
             alt="Github Icon"
             width={100}
             height={100}
@@ -55,7 +51,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/gitlab.svg"
-            loading="lazy"
             alt="GitLab Icon"
             width={100}
             height={100}
@@ -66,7 +61,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/kubernetes.svg"
-            loading="lazy"
             alt="Kubernetes Icon"
             width={100}
             height={100}
@@ -77,7 +71,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/linux.svg"
-            loading="lazy"
             alt="Linux Icon"
             width={100}
             height={100}
@@ -88,7 +81,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/mysql.svg"
-            loading="lazy"
             alt="Mysql Icon"
             width={100}
             height={100}
@@ -99,7 +91,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/neovimio.svg"
-            loading="lazy"
             alt="Neovim Icon"
             width={100}
             height={100}
@@ -110,7 +101,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/postman.svg"
-            loading="lazy"
             alt="Postman Icon"
             width={100}
             height={100}
@@ -121,7 +111,6 @@ const Tools = () => {
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/vsCode.svg"
-            loading="lazy"
             alt="Vscode Icon"
             width={100}
             height={100}
