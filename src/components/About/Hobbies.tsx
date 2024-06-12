@@ -18,7 +18,7 @@ const Hobbies = () => {
         {/* <p>
           <span> My favorite writer:</span>
         </p> */}
-        <span className="block mb-16 pt-6 sm:pt-0"></span>
+        <span className="block mb-16 pt-12 sm:pt-0"></span>
       </div>
     </div>
   )
