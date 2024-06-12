@@ -51,16 +51,6 @@ const Technologies = () => {
             className="h-auto max-w-full px-1 py-2 mb-1 bg-white dark:bg-white rounded text-lg xl:text-4xl border-solid border-2 border-slate-100 aspect-auto object-cover"
           />
         </div>
-        <div className="flex flex-col items-center justify-center">
-          <Image
-            src="assets/svg/typescriptlang.svg"
-            loading="lazy"
-            alt="Typescript Icon"
-            width={100}
-            height={100}
-            className="h-auto max-w-full px-1 py-2 mb-1 bg-white  dark:bg-white rounded text-lg xl:text-4xl border-solid border-2 border-slate-100 aspect-auto object-cover"
-          />
-        </div>
       </div>
     </div>
   )
