@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import { usePathname } from 'next/navigation'
@@ -7,7 +8,6 @@ import MenuNav from './MenuNav'
 import React, { useState } from 'react'
 
 const Navigation = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const pathname = usePathname()
   const [navigation, setNavigation] = useState(false)
 
@@ -48,4 +48,10 @@ const Navigation = () => {
 }
 
 export default Navigation
+
+
+
+
+
+
 
