@@ -98,6 +98,10 @@
   @apply underline underline-offset-8 decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
 }
 
+.underline-myskills-mobile {
+  @apply underline underline-offset-8 md:no-underline  decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
+}
+
 .span-experience-1 {
   @apply text-lg font-medium text-blue-800 dark:text-amber-200
 }
