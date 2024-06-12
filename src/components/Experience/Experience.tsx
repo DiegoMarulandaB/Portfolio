@@ -50,15 +50,14 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="md:5/12 lg:w-5/2">
+            <div className="md:w-5/12 lg:w-5/12">
               <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center">
                 <div className="flex flex-col items-start text-start justify-end md:items-center md:text-center md:justify-center mr-12">
                   {svgLoaded && (
                     <img
-                      className="hidden md:block ml-26 mt-[-78px] aspect-auto object-cover"
+                      className="hidden md:block ml-6 mt-[-78px] aspect-auto object-cover"
                       src={svgSrc}
                       alt="image developer"
-                      loading="lazy"
                       width="220"
                       height="220"
                     />
