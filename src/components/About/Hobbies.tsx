@@ -4,7 +4,7 @@ import React from 'react'
 const Hobbies = () => {
   return (
     <div>
-      <div className="flex items-center text-center justify-start mt-5">
+      <div className="flex items-center text-center justify-start mt-7">
         <FaBook className="icons-about" size={24} aria-label="Book Icon" />
         <h3 className="heading-3-user-studies-hobbies ml-2">Hobbies</h3>
       </div>

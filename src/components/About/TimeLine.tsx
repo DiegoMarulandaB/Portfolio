@@ -2,7 +2,7 @@ import React from 'react'
 
 const TimeLine = () => {
   return (
-    <div className="w-3/3  mx-auto relative mb-1 ml-2 mt-8">
+    <div className="w-3/3  mx-auto relative mb-1 ml-2 mt-6">
       <div className="space-y-6 border-l-2 border-dashed">
         <div className="relative w-full">
           <svg
