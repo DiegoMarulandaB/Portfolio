@@ -33,7 +33,7 @@ const Contact = () => {
                             options={{
                               strings: ['I&apos;m Diego Marulanda.'],
                               loop: true,
-                              speed: 400,
+                              speed: 100,
                               waitUntilVisible: true,
                             }}
                           />
