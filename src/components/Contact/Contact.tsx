@@ -25,7 +25,7 @@ const Contact = () => {
                         alt="Profile Picture"
                       />
                     </div>
-                    <div className="mt-2 sm:mt-0 sm:ml-4 mb-4 sm:mb-0">
+                    <div className="mt-2 sm:mt-0 sm:ml-4 mb-3 sm:mb-0">
                       <h1 className="heading-1">
                         Hi! 👋🏽{' '}
                         <strong className="description-user">
