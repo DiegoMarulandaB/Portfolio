@@ -1,9 +1,13 @@
+'use client'
+
 import ContactButton from './ContactButton'
+import TypeIt from 'typeit-react'
 import React from 'react'
+
 
 const Contact = () => {
   return (
-    <div id="contact" className="pt-28 mt-[-24px]">
+    <div id="contact" className="pt-28 mt-[-24px] py-1">
       <div className="mx-auto lg:px-8 max-w-screen-lg sm:px-6">
         <div className="flex items-start md:items-start md:justify-start justify-between text-start">
           <div className="flex flex-col ml-2 mx-1 mr-1">
@@ -23,8 +27,15 @@ const Contact = () => {
                     </div>
                     <div className="mt-2 sm:mt-0 sm:ml-4 mb-4 sm:mb-0">
                       <h1 className="heading-1">
-                        Hi! 👋🏽 <strong className="description-user">I&apos;m Diego</strong>, a passionate freelancer
-                        frontend developer from Colombia! 🇨🇴
+                        Hi! 👋🏽
+                        <TypeIt>
+                          {' '}
+                          <strong className="description-user">I&apos;m Diego Marulanda.</strong>
+                        </TypeIt>
+                        <br />
+                        <span className="block sm:hidden"></span>
+                        <br />A passionate frontend developer {''}
+                        <span className="block sm:hidden"></span>from Colombia! 🇨🇴
                       </h1>
                     </div>
                   </div>

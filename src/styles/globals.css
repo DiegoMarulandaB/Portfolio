@@ -55,11 +55,11 @@
 }
 
 .heading-1 {
-  @apply text-xl font-medium
+  @apply text-lg font-medium
 }
 
 .description-user {
-  @apply font-bold text-blue-800 dark:text-amber-200
+  @apply text-2xl font-bold text-blue-800 dark:text-amber-200
 }
 
 .paragraph {

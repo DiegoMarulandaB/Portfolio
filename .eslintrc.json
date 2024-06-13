@@ -5,7 +5,7 @@
         "node": true
     },
     "extends": [
-        "standard-with-typescript",
+        "eslint-config-love",
         "plugin:react/recommended",
         "plugin:import/errors",
         "plugin:import/warnings",

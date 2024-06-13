@@ -4,7 +4,7 @@ const ContactButton = () => {
   return (
     <div className="md:5/12 lg:w-5/2">
       <div className="span-contact-experience-about span-underline pt-4 flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 sm:mb-0">
-        <span className="mb-4 mt-[-28px]">Contact me</span>
+        <span className="mb-4 mt-[-22px]">Contact me</span>
       </div>
       <div className="flex flex-col-row items-start text-start justify-start md:items-center md:text-center md:justify-center">
         <a
