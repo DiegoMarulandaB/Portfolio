@@ -27,11 +27,16 @@ const Contact = () => {
                     </div>
                     <div className="mt-2 sm:mt-0 sm:ml-4 mb-4 sm:mb-0">
                       <h1 className="heading-1">
-                        Hi! 👋🏽
-                        <TypeIt>
-                          {' '}
-                          <strong className="description-user">I&apos;m Diego Marulanda.</strong>
-                        </TypeIt>
+                        Hi! 👋🏽 {' '}
+                        <strong className="description-user">
+                          <TypeIt
+                            options={{
+                              strings: ['I&apos;m Diego Marulanda.'],
+                              speed: 40,
+                              waitUntilVisible: true,
+                            }}
+                          />
+                        </strong>
                         <br />
                         <span className="block sm:hidden"></span>
                         <br />A passionate frontend developer {''}
