@@ -103,7 +103,7 @@
 }
 
 .span-experience-1 {
-  @apply text-lg font-bold text-blue-800 dark:text-amber-200
+  @apply text-xl font-bold text-blue-800 dark:text-amber-200
 }
 
 .paragraph-experience-2 {
@@ -135,7 +135,7 @@
 @apply text-xl font-normal text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .paragraph-project-description {
-@apply text-lg font-light  dark:text-gray-300 mb-4 mt-4
+@apply text-lg font-normal dark:text-gray-300 mb-4 mt-4
 }
 
 /* .buttons-card-projects-demo {
@@ -156,11 +156,11 @@
 } 
 
 .heading-4-studies-timeline {
-  @apply text-lg font-normal dark:text-white
+  @apply text-xl font-normal dark:text-white
 }
 
 .paragraph-description-studies-timeline {
-  @apply text-lg font-light dark:text-gray-300
+  @apply text-lg font-normal dark:text-gray-300
 }
 
 /* Technologies-tools-learning */
