@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="flex flex-col ml-2 mx-1 mr-1">
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-1">
               <div className="w-full md:w-6/12">
-                <div className="pt-2 sm:pt-0">
+                <div className="mt-1 sm:mt-0">
                   <div className="flex flex-col sm:flex-row mt-4">
                     <div className="flex-shrink-0 w-16 h-16 md:w-18 md:h-18 mb-6 sm:mb-0">
                       <img
