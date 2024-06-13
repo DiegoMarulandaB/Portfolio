@@ -28,12 +28,13 @@ const Contact = () => {
                     <div className="mt-2 sm:mt-0 sm:ml-4 mb-1 sm:mb-0">
                       <h1 className="heading-1">
                         Hi! 👋🏽{' '}
-                        <strong className="description-user">
+                        <strong className="description-user ">
                           <TypeIt
                             options={{
                               strings: ['I&apos;m Diego Marulanda.'],
                               loop: true,
                               speed: 100,
+                              cursorChar: '',
                               waitUntilVisible: true,
                             }}
                           />
