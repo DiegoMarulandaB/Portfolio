@@ -32,7 +32,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="pt-28 mt-[-1px] mb-6 sm:mb-0">
-      <div className="heading-2 mx-auto lg:px-8 max-w-screen-lg sm:px-6">
+      <div className="heading-2 mx-auto lg:px-8 max-w-screen-lg sm:px-6 mt-[-1px] sm:mt-0">
         <div className="ml-2 mx-2 mr-2 text-start mb-4 span-contact-experience-about span-underline">
           <span>Experience</span>
         </div>
