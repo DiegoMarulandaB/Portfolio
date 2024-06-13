@@ -25,14 +25,15 @@ const Contact = () => {
                         alt="Profile Picture"
                       />
                     </div>
-                    <div className="mt-2 sm:mt-0 sm:ml-4 mb-2 sm:mb-0">
+                    <div className="mt-2 sm:mt-0 sm:ml-4 mb-1 sm:mb-0">
                       <h1 className="heading-1">
                         Hi! 👋🏽{' '}
                         <strong className="description-user">
                           <TypeIt
                             options={{
                               strings: ['I&apos;m Diego Marulanda.'],
-                              speed: 40,
+                              loop: true,
+                              speed: 400,
                               waitUntilVisible: true,
                             }}
                           />
