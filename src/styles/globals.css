@@ -26,7 +26,7 @@
 }
 
 .menuNav {
- @apply text-base font-medium text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
+ @apply text-base font-normal text-slate-700 hover:text-slate-950 dark:text-slate-50 dark:hover:text-gray-300
 }
 
 .menu-underline {
@@ -55,7 +55,7 @@
 }
 
 .heading-1 {
-  @apply text-lg font-medium
+  @apply text-lg font-normal
 }
 
 .description-user {
@@ -63,7 +63,7 @@
 }
 
 .paragraph {
-  @apply text-lg font-light dark:text-gray-300
+  @apply text-lg font-normal dark:text-gray-300
 }
 
 .paragraph-dark-theme {
@@ -79,13 +79,13 @@
 /* Buttons */
 
 .text-buttons {
-  @apply text-base font-semibold text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-slate-50 inline-flex
+  @apply text-base font-normal text-slate-700 hover:text-slate-950 dark:text-white dark:hover:text-slate-50 inline-flex
 }
 .buttons {
   @apply text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50 focus:z-10 focus:ring-4 focus:ring-slate-950 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg relative text-center cursor-pointer mr-4 mt-2 px-2.5 py-2.5 me-3 mb-1
 }
 .buttons-email {
-  @apply text-base font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 relative text-center cursor-pointer mr-4 mt-2 px-2.5 py-2.5 me-3 mb-1 rounded-lg
+  @apply text-base font-normal text-white focus:outline-none  bg-slate-600 hover:bg-slate-950 focus:z-10 focus:ring-4 focus:ring-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600 relative text-center cursor-pointer mr-4 mt-2 px-2.5 py-2.5 me-3 mb-1 rounded-lg
 }
 
 /* h2 */
@@ -103,24 +103,24 @@
 }
 
 .span-experience-1 {
-  @apply text-lg font-medium text-blue-800 dark:text-amber-200
+  @apply text-lg font-bold text-blue-800 dark:text-amber-200
 }
 
 .paragraph-experience-2 {
-  @apply text-lg font-light
+  @apply text-lg font-normal
 }
 
 /* projects cards */
 
 .buttons-projects-hand {
-   @apply text-base font-semibold text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg py-2 px-4 md:py-2 md:px-4 lg:py-2 lg:px-4
+   @apply text-base font-normal text-gray-900 focus:outline-none border border-gray-400 hover:bg-slate-950 hover:text-slate-50  dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-300 dark:hover:text-white dark:hover:bg-gray-700 rounded-lg py-2 px-4 md:py-2 md:px-4 lg:py-2 lg:px-4
 }
 /* .buttons-showCard-projects {
   @apply font-light text-white bg-slate-600 hover:bg-slate-950 dark:text-slate-950 dark:bg-slate-50 dark:hover:bg-gray-300
 } */
 
 .buttons-showCard-projects-allProjects {
-   @apply text-base font-semibold text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
+   @apply text-base font-normal text-white focus:outline-none  bg-slate-600 hover:bg-slate-950  dark:focus:ring-gray-700 dark:text-slate-950 dark:bg-white dark:hover:bg-gray-600
 }
 
 .img-projects-cards {
@@ -132,7 +132,7 @@
 }
 
 .span-projects-title {
-@apply text-xl font-medium text-blue-800 dark:text-amber-200 mb-4 mt-4
+@apply text-xl font-normal text-blue-800 dark:text-amber-200 mb-4 mt-4
 }
 .paragraph-project-description {
 @apply text-lg font-light  dark:text-gray-300 mb-4 mt-4
@@ -152,11 +152,11 @@
 }
 
 .heading-3-user-studies-hobbies {
-  @apply text-2xl font-medium text-blue-800 dark:text-amber-200
+  @apply text-2xl font-normal text-blue-800 dark:text-amber-200
 } 
 
 .heading-4-studies-timeline {
-  @apply text-lg font-medium dark:text-white
+  @apply text-lg font-normal dark:text-white
 }
 
 .paragraph-description-studies-timeline {
@@ -166,18 +166,18 @@
 /* Technologies-tools-learning */
 
 .span-technologies-tools-learning  {
-  @apply text-2xl font-medium text-blue-800 dark:text-amber-200
+  @apply text-2xl font-normal text-blue-800 dark:text-amber-200
 }
 
 /* Footer */
 
 .footer-year{
-  @apply text-sm text-slate-800 dark:text-white
+  @apply text-sm font-normal text-slate-800 dark:text-white
 }
 .footer-author{
-  @apply text-sm text-blue-800 dark:text-amber-200
+  @apply text-sm font-normal text-blue-800 dark:text-amber-200
 }
 
 .footer-front-end {
-  @apply text-sm text-slate-800 dark:text-gray-300
+  @apply text-sm font-normal text-slate-800 dark:text-gray-300
 }
