@@ -8,22 +8,13 @@ const ContactButton = () => {
       </div>
       <div className="flex flex-col-row items-start text-start justify-start md:items-center md:text-center md:justify-center">
         <a
-          href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
-          className="text-buttons "
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Contact me by email"
-        >
-          <span className="buttons buttons-email">Email →</span>
-        </a>
-        <a
           href="https://www.linkedin.com/in/diegomarulandabarrientos/"
           className="text-buttons "
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Visit my LinkedIn profile"
         >
-          <span className="buttons">Linkedin →</span>
+          <span className="buttons buttons-email">Linkedin →</span>
         </a>
         <a
           href="https://github.com/DiegoMarulandaB"
@@ -33,6 +24,15 @@ const ContactButton = () => {
           aria-label="Visit my GitHub profile"
         >
           <span className="buttons">Github →</span>
+        </a>
+        <a
+          href="mailto:%20diegomjobs@gmail.com%20?Subject=Aquí%20el%20asunto%20del%20mail"
+          className="text-buttons "
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contact me by email"
+        >
+          <span className="buttons">Email →</span>
         </a>
       </div>
     </div>
