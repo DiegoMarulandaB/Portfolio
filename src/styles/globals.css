@@ -32,6 +32,10 @@
 .menu-underline {
  @apply no-underline hover:underline underline-offset-8 decoration-blue-800 decoration-2 hover:decoration-blue-800 dark:decoration-amber-200 dark:hover:decoration-amber-200
 }
+
+.theme-Button {
+  @apply rounded-lg cursor-pointer px-2 py-2 font-bold sm:px-2 sm:py-2 md:px-2 md:py-2 lg:px-2 lg:py-2 xl:px-2 xl:py-2
+}
 /* .underline-offset {
  text-decoration: underline;
   text-underline-offset: 4px
