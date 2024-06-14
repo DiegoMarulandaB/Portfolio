@@ -39,10 +39,7 @@ const Contact = () => {
                             }}
                           />
                         </strong>
-                        <br />
-                        <span className="block sm:hidden"></span>
-                        <br />A passionate frontend developer {''}
-                        <span className="block sm:hidden"></span>from Colombia! 🇨🇴
+                        <p className="block mt-2"> A passionate frontend developer from Colombia! 🇨🇴 </p>
                       </h1>
                     </div>
                   </div>
