@@ -4,10 +4,10 @@ import React from 'react'
 const Tools = () => {
   return (
     <div className="md:w-3/3">
-      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning">
-        <span className="mt-10">Tools</span>
+      <div className="flex flex-col items-start text-start justify-start md:items-center md:text-center md:justify-center mb-1 py-2 span-technologies-tools-learning mt-5">
+        <span>Tools</span>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-2 pt-6 sm:pt-0">
+      <div className="grid grid-cols-3 md:grid-cols-2 gap-4 mt-6 pt-6 sm:pt-0">
         <div className="flex flex-col items-center justify-center">
           <Image
             src="assets/svg/bash.svg"
@@ -28,7 +28,7 @@ const Tools = () => {
           />
           <span className="justify-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/git.svg"
             alt="Git Icon"
@@ -38,7 +38,7 @@ const Tools = () => {
           />
           <span className="justify-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/github.svg"
             alt="Github Icon"
@@ -48,7 +48,7 @@ const Tools = () => {
           />
           <span className="justify-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/gitlab.svg"
             alt="GitLab Icon"
@@ -58,7 +58,7 @@ const Tools = () => {
           />
           <span className="justify-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/kubernetes.svg"
             alt="Kubernetes Icon"
@@ -68,7 +68,7 @@ const Tools = () => {
           />
           <span className="justify-center text-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/linux.svg"
             alt="Linux Icon"
@@ -78,7 +78,7 @@ const Tools = () => {
           />
           <span className="justify-center text-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/mysql.svg"
             alt="Mysql Icon"
@@ -88,7 +88,7 @@ const Tools = () => {
           />
           <span className="justify-center text-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/neovimio.svg"
             alt="Neovim Icon"
@@ -98,7 +98,7 @@ const Tools = () => {
           />
           <span className="justify-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/postman.svg"
             alt="Postman Icon"
@@ -108,7 +108,7 @@ const Tools = () => {
           />
           <span className="justify-center text-1xl"></span>
         </div>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center mt-2">
           <Image
             src="assets/svg/vsCode.svg"
             alt="Vscode Icon"

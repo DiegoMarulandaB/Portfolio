@@ -22,8 +22,11 @@ const About = () => {
                 </div>
                 <div className="paragraph paragraph-dark-theme [&>p]:mb-4 mt-7 text-start">
                   <p>
-                    My ability to understand technology trends allows me to offer unique and customized solutions. I am
-                    committed to constant growth and evolution in addition to interest in general culture.
+                    My ability to understand technological trends allows me to offer ideas and solutions to different
+                    problems.{' '}
+                    <p className="mt-3">
+                      I am committed to constant growth and evolution, in addition to interest in general culture.
+                    </p>
                   </p>
                 </div>
                 <Studies />
