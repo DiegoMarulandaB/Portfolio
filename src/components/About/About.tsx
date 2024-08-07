@@ -22,8 +22,8 @@ const About = () => {
                 </div>
                 <div className="paragraph paragraph-dark-theme [&>p]:mb-4 mt-7 text-start">
                   <p>
-                    My fascination for technology is combined with a deep interest for geopolitics, general culture and
-                    science, which gives me a different perspective in this industry.
+                    My ability to understand technology trends allows me to offer unique and customized solutions. I am
+                    committed to constant growth and evolution and interest in general culture.
                   </p>
                 </div>
                 <Studies />
