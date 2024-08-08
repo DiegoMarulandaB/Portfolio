@@ -70,7 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="android-chrome" type="image/png" sizes="512x512" href="/android-chrome-512x512.jpg" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="canonical" href="https://diegomarulanda.vercel.app/" />
-        <title>DiegoMarulanda</title>
+        <title>Diego Marulanda</title>
       </head>
       <body className={`${popps.className} ligth-bg-theme dark-bg-theme`}>
         <ThemeProvider enableSystem={true} attribute="class">
